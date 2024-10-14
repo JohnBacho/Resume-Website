@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
 
 
-
+/* fades in elements */
 .fade-in {
     opacity: 0;
     transition: opacity 1s ease-in;
 }
+/* sets visibility to 1 */
 .visible {
     opacity: 1;
 }
 
+/* body style */
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -17,29 +19,35 @@ body {
     background-color: #000000;
 }
 
+/* Sets the font for heading elements */
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
     
 }
 
+/* sets the color for visted links to white */
 a:visited{
     color: #ffffff;
 }
 
+/* sets the color of links to white */
 a:link {
     color: #ffffff;
   }
 
+  /* sets the color to grey when a user hovers over a clickable link */
 a:hover {
     color: rgb(120, 120, 120);
 }
 
+/* sets the header to blue and the color of text to white */
 header {
     background-color: #007BFF;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
+
 
 li{
     margin-top: 8px;
@@ -50,6 +58,7 @@ p{
     line-height: 1.5;
 }
 
+/* used for thumbnails and creating rows */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -60,16 +69,19 @@ h1 {
     margin: 0;
 }
 
+/* sets the text color to blue and makes it xx-large */
 h2 {
     color: #007BFF;
     font-size: xx-large;
 }
 
+/* sets h3 elements to a baby blue and makes it x-large */
 h3{
     color: #97caff;
     font-size: x-large;
 }
 
+/* adds padding to our main section */
 main {
     padding: 20px;
 }
@@ -83,6 +95,7 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* gives some extra white space to job and education class */
 .job, .education {
     margin-bottom: 10px;
 }
