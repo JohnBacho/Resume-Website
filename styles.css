@@ -193,6 +193,13 @@ footer {
     color: rgb(160, 160, 160) !important;
   }
   
+  @media (hover: none) and (pointer: coarse) {
+    .prev:hover,
+    .next:hover {
+      color: #ffffff;
+    }
+  }
+
   /* Position the "next button" to the right */
   .next {
     right: 0;
