@@ -48,12 +48,13 @@ header {
     text-align: center;
 }
 
-
+/* set the margin and line spacing for List items */
 li{
     margin-top: 8px;
     line-height: 1.5;
 }
 
+/* sets line spacing for paragraphs */
 p{
     line-height: 1.5;
 }
@@ -86,6 +87,7 @@ main {
     padding: 20px;
 }
 
+/* sets the background color to  */
 section {
     margin-bottom: 20px;
     background: #28282B;
@@ -100,7 +102,7 @@ section {
     margin-bottom: 10px;
 }
 
-
+/* creates a footer and sets the background color to blue and the text to white */
 footer {
     text-align: center;
     padding: 10px;
@@ -110,6 +112,7 @@ footer {
     bottom: 0;
 }
 
+/* creates the light box for displaying large images */
 .lightbox {
     display: none;
     position: fixed;
@@ -123,10 +126,12 @@ footer {
     align-items: center;
 }
 
+/* sets the max width and height to 90%  */
 .lightbox img {
     max-width: 90%;
     max-height: 90%;
 }
+
   .row:after {
     content: "";
     display: table;
@@ -172,6 +177,7 @@ footer {
     font-weight: bold;
   }
   
+  /* when you hover over the exit button it changes color */
   .close:hover,
   .close:focus {
     color: #999;
@@ -202,6 +208,7 @@ footer {
     -webkit-user-select: none;
   }
 
+  /* when you hover over the next or previous arrows it changes colors */
   .prev:hover,.next:hover{
     color: rgb(160, 160, 160) !important;
   }
@@ -250,7 +257,13 @@ footer {
     width: 200px;
     height: 140px;
     border-radius: 5%;
+    transition: filter 0.5s ease;
+    cursor: pointer;
   }
+
+  .images:hover {
+    filter: brightness(50%);
+}
 
   .behance{
     padding: 5px;
@@ -274,6 +287,7 @@ footer {
         height: 158px;
     }
 }
+
 #BW{
     width: 35px;
     height: 35px;
