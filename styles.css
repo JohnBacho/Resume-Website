@@ -318,3 +318,11 @@ footer {
         margin-bottom: 10px; 
     }
 }
+
+iframe {
+  transition: filter 0.3s ease;
+}
+
+iframe:hover {
+  filter: brightness(0.75); 
+}
