@@ -235,7 +235,15 @@ footer {
     padding: 2px 16px;
     color: white;
   }
-  
+  /* creates a smooth transistion when hovered over */
+  iframe {
+    transition: filter 0.5s ease;
+  }
+  /* darkens the iframe when hovered over */
+  iframe:hover {
+    filter: brightness(0.75); 
+  }
+
   img.demo {
     opacity: 0.6;
   }
@@ -317,12 +325,4 @@ footer {
         margin-right: 0;
         margin-bottom: 10px; 
     }
-}
-
-iframe {
-  transition: filter 0.3s ease;
-}
-
-iframe:hover {
-  filter: brightness(0.75); 
 }
