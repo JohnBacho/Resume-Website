@@ -13,6 +13,9 @@
 	.st7{fill:#37474F;stroke:#37474F;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st8{fill:none;stroke:#37474F;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
+
+<rect width="64" height="64" fill="#FFFFFF" />
+
 <g id="Resume">
 	<g>
 		<path class="st0" d="M11,2.5L11,2.5c0-1.1,0.9-2,2-2h0c1.1,0,2,0.9,2,2v8c0,1.1-0.9,2-2,2h0c-1.1,0-2-0.9-2-2v-3c0-0.6,0.4-1,1-1
