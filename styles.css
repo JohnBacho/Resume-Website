@@ -244,23 +244,17 @@ footer {
     filter: brightness(0.75); 
   }
 
-  img.demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-  
+  /* Creates a transistion for when the image is hovered over */
   img.hover-shadow {
     transition: 0.5s;
   }
   
+  /* Used to create a shadow box when image is hovered over */
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+  /* Sets images to a good width and height as well as rounds off the edges / creates a smooth transistion and when a pointer hovers over the image it chagnes to a clicker */
 .images{
     width: 200px;
     height: 140px;
@@ -269,26 +263,30 @@ footer {
     cursor: pointer;
   }
 
+  /* dims the image when hovered over */
   .images:hover {
     filter: brightness(50%);
 }
 
+  /* Used for adding space between behance iframes and aligning them */
   .behance{
     padding: 5px;
     align-content: center;
   }
 
+  /* changes the display type to inline block */
   .inline{
     display: inline-block;
   }
 
+  /* shrinks the iframes (behance) when the width of the webpage shrinks  */
   @media (max-width: 968px) {
     iframe {
         width: 250px;
         height: 197px;
     }
 }
-
+/* shrinks the iframes when the width of the webpage shrinks */
 @media (max-width: 480px) {
     iframe {
         width: 200px;
@@ -296,10 +294,6 @@ footer {
     }
 }
 
-#BW{
-    width: 35px;
-    height: 35px;
-}
 .about-section {
     display: flex;
     align-items: center;
