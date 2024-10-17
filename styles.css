@@ -294,12 +294,14 @@ footer {
     }
 }
 
+/* Sets the about section to flex display and center aligns-items */
 .about-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* Sets the profile picture to a max width of 300 and adds some margin to the right */
 .about-image {
     max-width: 300px;
     margin-right: 20px;
@@ -309,7 +311,7 @@ footer {
     flex: 1;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .about-section {
         flex-direction: column; /* Stack the items vertically */
         align-items: flex-start; /* Align items to the left */
