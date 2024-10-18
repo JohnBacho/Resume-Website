@@ -4,11 +4,13 @@
 /* fades in elements */
 .fade-in {
     opacity: 0;
-    transition: opacity 1s ease-in;
+    transform: translateY(10px); /* Start 20px lower */
+    transition: opacity 0.8s ease-in, transform 0.8s ease-in;
 }
 /* sets visibility to 1 */
 .visible {
     opacity: 1;
+    transform: translateY(0);
 }
 
 /* body style */
