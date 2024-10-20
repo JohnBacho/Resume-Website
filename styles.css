@@ -166,7 +166,7 @@ footer {
     width: 90%;
     max-width: 1200px;
   }
-
+/* modal content */
   .modal-content, .close {
     animation-name: zoom;
     animation-duration: 1.6s;
