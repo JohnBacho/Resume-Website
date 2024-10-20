@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
     <title>John A. Bacho - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link rel="icon" type="image/svg+xml" href="images/reshot-icon-resume-RK2HTZ6GUA.svg">
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="images/reshot-icon-resume-RK2HTZ6GUA.svg"
+    />
 
     <meta property="og:title" content="John A. Bacho - Portfolio and Resume" />
     <meta
@@ -22,327 +29,658 @@
       content="https://johnbacho.github.io/Resume-Website/"
     />
     <meta property="og:type" content="website" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>John A. Bacho</h1>
-        <p>26845 West Rd | Wellington, Ohio, 44090 | 440-728-7160 | <a href="mailto:bachojohn2@gmail.com">bachojohn2@gmail.com</a></p>
-        <p><a href="https://www.linkedin.com/in/johnbacho/" target="_blank">LinkedIn</a> | <a href="https://github.com/JohnBacho" target="_blank">GitHub</a> | <a href="https://www.behance.net/johnbacho" target="_blank">Behance</a> | <a href="images/JohnBacho_Resume.pdf" download>Resume</a></p>
+      <h1>John A. Bacho</h1>
+      <p>
+        26845 West Rd | Wellington, Ohio, 44090 | 440-728-7160 |
+        <a href="mailto:bachojohn2@gmail.com">bachojohn2@gmail.com</a>
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/in/johnbacho/" target="_blank"
+          >LinkedIn</a
+        >
+        | <a href="https://github.com/JohnBacho" target="_blank">GitHub</a> |
+        <a href="https://www.behance.net/johnbacho" target="_blank">Behance</a>
+        | <a href="images/JohnBacho_Resume.pdf" download>Resume</a>
+      </p>
     </header>
 
     <main>
-        <!-- About me Section -->
-        <section class="fade-in" style="width: 90%; margin: auto; margin-bottom: 20px;">
-            <h2 style="margin-bottom: 0;">About me</h2>
-            <hr width="100%" size="2" color="white">
-            <div class="about-section">
-                <img src="images/DSCF2056-min.JPG" alt="Your Image" class="about-image" loading="lazy">
-                <p>I am John A. Bacho, a driven computer science student at Baldwin Wallace University, graduating in May 2026 with a 3.9 GPA. My passion lies in programming, UI/UX design, and web development, supported by a minor in Graphic Design. My professional journey includes internships at Nordson, where I gained valuable experience in enterprise architecture and IT asset management. I developed technical documentation for SAP migration, analyzed configuration databases, and contributed to key IT initiatives. Beyond work, I'm a UX researcher, serve as Vice President of ACM, and am a Sherwin-Williams Career Accelerator Scholar. I thrive on collaboration, problem-solving, and delivering innovative solutions in technology.</p>
-            </div>
-        </section>
-        
-        <!-- Education Section -->
-        <section class="fade-in" style="width: 90%; margin: auto; margin-bottom: 20px;">
-            <h2 style="margin-bottom: 0;">Education</h2>
-            <hr width="100%" size="2" color="white">
-            <div class="education fade-in"> 
-
-                <h3>Baldwin Wallace University | Berea, Ohio | May 2026 <a></a></h3>
-                <p>
-                    <span><i>Bachelor of Science</i>, Computer Science | 
-                        <a href="images/JohnBacho_Spring 2024_Transcript.pdf" download>Transcript</a>
-                    </span>
-                </p>
-                <p><i>Minor</i>, Graphic Design</p>
-                <p><i>GPA</i>: <b>3.90</b></p>
-                <p><i>Honors:</i> 4x Dean List Recipient (3.8 GPA required)</p>
-                <p><i>Professional Interest:</i> Programming, UI/UX design, graphic design, web development</p>
-                <p><i>Technology Proficiencies:</i> HTML, CSS, JavaScript, Python, Java, Office 360, Windows, MacOS, Graphic Design, UI/UX Design</p>
-            </div>
-        </section>
-
-        <!-- Work Experience section  -->
-            <section class="fade-in" style="width: 90%; margin: auto; margin-bottom: 20px;">
-                <h2 style="margin: 0;">Work Experience</h2>
-                <hr width="100%" size="2" color="white">
-
-                <div class="job fade-in">
-                    <h3>Enterprise Architect Analysis Intern</h3>
-                    <p>Nordson | Amherst, Ohio | May 2024 - August 2024</p>
-                    <ul>
-                        <li>Developed technical documentation and reduced technical debt for SAP PI/PO interfaces by collaborating with college across Europe and America to create interfaces crucial for the upcoming migration to SAP BTP by creating test cases, validating interfaces post-migration, and identifying and deactivate obsolete interfaces.</li>
-                        <li>Created and presented slides outlining the PI/PO retirement strategy and system architecture to communicate the benefits of the migration to SAP BTP and secure support from leadership.</li>
-                        <li>Engineered documentation for CPI interfaces to support the transition to BTP, ensuring streamlined migration process that simplifies system architecture, reduces complexity, and enhances scalability.</li>
-                        <li>Documented key tables within SAP system to support self-service data reporting in Power BI.</li>
-                    </ul>
-                    <div class="fade-in row">
-                        <div class="column">
-                        <img src="images/1723131685911.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow, images" loading="lazy">
-                        </div>
-                        <div class="column">
-                        <img src="images/1723131610781.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow, images" loading="lazy">
-                        </div>
-                    </div>
-                    
-                    <!-- full size image -->
-                    <div id="myModal" class="modal" >
-                        <span class="close cursor" onclick="closeModal()">&times;</span>
-                        <div class="modal-content">
-                    
-                            <div class="mySlides" style="text-align:center;">
-                                <div class="numbertext">1 / 2</div>
-                                <img src="images/1723131685911.jpg" style="width:80%; margin-bottom: 20px;" loading="lazy">
-                            </div>
-                            
-                            <div class="mySlides" style="text-align:center;">
-                                <div class="numbertext">2 / 2</div>
-                                <img src="images/1723131610781.jpg" style="width:70%; margin-bottom: 20px;" loading="lazy">
-                            </div>
-                            
-                            <div class="mySlides" style="text-align:center;">
-                                <div class="numbertext">1 / 2</div>
-                                <img src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg" style="width:70%; margin-bottom: 20px;" loading="lazy">
-                            </div>
-                            
-                            <div class="mySlides" style="text-align:center;">
-                                <div class="numbertext">2 / 2</div>
-                                <img src="images/IMG_0387.JPG" style="width:70%;" loading="lazy">
-                            </div>
-                            
-                            <div class="mySlides" style="text-align:center;">
-                                <div class="numbertext">1 / 3</div>
-                                <img src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg" style="width:70%;" loading="lazy">
-                            </div>                          
-
-                        <div class="mySlides">
-                            <div class="numbertext">2 / 3</div>
-                            <img src="images/IMG_5615.JPG" style="width: 70%; height: 10%; margin-left: 15%;" loading="lazy">
-                        </div>
-
-                        <div class="mySlides">
-                            <div class="numbertext">3 / 3</div>
-                            <img src="images/IMG_7350.JPG" style="width: 70%; height: 10%; margin-left: 15%;" loading="lazy">
-                        </div>
-
-                        <div class="mySlides" style="text-align:center;">
-                            <div class="numbertext">1 / 3</div>
-                            <img src="images/Server1.jpeg" style="width:80%;" loading="lazy">
-                        </div>                          
-
-                            <div class="mySlides">
-                                <div class="numbertext">2 / 3</div>
-                                <img src="images/Server2.jpeg" style="width: 80%; margin-left: 10%;" loading="lazy">
-                            </div>
-
-                            <div class="mySlides">
-                                <div class="numbertext">3 / 3</div>
-                                <img src="images/Server4.jpeg" style="width: 80%; margin-left: 10%;" loading="lazy">
-                            </div>
-                    
-                    
-                        <!-- Next/previous controls -->
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    
-                        </div>
-                    </div>
-
-                <hr width="100%" size="2" color="white">
-
-                <div class="job2 fade-in">
-                    <h3>IT Asset Management Intern</h3>
-                    <p>Nordson | Amherst, Ohio | May 2023 - August 2023</p>
-                    <ul>
-                        <li>Analyzed the Configuration Management Database (CMDB) assets.</li>
-                        <li>Reviewed, created, and updated CMDB documentation, while adhering to IT project management practices and investigated the utilization of existing ServiceNow Software Asset functionality for software asset management.</li>
-                        <li>Applied ITIL best practices to collaborate closely with the IT Asset Management teams, overseeing the seamless operation of the ServiceNow Helpdesk system and ensuring the efficiency and integrity of the asset management architecture.</li>
-                        <li>Dynamically harnessed the full potential of the Microsoft Office suite, especially Excel, to expertly analyze, present, and meticulously document data for decisive and informed decision-making.</li>
-                    </ul>
-                </div>
-                <hr width="100%" size="2" color="white">
-                <div class="job3 fade-in">
-                    <h3>Tech Consultant </h3>
-                    <p>Target | Medina, Ohio | July 2022 - May 2023</p>
-                    <ul>
-                        <li>Resolved tech issues for ~15 customers per shift, ensuring efficient solutions.</li>
-                        <li>Adapted communication to customer needs while staying updated on new and old technology.</li>
-                        <li>Drove sales in electronics (TVs, mobile, video games, etc.).</li>
-                        <li>Collaborated with the team to meet sales goals and enhance customer satisfaction.</li>
-                    </ul>
-                </div>
-            </section>
-
-         <!-- Project Section -->
-        <section class="fade-in" style="width: 90%; margin: auto; margin-bottom: 20px;">
-            <h2 style="margin-bottom: 0;">Projects</h2>
-            <hr width="100%" size="2" color="white">
-            <div class="Project1 fade-in">
-                <h3>Graphic Design and Typography Projects</h3>
-                <p>August 2022 - Present</p>
-                <ul>
-                    <li>in my Graphic Design 1 and Typography classes, I developed a range of design projects that showcase my skills in visual communication and typographic design. These projects involved creating logos, posters, and digital artwork that emphasize effective design principles and creative typography.</li>
-                    <li>Explore my portfolio on <a href="https://www.behance.net/johnbacho/projects">Behance</a> to see my work</li>
-                </ul>
-
-                <div class="Behance fade-in">
-                    <div class="inline">
-                        <iframe src="https://www.behance.net/embed/project/202606155?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                    </div>
-                    <div class="inline">
-                        <iframe src="https://www.behance.net/embed/project/194215241?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>                  
-                    </div>
-                    <div class="inline">
-                        <iframe src="https://www.behance.net/embed/project/184826153?ilo0=1" height="316" width="404" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
-                  </div>
-            </div>
-            <hr width="100%" size="2" color="white" style="margin-top: 20px;">
-        <div class="fade-in">
-            <h3>Levenshtein Edit Distance: Algorithmic Approaches And Data Structures For Text Processing</h3>
-            <p style="display: flex; justify-content: space-between;">Auguest 2023 - December 2023 <a href="https://github.com/JohnBacho/Data-Structures-Final-Project" target="_blank">Project Link</a></p>
-            <ul>
-                <li>At the heart of computational linguistics lay the Levenshtein Edit Distance algorithm, which was crucial for precise text processing. Our project compared the runtime of dynamic versus recursive implementations, emphasizing their use in text applications.</li>
-                <li>Developed by Vladimir Levenshtein, the algorithm measures string similarity through minimal edits, influencing fields like spell-checking and DNA analysis.</li>
-                <li>We also explored data structures—Hash Set, Trie, and Binary Search Tree—for quick word retrieval before calculating the Levenshtein Distance. Recursive methods had a time complexity of O(Max(N, M)^3), while dynamic programming was more efficient at O(N*M).</li>
-                <li>Hash Sets proved to be the fastest for word verification, while Binary Search Trees were slower due to imbalances. Our project highlighted how combining these data structures and algorithms optimized Levenshtein Distance for real-world use.</li>
-            </ul>
-            
+      <!-- About me Section -->
+      <section
+        class="fade-in"
+        style="width: 90%; margin: auto; margin-bottom: 20px"
+      >
+        <h2 style="margin-bottom: 0">About me</h2>
+        <hr width="100%" size="2" color="white" />
+        <div class="about-section">
+          <img
+            src="images/DSCF2056-min.JPG"
+            alt="John A. Bacho"
+            class="about-image"
+            loading="lazy"
+          />
+          <p>
+            I am John A. Bacho, a driven computer science student at Baldwin
+            Wallace University, graduating in May 2026 with a 3.9 GPA. My
+            passion lies in programming, UI/UX design, and web development,
+            supported by a minor in Graphic Design. My professional journey
+            includes internships at Nordson, where I gained valuable experience
+            in enterprise architecture and IT asset management. I developed
+            technical documentation for SAP migration, analyzed configuration
+            databases, and contributed to key IT initiatives. Beyond work, I'm a
+            UX researcher, serve as Vice President of ACM, and am a
+            Sherwin-Williams Career Accelerator Scholar. I thrive on
+            collaboration, problem-solving, and delivering innovative solutions
+            in technology.
+          </p>
         </div>
-        <!-- Thumbnail images -->
-        <div class="row fade-in">
+      </section>
+
+      <!-- Education Section -->
+      <section
+        class="fade-in"
+        style="width: 90%; margin: auto; margin-bottom: 20px"
+      >
+        <h2 style="margin-bottom: 0">Education</h2>
+        <hr width="100%" size="2" color="white" />
+        <div class="education fade-in">
+          <h3>Baldwin Wallace University | Berea, Ohio | May 2026</h3>
+          <p>
+            <span
+              ><i>Bachelor of Science</i>, Computer Science |
+              <a href="images/JohnBacho_Spring 2024_Transcript.pdf" download
+                >Transcript</a
+              >
+            </span>
+          </p>
+          <p><i>Minor</i>, Graphic Design</p>
+          <p><i>GPA</i>: <b>3.90</b></p>
+          <p><i>Honors:</i> 4x Dean List Recipient (3.8 GPA required)</p>
+          <p>
+            <i>Professional Interest:</i> Programming, UI/UX design, graphic
+            design, web development
+          </p>
+          <p>
+            <i>Technology Proficiencies:</i> HTML, CSS, JavaScript, Python,
+            Java, Office 360, Windows, macOS, Graphic Design, UI/UX Design
+          </p>
+        </div>
+      </section>
+
+      <!-- Work Experience section  -->
+      <section
+        class="fade-in"
+        style="width: 90%; margin: auto; margin-bottom: 20px"
+      >
+        <h2 style="margin: 0">Work Experience</h2>
+        <hr width="100%" size="2" color="white" />
+
+        <div class="job fade-in">
+          <h3>Enterprise Architect Analysis Intern</h3>
+          <p>Nordson | Amherst, Ohio | May 2024 - August 2024</p>
+          <ul>
+            <li>
+              Developed technical documentation and reduced technical debt for
+              SAP PI/PO interfaces by collaborating with college across Europe
+              and America to create interfaces crucial for the upcoming
+              migration to SAP BTP by creating test cases, validating interfaces
+              post-migration, and identifying and deactivate obsolete
+              interfaces.
+            </li>
+            <li>
+              Created and presented slides outlining the PI/PO retirement
+              strategy and system architecture to communicate the benefits of
+              the migration to SAP BTP and secure support from leadership.
+            </li>
+            <li>
+              Engineered documentation for CPI interfaces to support the
+              transition to BTP, ensuring streamlined migration process that
+              simplifies system architecture, reduces complexity, and enhances
+              scalability.
+            </li>
+            <li>
+              Documented key tables within SAP system to support self-service
+              data reporting in Power BI.
+            </li>
+          </ul>
+
+          <div class="fade-in row">
             <div class="column">
-              <img src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow, images" loading="lazy">
+              <img
+                src="images/1723131685911.jpg"
+                onclick="openModal();currentSlide(1)"
+                class="hover-shadow images"
+                loading="lazy"
+              />
             </div>
             <div class="column">
-              <img src="images/IMG_0387.JPG" onclick="openModal();currentSlide(4)" class="hover-shadow images" loading="lazy">
+              <img
+                src="images/1723131610781.jpg"
+                onclick="openModal();currentSlide(2)"
+                class="hover-shadow images"
+                loading="lazy"
+              />
             </div>
           </div>
-          <div class="fade-in">
-          <hr width="100%" size="2" color="white">
-          <h3>UX Researcher</h3>
-          <p style="display: flex; justify-content: space-between;">August 2023 - Present <a href="https://uxcenter.bw.edu/">Baldwin Wallace UX Lab</a></p>
-        <ul>
-            <li>Led a pioneering UX research project using advanced eye-tracking technology to analyze participants' eye movements. Managed a team of 7, coordinating tasks and monitoring project progress. Validated informational posters strategically within a building using heat maps to improve navigation and spatial efficiency. Presented findings at the Ritter Library wayfinding research study during the CEMS Showcase.</li>
-            <li>Worked with OEC to identify usability flaws on an automotive maintenance certification website, enhancing user experience and interface efficiency.</li>
-        <li>Currently working on a project with <a href="https://www.goqwickly.com/" target="_blank">Qwickly</a></li>
-        </ul>
-        <div class="row fade-in">
-            <div class="column">
-              <img src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow images" loading="lazy">
-            </div>
-            <div class="column">
-              <img src="images/Screenshot 2024-10-12 at 5.58.10 PM.jpeg" onclick="openModal();currentSlide(6)" class="hover-shadow images" id="img6" loading="lazy">
-            </div>
-            <div class="column">
-                <img src="images/Screenshot 2024-10-13 at 11.27.50 AM.jpeg" onclick="openModal();currentSlide(7)" class="hover-shadow images" loading="lazy">
+
+          <!-- full size image -->
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+              <div class="mySlides" style="text-align: center">
+                <div class="numbertext">1 / 2</div>
+                <img
+                  src="images/1723131685911.jpg"
+                  style="width: 80%; margin-bottom: 20px"
+                  loading="lazy"
+                />
               </div>
-        </div>
-    </div>
-            <div class="fade-in">
-            <hr width="100%" size="2" color="white">
-            <h3>Home Server</h3>
-            <p>Auguest 2024 - Present</p>
-            <p>As part of my personal projects, I am developing a robust home server infrastructure utilizing a Raspberry Pi running Raspbian and Docker, alongside a mini computer operating on Ubuntu Server. This setup allows me to explore and implement various server applications and services, including:</p>
-            <ul>
-                <li>Containerization with Docker: I leverage Docker to efficiently manage and deploy applications in isolated environments, ensuring scalability and ease of maintenance.</li>
-                <li>Multi-Platform Integration: By combining both Raspberry Pi and mini computer systems, I enhance my understanding of cross-platform interactions and network management.</li>
-                <li>Service Deployment: I am experimenting with hosting services such as media streaming, file sharing, and home automation, gaining hands-on experience in server management and configuration.</li>
-            </ul>
-            <p>This project not only reinforces my technical skills in Linux-based systems and Docker but also enhances my ability to troubleshoot and optimize server performance.</p>
-            <div class="row fade-in">
-                <div class="column">
-                  <img src="images/Server1.jpeg" onclick="openModal();currentSlide(8)" class="hover-shadow images" loading="lazy">
-                </div>
-                <div class="column">
-                  <img src="images/Server2.jpeg" onclick="openModal();currentSlide(9)" class="hover-shadow images" loading="lazy">
-                </div>
-                <div class="column">
-                    <img src="images/Server4.jpeg" onclick="openModal();currentSlide(10)" class="hover-shadow images" loading="lazy">
-                  </div>
+
+              <div class="mySlides" style="text-align: center">
+                <div class="numbertext">2 / 2</div>
+                <img
+                  src="images/1723131610781.jpg"
+                  style="width: 70%; margin-bottom: 20px"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides" style="text-align: center">
+                <div class="numbertext">1 / 2</div>
+                <img
+                  src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg"
+                  style="width: 70%; margin-bottom: 20px"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides" style="text-align: center">
+                <div class="numbertext">2 / 2</div>
+                <img
+                  src="images/IMG_0387.JPG"
+                  style="width: 70%"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides" style="text-align: center">
+                <div class="numbertext">1 / 3</div>
+                <img
+                  src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg"
+                  style="width: 70%"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img
+                  src="images/IMG_5615.JPG"
+                  style="width: 70%; height: 10%; margin-left: 15%"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img
+                  src="images/IMG_7350.JPG"
+                  style="width: 70%; height: 10%; margin-left: 15%"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides" style="text-align: center">
+                <div class="numbertext">1 / 3</div>
+                <img
+                  src="images/Server1.jpeg"
+                  style="width: 80%"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 3</div>
+                <img
+                  src="images/Server2.jpeg"
+                  style="width: 80%; margin-left: 10%"
+                  loading="lazy"
+                />
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 3</div>
+                <img
+                  src="images/Server4.jpeg"
+                  style="width: 80%; margin-left: 10%"
+                  loading="lazy"
+                />
+              </div>
+
+              <!-- Next/previous controls -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-        </div>
+          </div>
+
+          <hr width="100%" size="2" color="white" />
+
+          <div class="job2 fade-in">
+            <h3>IT Asset Management Intern</h3>
+            <p>Nordson | Amherst, Ohio | May 2023 - August 2023</p>
+            <ul>
+              <li>
+                Analyzed the Configuration Management Database (CMDB) assets.
+              </li>
+              <li>
+                Reviewed, created, and updated CMDB documentation, while
+                adhering to IT project management practices and investigated the
+                utilization of existing ServiceNow Software Asset functionality
+                for software asset management.
+              </li>
+              <li>
+                Applied ITIL best practices to collaborate closely with the IT
+                Asset Management teams, overseeing the seamless operation of the
+                ServiceNow Helpdesk system and ensuring the efficiency and
+                integrity of the asset management architecture.
+              </li>
+              <li>
+                Dynamically harnessed the full potential of the Microsoft Office
+                suite, especially Excel, to expertly analyze, present, and
+                meticulously document data for decisive and informed
+                decision-making.
+              </li>
+            </ul>
+          </div>
+          <hr width="100%" size="2" color="white" />
+          <div class="job3 fade-in">
+            <h3>Tech Consultant</h3>
+            <p>Target | Medina, Ohio | July 2022 - May 2023</p>
+            <ul>
+              <li>
+                Resolved tech issues for ~15 customers per shift, ensuring
+                efficient solutions.
+              </li>
+              <li>
+                Adapted communication to customer needs while staying updated on
+                new and old technology.
+              </li>
+              <li>
+                Drove sales in electronics (TVs, mobile, video games, etc.).
+              </li>
+              <li>
+                Collaborated with the team to meet sales goals and enhance
+                customer satisfaction.
+              </li>
+            </ul>
+          </div>
         </section>
+          <!-- Project Section -->
+          <section
+            class="fade-in"
+            style="width: 90%; margin: auto; margin-bottom: 20px"
+          >
+            <h2 style="margin-bottom: 0">Projects</h2>
+            <hr width="100%" size="2" color="white" />
+            <div class="Project1 fade-in">
+              <h3>Graphic Design and Typography Projects</h3>
+              <p>August 2022 - Present</p>
+              <ul>
+                <li>
+                  in my Graphic Design 1 and Typography classes, I developed a
+                  range of design projects that showcase my skills in visual
+                  communication and typographic design. These projects involved
+                  creating logos, posters, and digital artwork that emphasize
+                  effective design principles and creative typography.
+                </li>
+                <li>
+                  Explore my portfolio on
+                  <a href="https://www.behance.net/johnbacho/projects"
+                    >Behance</a
+                  >
+                  to see my work
+                </li>
+              </ul>
 
-        <!-- Related Extracurricular Experience -->
-        <section class="fade-in" style="width: 90%; margin: auto; margin-bottom: 20px;">
-            <h2 style="margin-bottom: 0;">Related Extracurricular Experience</h2>
-            <hr width="100%" size="2" color="white">
-            <p><a href="https://bw.acm.org/acm-officers">ACM Chapter Vice President</a> / ACM + W Chapter member / <a href="https://www.bw.edu/news/2024/02/sherwin-williams-launches-bw-career-accelerator-and-learning-community" target="_blank">Sherman Williams Career Accelerator Scholar</a> / <a href="https://hivedesigngrp.com/" target="_blank">The Hive Design Group Graphic Designer</a></p>
-        </section>
+              <div class="Behance fade-in">
+                <div class="inline">
+                  <iframe
+                    src="https://www.behance.net/embed/project/202606155?ilo0=1"
+                    height="316"
+                    width="404"
+                    allowfullscreen
+                    lazyload
+                    frameborder="0"
+                    allow="clipboard-write"
+                    refererPolicy="strict-origin-when-cross-origin"
+                  ></iframe>
+                </div>
+                <div class="inline">
+                  <iframe
+                    src="https://www.behance.net/embed/project/194215241?ilo0=1"
+                    height="316"
+                    width="404"
+                    allowfullscreen
+                    lazyload
+                    frameborder="0"
+                    allow="clipboard-write"
+                    refererPolicy="strict-origin-when-cross-origin"
+                  ></iframe>
+                </div>
+                <div class="inline">
+                  <iframe
+                    src="https://www.behance.net/embed/project/184826153?ilo0=1"
+                    height="316"
+                    width="404"
+                    allowfullscreen
+                    lazyload
+                    frameborder="0"
+                    allow="clipboard-write"
+                    refererPolicy="strict-origin-when-cross-origin"
+                  ></iframe>
+                </div>
+              </div>
+              <hr
+                width="100%"
+                size="2"
+                color="white"
+                style="margin-top: 20px"
+              />
+              <div class="fade-in">
+                <h3>
+                  Levenshtein Edit Distance: Algorithmic Approaches And Data
+                  Structures For Text Processing
+                </h3>
+                <p style="display: flex; justify-content: space-between">
+                  August 2023 - December 2023
+                  <a
+                    href="https://github.com/JohnBacho/Data-Structures-Final-Project"
+                    target="_blank"
+                    >Project Link</a
+                  >
+                </p>
+                <ul>
+                  <li>
+                    At the heart of computational linguistics lay the
+                    Levenshtein Edit Distance algorithm, which was crucial for
+                    precise text processing. Our project compared the runtime of
+                    dynamic versus recursive implementations, emphasizing their
+                    use in text applications.
+                  </li>
+                  <li>
+                    Developed by Vladimir Levenshtein, the algorithm measures
+                    string similarity through minimal edits, influencing fields
+                    like spell-checking and DNA analysis.
+                  </li>
+                  <li>
+                    We also explored data structures—Hash Set, Trie, and Binary
+                    Search Tree—for quick word retrieval before calculating the
+                    Levenshtein Distance. Recursive methods had a time
+                    complexity of O(Max(N, M)^3), while dynamic programming was
+                    more efficient at O(N*M).
+                  </li>
+                  <li>
+                    Hash Sets proved to be the fastest for word verification,
+                    while Binary Search Trees were slower due to imbalances. Our
+                    project highlighted how combining these data structures and
+                    algorithms optimized Levenshtein Distance for real-world
+                    use.
+                  </li>
+                </ul>
+              </div>
+              <!-- Thumbnail images -->
+              <div class="row fade-in">
+                <div class="column">
+                  <img
+                    src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg"
+                    onclick="openModal();currentSlide(3)"
+                    class="hover-shadow, images"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="column">
+                  <img
+                    src="images/IMG_0387.JPG"
+                    onclick="openModal();currentSlide(4)"
+                    class="hover-shadow images"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <div class="fade-in">
+                <hr width="100%" size="2" color="white" />
+                <h3>UX Researcher</h3>
+                <p style="display: flex; justify-content: space-between">
+                  August 2023 - Present
+                  <a href="https://uxcenter.bw.edu/">Baldwin Wallace UX Lab</a>
+                </p>
+                <ul>
+                  <li>
+                    Led a pioneering UX research project using advanced
+                    eye-tracking technology to analyze participants' eye
+                    movements. Managed a team of 7, coordinating tasks and
+                    monitoring project progress. Validated informational posters
+                    strategically within a building using heat maps to improve
+                    navigation and spatial efficiency. Presented findings at the
+                    Ritter Library wayfinding research study during the CEMS
+                    Showcase.
+                  </li>
+                  <li>
+                    Worked with OEC to identify usability flaws on an automotive
+                    maintenance certification website, enhancing user experience
+                    and interface efficiency.
+                  </li>
+                  <li>
+                    Currently working on a project with
+                    <a href="https://www.goqwickly.com/" target="_blank"
+                      >Qwickly</a
+                    >
+                  </li>
+                </ul>
+                <div class="row fade-in">
+                  <div class="column">
+                    <img
+                      src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg"
+                      onclick="openModal();currentSlide(5)"
+                      class="hover-shadow images"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      src="images/Screenshot 2024-10-12 at 5.58.10 PM.jpeg"
+                      onclick="openModal();currentSlide(6)"
+                      class="hover-shadow images"
+                      id="img6"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      src="images/Screenshot 2024-10-13 at 11.27.50 AM.jpeg"
+                      onclick="openModal();currentSlide(7)"
+                      class="hover-shadow images"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="fade-in">
+                <hr width="100%" size="2" color="white" />
+                <h3>Home Server</h3>
+                <p>August 2024 - Present</p>
+                <p>
+                  As part of my personal projects, I am developing a robust home
+                  server infrastructure utilizing a Raspberry Pi running
+                  Raspbian and Docker, alongside a mini computer operating on
+                  Ubuntu Server. This setup allows me to explore and implement
+                  various server applications and services, including:
+                </p>
+                <ul>
+                  <li>
+                    Containerization with Docker: I leverage Docker to
+                    efficiently manage and deploy applications in isolated
+                    environments, ensuring scalability and ease of maintenance.
+                  </li>
+                  <li>
+                    Multi-Platform Integration: By combining both Raspberry Pi
+                    and mini computer systems, I enhance my understanding of
+                    cross-platform interactions and network management.
+                  </li>
+                  <li>
+                    Service Deployment: I am experimenting with hosting services
+                    such as media streaming, file sharing, and home automation,
+                    gaining hands-on experience in server management and
+                    configuration.
+                  </li>
+                </ul>
+                <p>
+                  This project not only reinforces my technical skills in
+                  Linux-based systems and Docker but also enhances my ability to
+                  troubleshoot and optimize server performance.
+                </p>
+                <div class="row fade-in">
+                  <div class="column">
+                    <img
+                      src="images/Server1.jpeg"
+                      onclick="openModal();currentSlide(8)"
+                      class="hover-shadow images"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      src="images/Server2.jpeg"
+                      onclick="openModal();currentSlide(9)"
+                      class="hover-shadow images"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      src="images/Server4.jpeg"
+                      onclick="openModal();currentSlide(10)"
+                      class="hover-shadow images"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+              <!-- Related Extracurricular Experience -->
+              <section
+                class="fade-in"
+                style="width: 90%; margin: auto; margin-bottom: 20px"
+              >
+                <h2 style="margin-bottom: 0">
+                  Related Extracurricular Experience
+                </h2>
+                <hr width="100%" size="2" color="white" />
+                <p>
+                  <a href="https://bw.acm.org/acm-officers"
+                    >ACM Chapter Vice President</a
+                  >
+                  / ACM + W Chapter member /
+                  <a
+                    href="https://www.bw.edu/news/2024/02/sherwin-williams-launches-bw-career-accelerator-and-learning-community"
+                    target="_blank"
+                    >Sherman Williams Career Accelerator Scholar</a
+                  >
+                  /
+                  <a href="https://hivedesigngrp.com/" target="_blank"
+                    >The Hive Design Group Graphic Designer</a
+                  >
+                </p>
+              </section>
 
-    </main>
+              <!-- fade in script -->
+              <script>
+                $(document).ready(function () {
+                  function checkVisibility() {
+                    $(".fade-in").each(function () {
+                      var sectionTop = $(this).offset().top;
+                      var scrollPos =
+                        $(window).scrollTop() + $(window).height();
 
-    <!-- fade in script -->
-    <script>
-        $(document).ready(function(){
-            function checkVisibility() {
-                $('.fade-in').each(function(){
-                    var sectionTop = $(this).offset().top;
-                    var scrollPos = $(window).scrollTop() + $(window).height();
-    
-                    if (sectionTop < scrollPos) {
-                        $(this).addClass('visible');
-                    }
+                      if (sectionTop < scrollPos) {
+                        $(this).addClass("visible");
+                      }
+                    });
+                  }
+
+                  let timeout;
+                  $(window).on("scroll", function () {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(function () {
+                      checkVisibility();
+                    }, 15);
+                  });
+                  checkVisibility();
                 });
-            }
-    
-            let timeout;
-            $(window).on('scroll', function(){
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    checkVisibility();
-                }, 15);
-            });
-            checkVisibility();
-        });
-    </script>
-    
-<!-- Modal Script -->
-<script>
-    // Open the Modal
-    function openModal() {
-      document.getElementById("myModal").style.display = "block";
-    }
-    
-    // Close the Modal
-    function closeModal() {
-      document.getElementById("myModal").style.display = "none";
-    }
-    
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    // Next/previous controls
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    // Thumbnail image controls
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("demo");
-      var captionText = document.getElementById("caption");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-</script>
-<!-- Footer -->
-    <footer>
-        <p>&copy; 2024 John A. Bacho</p>
-    </footer>
-</body>
+              </script>
+
+              <!-- Modal Script -->
+              <script>
+                // Open the Modal
+                function openModal() {
+                  document.getElementById("myModal").style.display = "block";
+                }
+
+                // Close the Modal
+                function closeModal() {
+                  document.getElementById("myModal").style.display = "none";
+                }
+
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                  showSlides((slideIndex += n));
+                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                  showSlides((slideIndex = n));
+                }
+
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("demo");
+                  var captionText = document.getElementById("caption");
+                  if (n > slides.length) {
+                    slideIndex = 1;
+                  }
+                  if (n < 1) {
+                    slideIndex = slides.length;
+                  }
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(
+                      " active",
+                      ""
+                    );
+                  }
+                  slides[slideIndex - 1].style.display = "block";
+                  dots[slideIndex - 1].className += " active";
+                  captionText.innerHTML = dots[slideIndex - 1].alt;
+                }
+              </script>
+              <!-- Footer -->
+              <footer>
+                <p>&copy; 2024 John A. Bacho</p>
+              </footer>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
