@@ -22,7 +22,6 @@ body {
 /* Sets the font for heading elements */
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
-    
 }
 
 /* sets the color for visted links to white */
@@ -37,7 +36,11 @@ a:link {
 
   /* sets the color to grey when a user hovers over a clickable link */
 a:hover {
-    color: rgb(120, 120, 120);
+    color: rgb(120, 120, 120);    
+}
+
+a{
+  transition: color 0.4s ease;
 }
 
 /* sets the header to blue and the color of text to white */
@@ -254,15 +257,6 @@ footer {
   iframe:hover {
     filter: brightness(0.75); 
   }
-
-  img.demo {
-    opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
   
   img.hover-shadow {
     transition: 0.5s;
@@ -307,10 +301,6 @@ footer {
     }
 }
 
-#BW{
-    width: 35px;
-    height: 35px;
-}
 .about-section {
     display: flex;
     align-items: center;
