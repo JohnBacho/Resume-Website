@@ -603,15 +603,14 @@
                   function checkVisibility() {
                     $(".fade-in").each(function () {
                       var sectionTop = $(this).offset().top;
-                      var scrollPos =
-                        $(window).scrollTop() + $(window).height();
-
+                      var scrollPos = $(window).scrollTop() + $(window).height();
+              
                       if (sectionTop < scrollPos) {
                         $(this).addClass("visible");
                       }
                     });
                   }
-
+              
                   let timeout;
                   $(window).on("scroll", function () {
                     clearTimeout(timeout);
@@ -621,33 +620,86 @@
                   });
                   checkVisibility();
                 });
-              </script>
-
-              <!-- Modal Script -->
-              <script>
+              
+                // Preload iframes, images, and links when they come into view
+                const iframes = document.querySelectorAll('.game-iframe');
+                const images = document.querySelectorAll('img');
+                const links = document.querySelectorAll('a'); // Observe all <a> elements
+              
+                const observer = new IntersectionObserver(handleIntersect);
+              
+                iframes.forEach(iframe => {
+                  observer.observe(iframe);
+                });
+                images.forEach(image => {
+                  observer.observe(image);
+                });
+                links.forEach(link => {
+                  observer.observe(link);
+                });
+              
+                function handleIntersect(entries, observer) {
+                  entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                      const target = entry.target;
+              
+                      if (target.tagName === 'IFRAME') {
+                        preloadIframe(target.src);
+                      } else if (target.tagName === 'IMG') {
+                        preloadImage(target.dataset.src);
+                      } else if (target.tagName === 'A') {
+                        preloadLink(target.href);
+                      }
+              
+                      observer.unobserve(target); // Stop observing after preloading
+                    }
+                  });
+                }
+              
+                function preloadIframe(url) {
+                  const link = document.createElement('link');
+                  link.rel = 'preload';
+                  link.href = url;
+                  link.as = 'document'; // Use 'document' for web pages
+                  document.head.appendChild(link);
+                }
+              
+                function preloadImage(url) {
+                  const img = new Image();
+                  img.src = url; // This preloads the image
+                }
+              
+                function preloadLink(url) {
+                  const link = document.createElement('link');
+                  link.rel = 'preload';
+                  link.href = url;
+                  link.as = 'document'; // Adjust 'as' depending on the type of resource
+                  document.head.appendChild(link);
+                }
+              
                 // Open the Modal
                 function openModal() {
                   document.getElementById("myModal").style.display = "block";
                 }
-
+              
                 // Close the Modal
                 function closeModal() {
                   document.getElementById("myModal").style.display = "none";
                 }
-
+              
                 var slideIndex = 1;
                 showSlides(slideIndex);
-
+              
                 // Next/previous controls
                 function plusSlides(n) {
                   showSlides((slideIndex += n));
                 }
-
+              
                 // Thumbnail image controls
                 function currentSlide(n) {
                   showSlides((slideIndex = n));
                 }
-
+              
                 function showSlides(n) {
                   var i;
                   var slides = document.getElementsByClassName("mySlides");
@@ -663,16 +715,13 @@
                     slides[i].style.display = "none";
                   }
                   for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(
-                      " active",
-                      ""
-                    );
+                    dots[i].className = dots[i].className.replace(" active", "");
                   }
                   slides[slideIndex - 1].style.display = "block";
                   dots[slideIndex - 1].className += " active";
                   captionText.innerHTML = dots[slideIndex - 1].alt;
                 }
-              </script>
+              </script>              
               <!-- Footer -->
               <footer>
                 <p>&copy; 2024 John A. Bacho</p>
