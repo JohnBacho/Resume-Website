@@ -4,7 +4,7 @@
 /* fades in elements */
 .fade-in {
     opacity: 0;
-    transition: opacity 0.8s ease-in;
+    transition: opacity 0.6s ease-in;
 }
 /* sets visibility to 1 */
 .visible {
@@ -310,6 +310,7 @@ footer {
 .about-image {
     max-width: 300px;
     margin-right: 20px;
+    border-radius: 20px;
 }
 
 .about-section p {

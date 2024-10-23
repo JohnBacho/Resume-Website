@@ -78,36 +78,368 @@
             in technology.
           </p>
         </div>
-      </section>
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+            <div class="mySlides" style="text-align: center">
+              <div class="numbertext">1 / 2</div>
+              <img
+                src="images/1723131685911.jpg"
+                style="width: 80%; margin-bottom: 20px"
+                loading="lazy"
+                alt="Photo of me with along with the rest of the interns at nordson with Naga the CEO of Nordson on the left"
+              />
+            </div>
 
-      <!-- Education Section -->
+            <div class="mySlides" style="text-align: center">
+              <div class="numbertext">2 / 2</div>
+              <img
+                src="images/1723131610781.jpg"
+                style="width: 70%; margin-bottom: 20px"
+                loading="lazy"
+                alt="Photo of me working at second harvest which is a non profit food pantry"
+              />
+            </div>
+
+            <div class="mySlides" style="text-align: center">
+              <div class="numbertext">1 / 2</div>
+              <img
+                src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg"
+                style="width: 70%; margin-bottom: 20px"
+                loading="lazy"
+                alt="Photo of Levenshtein edit distance research poster"
+              />
+            </div>
+
+            <div class="mySlides" style="text-align: center">
+              <div class="numbertext">2 / 2</div>
+              <img
+                src="images/IMG_0387.JPG"
+                style="width: 70%"
+                loading="lazy"
+                alt="group photo of gavin, kendall, and me infront of our CEMS poster"
+              />
+            </div>
+
+            <div class="mySlides" style="text-align: center">
+              <div class="numbertext">1 / 3</div>
+              <img
+                src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg"
+                style="width: 70%"
+                loading="lazy"
+                alt="Photo of poster presented at CEMS"
+              />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 3</div>
+              <img
+                src="images/IMG_5615.JPG"
+                style="width: 70%; height: 10%; margin-left: 15%"
+                loading="lazy"
+                alt="Photo of me standing infront of our CEMS poster about wayfinding tracking in the Ritter Library"
+                />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 3</div>
+              <img
+                src="images/IMG_7350.JPG"
+                style="width: 70%; height: 10%; margin-left: 15%"
+                loading="lazy"
+                alt="Photo of me analyzing the eye tracker heatmap"
+              />
+            </div>
+
+            <div class="mySlides" style="text-align: center">
+              <div class="numbertext">1 / 3</div>
+              <img
+                src="images/Server1.jpeg"
+                style="width: 80%"
+                loading="lazy"
+                alt="Screenshot of adgurad home dashboard displaying statistics"
+              />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 3</div>
+              <img
+                src="images/Server2.jpeg"
+                style="width: 80%; margin-left: 10%"
+                loading="lazy"
+                alt="Image of Server"
+              />
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 3</div>
+              <img
+                src="images/Server4.jpeg"
+                style="width: 80%; margin-left: 10%"
+                loading="lazy"
+                alt="Image of Server"
+              />
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+      </section>
+      <!-- Project Section -->
       <section
-        class="fade-in"
-        style="width: 90%; margin: auto; margin-bottom: 20px"
+      class="fade-in"
+      style="width: 90%; margin: auto; margin-bottom: 20px"
       >
-        <h2 style="margin-bottom: 0">Education</h2>
+      <h2 style="margin-bottom: 0">Projects</h2>
+      <div class="fade-in">
         <hr width="100%" size="2" color="white" />
-        <div class="education fade-in">
-          <h3>Baldwin Wallace University | Berea, Ohio | May 2026</h3>
-          <p>
-            <span
-              ><i>Bachelor of Science</i>, Computer Science |
-              <a href="images/JohnBacho_Spring 2024_Transcript.pdf" download
-                >Transcript</a
+        <h3>Home Server</h3>
+        <p>August 2024 - Present</p>
+        <p>
+          As part of my personal projects, I am developing a robust home
+          server infrastructure utilizing a Raspberry Pi running
+          Raspbian and Docker, alongside a mini computer operating on
+          Ubuntu Server. This setup allows me to explore and implement
+          various server applications and services, including:
+        </p>
+        <ul>
+          <li>
+            Containerization with Docker: I leverage Docker to
+            efficiently manage and deploy applications in isolated
+            environments, ensuring scalability and ease of maintenance.
+          </li>
+          <li>
+            Multi-Platform Integration: By combining both Raspberry Pi
+            and mini computer systems, I enhance my understanding of
+            cross-platform interactions and network management.
+          </li>
+          <li>
+            Service Deployment: I am experimenting with hosting services
+            such as media streaming, file sharing, and home automation,
+            gaining hands-on experience in server management and
+            configuration.
+          </li>
+        </ul>
+        <p>
+          <b>Key Skills: </b>Algorithm implementation, performance analysis, data structures.
+        </p>
+        <div class="row fade-in">
+          <div class="column">
+            <img
+              src="images/Server1.jpeg"
+              onclick="openModal();currentSlide(8)"
+              class="hover-shadow images"
+              loading="lazy"
+              alt="Image of Adguard home dashboard used to block malware/ad/phising/trackers"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="images/Server2.jpeg"
+              onclick="openModal();currentSlide(9)"
+              class="hover-shadow images"
+              loading="lazy"
+              alt="Image of portainer used to manage the containers"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="images/Server4.jpeg"
+              onclick="openModal();currentSlide(10)"
+              class="hover-shadow images"
+              loading="lazy"
+              alt="Image of Server"
+            />
+          </div>
+        </div>
+        <div class="fade-in">
+          <hr width="100%" size="2" color="white" />
+          <h3>UX Researcher</h3>
+          <p style="display: flex; justify-content: space-between">
+            August 2023 - Present
+            <a href="https://uxcenter.bw.edu/">Baldwin Wallace UX Lab</a>
+          </p>
+          <ul>
+            <li>
+              Led a pioneering UX research project using advanced
+              eye-tracking technology to analyze participants' eye
+              movements. Managed a team of 7, coordinating tasks and
+              monitoring project progress. Validated informational posters
+              strategically within a building using heat maps to improve
+              navigation and spatial efficiency. Presented findings at the
+              Ritter Library wayfinding research study during the CEMS
+              Showcase.
+            </li>
+            <li>
+              Worked with OEC to identify usability flaws on an automotive
+              maintenance certification website, enhancing user experience
+              and interface efficiency.
+            </li>
+            <li>
+              Currently working on a project with
+              <a href="https://www.goqwickly.com/" target="_blank"
+                >Qwickly</a
               >
-            </span>
-          </p>
-          <p><i>Minor</i>, Graphic Design</p>
-          <p><i>GPA</i>: <b>3.90</b></p>
-          <p><i>Honors:</i> 4x Dean List Recipient (3.8 GPA required)</p>
-          <p>
-            <i>Professional Interest:</i> Programming, UI/UX design, graphic
-            design, web development
-          </p>
-          <p>
-            <i>Technology Proficiencies:</i> HTML, CSS, JavaScript, Python,
-            Java, Office 360, Windows, macOS, Graphic Design, UI/UX Design
-          </p>
+            </li>
+          </ul>
+        <p><b>Key Skills: </b>User experience research, team management, usability testing, data analysis.</p>
+          <div class="row fade-in">
+            <div class="column">
+              <img
+                src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg"
+                onclick="openModal();currentSlide(5)"
+                class="hover-shadow images"
+                loading="lazy"
+                alt="Photo of poster presented at CEMS"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="images/Screenshot 2024-10-12 at 5.58.10 PM.jpeg"
+                onclick="openModal();currentSlide(6)"
+                class="hover-shadow images"
+                id="img6"
+                loading="lazy"
+                alt="Photo of me standing infront of our CEMS poster about wayfinding tracking in the Ritter Library"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="images/Screenshot 2024-10-13 at 11.27.50 AM.jpeg"
+                onclick="openModal();currentSlide(7)"
+                class="hover-shadow images"
+                loading="lazy"
+                alt="Photo of me analyzing the eye tracker heatmap"
+              />
+            </div>
+          </div>
+        </div>
+          <hr width="100%" size="2" color="white" />
+          <div class="fade-in">
+            <h3>
+              Levenshtein Edit Distance: Algorithmic Approaches And Data
+              Structures For Text Processing
+            </h3>
+            <p style="display: flex; justify-content: space-between">
+              August 2023 - December 2023
+              <a
+                href="https://github.com/JohnBacho/Data-Structures-Final-Project"
+                target="_blank"
+                >Project Link</a
+              >
+            </p>
+            <ul>
+              <li>
+                At the heart of computational linguistics lay the
+                Levenshtein Edit Distance algorithm, which was crucial for
+                precise text processing. Our project compared the runtime of
+                dynamic versus recursive implementations, emphasizing their
+                use in text applications.
+              </li>
+              <li>
+                Developed by Vladimir Levenshtein, the algorithm measures
+                string similarity through minimal edits, influencing fields
+                like spell-checking and DNA analysis.
+              </li>
+              <li>
+                We also explored data structures—Hash Set, Trie, and Binary
+                Search Tree—for quick word retrieval before calculating the
+                Levenshtein Distance. Recursive methods had a time
+                complexity of O(Max(N, M)^3), while dynamic programming was
+                more efficient at O(N*M).
+              </li>
+              <li>
+                Hash Sets proved to be the fastest for word verification,
+                while Binary Search Trees were slower due to imbalances. Our
+                project highlighted how combining these data structures and
+                algorithms optimized Levenshtein Distance for real-world
+                use.
+              </li>
+            </ul>
+            <p><b>Key Skills: </b>Algorithm implementation, performance analysis, data structures.</p>
+          </div>
+          <!-- Thumbnail images -->
+          <div class="row fade-in">
+            <div class="column">
+              <img
+                src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg"
+                onclick="openModal();currentSlide(3)"
+                class="hover-shadow, images"
+                loading="lazy"
+                alt="Photo of Levenshtein edit distance research poster"
+              />
+            </div>
+            <div class="column">
+              <img
+                src="images/IMG_0387.JPG"
+                onclick="openModal();currentSlide(4)"
+                class="hover-shadow images"
+                loading="lazy"
+                alt="group photo of gavin, kendall, and me infront of our CEMS poster"
+              />
+            </div>
+          </div>
+          <hr width="100%" size="2" color="white" />
+
+          <div class="Project1 fade-in">
+            <h3>Graphic Design and Typography Projects</h3>
+            <p>August 2022 - Present</p>
+            <ul>
+              <li>
+                in my Graphic Design 1 and Typography classes, I developed a
+                range of design projects that showcase my skills in visual
+                communication and typographic design. These projects involved
+                creating logos, posters, and digital artwork that emphasize
+                effective design principles and creative typography.
+              </li>
+              <li>
+                Explore my portfolio on
+                <a href="https://www.behance.net/johnbacho/projects"
+                  >Behance</a>
+                to see my work
+              </li>
+            </ul>
+            <p><b>Key Skills:</b> Visual communication, design principles, creative typography.</p>
+
+            <div class="Behance fade-in">
+              <div class="inline">
+                <iframe
+                  src="https://www.behance.net/embed/project/202606155?ilo0=1"
+                  height="316"
+                  width="404"
+                  allowfullscreen
+                  lazyload
+                  frameborder="0"
+                  allow="clipboard-write"
+                  refererPolicy="strict-origin-when-cross-origin"
+                ></iframe>
+              </div>
+              <div class="inline">
+                <iframe
+                  src="https://www.behance.net/embed/project/194215241?ilo0=1"
+                  height="316"
+                  width="404"
+                  allowfullscreen
+                  lazyload
+                  frameborder="0"
+                  allow="clipboard-write"
+                  refererPolicy="strict-origin-when-cross-origin"
+                ></iframe>
+              </div>
+              <div class="inline">
+                <iframe
+                  src="https://www.behance.net/embed/project/184826153?ilo0=1"
+                  height="316"
+                  width="404"
+                  allowfullscreen
+                  lazyload
+                  frameborder="0"
+                  allow="clipboard-write"
+                  refererPolicy="strict-origin-when-cross-origin"
+                ></iframe>
+              </div>
+            </div>
         </div>
       </section>
 
@@ -155,6 +487,7 @@
                 onclick="openModal();currentSlide(1)"
                 class="hover-shadow images"
                 loading="lazy"
+                alt="Photo of me with along with the rest of the interns at nordson with Naga the CEO of Nordson on the left"
               />
             </div>
             <div class="column">
@@ -163,108 +496,11 @@
                 onclick="openModal();currentSlide(2)"
                 class="hover-shadow images"
                 loading="lazy"
+                alt="Photo of me working at second harvest which is a non profit food pantry"
               />
             </div>
           </div>
-
-          <!-- full size image -->
-          <div id="myModal" class="modal">
-            <span class="close cursor" onclick="closeModal()">&times;</span>
-            <div class="modal-content">
-              <div class="mySlides" style="text-align: center">
-                <div class="numbertext">1 / 2</div>
-                <img
-                  src="images/1723131685911.jpg"
-                  style="width: 80%; margin-bottom: 20px"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides" style="text-align: center">
-                <div class="numbertext">2 / 2</div>
-                <img
-                  src="images/1723131610781.jpg"
-                  style="width: 70%; margin-bottom: 20px"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides" style="text-align: center">
-                <div class="numbertext">1 / 2</div>
-                <img
-                  src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg"
-                  style="width: 70%; margin-bottom: 20px"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides" style="text-align: center">
-                <div class="numbertext">2 / 2</div>
-                <img
-                  src="images/IMG_0387.JPG"
-                  style="width: 70%"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides" style="text-align: center">
-                <div class="numbertext">1 / 3</div>
-                <img
-                  src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg"
-                  style="width: 70%"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides">
-                <div class="numbertext">2 / 3</div>
-                <img
-                  src="images/IMG_5615.JPG"
-                  style="width: 70%; height: 10%; margin-left: 15%"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides">
-                <div class="numbertext">3 / 3</div>
-                <img
-                  src="images/IMG_7350.JPG"
-                  style="width: 70%; height: 10%; margin-left: 15%"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides" style="text-align: center">
-                <div class="numbertext">1 / 3</div>
-                <img
-                  src="images/Server1.jpeg"
-                  style="width: 80%"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides">
-                <div class="numbertext">2 / 3</div>
-                <img
-                  src="images/Server2.jpeg"
-                  style="width: 80%; margin-left: 10%"
-                  loading="lazy"
-                />
-              </div>
-
-              <div class="mySlides">
-                <div class="numbertext">3 / 3</div>
-                <img
-                  src="images/Server4.jpeg"
-                  style="width: 80%; margin-left: 10%"
-                  loading="lazy"
-                />
-              </div>
-
-              <!-- Next/previous controls -->
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
+ 
           </div>
 
           <hr width="100%" size="2" color="white" />
@@ -319,258 +555,37 @@
             </ul>
           </div>
         </section>
-          <!-- Project Section -->
-          <section
-            class="fade-in"
-            style="width: 90%; margin: auto; margin-bottom: 20px"
-          >
-            <h2 style="margin-bottom: 0">Projects</h2>
-            <hr width="100%" size="2" color="white" />
-            <div class="Project1 fade-in">
-              <h3>Graphic Design and Typography Projects</h3>
-              <p>August 2022 - Present</p>
-              <ul>
-                <li>
-                  in my Graphic Design 1 and Typography classes, I developed a
-                  range of design projects that showcase my skills in visual
-                  communication and typographic design. These projects involved
-                  creating logos, posters, and digital artwork that emphasize
-                  effective design principles and creative typography.
-                </li>
-                <li>
-                  Explore my portfolio on
-                  <a href="https://www.behance.net/johnbacho/projects"
-                    >Behance</a
-                  >
-                  to see my work
-                </li>
-              </ul>
 
-              <div class="Behance fade-in">
-                <div class="inline">
-                  <iframe
-                    src="https://www.behance.net/embed/project/202606155?ilo0=1"
-                    height="316"
-                    width="404"
-                    allowfullscreen
-                    lazyload
-                    frameborder="0"
-                    allow="clipboard-write"
-                    refererPolicy="strict-origin-when-cross-origin"
-                  ></iframe>
-                </div>
-                <div class="inline">
-                  <iframe
-                    src="https://www.behance.net/embed/project/194215241?ilo0=1"
-                    height="316"
-                    width="404"
-                    allowfullscreen
-                    lazyload
-                    frameborder="0"
-                    allow="clipboard-write"
-                    refererPolicy="strict-origin-when-cross-origin"
-                  ></iframe>
-                </div>
-                <div class="inline">
-                  <iframe
-                    src="https://www.behance.net/embed/project/184826153?ilo0=1"
-                    height="316"
-                    width="404"
-                    allowfullscreen
-                    lazyload
-                    frameborder="0"
-                    allow="clipboard-write"
-                    refererPolicy="strict-origin-when-cross-origin"
-                  ></iframe>
-                </div>
-              </div>
-              <hr
-                width="100%"
-                size="2"
-                color="white"
-                style="margin-top: 20px"
-              />
-              <div class="fade-in">
-                <h3>
-                  Levenshtein Edit Distance: Algorithmic Approaches And Data
-                  Structures For Text Processing
-                </h3>
-                <p style="display: flex; justify-content: space-between">
-                  August 2023 - December 2023
-                  <a
-                    href="https://github.com/JohnBacho/Data-Structures-Final-Project"
-                    target="_blank"
-                    >Project Link</a
-                  >
-                </p>
-                <ul>
-                  <li>
-                    At the heart of computational linguistics lay the
-                    Levenshtein Edit Distance algorithm, which was crucial for
-                    precise text processing. Our project compared the runtime of
-                    dynamic versus recursive implementations, emphasizing their
-                    use in text applications.
-                  </li>
-                  <li>
-                    Developed by Vladimir Levenshtein, the algorithm measures
-                    string similarity through minimal edits, influencing fields
-                    like spell-checking and DNA analysis.
-                  </li>
-                  <li>
-                    We also explored data structures—Hash Set, Trie, and Binary
-                    Search Tree—for quick word retrieval before calculating the
-                    Levenshtein Distance. Recursive methods had a time
-                    complexity of O(Max(N, M)^3), while dynamic programming was
-                    more efficient at O(N*M).
-                  </li>
-                  <li>
-                    Hash Sets proved to be the fastest for word verification,
-                    while Binary Search Trees were slower due to imbalances. Our
-                    project highlighted how combining these data structures and
-                    algorithms optimized Levenshtein Distance for real-world
-                    use.
-                  </li>
-                </ul>
-              </div>
-              <!-- Thumbnail images -->
-              <div class="row fade-in">
-                <div class="column">
-                  <img
-                    src="images/2024-10-11 2024-10-04 Levenstein edit distance CEMS poster.jpg"
-                    onclick="openModal();currentSlide(3)"
-                    class="hover-shadow, images"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="column">
-                  <img
-                    src="images/IMG_0387.JPG"
-                    onclick="openModal();currentSlide(4)"
-                    class="hover-shadow images"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-              <div class="fade-in">
-                <hr width="100%" size="2" color="white" />
-                <h3>UX Researcher</h3>
-                <p style="display: flex; justify-content: space-between">
-                  August 2023 - Present
-                  <a href="https://uxcenter.bw.edu/">Baldwin Wallace UX Lab</a>
-                </p>
-                <ul>
-                  <li>
-                    Led a pioneering UX research project using advanced
-                    eye-tracking technology to analyze participants' eye
-                    movements. Managed a team of 7, coordinating tasks and
-                    monitoring project progress. Validated informational posters
-                    strategically within a building using heat maps to improve
-                    navigation and spatial efficiency. Presented findings at the
-                    Ritter Library wayfinding research study during the CEMS
-                    Showcase.
-                  </li>
-                  <li>
-                    Worked with OEC to identify usability flaws on an automotive
-                    maintenance certification website, enhancing user experience
-                    and interface efficiency.
-                  </li>
-                  <li>
-                    Currently working on a project with
-                    <a href="https://www.goqwickly.com/" target="_blank"
-                      >Qwickly</a
-                    >
-                  </li>
-                </ul>
-                <div class="row fade-in">
-                  <div class="column">
-                    <img
-                      src="images/2022-01-09 2022-01-09 UXLab_CEMSPoster.jpg"
-                      onclick="openModal();currentSlide(5)"
-                      class="hover-shadow images"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="column">
-                    <img
-                      src="images/Screenshot 2024-10-12 at 5.58.10 PM.jpeg"
-                      onclick="openModal();currentSlide(6)"
-                      class="hover-shadow images"
-                      id="img6"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="column">
-                    <img
-                      src="images/Screenshot 2024-10-13 at 11.27.50 AM.jpeg"
-                      onclick="openModal();currentSlide(7)"
-                      class="hover-shadow images"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div class="fade-in">
-                <hr width="100%" size="2" color="white" />
-                <h3>Home Server</h3>
-                <p>August 2024 - Present</p>
-                <p>
-                  As part of my personal projects, I am developing a robust home
-                  server infrastructure utilizing a Raspberry Pi running
-                  Raspbian and Docker, alongside a mini computer operating on
-                  Ubuntu Server. This setup allows me to explore and implement
-                  various server applications and services, including:
-                </p>
-                <ul>
-                  <li>
-                    Containerization with Docker: I leverage Docker to
-                    efficiently manage and deploy applications in isolated
-                    environments, ensuring scalability and ease of maintenance.
-                  </li>
-                  <li>
-                    Multi-Platform Integration: By combining both Raspberry Pi
-                    and mini computer systems, I enhance my understanding of
-                    cross-platform interactions and network management.
-                  </li>
-                  <li>
-                    Service Deployment: I am experimenting with hosting services
-                    such as media streaming, file sharing, and home automation,
-                    gaining hands-on experience in server management and
-                    configuration.
-                  </li>
-                </ul>
-                <p>
-                  This project not only reinforces my technical skills in
-                  Linux-based systems and Docker but also enhances my ability to
-                  troubleshoot and optimize server performance.
-                </p>
-                <div class="row fade-in">
-                  <div class="column">
-                    <img
-                      src="images/Server1.jpeg"
-                      onclick="openModal();currentSlide(8)"
-                      class="hover-shadow images"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="column">
-                    <img
-                      src="images/Server2.jpeg"
-                      onclick="openModal();currentSlide(9)"
-                      class="hover-shadow images"
-                      loading="lazy"
-                    />
-                  </div>
-                  <div class="column">
-                    <img
-                      src="images/Server4.jpeg"
-                      onclick="openModal();currentSlide(10)"
-                      class="hover-shadow images"
-                      loading="lazy"
-                    />
-                  </div>
-                </div>
-              </div>
-            </section>
+          <!-- Education Section -->
+        <section
+        class="fade-in"
+        style="width: 90%; margin: auto; margin-bottom: 20px"
+      >
+        <h2 style="margin-bottom: 0">Education</h2>
+        <hr width="100%" size="2" color="white" />
+        <div class="education fade-in">
+          <h3>Baldwin Wallace University | Berea, Ohio | May 2026</h3>
+          <p>
+            <span
+              ><i>Bachelor of Science</i>, Computer Science |
+              <a href="images/JohnBacho_Spring 2024_Transcript.pdf" download
+                >Transcript</a
+              >
+            </span>
+          </p>
+          <p><i>Minor</i>, Graphic Design</p>
+          <p><i>GPA</i>: <b>3.90</b></p>
+          <p><i>Honors:</i> 4x Dean List Recipient (3.8 GPA required)</p>
+          <p>
+            <i>Professional Interest:</i> Programming, UI/UX design, graphic
+            design, web development
+          </p>
+          <p>
+            <i>Technology Proficiencies:</i> HTML, CSS, JavaScript, Python,
+            Java, Office 360, Windows, macOS, Graphic Design, UI/UX Design
+          </p>
+        </div>
+      </section>
               <!-- Related Extracurricular Experience -->
               <section
                 class="fade-in"
