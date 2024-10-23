@@ -328,3 +328,29 @@ footer {
         margin-bottom: 10px; 
     }
 }
+
+.section-title {
+  font-size: 1.75em; /* Slightly smaller than h2 for sub-section titles */
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 16px; /* Standard size for date */
+  color: #888; /* Gray color for date */
+  margin-bottom: 15px; /* Space below the date */
+}
+
+.service-list {
+  list-style-type: disc; /* Bullets for service items */
+  padding-left: 20px; /* Indent list items */
+}
+
+.service-item {
+  font-size: 16px; /* Standard size for service items */
+  margin-bottom: 10px; /* Space below each item */
+}
+
+.key-skills {
+  font-size: 18px; /* Size for key skills */
+  margin-top: 15p
+}
