@@ -673,7 +673,7 @@
                   const link = document.createElement('link');
                   link.rel = 'preload';
                   link.href = url;
-                  link.as = 'document'; // Adjust 'as' depending on the type of resource
+                  link.as = 'fetch'; // Adjust 'as' depending on the type of resource
                   document.head.appendChild(link);
                 }
               
