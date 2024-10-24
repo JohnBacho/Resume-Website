@@ -375,9 +375,6 @@ footer {
     justify-content: center; /* Centers all buttons horizontally */
     gap: 10px; /* Optional: Adds space between the buttons */
     padding: 10px;
-    border: solid white;
-    border-radius: 15px;
-    
 }
 
 .button:hover {
