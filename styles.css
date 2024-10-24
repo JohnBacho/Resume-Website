@@ -131,8 +131,17 @@ footer {
 
 /* sets the max width and height to 90%  */
 .lightbox img {
-    max-width: 90%;
-    max-height: 90%;
+  max-width: 90%;
+  max-height: 90%;
+  transform: scale(0.8); /* Start at a slightly smaller scale */
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease; /* Smooth zoom and fade-in */
+}
+
+/* On display, smoothly zoom in the image */
+.lightbox:target img {
+  transform: scale(1); /* Final zoom-in scale */
+  opacity: 1; /* Fade in the image */
 }
 
   .row:after {
@@ -170,14 +179,14 @@ footer {
     max-width: 1200px;
   }
 /* modal content */
-  .modal-content, .close {
-    animation-name: zoom;
-    animation-duration: 1.6s;
+.modal-content, .close {
+  animation-name: zoom;
+  animation-duration: 1.6s;
 }
 
-  @keyframes zoom {
-    from {transform: scale(0)} 
-    to {transform: scale(1)}
+@keyframes zoom {
+  from {transform: scale(0.5)}
+  to {transform: scale(1)}
 }
 
   
@@ -255,16 +264,14 @@ footer {
   }
   /* darkens the iframe when hovered over */
   iframe:hover {
-    filter: brightness(0.75); 
+    filter: brightness(0.70); 
   }
   
   img.hover-shadow {
     transition: 0.5s;
   }
   
-  .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+
 
 .images{
     width: 200px;
@@ -276,6 +283,8 @@ footer {
 
   .images:hover {
     filter: brightness(50%);
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
 }
 
   .behance{
