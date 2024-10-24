@@ -370,10 +370,14 @@ footer {
 }
 
 .parent {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(3, auto); /* Ensures all buttons are in a row */
     justify-content: center; /* Centers all buttons horizontally */
     gap: 10px; /* Optional: Adds space between the buttons */
+    padding: 10px;
+    border: solid white;
+    border-radius: 15px;
+    
 }
 
 .button:hover {
@@ -389,7 +393,7 @@ a.button {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 10px;
   margin: auto;
   transition: filter 0.5s ease;
 }
