@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
 
 
+html{
+  scroll-behavior: smooth;
+}
+
 /* fades in elements */
 .fade-in {
     opacity: 0;
@@ -314,6 +318,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 1.2rem;
 }
 
 .about-image {
@@ -362,4 +367,29 @@ footer {
 .key-skills {
   font-size: 18px; /* Size for key skills */
   margin-top: 15p
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, auto); /* Ensures all buttons are in a row */
+    justify-content: center; /* Centers all buttons horizontally */
+    gap: 10px; /* Optional: Adds space between the buttons */
+}
+
+.button:hover {
+  filter: brightness(50%);
+}
+
+a.button {
+  color: black; /* This sets the text color to black */
+  background-color: white; /* Optional: Ensure the background is white */
+  text-decoration: none; /* Optional: Removes underline for cleaner look */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 16px;
+  margin: auto;
+  transition: filter 0.5s ease;
 }
