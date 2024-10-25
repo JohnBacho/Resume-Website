@@ -184,7 +184,6 @@
                 alt="Image of Server"
               />
             </div>
-
             <!-- Next/previous controls -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -197,8 +196,53 @@
             style="width: 90%; margin: auto; margin-bottom: 20px"
           >
             <h2 style="margin-bottom: 0">Projects</h2>
+
             <div class="fade-in">
               <hr width="100%" size="2" color="white" />
+                <h3 class="section-title">Yellow Jacket Arcade</h3>
+                <p
+                  class="date-and-link date"
+                  style="display: flex; justify-content: space-between"
+                >
+                  October 2024 - Present
+                  <a
+                    class="link"
+                    href="https://github.com/JohnBacho/Yellow-Jacket-Arcade"
+                    target="_blank"
+                    >Project Link</a
+                  >
+                </p>
+                <p class="project-description">
+                  As part of my personal projects, I am developing a website called Yellow Jacket Arcade, a centralized collection of game links designed to streamline access and reduce clutter from bookmarks in web browsers. This project allows me to explore and implement various web development techniques and optimization strategies, including:
+                </p>
+                <ul class="service-list">
+                  <li lass="service-item">
+                    <strong>Link Optimization Techniques:</strong>
+                    I utilize prefetch on hover for faster link loading, ensuring a seamless user experience by anticipating user actions. Additionally, I implement lazy loading to improve page performance and loading times.
+                  </li>
+                  <li lass="service-item">
+                    <strong
+                      >Interactive Features:</strong
+                    >
+                    The website incorporates JavaScript functionalities from external libraries, such as scroll fade-in effects, enhancing the visual appeal and interactivity of the site. I also implement a dark mode feature, providing users with a customizable viewing experience.                  </li>
+                  <li lass="service-item">
+                    <strong
+                      >User-Centric Design:</strong
+                    >
+                    By focusing on usability and aesthetics, I aim to create an engaging platform that encourages users to easily navigate and discover games.                  
+                  </li>
+                </ul>
+                <p class="key-skills">
+                  <strong>Key Skills:</strong> Web Development, JavaScript, Performance Optimization, User Experience (UX) Design, Responsive Design.
+                </p>
+                <div class="fade-in website">
+                  <h4>Website</h4>
+                    <iframe src="https://johnbacho.github.io/Yellow-Jacket-Arcade/" width="100%" height="600px" frameborder="100" class="YJA" loading="lazy"></iframe>
+                  </div>
+                </div>
+              </div>
+              <hr width="100%" size="2" color="white" />
+              
               <h3 class="section-title">Home Server</h3>
               <p class="date">August 2024 - Present</p>
               <p class="project-description">
@@ -452,6 +496,7 @@
                       frameborder="0"
                       allow="clipboard-write"
                       refererPolicy="strict-origin-when-cross-origin"
+                      class="behanceiframes"
                     ></iframe>
                   </div>
                   <div class="inline">
@@ -464,6 +509,7 @@
                       frameborder="0"
                       allow="clipboard-write"
                       refererPolicy="strict-origin-when-cross-origin"
+                      class="behanceiframes"
                     ></iframe>
                   </div>
                   <div class="inline">
@@ -476,6 +522,7 @@
                       frameborder="0"
                       allow="clipboard-write"
                       refererPolicy="strict-origin-when-cross-origin"
+                      class="behanceiframes"
                     ></iframe>
                   </div>
                 </div>
@@ -690,132 +737,7 @@
                   >
                 </p>
               </section>
-
-              <!-- fade in script -->
-              <script>
-                $(document).ready(function () {
-                  function checkVisibility() {
-                    $(".fade-in").each(function () {
-                      var sectionTop = $(this).offset().top;
-                      var scrollPos = $(window).scrollTop() + $(window).height();
-              
-                      if (sectionTop < scrollPos) {
-                        $(this).addClass("visible");
-                      }
-                    });
-                  }
-              
-                  let timeout;
-                  $(window).on("scroll", function () {
-                    clearTimeout(timeout);
-                    timeout = setTimeout(function () {
-                      checkVisibility();
-                    }, 15);
-                  });
-                  checkVisibility();
-                });
-              
-                // Preload iframes, images, and links when they come into view
-                const iframes = document.querySelectorAll('.game-iframe');
-                const images = document.querySelectorAll('img');
-                const links = document.querySelectorAll('a'); // Observe all <a> elements
-              
-                const observer = new IntersectionObserver(handleIntersect);
-              
-                iframes.forEach(iframe => {
-                  observer.observe(iframe);
-                });
-                images.forEach(image => {
-                  observer.observe(image);
-                });
-                links.forEach(link => {
-                  observer.observe(link);
-                });
-              
-                function handleIntersect(entries, observer) {
-                  entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                      const target = entry.target;
-              
-                      if (target.tagName === 'IFRAME') {
-                        preloadIframe(target.src);
-                      } else if (target.tagName === 'IMG') {
-                        preloadImage(target.dataset.src);
-                      } else if (target.tagName === 'A') {
-                        preloadLink(target.href);
-                      }
-              
-                      observer.unobserve(target); // Stop observing after preloading
-                    }
-                  });
-                }
-              
-                function preloadIframe(url) {
-                  const link = document.createElement('link');
-                  link.rel = 'preload';
-                  link.href = url;
-                  link.as = 'document'; // Use 'document' for web pages
-                  document.head.appendChild(link);
-                }
-              
-                function preloadImage(url) {
-                  const img = new Image();
-                  img.src = url; // This preloads the image
-                }
-              
-                function preloadLink(url) {
-                  const link = document.createElement('link');
-                  link.rel = 'preload';
-                  link.href = url;
-                  link.as = 'fetch'; // Adjust 'as' depending on the type of resource
-                  document.head.appendChild(link);
-                }
-              
-                // Open the Modal
-                function openModal() {
-                  document.getElementById("myModal").style.display = "block";
-                }
-              
-                // Close the Modal
-                function closeModal() {
-                  document.getElementById("myModal").style.display = "none";
-                }
-              
-                var slideIndex = 1;
-                showSlides(slideIndex);
-              
-                // Next/previous controls
-                function plusSlides(n) {
-                  showSlides((slideIndex += n));
-                }
-              
-                // Thumbnail image controls
-                function currentSlide(n) {
-                  showSlides((slideIndex = n));
-                }
-              
-                function showSlides(n) {
-                  var i;
-                  var slides = document.getElementsByClassName("mySlides");
-                  var dots = document.getElementsByClassName("demo");
-                  var captionText = document.getElementById("caption");
-                  if (n > slides.length) {
-                    slideIndex = 1;
-                  }
-                  if (n < 1) {
-                    slideIndex = slides.length;
-                  }
-                  for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                  }
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                  }
-                  slides[slideIndex - 1].style.display = "block";
-                  dots[slideIndex - 1].className += " active";
-                  captionText.innerHTML = dots[slideIndex - 1].alt;
-                }
-              </script>              
+              <script src="script.js"></script>             
               <!-- Footer -->
               <footer>
                 <p>&copy; 2024 John A. Bacho</p>

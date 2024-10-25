@@ -263,11 +263,11 @@ footer {
     color: white;
   }
   /* creates a smooth transistion when hovered over */
-  iframe {
+  .behanceiframes {
     transition: filter 0.5s ease;
   }
   /* darkens the iframe when hovered over */
-  iframe:hover {
+  .behanceiframes:hover {
     filter: brightness(0.70); 
   }
   
@@ -275,8 +275,6 @@ footer {
     transition: 0.5s;
   }
   
-
-
 .images{
     width: 200px;
     height: 140px;
@@ -301,14 +299,14 @@ footer {
   }
 
   @media (max-width: 968px) {
-    iframe {
+    .behanceiframes {
         width: 250px;
         height: 197px;
     }
 }
 
 @media (max-width: 480px) {
-    iframe {
+  .behanceiframes {
         width: 200px;
         height: 158px;
     }
@@ -394,5 +392,17 @@ a.button {
   border-radius: 10px;
   margin: auto;
   transition: filter 0.5s ease, transform 0.4s ease;
-  
+}
+
+.YJA{
+  margin-bottom: 10px;
+}
+
+h4{
+  display: block;
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
