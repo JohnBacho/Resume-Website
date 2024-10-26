@@ -96,6 +96,14 @@ main {
     padding-top: 20px;
 }
 
+@media (max-width: 650px) {
+  main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+}
+
+
 /* sets the background color to  */
 section {
     margin-bottom: 20px;
