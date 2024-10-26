@@ -316,7 +316,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 1.2rem;
 }
 
 .about-image {
@@ -327,17 +326,22 @@ footer {
 
 .about-section p {
     flex: 1;
+    font-size: 1.5rem;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+.about-section p{
+  font-size: 1.1rem;
+}
+}
+
+@media (max-width: 700px) {
     .about-section {
         flex-direction: column; /* Stack the items vertically */
         align-items: flex-start; /* Align items to the left */
     }
-
     .about-image {
-        margin-right: 0;
-        margin-bottom: 10px; 
+        margin: auto
     }
 }
 
