@@ -91,7 +91,9 @@ h3{
 
 /* adds padding to our main section */
 main {
-    padding: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
 }
 
 /* sets the background color to  */
@@ -99,7 +101,7 @@ section {
     margin-bottom: 20px;
     background: #28282B;
     color: #fff;
-    padding: 15px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
@@ -111,12 +113,18 @@ section {
 
 /* creates a footer and sets the background color to blue and the text to white */
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #007BFF;
-    color: #fff;
-    position: relative;
-    bottom: 0;
+  text-align: center;
+  padding: 10px;
+  background: #007BFF;
+  color: #fff;
+  width: 100%;                     
+  position: relative;          
+  left: 0;                            
+  right: 0;
+  margin: 0;       
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-sizing: border-box;
 }
 
 /* creates the light box for displaying large images */
@@ -298,14 +306,7 @@ footer {
     display: inline-block;
   }
 
-  @media (max-width: 968px) {
-    .behanceiframes {
-        width: 250px;
-        height: 197px;
-    }
-}
-
-@media (max-width: 480px) {
+@media (max-width: 1000px) {
   .behanceiframes {
         width: 200px;
         height: 158px;
@@ -325,17 +326,23 @@ footer {
 }
 
 .about-section p {
-    flex: 1;
-    font-size: 1.5rem;
+  flex: 1;
+  font-size: 1.5rem;
+  line-height: 1.5; 
+  font-weight: 100; /* Makes the text look lighter */
+  max-width: 800px; /* Limits the text width for better readability */
+  margin: 0 auto; /* Centers the text in the section */
+  padding-top: 10px;
 }
 
-@media (max-width: 1000px) {
+
+@media (max-width: 1200px) {
 .about-section p{
   font-size: 1.1rem;
 }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     .about-section {
         flex-direction: column; /* Stack the items vertically */
         align-items: flex-start; /* Align items to the left */
@@ -359,6 +366,11 @@ footer {
 .service-list {
   list-style-type: disc; /* Bullets for service items */
   padding-left: 20px; /* Indent list items */
+  max-width: 800px;
+}
+
+.project-description{
+  max-width: 1000px;
 }
 
 .service-item {
@@ -368,7 +380,8 @@ footer {
 
 .key-skills {
   font-size: 18px; /* Size for key skills */
-  margin-top: 15p
+  margin-top: 15px;
+  max-width: 1000px;
 }
 
 .parent {
