@@ -407,4 +407,6 @@ h4{
   margin: 0;
   padding-bottom: 10px;
   padding-top: 20px;
+  cursor: pointer;
+  text-decoration: none;
 }
