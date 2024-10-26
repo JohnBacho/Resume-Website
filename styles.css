@@ -396,6 +396,8 @@ a.button {
 
 .YJA{
   margin-bottom: 10px;
+  border-radius: 10px;
+  border: solid white 3px;
 }
 
 h4{
