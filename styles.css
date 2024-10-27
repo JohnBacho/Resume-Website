@@ -378,7 +378,7 @@ footer {
 }
 
 .project-description{
-  max-width: 1000px;
+  max-width: 950px;
 }
 
 .service-item {
@@ -389,7 +389,7 @@ footer {
 .key-skills {
   font-size: 18px; /* Size for key skills */
   margin-top: 15px;
-  max-width: 1000px;
+  max-width: 950px;
 }
 
 .parent {
