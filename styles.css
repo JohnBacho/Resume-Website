@@ -44,7 +44,7 @@ a:hover {
 }
 
 a{
-  transition: color 0.4s ease;
+  transition: color 0.3s ease;
 }
 
 /* sets the header to blue and the color of text to white */
