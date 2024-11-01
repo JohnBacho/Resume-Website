@@ -278,14 +278,6 @@ footer {
     padding: 2px 16px;
     color: white;
   }
-  /* creates a smooth transistion when hovered over */
-  .behanceiframes {
-    transition: filter 0.5s ease;
-  }
-  /* darkens the iframe when hovered over */
-  .behanceiframes:hover {
-    filter: brightness(0.70); 
-  }
   
   img.hover-shadow {
     transition: 0.5s;
@@ -305,21 +297,33 @@ footer {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
 }
 
-  .behance{
-    padding: 5px;
-    align-content: center;
-  }
+.featured-link {
+  border: 4px solid #0077ff; /* Accent color */
+  box-shadow: 0 15px 30px rgba(0, 119, 255, 0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  width: 260px;
+  height: 200px;
+}
+
+.featured-link:hover {
+  transform: scale(1.1);
+  box-shadow: 0 20px 40px rgba(0, 119, 255, 0.7);
+}
+
+/* Caption Styles */
+.image-caption-container {
+  text-align: center;
+  position: relative;
+  margin-top: 8px;
+}
+
+figcaption{
+  padding: 5px 0;
+}
 
   .inline{
     display: inline-block;
   }
-
-@media (max-width: 1000px) {
-  .behanceiframes {
-        width: 200px;
-        height: 158px;
-    }
-}
 
 .about-section {
     display: flex;
@@ -342,7 +346,6 @@ footer {
   margin: 0 auto; /* Centers the text in the section */
   padding-top: 10px;
 }
-
 
 @media (max-width: 1230px) {
 .about-section p{
