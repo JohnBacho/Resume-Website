@@ -307,7 +307,6 @@ footer {
 
 .featured-link:hover {
   transform: scale(1.1);
-  box-shadow: 0 20px 40px rgba(0, 119, 255, 0.7);
 }
 
 /* Caption Styles */
@@ -317,8 +316,14 @@ footer {
   margin-top: 8px;
 }
 
-figcaption{
-  padding: 5px 0;
+figcaption {
+  padding: 7px 0; 
+  text-align: center; 
+  font-family: 'Arial', sans-serif; 
+  font-size: 0.9em; 
+  font-weight: 500; 
+  letter-spacing: 0.5px; 
+  line-height: 1.2;
 }
 
 .inline{
