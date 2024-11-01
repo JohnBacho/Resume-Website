@@ -321,9 +321,9 @@ figcaption{
   padding: 5px 0;
 }
 
-  .inline{
-    display: inline-block;
-  }
+.inline{
+  display: inline-block;
+}
 
 .about-section {
     display: flex;
