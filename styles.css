@@ -218,6 +218,7 @@ footer {
     right: 25px;
     font-size: 40px;
     font-weight: bold;
+    transition: 0.4s;
   }
   
   /* when you hover over the exit button it changes color */
