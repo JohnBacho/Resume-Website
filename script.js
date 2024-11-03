@@ -1,3 +1,33 @@
+// Hero Section Scroll
+const heroSection = document.querySelector('.hero-section');
+
+const handleScroll = () => {
+    const heroHeight = heroSection.offsetHeight;
+
+    const scrollPosition = window.scrollY;
+
+    const scrollDownThreshold = heroHeight * 0.2;
+
+    if (scrollPosition > scrollDownThreshold && scrollPosition < heroHeight) {
+        window.scrollTo({
+            top: heroHeight,
+            behavior: 'smooth'
+        });
+    }
+    else if (scrollPosition < heroHeight && scrollPosition < lastScrollY) {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    lastScrollY = scrollPosition;
+};
+
+let lastScrollY = window.scrollY;
+
+window.addEventListener('scroll', handleScroll);
+
 // fade in script
 $(document).ready(function () {
     function checkVisibility() {

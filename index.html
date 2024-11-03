@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <header>
+    <!-- <header>
       <h1>John A. Bacho</h1>
       <p>
          Wellington, Ohio | 440-728-7160 |
@@ -30,37 +30,32 @@
         <a href="https://www.behance.net/johnbacho" target="_blank">Behance</a>
         | <a href="images/JohnBacho_Resume.pdf" download>Resume</a>
       </p>
-    </header>
+    </header> -->
+    <section class="hero-section">
+      <div class="hero-content">
+          <div class="hero-profile">
+              <img src="images/IMG_1977.webp" alt="John A. Bacho" class="hero-profile-image" loading="lazy" />
+              <div class="hero-about-text">
+                  <h1>Welcome to My Portfolio</h1>
+                  <p>I am John A. Bacho, a driven computer science student at Baldwin
+                    Wallace University, graduating in May 2026 with a 3.9 GPA. My
+                    passion lies in programming, UI/UX design, and web development,
+                    supported by a minor in Graphic Design. My professional journey
+                    includes internships at Nordson, where I gained valuable experience
+                    in enterprise architecture and IT asset management. I developed
+                    technical documentation for SAP migration, analyzed configuration
+                    databases, and contributed to key IT initiatives. Beyond work, I'm a
+                    UX researcher, serve as Vice President of ACM, and am a
+                    Sherwin-Williams Career Accelerator Scholar. I thrive on
+                    collaboration, problem-solving, and delivering innovative solutions
+                    in technology.</p>
+              </div>
+          </div>
+      </div>
+  </section>
     <main>
-      <!-- About me Section -->
-      <section
-        class="fade-in about-me"
-        style="width: 90%; margin: auto; margin-bottom: 20px"
-      >
-        <h2 style="margin-bottom: 0">About me</h2>
-        <hr width="100%" size="2" color="white" />
-        <div class="about-section">
-          <img
-            src="images/IMG_1977-min.webp"
-            alt="John A. Bacho"
-            class="about-image"
-            loading="lazy"
-          />
-          <p>
-            I am John A. Bacho, a driven computer science student at Baldwin
-            Wallace University, graduating in May 2026 with a 3.9 GPA. My
-            passion lies in programming, UI/UX design, and web development,
-            supported by a minor in Graphic Design. My professional journey
-            includes internships at Nordson, where I gained valuable experience
-            in enterprise architecture and IT asset management. I developed
-            technical documentation for SAP migration, analyzed configuration
-            databases, and contributed to key IT initiatives. Beyond work, I'm a
-            UX researcher, serve as Vice President of ACM, and am a
-            Sherwin-Williams Career Accelerator Scholar. I thrive on
-            collaboration, problem-solving, and delivering innovative solutions
-            in technology.
-          </p>
-        </div>
+      <!-- Modal box -->
+        <div>
         <div id="myModal" class="modal">
           <span class="close cursor" onclick="closeModal()">&times;</span>
           <div class="modal-content">
@@ -167,8 +162,21 @@
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
-      </section>
-          <!-- Project Section -->
+        </div>    
+          <!-- Socials -->
+          <div class="contact-info fade-in" style="width: 90%; margin: auto; margin-bottom: 20px">
+            <p>
+              Wellington, Ohio | 440-728-7160 |
+              <a href="mailto:bachojohn2@gmail.com">bachojohn2@gmail.com</a>
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/johnbacho/" target="_blank">LinkedIn</a>
+              | <a href="https://github.com/JohnBacho" target="_blank">GitHub</a> |
+              <a href="https://www.behance.net/johnbacho" target="_blank">Behance</a> |
+              <a href="images/JohnBacho_Resume.pdf" download>Resume</a>
+            </p>
+          </div>
+           <!-- Project Section -->
           <section
             class="fade-in"
             id="project-section"
@@ -176,7 +184,7 @@
           >
             <h2 style="margin-bottom: 0">Projects</h2>
 
-            <div class="fade-in">
+            <div>
               <hr width="100%" size="2" color="white" />
                 <h3 class="section-title">Yellow Jacket Arcade</h3>
                 <p
@@ -214,14 +222,14 @@
                 <p class="key-skills">
                   <strong>Key Skills:</strong> Web Development, JavaScript, Performance Optimization, User Experience (UX) Design, Responsive Design.
                 </p>
-                <div class="fade-in website">
+                <div class="website">
                   <h4><a href="https://johnbacho.github.io/Yellow-Jacket-Arcade/" target="_blank">Website</a></h4>
                     <iframe src="https://johnbacho.github.io/Yellow-Jacket-Arcade/" width="100%" height="600px" frameborder="100" class="YJA" loading="lazy"></iframe>
                   </div>
                 </div>
-              </div>
-              <hr width="100%" size="2" color="white" />
-              
+                <hr width="100%" size="2" color="white" />
+
+              <div class="fade-in"> 
               <h3 class="section-title">Home Server</h3>
               <p class="date">August 2024 - Present</p>
               <p class="project-description">
@@ -255,7 +263,7 @@
                 <strong>Key Skills:</strong> Containerization with Docker,
                 Multi-Platform Integration, Server Management and Configuration, Networking, System Administration.
               </p>
-              <div class="row fade-in">
+              <div class="row">
                 <div class="column">
                   <img
                     src="images/Server1.webp"
@@ -284,6 +292,7 @@
                   />
                 </div>
               </div>
+            </div>
               <div class="fade-in">
                 <hr width="100%" size="2" color="white" />
                 <h3 class="section-title">UX Researcher</h3>
@@ -333,7 +342,7 @@
                   <strong>Key Skills:</strong> User experience research, team
                   management, usability testing, data analysis.
                 </p>
-                <div class="row fade-in">
+                <div class="row">
                   <div class="column">
                     <img
                       src="images/2022-01-09+2022-01-09+UXLab_CEMSPoster.webp"
@@ -412,7 +421,7 @@
                 </p>
               </div>
               <!-- Thumbnail images -->
-              <div class="row fade-in">
+              <div class="row">
                 <div class="column">
                   <img
                     src="images/2024-10-11+2024-10-04+Levenstein+edit+distance+CEMS+poster.webp"
@@ -434,7 +443,7 @@
               </div>
               <hr width="100%" size="2" color="white" />
 
-              <div class="Project1 fade-in">
+              <div class="fade-in">
                 <h3 class="section-title">
                   Graphic Design and Typography Projects
                 </h3>
@@ -464,7 +473,7 @@
                   <strong>Key Skills:</strong> Visual communication, design
                   principles, creative typography.
                 </p>
-                <div class="row fade-in">
+                <div class="row">
                   <div class="column">
                     <a href="https://www.behance.net/gallery/202606155/Brochure-Project" target="_blank">
                       <img
@@ -502,7 +511,7 @@
                   </div>
                 </div>
               </div>
-      </section>
+             </section>
 
               <!-- Work Experience section  -->
               <section
@@ -513,7 +522,7 @@
                 <h2 style="margin: 0">Work Experience</h2>
                 <hr width="100%" size="2" color="white" />
 
-                <div class="job fade-in">
+                <div class="job">
                   <h3 class="section-title">
                     Enterprise Architect Analysis Intern
                   </h3>
@@ -558,7 +567,7 @@
                     architecture, Power BI, process optimization,
                     cross-functional collaboration.
                   </p>
-                  <div class="fade-in row">
+                  <div class="row">
                     <div class="column">
                       <img
                         src="images/1723131685911.webp"
@@ -664,7 +673,7 @@
       >
         <h2 style="margin-bottom: 0">Education</h2>
         <hr width="100%" size="2" color="white" />
-        <div class="education fade-in">
+        <div class="education">
           <h3>Baldwin Wallace University | Berea, Ohio | May 2026</h3>
           <p>
             <span

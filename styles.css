@@ -1,110 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
 
-
-html{
-  scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-/* fades in elements */
+/* Fade-in effect */
 .fade-in {
     opacity: 0;
     transition: opacity 0.6s ease-in;
 }
-/* sets visibility to 1 */
 .visible {
     opacity: 1;
 }
 
-/* body style */
+/* Body style */
 body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #000;
 }
 
-/* Sets the font for heading elements */
+/* Heading styles */
 h1, h2, h3 {
     font-family: 'Merriweather', serif;
-}
-
-/* sets the color for visted links to white */
-a:visited{
-    color: #ffffff;
-}
-
-/* sets the color of links to white */
-a:link {
-    color: #ffffff;
-  }
-
-  /* sets the color to grey when a user hovers over a clickable link */
-a:hover {
-    color: rgb(120, 120, 120);    
-}
-
-a{
-  transition: color 0.3s ease;
-}
-
-/* sets the header to blue and the color of text to white */
-header {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-/* set the margin and line spacing for List items */
-li{
-    margin-top: 8px;
-    line-height: 1.5;
-}
-
-/* sets line spacing for paragraphs */
-p{
-    line-height: 1.5;
-}
-
-/* used for thumbnails and creating rows */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-
-h1 {
     margin: 0;
 }
-
-/* sets the text color to blue and makes it xx-large */
 h2 {
     color: #007BFF;
     font-size: xx-large;
 }
-
-/* sets h3 elements to a baby blue and makes it x-large */
-h3{
+h3 {
     color: #97caff;
     font-size: x-large;
 }
 
-/* adds padding to our main section */
+/* Link styles */
+a {
+    color: #fff;
+    transition: color 0.3s ease;
+}
+a:visited {
+    color: #fff;
+}
+a:hover {
+    color: rgb(120, 120, 120);
+}
+
+/* List and paragraph styles */
+li, p {
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+/* Row and layout styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    padding-right: 3%;
+}
+
+/* Main section styles */
 main {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 20px;
+    padding: 20px 10%;
 }
 
-@media (max-width: 650px) {
-  main {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-}
-
-
-/* sets the background color to  */
+/* Section styles */
 section {
     margin-bottom: 20px;
     background: #28282B;
@@ -114,28 +83,21 @@ section {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* gives some extra white space to job and education class */
+/* Job and education styles */
 .job, .education {
     margin-bottom: 10px;
 }
 
-/* creates a footer and sets the background color to blue and the text to white */
+/* Footer styles */
 footer {
-  text-align: center;
-  padding: 10px;
-  background: #007BFF;
-  color: #fff;
-  width: 100%;                     
-  position: relative;          
-  left: 0;                            
-  right: 0;
-  margin: 0;       
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
 }
 
-/* creates the light box for displaying large images */
+/* Lightbox styles */
 .lightbox {
     display: none;
     position: fixed;
@@ -148,35 +110,20 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-/* sets the max width and height to 90%  */
 .lightbox img {
-  max-width: 90%;
-  max-height: 90%;
-  transform: scale(0.8); /* Start at a slightly smaller scale */
-  opacity: 0;
-  transition: transform 0.4s ease, opacity 0.4s ease; /* Smooth zoom and fade-in */
+    max-width: 90%;
+    max-height: 90%;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: transform 0.4s ease, opacity 0.4s ease;
 }
-
-/* On display, smoothly zoom in the image */
 .lightbox:target img {
-  transform: scale(1); /* Final zoom-in scale */
-  opacity: 1; /* Fade in the image */
+    transform: scale(1);
+    opacity: 1;
 }
 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Create four equal columns that floats next to eachother */
-  .column {
-    padding-right: 3%;
-  }
-  
-  /* The Modal (background) */
-  .modal {
+/* Modal styles */
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -187,31 +134,23 @@ footer {
     height: 100%;
     overflow: auto;
     background-color: black;
-  }
-  
-  /* Modal Content */
-  .modal-content {
+}
+.modal-content {
     position: relative;
     background-color: black;
     margin: auto;
     padding: 0;
     width: 90%;
     max-width: 1200px;
-  }
-/* modal content */
+}
 .modal-content, .close {
-  animation-name: zoom;
-  animation-duration: 1.6s;
+    animation: zoom 1.6s;
 }
-
 @keyframes zoom {
-  from {transform: scale(0.5)}
-  to {transform: scale(1)}
+    from {transform: scale(0.5)}
+    to {transform: scale(1)}
 }
-
-  
-  /* The Close Button */
-  .close {
+.close {
     color: white;
     position: absolute;
     top: 10px;
@@ -219,213 +158,142 @@ footer {
     font-size: 40px;
     font-weight: bold;
     transition: 0.4s;
-  }
-  
-  /* when you hover over the exit button it changes color */
-  .close:hover,
-  .close:focus {
+}
+.close:hover, .close:focus {
     color: #999;
-    text-decoration: none;
     cursor: pointer;
-  }
-  
-  /* Hide the slides by default */
-  .mySlides {
+}
+
+/* Slide styles */
+.mySlides {
     display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
+}
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
     padding: 16px;
-    margin-top: -50px;
-    color: #ffffff !important; 
+    color: #fff !important;
     font-weight: bold;
     font-size: 40px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
     user-select: none;
-    -webkit-user-select: none;
-  }
-
-  /* when you hover over the next or previous arrows it changes colors */
-  .prev:hover,.next:hover{
+}
+.prev:hover, .next:hover {
     color: rgb(160, 160, 160) !important;
-  }
-
-  /* Position the "next button" to the right */
-  .next {
+}
+.next {
     right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* Caption text */
-  .caption-container {
+}
+.caption-container {
     text-align: center;
     background-color: black;
     padding: 2px 16px;
     color: white;
-  }
-  
-  img.hover-shadow {
+}
+
+/* Image styles */
+img.hover-shadow {
     transition: 0.5s;
-  }
-  
-.images{
+}
+.images {
     width: 200px;
     height: 140px;
     border-radius: 5%;
     transition: filter 0.5s ease;
     cursor: pointer;
-  }
-
-  .images:hover {
+}
+.images:hover {
     filter: brightness(50%);
-    transform: scale(1.1); 
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); 
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
-
 .featured-link {
-  border: 4px solid #0077ff; /* Accent color */
-  box-shadow: 0 15px 30px rgba(0, 119, 255, 0.5);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-  width: 260px;
-  height: 200px;
+    border: 4px solid #0077ff;
+    box-shadow: 0 15px 30px rgba(0, 119, 255, 0.5);
+    transition: transform 0.4s ease;
+    width: 260px;
+    height: 200px;
 }
-
 .featured-link:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-/* Caption Styles */
+/* Caption styles */
 .image-caption-container {
-  text-align: center;
-  position: relative;
-  margin-top: 8px;
+    text-align: center;
+    position: relative;
+    margin-top: 8px;
 }
-
 figcaption {
-  padding: 7px 0; 
-  text-align: center; 
-  font-family: 'Arial', sans-serif; 
-  font-size: 0.9em; 
-  font-weight: 500; 
-  letter-spacing: 0.5px; 
-  line-height: 1.2;
+    padding: 7px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
 }
 
-.inline{
-  display: inline-block;
+/* Misc styles */
+.inline {
+    display: inline-block;
 }
-
-.about-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.about-image {
-    max-width: 300px;
-    margin-right: 20px;
-    border-radius: 20px;
-}
-
-.about-section p {
-  flex: 1;
-  font-size: 1.5rem;
-  line-height: 1.5; 
-  font-weight: 100; /* Makes the text look lighter */
-  max-width: 800px; /* Limits the text width for better readability */
-  margin: 0 auto; /* Centers the text in the section */
-  padding-top: 10px;
-}
-
-@media (max-width: 1230px) {
-.about-section p{
-  font-size: 1.1rem;
-}
-}
-
-@media (max-width: 900px) {
-    .about-section {
-        flex-direction: column; /* Stack the items vertically */
-        align-items: flex-start; /* Align items to the left */
-    }
-    .about-image {
-        margin: auto
-    }
-}
-
 .section-title {
-  font-size: 1.75em; /* Slightly smaller than h2 for sub-section titles */
-  margin-bottom: 10px;
+    font-size: 1.75em;
+    margin-bottom: 10px;
 }
-
 .date {
-  font-size: 16px; /* Standard size for date */
-  color: #888; /* Gray color for date */
-  margin-bottom: 15px; /* Space below the date */
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 15px;
 }
-
 .service-list {
-  list-style-type: disc; /* Bullets for service items */
-  padding-left: 20px; /* Indent list items */
-  max-width: 800px;
+    list-style-type: disc;
+    padding-left: 20px;
+    max-width: 800px;
 }
-
-.project-description{
-  max-width: 950px;
+.project-description {
+    max-width: 950px;
 }
-
 .service-item {
-  font-size: 16px; /* Standard size for service items */
-  margin-bottom: 10px; /* Space below each item */
+    font-size: 16px;
+    margin-bottom: 10px;
 }
-
 .key-skills {
-  font-size: 18px; /* Size for key skills */
-  margin-top: 15px;
-  max-width: 950px;
+    font-size: 18px;
+    margin-top: 15px;
+    max-width: 950px;
 }
-
 .parent {
     display: inline-grid;
-    grid-template-columns: repeat(3, auto); /* Ensures all buttons are in a row */
-    justify-content: center; /* Centers all buttons horizontally */
-    gap: 10px; /* Optional: Adds space between the buttons */
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    gap: 10px;
     padding: 10px;
 }
-
 .button:hover {
-  filter: brightness(50%);
-  transform: scale(1.1);
+    filter: brightness(50%);
+    transform: scale(1.1);
 }
-
 a.button {
-  color: black; /* This sets the text color to black */
-  background-color: white; /* Optional: Ensure the background is white */
-  text-decoration: none; /* Optional: Removes underline for cleaner look */
-  border: none;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-  border-radius: 10px;
-  margin: auto;
-  transition: filter 0.5s ease, transform 0.4s ease;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: auto;
+    transition: filter 0.5s ease, transform 0.4s ease;
 }
 
 .YJA{
@@ -443,4 +311,172 @@ h4{
   padding-top: 5px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.hero-section {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px; 
+  background-color: #007BFF; 
+  transition: opacity 0.5s ease;
+  position: relative; 
+  z-index: 1; 
+  opacity: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 20px; 
+}
+
+.hero-profile {
+  display: flex; 
+  align-items: center; 
+  text-align: center; 
+  flex-direction: row; 
+}
+
+.hero-profile-image {
+  width: 30vw; 
+  height: auto;
+  max-width: 450px; 
+  max-height: 450px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 5px solid white; 
+  object-position: center; 
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4); 
+  margin-right: 30px; 
+}
+
+.hero-about-text {
+  max-width: 600px; 
+  font-size: 1.3rem;
+  line-height: 1.5; 
+  font-weight: 100;
+}
+
+@media (max-width: 1230px) {
+  .hero-profile-image {
+    width: 350px; 
+    height: 350px; 
+  }
+
+  .hero-about-text {
+    font-size: 1.2rem; 
+  }
+  .about-section p{
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-profile-image {
+    width: 250px; 
+    height: 250px; 
+  }
+
+  .hero-about-text {
+    font-size: 1rem; 
+  }
+  .about-section {
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+.about-image {
+    margin: auto
+}
+}
+
+@media (max-width: 768px) {
+  .hero-profile {
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+
+  .hero-profile-image {
+    margin-right: 0;
+    margin-bottom: 20px; 
+  }
+  main {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+}
+
+@media (max-width: 576px) {
+  .hero-profile-image {
+    width: 200px; 
+    height: 200px; 
+  }
+
+  .hero-about-text {
+    font-size: 0.8rem; 
+  }
+
+  .contact-info {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+
+  .contact-info a {
+    display: block;
+    margin: 5px 0;
+  }
+
+}
+
+.contact-info {
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #28282B;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.contact-info a:hover {
+  color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.contact-info a[href*="linkedin"]::before {
+  content: '🔗';
+}
+
+.contact-info a[href*="github"]::before {
+  content: '🐙'; 
+}
+
+.contact-info a[href*="behance"]::before {
+  content: '🎨';
+}
+
+.contact-info a[href*="Resume"]::before {
+  content: '📄';
 }
