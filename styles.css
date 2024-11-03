@@ -352,7 +352,7 @@ h4{
   object-fit: cover; 
   border: 5px solid white; 
   object-position: center; 
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.4); 
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); 
   margin-right: 30px; 
 }
 
