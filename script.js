@@ -1,32 +1,40 @@
 // Hero Section Scroll
 const heroSection = document.querySelector('.hero-section');
+let lastScrollY = window.scrollY;
+let scrollActivated = false; // Flag to track if the scroll has been activated
+let isTouchDevice = false; // Flag to check if the user is on a touch device
 
+// Check if the user is using a touch device
+const handlePointerDown = (event) => {
+    if (event.pointerType === 'touch') {
+        isTouchDevice = true; // Set the flag if the input is from a touch device
+    }
+};
+
+// Scroll handler
 const handleScroll = () => {
+    if (scrollActivated || isTouchDevice) return; // Exit if scroll has been activated or if it's a touch device
+
     const heroHeight = heroSection.offsetHeight;
-
     const scrollPosition = window.scrollY;
-
     const scrollDownThreshold = heroHeight * 0.2;
 
+    // Only scroll down if the user has scrolled past the threshold
     if (scrollPosition > scrollDownThreshold && scrollPosition < heroHeight) {
         window.scrollTo({
             top: heroHeight,
             behavior: 'smooth'
         });
-    }
-    else if (scrollPosition < heroHeight && scrollPosition < lastScrollY) {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        scrollActivated = true; // Set the flag to true after activation
     }
 
     lastScrollY = scrollPosition;
 };
 
-let lastScrollY = window.scrollY;
-
+// Listen for pointer down events to check for touch input
+window.addEventListener('pointerdown', handlePointerDown);
 window.addEventListener('scroll', handleScroll);
+
 
 // fade in script
 $(document).ready(function () {
