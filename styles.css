@@ -344,10 +344,10 @@ h4{
 }
 
 .hero-profile-image {
-  width: 30vw; 
-  height: auto;
-  max-width: 450px; 
-  max-height: 450px; 
+  width: 35vw; 
+  height: 35vw;
+  max-width: 550px; 
+  max-height: 550px; 
   border-radius: 50%; 
   object-fit: cover; 
   border: 5px solid white; 
@@ -368,44 +368,33 @@ h4{
     width: 350px; 
     height: 350px; 
   }
-
   .hero-about-text {
-    font-size: 1.2rem; 
+    font-size: 1.1rem; 
+    max-width: 530px;
   }
-  .about-section p{
-    font-size: 1.1rem;
-  }
+  
 }
 
 @media (max-width: 992px) {
   .hero-profile-image {
-    width: 250px; 
-    height: 250px; 
+    width: 300px; 
+    height: 300px; 
+    margin-bottom: 20px; 
+    margin-right: 0;
   }
 
   .hero-about-text {
-    font-size: 1rem; 
+    font-size: 1.05rem; 
   }
-  .about-section {
-    flex-direction: column; 
-    align-items: flex-start; 
-}
-.about-image {
-    margin: auto
+
+.hero-profile {
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
 }
 }
 
 @media (max-width: 768px) {
-  .hero-profile {
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-  }
-
-  .hero-profile-image {
-    margin-right: 0;
-    margin-bottom: 20px; 
-  }
   main {
     padding-left: 5%;
     padding-right: 5%;
@@ -414,12 +403,12 @@ h4{
 
 @media (max-width: 576px) {
   .hero-profile-image {
-    width: 200px; 
-    height: 200px; 
+    width: 250px; 
+    height: 250px; 
   }
 
   .hero-about-text {
-    font-size: 0.8rem; 
+    font-size: 0.9rem; 
   }
 
   .contact-info {
