@@ -464,19 +464,3 @@ h4{
   color: #0056b3;
   transform: translateY(-2px);
 }
-
-.contact-info a[href*="linkedin"]::before {
-  content: '🔗';
-}
-
-.contact-info a[href*="github"]::before {
-  content: '🐙'; 
-}
-
-.contact-info a[href*="behance"]::before {
-  content: '🎨';
-}
-
-.contact-info a[href*="Resume"]::before {
-  content: '📄';
-}
