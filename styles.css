@@ -80,7 +80,6 @@ section {
     color: #fff;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 /* Job and education styles */
@@ -441,9 +440,7 @@ h4{
   font-size: 1.1rem;
   color: #fff;
   background-color: #28282B;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
+  border-radius: 5px;
 }
 
 .contact-info p {
@@ -451,7 +448,7 @@ h4{
 }
 
 .contact-info a {
-  color: #007bff;
+  color: #79b0ec;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease, transform 0.3s ease;
