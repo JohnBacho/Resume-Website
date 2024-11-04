@@ -59,8 +59,7 @@ $(document).ready(function () {
     checkVisibility();
   });
 
-  // Preload iframes, images, and links when they come into view
-// Select all target elements
+// Preload iframes, images, and links when they come into view
 const iframes = document.querySelectorAll('.game-iframe');
 const images = document.querySelectorAll('img');
 const links = document.querySelectorAll('a');
@@ -83,7 +82,7 @@ function preloadIframe(url) {
 const link = document.createElement('link');
 link.rel = 'preload';
 link.href = url;
-link.as = 'document'; // Use 'document' for web pages
+link.as = 'document';
 document.head.appendChild(link);
 }
 
@@ -96,7 +95,7 @@ function preloadLink(url) {
 const link = document.createElement('link');
 link.rel = 'preload';
 link.href = url;
-link.as = 'fetch'; // Adjust 'as' depending on the type of resource
+link.as = 'fetch';
 document.head.appendChild(link);
 }
 
