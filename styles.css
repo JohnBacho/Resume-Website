@@ -245,32 +245,39 @@ figcaption {
 .inline {
     display: inline-block;
 }
+/* Styles for section titles */
 .section-title {
     font-size: 1.75em;
     margin-bottom: 10px;
 }
+/* Styles for dates */
 .date {
     font-size: 16px;
     color: #888;
     margin-bottom: 15px;
 }
+/* Styles for service lists */
 .service-list {
     list-style-type: disc;
     padding-left: 20px;
     max-width: 800px;
 }
+/* Styles for project descriptions */
 .project-description {
     max-width: 950px;
 }
+/* Styles for service list items */
 .service-item {
     font-size: 16px;
     margin-bottom: 10px;
 }
+/* Styles for key skills */
 .key-skills {
     font-size: 18px;
     margin-top: 15px;
     max-width: 950px;
 }
+/* Styles for parent container */
 .parent {
     display: inline-grid;
     grid-template-columns: repeat(3, auto);
@@ -278,10 +285,12 @@ figcaption {
     gap: 10px;
     padding: 10px;
 }
+/* Styles for buttons on hover */
 .button:hover {
     filter: brightness(50%);
     transform: scale(1.1);
 }
+/* Styles for buttons */
 a.button {
     color: black;
     background-color: white;
@@ -295,12 +304,14 @@ a.button {
     transition: filter 0.5s ease, transform 0.4s ease;
 }
 
+/* Styles for YJA element */
 .YJA{
   margin-bottom: 10px;
   border-radius: 10px;
   border: solid white 3px;
 }
 
+/* Styles for h4 elements */
 h4{
   display: block;
   text-align: center;
@@ -312,101 +323,119 @@ h4{
   text-decoration: none;
 }
 
+/* Styles for the hero section */
 .hero-section {
   position: relative;
   height: 100vh;
   overflow: hidden;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
-  padding: 20px; 
-  background-color: #007BFF; 
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #007BFF;
   transition: opacity 0.5s ease;
-  position: relative; 
-  z-index: 1; 
+  position: relative;
+  z-index: 1;
   opacity: 1;
 }
 
+/* Styles for the hero profile container */
 .hero-profile {
-  display: flex; 
-  align-items: center; 
-  text-align: center; 
-  flex-direction: row; 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
 }
 
+/* Styles for the hero profile image */
 .hero-profile-image {
-  width: 32vw; 
+  width: 32vw;
   height: 32vw;
-  max-width: 550px; 
-  max-height: 550px; 
-  border-radius: 50%; 
-  object-fit: cover; 
-  border: 5px solid white; 
-  object-position: center; 
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5); 
-  margin-right: 30px; 
+  max-width: 550px;
+  max-height: 550px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  object-position: center;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  margin-right: 30px;
 }
 
+/* Styles for the hero about text */
 .hero-about-text {
-  max-width: 600px; 
+  max-width: 600px;
   font-size: 1.3rem;
-  line-height: 1.5; 
+  line-height: 1.5;
   font-weight: 100;
 }
 
+/* Media query for screens smaller than 1230px */
 @media (max-width: 1230px) {
+  /* Adjust image size */
   .hero-profile-image {
-    width: 350px; 
-    height: 350px; 
+    width: 350px;
+    height: 350px;
   }
+  /* Adjust text size and width */
   .hero-about-text {
-    font-size: 1.1rem; 
+    font-size: 1.1rem;
     max-width: 530px;
   }
-  
+
 }
 
+/* Media query for screens smaller than 992px */
 @media (max-width: 992px) {
+  /* Adjust image size and margin */
   .hero-profile-image {
-    width: 300px; 
-    height: 300px; 
-    margin-bottom: 20px; 
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
     margin-right: 0;
   }
 
+  /* Adjust text size */
   .hero-about-text {
-    font-size: 1.05rem; 
+    font-size: 1.05rem;
   }
 
-.hero-profile {
-  flex-direction: column; 
-  align-items: center; 
-  text-align: center; 
-}
+  /* Change flex direction for mobile */
+  .hero-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
 
+/* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
+  /* Adjust main section padding */
   main {
     padding-left: 5%;
     padding-right: 5%;
 }
 }
 
+/* Media query for screens smaller than 576px */
 @media (max-width: 576px) {
+  /* Adjust image size */
   .hero-profile-image {
-    width: 250px; 
-    height: 250px; 
+    width: 250px;
+    height: 250px;
   }
 
+  /* Adjust text size */
   .hero-about-text {
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
   }
 
+  /* Adjust contact info styles */
   .contact-info {
     font-size: 0.9rem;
     padding: 15px;
   }
 
+  /* Adjust contact info link styles */
   .contact-info a {
     display: block;
     margin: 5px 0;
@@ -414,6 +443,7 @@ h4{
 
 }
 
+/* Styles for the contact info section */
 .contact-info {
   text-align: center;
   padding: 20px;
@@ -423,10 +453,12 @@ h4{
   border-radius: 5px;
 }
 
+/* Styles for paragraphs within the contact info section */
 .contact-info p {
   margin: 5px 0;
 }
 
+/* Styles for links within the contact info section */
 .contact-info a {
   color: #79b0ec;
   text-decoration: none;
@@ -437,6 +469,7 @@ h4{
   gap: 5px;
 }
 
+/* Styles for links within the contact info section on hover */
 .contact-info a:hover {
   color: #0056b3;
   transform: translateY(-2px);
