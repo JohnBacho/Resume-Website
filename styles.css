@@ -167,6 +167,7 @@ footer {
 .mySlides {
     display: none;
 }
+/* Styles for previous and next buttons in image slideshow */
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -178,12 +179,15 @@ footer {
     transition: 0.6s ease;
     user-select: none;
 }
+/* Styles for previous and next buttons on hover */
 .prev:hover, .next:hover {
     color: rgb(160, 160, 160) !important;
 }
+/* Styles for next button */
 .next {
     right: 0;
 }
+/* Styles for slide number text */
 .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -191,6 +195,7 @@ footer {
     position: absolute;
     top: 0;
 }
+/* Styles for caption container */
 .caption-container {
     text-align: center;
     background-color: black;
@@ -198,10 +203,11 @@ footer {
     color: white;
 }
 
-/* Image styles */
+/* Styles for images with hover shadow effect */
 img.hover-shadow {
     transition: 0.5s;
 }
+/* Styles for images */
 .images {
     width: 200px;
     height: 140px;
