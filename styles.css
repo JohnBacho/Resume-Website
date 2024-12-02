@@ -38,13 +38,14 @@ h3 {
 /* Link styles */
 a {
     color: #fff;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 a:visited {
     color: #fff;
 }
 a:hover {
     color: rgb(120, 120, 120);
+    transform: translateY(-2px);
 }
 
 /* List and paragraph styles */
@@ -472,7 +473,6 @@ h4{
   color: #79b0ec;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.3s ease, transform 0.3s ease;
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -481,5 +481,4 @@ h4{
 /* Styles for links within the contact info section on hover */
 .contact-info a:hover {
   color: #0056b3;
-  transform: translateY(-2px);
 }
