@@ -1,328 +1,340 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Roboto+Slab:wght@700&display=swap");
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Fade-in effect */
 .fade-in {
-    opacity: 0;
-    transition: opacity 0.6s ease-in;
+  opacity: 0;
+  transition: opacity 0.6s ease-in;
 }
 .visible {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Body style */
 body {
-    font-family: 'Lato', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #000;
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
 }
 
 /* Heading styles */
-h1, h2, h3 {
-    font-family: 'Merriweather', serif;
-    margin: 0;
+h1,
+h2,
+h3 {
+  font-family: "Merriweather", serif;
+  margin: 0;
 }
 h2 {
-    color: #007BFF;
-    font-size: xx-large;
+  color: #007bff;
+  font-size: xx-large;
 }
 h3 {
-    color: #97caff;
-    font-size: x-large;
+  color: #97caff;
+  font-size: x-large;
 }
 
 /* Link styles */
 a {
-    color: #fff;
-    transition: color 0.3s ease, transform 0.3s ease;
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 a:visited {
-    color: #fff;
+  color: #fff;
 }
 a:hover {
-    color: rgb(120, 120, 120);
-    transform: translateY(-2px);
+  color: rgb(120, 120, 120);
+  transform: translateY(-2px);
 }
 
 /* List and paragraph styles */
-li, p {
-    line-height: 1.5;
-    margin-top: 8px;
+li,
+p {
+  line-height: 1.5;
+  margin-top: 8px;
 }
 
 /* Row and layout styles */
 .row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 .column {
-    padding-right: 3%;
+  padding-right: 3%;
 }
 
 /* Main section styles */
 main {
-    padding: 20px 10%;
+  padding: 20px 10%;
 }
 
 /* Section styles */
 section {
-    margin-bottom: 20px;
-    background: #28282B;
-    color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+  margin-bottom: 20px;
+  background: #28282b;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 /* Job and education styles */
-.job, .education {
-    margin-bottom: 10px;
+.job,
+.education {
+  margin-bottom: 10px;
 }
 
 /* Footer styles */
 footer {
-    text-align: center;
-    padding: 10px;
-    background: #007BFF;
-    color: #fff;
-    border-radius: 15px 15px 0 0;
+  text-align: center;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border-radius: 15px 15px 0 0;
 }
 
 /* Lightbox styles */
 .lightbox {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    justify-content: center;
-    align-items: center;
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: center;
+  align-items: center;
 }
 .lightbox img {
-    max-width: 90%;
-    max-height: 90%;
-    transform: scale(0.8);
-    opacity: 0;
-    transition: transform 0.4s ease, opacity 0.4s ease;
+  max-width: 90%;
+  max-height: 90%;
+  transform: scale(0.8);
+  opacity: 0;
+  transition: transform 0.4s ease, opacity 0.4s ease;
 }
 .lightbox:target img {
-    transform: scale(1);
-    opacity: 1;
+  transform: scale(1);
+  opacity: 1;
 }
 
 /* Modal styles */
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 100px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
 }
 .modal-content {
-    position: relative;
-    background-color: black;
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 1200px;
+  position: relative;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
 }
-.modal-content, .close {
-    animation: zoom 1.6s;
+.modal-content,
+.close {
+  animation: zoom 1.6s;
 }
 @keyframes zoom {
-    from {transform: scale(0.5)}
-    to {transform: scale(1)}
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 .close {
-    color: white;
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.4s;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.4s;
 }
-.close:hover, .close:focus {
-    color: #999;
-    cursor: pointer;
+.close:hover,
+.close:focus {
+  color: #999;
+  cursor: pointer;
 }
 
 /* Slide styles */
 .mySlides {
-    display: none;
+  display: none;
 }
 /* Styles for previous and next buttons in image slideshow */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    padding: 16px;
-    color: #fff !important;
-    font-weight: bold;
-    font-size: 40px;
-    transition: 0.6s ease;
-    user-select: none;
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  user-select: none;
 }
 /* Styles for previous and next buttons on hover */
-.prev:hover, .next:hover {
-    color: rgb(160, 160, 160) !important;
+.prev:hover,
+.next:hover {
+  color: rgb(160, 160, 160) !important;
 }
 /* Styles for next button */
 .next {
-    right: 0;
+  right: 0;
 }
 /* Styles for slide number text */
 .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 /* Styles for caption container */
 .caption-container {
-    text-align: center;
-    background-color: black;
-    padding: 2px 16px;
-    color: white;
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
 }
 
 /* Styles for images with hover shadow effect */
 img.hover-shadow {
-    transition: 0.5s;
+  transition: 0.5s;
 }
 /* Styles for images */
 .images {
-    width: 200px;
-    height: 140px;
-    border-radius: 5%;
-    transition: filter 0.5s ease;
-    cursor: pointer;
+  width: 200px;
+  height: 140px;
+  border-radius: 5%;
+  transition: filter 0.5s ease;
+  cursor: pointer;
 }
 /* Styles for images on hover */
 .images:hover {
-    filter: brightness(50%);
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  filter: brightness(50%);
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
 /* Styles for featured link elements */
 .featured-link {
-    border: 4px solid #0077ff;
-    box-shadow: 0 15px 30px rgba(0, 119, 255, 0.5);
-    transition: transform 0.4s ease;
-    width: 260px;
-    height: 200px;
+  border: 4px solid #0077ff;
+  box-shadow: 0 15px 30px rgba(0, 119, 255, 0.5);
+  transition: transform 0.4s ease;
+  width: 260px;
+  height: 200px;
 }
 /* Styles for featured link elements on hover */
 .featured-link:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Caption styles */
 .image-caption-container {
-    text-align: center;
-    position: relative;
-    margin-top: 8px;
+  text-align: center;
+  position: relative;
+  margin-top: 8px;
 }
 figcaption {
-    padding: 7px 0;
-    text-align: center;
-    font-family: 'Arial', sans-serif;
-    font-size: 0.9em;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    line-height: 1.2;
+  padding: 7px 0;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
 }
 
 /* Misc styles */
 .inline {
-    display: inline-block;
+  display: inline-block;
 }
 /* Styles for section titles */
 .section-title {
-    font-size: 1.75em;
-    margin-bottom: 10px;
+  font-size: 1.75em;
+  margin-bottom: 10px;
 }
 /* Styles for dates */
 .date {
-    font-size: 16px;
-    color: #888;
-    margin-bottom: 15px;
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 15px;
 }
 /* Styles for service lists */
 .service-list {
-    list-style-type: disc;
-    padding-left: 20px;
-    max-width: 800px;
+  list-style-type: disc;
+  padding-left: 20px;
+  max-width: 800px;
 }
 /* Styles for project descriptions */
 .project-description {
-    max-width: 950px;
+  max-width: 950px;
 }
 /* Styles for service list items */
 .service-item {
-    font-size: 16px;
-    margin-bottom: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 /* Styles for key skills */
 .key-skills {
-    font-size: 18px;
-    margin-top: 15px;
-    max-width: 950px;
+  font-size: 18px;
+  margin-top: 15px;
+  max-width: 950px;
 }
 /* Styles for parent container */
 .parent {
-    display: inline-grid;
-    grid-template-columns: repeat(3, auto);
-    justify-content: center;
-    gap: 10px;
-    padding: 10px;
+  display: inline-grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
 }
 /* Styles for buttons on hover */
 .button:hover {
-    filter: brightness(50%);
-    transform: scale(1.1);
+  filter: brightness(50%);
+  transform: scale(1.1);
 }
 /* Styles for buttons */
 a.button {
-    color: black;
-    background-color: white;
-    text-decoration: none;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-    margin: auto;
-    transition: filter 0.5s ease, transform 0.4s ease;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: auto;
+  transition: filter 0.5s ease, transform 0.4s ease;
 }
 
 /* Styles for YJA element */
-.YJA{
+.YJA {
   margin-bottom: 10px;
   border-radius: 10px;
   border: solid white 3px;
 }
 
 /* Styles for h4 elements */
-h4{
+h4 {
   display: block;
   text-align: center;
   font-size: xx-large;
@@ -342,7 +354,7 @@ h4{
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: #007BFF;
+  background-color: #007bff;
   transition: opacity 0.5s ease;
   position: relative;
   z-index: 1;
@@ -357,20 +369,6 @@ h4{
   flex-direction: row;
 }
 
-/* Styles for the hero profile image */
-.hero-profile-image {
-  width: 32vw;
-  height: 32vw;
-  max-width: 550px;
-  max-height: 550px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid white;
-  object-position: center;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
-  margin-right: 30px;
-}
-
 /* Styles for the hero about text */
 .hero-about-text {
   max-width: 600px;
@@ -381,27 +379,24 @@ h4{
 
 /* Media query for screens smaller than 1230px */
 @media (max-width: 1230px) {
-  /* Adjust image size */
-  .hero-profile-image {
-    width: 350px;
-    height: 350px;
-  }
   /* Adjust text size and width */
   .hero-about-text {
     font-size: 1.1rem;
     max-width: 530px;
   }
-
 }
 
 /* Media query for screens smaller than 992px */
 @media (max-width: 992px) {
   /* Adjust image size and margin */
-  .hero-profile-image {
-    width: 300px;
-    height: 300px;
-    margin-bottom: 20px;
-    margin-right: 0;
+  .icon {
+    width: 19em !important;
+    height: 19em !important;
+  }
+
+  .e-card {
+    width: 360px !important;
+    height: 360px !important;
   }
 
   /* Adjust text size */
@@ -423,17 +418,11 @@ h4{
   main {
     padding-left: 5%;
     padding-right: 5%;
-}
+  }
 }
 
 /* Media query for screens smaller than 576px */
 @media (max-width: 576px) {
-  /* Adjust image size */
-  .hero-profile-image {
-    width: 250px;
-    height: 250px;
-  }
-
   /* Adjust text size */
   .hero-about-text {
     font-size: 0.9rem;
@@ -450,7 +439,6 @@ h4{
     display: block;
     margin: 5px 0;
   }
-
 }
 
 /* Styles for the contact info section */
@@ -459,7 +447,7 @@ h4{
   padding: 20px;
   font-size: 1.1rem;
   color: #fff;
-  background-color: #28282B;
+  background-color: #28282b;
   border-radius: 5px;
 }
 
@@ -481,4 +469,85 @@ h4{
 /* Styles for links within the contact info section on hover */
 .contact-info a:hover {
   color: #0056b3;
+}
+
+/* From Uiverse.io by MikeAndrewDesigner */
+.e-card {
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+  position: relative;
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+background: linear-gradient(744deg, #af40ff, #d0cfff 25%, #ffffff 40%, #5b42f3 60%, #00ddeb);
+}
+
+.icon {
+  width: 24em;
+  height: 24em;
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+}
+
+.infotop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 210px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 50s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 45s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
