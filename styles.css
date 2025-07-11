@@ -390,8 +390,8 @@ h4 {
 @media (max-width: 992px) {
   /* Adjust image size and margin */
   .icon {
-    width: 19em !important;
-    height: 19em !important;
+    width: 300px !important;
+    height: 300px !important;
   }
 
   .e-card {
@@ -495,8 +495,8 @@ background: linear-gradient(744deg, #af40ff, #d0cfff 25%, #ffffff 40%, #5b42f3 6
 }
 
 .icon {
-  width: 24em;
-  height: 24em;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   margin: auto;
   position: relative;
@@ -509,7 +509,12 @@ background: linear-gradient(744deg, #af40ff, #d0cfff 25%, #ffffff 40%, #5b42f3 6
   flex-direction: column;
   height: 100%;
   text-align: center;
+  width: 100%;
+  position: absolute; /* Add this */
+  top: 0;
+  left: 0;
 }
+
 
 .wave:nth-child(2),
 .wave:nth-child(3) {
