@@ -53,8 +53,10 @@ a:hover {
 /* List and paragraph styles */
 li,
 p {
-  line-height: 1.5;
+  line-height: 1.7;
   margin-top: 8px;
+  font-weight: 500 !important;
+  font-size: 18px !important;
 }
 
 /* Row and layout styles */
