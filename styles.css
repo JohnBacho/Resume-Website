@@ -39,15 +39,21 @@ h3 {
 
 /* Link styles */
 a {
-  color: #fff;
+  color: #79b0ec; /* soft blue */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
   transition: color 0.3s ease, transform 0.3s ease;
 }
+
 a:visited {
-  color: #fff;
+  color: #79b0ec;
 }
+
 a:hover {
-  color: rgb(120, 120, 120);
-  transform: translateY(-2px);
+  color: #ffffff;
+  transform: translateY(-1.5px);
+  text-decoration-color: #ffffff;
 }
 
 /* List and paragraph styles */
@@ -377,6 +383,7 @@ h4 {
   font-size: 1.3rem;
   line-height: 1.5;
   font-weight: 100;
+  margin: 10px;
 }
 
 /* Media query for screens smaller than 1230px */
@@ -399,6 +406,10 @@ h4 {
   .e-card {
     width: 360px !important;
     height: 360px !important;
+  }
+
+  .hero-section {
+    height: 125vh;
   }
 
   /* Adjust text size */
@@ -429,7 +440,6 @@ h4 {
   .hero-about-text {
     font-size: 0.9rem;
   }
-
   /* Adjust contact info styles */
   .contact-info {
     font-size: 0.9rem;
