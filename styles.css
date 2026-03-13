@@ -18,7 +18,8 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: #f5f7fa;
+  color: #334155;
 }
 
 /* Heading styles */
@@ -29,17 +30,17 @@ h3 {
   margin: 0;
 }
 h2 {
-  color: #007bff;
+  color: #2563eb;
   font-size: xx-large;
 }
 h3 {
-  color: #97caff;
+  color: #0e7fe9;
   font-size: x-large;
 }
 
 /* Link styles */
 a {
-  color: #79b0ec; /* soft blue */
+  color: #2563eb;
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
@@ -47,13 +48,13 @@ a {
 }
 
 a:visited {
-  color: #79b0ec;
+  color: #c279ec;
 }
 
 a:hover {
-  color: #ffffff;
+  color: #4579ea;
   transform: translateY(-1.5px);
-  text-decoration-color: #ffffff;
+  text-decoration-color: #4579ea;
 }
 
 /* List and paragraph styles */
@@ -88,8 +89,9 @@ main {
 /* Section styles */
 section {
   margin-bottom: 20px;
-  background: #28282b;
-  color: #fff;
+  background: #ffffff;
+  color: #1e293b;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
   padding: 20px;
   border-radius: 5px;
 }
@@ -104,9 +106,8 @@ section {
 footer {
   text-align: center;
   padding: 10px;
-  background: #007bff;
-  color: #fff;
-  border-radius: 15px 15px 0 0;
+  background: #2563eb;
+  color: #ffffff;
 }
 
 /* Lightbox styles */
@@ -384,6 +385,7 @@ h4 {
   line-height: 1.5;
   font-weight: 100;
   margin: 10px;
+  color: #ffffff;
 }
 
 /* Media query for screens smaller than 1230px */
@@ -460,9 +462,10 @@ h4 {
   padding: 25px;
   border-radius: 12px;
   text-align: center;
-  background-color: #1e1e22;
-  color: #ffffff;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  background-color: #ffffff;
+  color: #1e293b;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  border-top: 5px solid #2563eb;
   border-top: 5px solid #79b0ec;
   font-size: 1.1rem;
 }
@@ -470,7 +473,6 @@ h4 {
 .contact-info h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
-  color: #ffffff;
 }
 
 .contact-info .contact-location {
@@ -487,8 +489,8 @@ h4 {
 }
 
 .contact-links a {
-  background-color: #2c2c32;
-  color: #79b0ec;
+  background-color: #f0f4f8;
+  color: #2563eb;
   text-decoration: none;
   font-weight: 500;
   padding: 8px 14px;
@@ -498,7 +500,7 @@ h4 {
 }
 
 .contact-links a:hover {
-  color: #fff;
+  color: #b0bede;
   background-color: #0056b3;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 86, 179, 0.5);
