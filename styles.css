@@ -18,7 +18,7 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f7fa;
+  background-color: rgb(232, 239, 248);
   color: #334155;
 }
 
@@ -339,7 +339,7 @@ a.button {
 .YJA {
   margin-bottom: 10px;
   border-radius: 10px;
-  border: solid white 3px;
+  border: solid rgb(36, 36, 36) 4px;
 }
 
 /* Styles for h4 elements */
