@@ -1,6 +1,6 @@
 .Hero {
-  height: 90vh;
-  background-image: linear-gradient(#faaca8 40%, #ddd6f3 100%, #ddd6f3 100%);
+  height: 80vh;
+  background-image: linear-gradient(#faaca8 50%, #ddd6f3 100%, #ddd6f3 100%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .Hero--Content {
-  height: 55vh;
+  height: 35vh;
 }
 
 .Hero--Content > h1 {
