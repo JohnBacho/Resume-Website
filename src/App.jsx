@@ -5,6 +5,7 @@ import Box from "./Home/Box.jsx";
 import InProgress from "./Home/Other.jsx";
 import { projectPairs } from "./Information/Projects.js";
 import { InProgressProjectPairs } from "./Information/InProgressProjects.js";
+import Footer from "./Footer.jsx";
 
 export default function App() {
   return (
@@ -41,6 +42,7 @@ export default function App() {
           grow2={pair.right.grow}
         />
       ))}
+      <Footer />
     </>
   );
 }

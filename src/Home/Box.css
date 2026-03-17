@@ -78,6 +78,10 @@
   .Box--Container {
     padding-bottom: 40px;
   }
+.Box--Content > img{
+    width: 100%;
+    border-radius: 0px 0px 50px 50px;
+}
 }
 
 @keyframes fadeUp {
