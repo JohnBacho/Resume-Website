@@ -1,0 +1,35 @@
+.Hero {
+  height: 90vh;
+  background-image: linear-gradient(#faaca8 40%, #ddd6f3 100%, #ddd6f3 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.Hero > nav,
+.Hero > .nav-wrapper {
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.Hero--Content {
+  height: 55vh;
+}
+
+.Hero--Content > h1 {
+  font-size: 96px;
+  color: #4a304d;
+  font-family: "Acorn-Bold", sans-serif;
+}
+
+.Hero--Content > p {
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #4a304d;
+  font-family: "Inter", sans-serif;
+}

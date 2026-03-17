@@ -1,0 +1,20 @@
+import "./Hero.css";
+import Nav from "./Nav.jsx";
+
+export default function Hero() {
+  return (
+    <div className="Hero">
+      <Nav />
+      <div className="Hero--Content">
+        <h1>
+          Hi. I'm John. <br></br>A UX/UI Developer.
+        </h1>
+        <p>
+          I'm passionate about crafting experiences that are engaging,<br></br>{" "}
+          accessible, and user-centric.
+        </p>
+      </div>
+    </div>
+    
+  );
+}
