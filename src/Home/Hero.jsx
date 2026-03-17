@@ -5,6 +5,8 @@ export default function Hero() {
   return (
     <div className="Hero">
       <Nav />
+      <span className="Hero--Icon Hero--Icon--left">✦</span>
+      <span className="Hero--Icon Hero--Icon--right">✦</span>
       <div className="Hero--Content">
         <h1>
           Hi. I'm John. <br></br>A Developer.
@@ -17,3 +19,5 @@ export default function Hero() {
     </div>
   );
 }
+
+
