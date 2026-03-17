@@ -21,7 +21,7 @@
 }
 
 .Hero--Content > h1 {
-  font-size: 96px;
+  font-size: 100px;
   color: #4a304d;
   font-family: "Acorn-Bold", sans-serif;
 }
@@ -32,4 +32,10 @@
   font-weight: 300;
   color: #4a304d;
   font-family: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .Hero--Content > h1 {
+    font-size: 65px;
+  }
 }

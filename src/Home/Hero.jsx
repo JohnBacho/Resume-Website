@@ -7,7 +7,7 @@ export default function Hero() {
       <Nav />
       <div className="Hero--Content">
         <h1>
-          Hi. I'm John. <br></br>A UX/UI Developer.
+          Hi. I'm John. <br></br>A Developer.
         </h1>
         <p>
           I'm passionate about crafting experiences that are engaging,<br></br>{" "}
@@ -15,6 +15,5 @@ export default function Hero() {
         </p>
       </div>
     </div>
-    
   );
 }
