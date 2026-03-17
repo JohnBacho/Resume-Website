@@ -2,7 +2,6 @@ import "./Box.css";
 
 export default function Box(props) {
   return (
-    <div className="background">
     <div className="Box--Container">
       <div
         className="Box--Content"
@@ -22,7 +21,6 @@ export default function Box(props) {
         <h1>{props.position2}</h1>
         <img src={props.image2} alt={props.title2}></img>
       </div>
-    </div>
     </div>
   );
 }

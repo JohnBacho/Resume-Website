@@ -30,14 +30,6 @@
   transform: translateY(-50%);
 }
 
-.Hero > nav,
-.Hero > .nav-wrapper {
-  position: absolute;
-  top: 32px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .Hero--Content {
   height: 35vh;
   animation: fadeUp 1s ease forwards;
@@ -50,15 +42,16 @@
 }
 
 .Hero--Content > p {
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 20px;
   font-weight: 300;
   color: #4a304d;
   font-family: "Inter", sans-serif;
+  max-width: 600px;
 }
 
 /* Tablet */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
   .Hero--Icon {
     font-size: 45px;
   }
@@ -75,9 +68,13 @@
 }
 
 /* Mobile */
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .Hero--Icon {
     font-size: 30px;
+  }
+
+  .Hero{
+      height: 65vh;
   }
 
   .Hero--Icon--left {
@@ -96,18 +93,12 @@
     font-size: 65px;
   }
 
+  .Hero--Content > p {
+    max-width: 400px;
+  }
+
   .Hero--Icon {
-    font-size: 30px;
-  }
-
-  .Hero--Icon--left {
-    left: 8%;
-    top: 60%;
-  }
-
-  .Hero--Icon--right {
-    right: 8%;
-    top: 30%;
+    display: none;
   }
 }
 

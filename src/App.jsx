@@ -2,39 +2,45 @@ import "./App.css";
 
 import Hero from "./Home/Hero.jsx";
 import Box from "./Home/Box.jsx";
+import InProgress from "./Home/Other.jsx";
+import { projectPairs } from "./Information/Projects.js";
+import { InProgressProjectPairs } from "./Information/InProgressProjects.js";
 
 export default function App() {
   return (
     <>
       <Hero />
-      <Box 
-        title="Vibes Lab" 
-        position="Founder" 
-        image="src/assets/VIBES_LAB_Logo-WithText.png" 
-        bgColor="#B8C0FF"
-        grow={0}
-        link1="https://www.vibeslab.com/"
-        title2="Another Company" 
-        position2="Developer" 
-        image2="src/assets/another_logo.png" 
-        bgColor2="#80CED7"
-        grow2={1}
-        link2="https://www.anothercompany.com/"
-      />
-      <Box 
-        title="Third Company" 
-        position="Designer" 
-        image="src/assets/third_logo.png" 
-        bgColor="#FFADAD"
-        grow={1}
-        link1="https://www.thirdcompany.com/"
-        title2="Fourth Company"
-        position2="Manager"
-        image2="src/assets/fourth_logo.png"
-        bgColor2="#333533"
-        grow2={0}
-        link2="https://www.fourthcompany.com/"
-      />
+      {projectPairs.map((pair, index) => (
+        <Box
+          key={index}
+          title={pair.left.title}
+          position={pair.left.position}
+          image={pair.left.image}
+          bgColor={pair.left.bgColor}
+          grow={pair.left.grow}
+          title2={pair.right.title}
+          position2={pair.right.position}
+          image2={pair.right.image}
+          bgColor2={pair.right.bgColor}
+          grow2={pair.right.grow}
+        />
+      ))}
+      <InProgress />
+      {InProgressProjectPairs.map((pair, index) => (
+        <Box
+          key={index}
+          title={pair.left.title}
+          position={pair.left.position}
+          image={pair.left.image}
+          bgColor={pair.left.bgColor}
+          grow={pair.left.grow}
+          title2={pair.right.title}
+          position2={pair.right.position}
+          image2={pair.right.image}
+          bgColor2={pair.right.bgColor}
+          grow2={pair.right.grow}
+        />
+      ))}
     </>
   );
 }

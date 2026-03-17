@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap");
 
 .nav-wrapper {
+  position: fixed;
+  z-index: 100;
   width: fit-content;
   display: flex;
   margin: auto;
@@ -17,7 +19,9 @@
     0 0 0 1px rgba(255, 255, 255, 0.04) inset,
     0 8px 32px rgba(0, 0, 0, 0.4),
     0 2px 8px rgba(0, 0, 0, 0.3);
-  top: 20px;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-item {
