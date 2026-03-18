@@ -19,20 +19,20 @@ export const projectPairs = [
   },
   {
     left: {
-      title: "BW UX Lab",
-      position: "Team Lead",
-      image: "src/assets/UXLab.jpg",
+      title: "Nordson",
+      position: "IT Asset Management",
+      image: "src/assets/ITAsset.jpeg",
       bgColor: "#E59E9E",
       grow: 1,
       link: "https://www.thirdcompany.com/"
     },
     right: {
-      title: "NoteTack",
-      position: "Developer",
-      image: "src/assets/NoteTack.png",
-      bgColor: "#404240",
+      title: "BW UX Lab",
+      position: "Team Lead",
+      image: "src/assets/UXLab.jpg",
+      bgColor: "#303234",
       grow: 0,
-      link: "https://www.fourthcompany.com/"
+      link: "https://www.thirdcompany.com/"
     }
   }
 ];

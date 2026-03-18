@@ -1,19 +1,41 @@
 export const InProgressProjectPairs = [
   {
-    left: {
+    Left: {
+      title: "Graphic Design",
+      project: "Portfolio",
+      image: "src/assets/GraphicDesign.png",
+      link: "https://www.anothercompany.com/"
+    },
+    Middle: {
       title: "Vibes Lab",
-      position: "Project 2",
-      image: "src/assets/VIBES_LAB_Logo-WithText.png",
-      bgColor: "#303234",
-      grow: 0,
+      project: "Project 2",
+      image: "src/assets/Project2.png",
       link: "https://www.vibeslab.com/"
     },
-    right: {
-      title: "Another Company",
-      position: "Developer",
-      image: "src/assets/another_logo.png",
-      bgColor: "#a2a2a2",
-      grow: 0,
+    Right: {
+      title: "Personal",
+      project: "NoteTack",
+      image: "src/assets/NoteTack.png",
+      link: "https://www.anothercompany.com/"
+    },
+  },
+    {
+    Left: {
+      title: "Vibes Lab",
+      project: "Project 1",
+      image: "src/assets/Project1.png",
+      link: "https://www.vibeslab.com/"
+    },
+    Middle: {
+      title: "Personal",
+      project: "Yellow Jacket Arcade",
+      image: "src/assets/YellowJacketArcade.png",
+      link: "https://www.anothercompany.com/"
+    },
+    Right: {
+      title: "Responsive Web Design",
+      project: "Inner-Harmony",
+      image: "src/assets/Inner-Harmony.png",
       link: "https://www.anothercompany.com/"
     }
   }
