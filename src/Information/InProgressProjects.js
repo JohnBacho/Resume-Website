@@ -12,7 +12,7 @@ export const InProgressProjectPairs = [
       title: "Another Company",
       position: "Developer",
       image: "src/assets/another_logo.png",
-      bgColor: "#ffffff",
+      bgColor: "#a2a2a2",
       grow: 0,
       link: "https://www.anothercompany.com/"
     }

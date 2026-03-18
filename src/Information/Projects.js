@@ -4,7 +4,7 @@ export const projectPairs = [
       title: "VIBES Lab",
       position: "Founder",
       image: "src/assets/VIBESGroup.jpg",
-      bgColor: "#B8C0FF",
+      bgColor: "#A7AFE0",
       grow: 0,
       link: "https://www.vibeslab.com/"
     },
@@ -12,7 +12,7 @@ export const projectPairs = [
       title: "Nordson",
       position: "Enterprise Architect",
       image: "src/assets/Nordson.jpg",
-      bgColor: "#80CED7",
+      bgColor: "#8ABDC3",
       grow: 1,
       link: "https://www.anothercompany.com/"
     }
@@ -22,7 +22,7 @@ export const projectPairs = [
       title: "BW UX Lab",
       position: "Team Lead",
       image: "src/assets/UXLab.jpg",
-      bgColor: "#FFADAD",
+      bgColor: "#E59E9E",
       grow: 1,
       link: "https://www.thirdcompany.com/"
     },
@@ -30,7 +30,7 @@ export const projectPairs = [
       title: "NoteTack",
       position: "Developer",
       image: "src/assets/NoteTack.png",
-      bgColor: "#333533",
+      bgColor: "#404240",
       grow: 0,
       link: "https://www.fourthcompany.com/"
     }

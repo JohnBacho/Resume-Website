@@ -9,7 +9,7 @@
 
 .InProgress h1 {
   font-size: 100px;
-  color: #4a304d;
+  color: #285545;
   font-family: "Acorn-Bold", sans-serif;
   text-align: center;
 }
@@ -20,6 +20,6 @@
   text-align: center;
   font-size: 20px;
   font-weight: 300;
-  color: #4a304d;
+  color: #285545;
   font-family: "Inter", sans-serif;
 }

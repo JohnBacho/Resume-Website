@@ -8,7 +8,7 @@
   margin: auto;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(136, 136, 136, 0.215);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 999px;
   padding: 6px;
@@ -28,7 +28,7 @@
   position: relative;
   padding: 10px 22px;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.01em;
   cursor: pointer;
@@ -45,11 +45,11 @@
 
 .nav-item:hover:not(.active) {
   color: rgba(255, 255, 255, 0.75);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.171);
 }
 
 .nav-item.active {
-  color: #4a304d;
+  color: #285545;
   background: #f0ede8;
   box-shadow:
     0 1px 3px rgba(0, 0, 0, 0.25),

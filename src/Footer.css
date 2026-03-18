@@ -1,11 +1,10 @@
-/* Box */
 .box {
     padding: 5% 2.5%;
     bottom: 0;
     width: 100%;
+    font-family: 'inter', sans-serif;
 }
 
-/* FooterContainer */
 .footer-container {
     display: flex;
     max-width: 1000px;
@@ -18,7 +17,6 @@
     }
 }
 
-/* Row */
 .row {
     display: flex;
     width: 100%;
@@ -31,7 +29,6 @@
     }
 }
 
-/* Column */
 .column {
     display: flex;
     flex-direction: column;
@@ -41,9 +38,8 @@
     margin-right: auto;
 }
 
-/* FooterLink */
 .footer-link {
-    color: #4a304d;
+    color: #285545;
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
@@ -54,10 +50,9 @@
     transition: 200ms ease-in-out;
 }
 
-/* Heading */
 .heading {
     font-size: 24px;
-    color: #4a304d;
+    color: #285545;
     margin-bottom: 40px;
     font-weight: bold;
     font-family: "Acorn-Bold", sans-serif;
