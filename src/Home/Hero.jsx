@@ -12,7 +12,7 @@ export default function Hero() {
           Hi. I'm John. <br></br>A Developer.
         </h1>
         <p>
-          I'm passionate about crafting experiences that are engaging,
+          I'm passionate about programming experiences that are engaging,
           accessible, and user-centric.
         </p>
       </div>
