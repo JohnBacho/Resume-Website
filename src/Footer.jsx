@@ -32,19 +32,15 @@ export default function Footer() {
             >
               Bēhance
             </a>
-            <a className="footer-link" href="">
+            <a className="footer-link" href="src/assets/JohnBacho_Resume.pdf" download>
               CV
             </a>
           </div>
           <div className="column">
             <p className="heading">Contact</p>
-            <a className="footer-link" href="#">
-              <i className="fab fa-facebook-f"></i>
-              <span className="icon-label">Email</span>
-            </a>
-            <a className="footer-link" href="#">
-              <i className="fab fa-instagram"></i>
-              <span className="icon-label">Phone</span>
+            <a className="footer-link" href="mailto:bachojohn2@gmail.com">
+              <i className="fab"></i>
+              <span className="footer-link">Email</span>
             </a>
           </div>
         </div>

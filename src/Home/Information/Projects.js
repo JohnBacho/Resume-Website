@@ -6,7 +6,7 @@ export const projectPairs = [
       image: "src/assets/VIBESGroup.jpg",
       bgColor: "#A7AFE0",
       grow: 0,
-      link: "https://www.vibeslab.com/"
+      link: "/Vibes-lab",
     },
     right: {
       title: "Nordson",
@@ -14,8 +14,8 @@ export const projectPairs = [
       image: "src/assets/Nordson.jpg",
       bgColor: "#8ABDC3",
       grow: 1,
-      link: "https://www.anothercompany.com/"
-    }
+      link: "https://www.anothercompany.com/",
+    },
   },
   {
     left: {
@@ -24,7 +24,7 @@ export const projectPairs = [
       image: "src/assets/ITAsset.jpeg",
       bgColor: "#E59E9E",
       grow: 1,
-      link: "https://www.thirdcompany.com/"
+      link: "https://www.thirdcompany.com/",
     },
     right: {
       title: "BW UX Lab",
@@ -32,7 +32,7 @@ export const projectPairs = [
       image: "src/assets/UXLab.jpg",
       bgColor: "#303234",
       grow: 0,
-      link: "https://www.thirdcompany.com/"
-    }
-  }
+      link: "https://www.thirdcompany.com/",
+    },
+  },
 ];

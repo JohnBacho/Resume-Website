@@ -22,105 +22,16 @@
   pointer-events: none;
 }
 
-.Hero--Icon {
-  position: absolute;
-  font-size: 70px;
-  opacity: 0.45;
-  color: #285545;
-  pointer-events: none;
-  transition: all 0.3s ease;
-  animation: ScaleUp 1s ease forwards;
-  z-index: 2;
-}
-
-.Hero--Icon--left {
-  left: 15%;
-  top: 70%;
-  transform: translateY(-50%);
-}
-
-.Hero--Icon--right {
-  right: 15%;
-  top: 30%;
-  transform: translateY(-50%);
-}
-
 .Hero--Content {
   height: 35vh;
   animation: fadeUp 1s ease forwards;
-  z-index: 2;
+    z-index: 2;
 }
 
 .Hero--Content > h1 {
   font-size: 120px;
   color: #285545;
   font-family: "Acorn-Bold", sans-serif;
-}
-
-.Hero--Content > p {
-  padding-top: 30px;
-  font-size: 20px;
-  font-weight: 300;
-  color: #285545;
-  font-family: "Inter", sans-serif;
-  max-width: 650px;
-}
-
-/* Tablet */
-@media screen and (max-width: 1100px) {
-  .Hero--Icon {
-    font-size: 45px;
-  }
-
-  .Hero--Icon--left {
-    left: 8%;
-    top: 75%;
-  }
-
-  .Hero--Icon--right {
-    right: 8%;
-    top: 25%;
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 850px) {
-  .Hero--Icon {
-    font-size: 30px;
-  }
-
-  .Hero {
-    height: 65vh;
-  }
-
-  .Hero--Icon--left {
-    left: 4%;
-    top: 75%;
-  }
-
-  .Hero--Icon--right {
-    right: 4%;
-    top: 20%;
-  }
-  .Hero--Content > h1 {
-    font-size: 100px;
-    color: #285545;
-    font-family: "Acorn-Bold", sans-serif;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .Hero--Content > h1 {
-    font-size: 65px;
-  }
-
-  .Hero--Content > p {
-    max-width: 400px;
-  }
-
-  .Hero--Icon {
-    display: none;
-  }
 }
 
 @keyframes fadeUp {
@@ -146,10 +57,7 @@
 }
 
 :root {
-  --blob1: #5dd4a0;
-  --blob2: #f4d35e;
-  --blob3: #89e2b7;
-  --blob4: #fff2b2;
+--blob1: #5DD4A0; --blob2: #F4D35E; --blob3: #89E2B7; --blob4: #FFF2B2;
 }
 .blob-scene {
   position: absolute;

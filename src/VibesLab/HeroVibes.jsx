@@ -1,7 +1,7 @@
-import "./Hero.css";
+import "./HeroVibes.css";
 import Nav from "../Nav.jsx";
 
-export default function Hero() {
+export default function HeroVibes() {
   return (
     <>
       <div className="Hero">
@@ -12,16 +12,10 @@ export default function Hero() {
           <div className="blob b4"></div>
         </div>
         <Nav />
-        <span className="Hero--Icon Hero--Icon--left">✦</span>
-        <span className="Hero--Icon Hero--Icon--right">✦</span>
         <div className="Hero--Content">
           <h1>
-            Hi. I'm John. <br></br>A Developer.
+            Vibes Lab
           </h1>
-          <p>
-            I'm passionate about programming experiences that are engaging,
-            accessible, and user-centric.
-          </p>
         </div>
       </div>
     </>

@@ -5,7 +5,7 @@ export default function Box(props) {
     <div className="Box--Container">
       <div
         className="Box--Content"
-        onClick={() => (window.location.href = "https://www.example.com")}
+        onClick={() => (window.location.href = props.link)}
         style={{ backgroundColor: props.bgColor, flexGrow: props.grow }}
       >
         <h3>{props.title}</h3>
@@ -14,7 +14,7 @@ export default function Box(props) {
       </div>
       <div
         className="Box--Content"
-        onClick={() => (window.location.href = "https://www.example.com")}
+        onClick={() => (window.location.href = props.link2)}
         style={{ backgroundColor: props.bgColor2, flexGrow: props.grow2 }}
       >
         <h3>{props.title2}</h3>
