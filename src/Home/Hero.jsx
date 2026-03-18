@@ -3,6 +3,7 @@ import Nav from "./Nav.jsx";
 
 export default function Hero() {
   return (
+    <>
     <div className="Hero">
       <Nav />
       <span className="Hero--Icon Hero--Icon--left">✦</span>
@@ -17,6 +18,7 @@ export default function Hero() {
         </p>
       </div>
     </div>
+    </>
   );
 }
 
