@@ -2,7 +2,7 @@ import "./ProjectBox.css";
 
 export default function Box(props) {
   return (
-    <div className="Box--Container">
+    <div className="Box--Container ProjectBoxs">
       <div
         className="Box--Content"
         onClick={() => (window.location.href = "https://www.example.com")}
