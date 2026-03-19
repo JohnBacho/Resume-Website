@@ -1,0 +1,21 @@
+section {
+  padding-top: 80px;
+  max-width: 600px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+section > h1 {
+  font-size: 50px;
+  color: #285545;
+  font-family: "Acorn-Bold", sans-serif;
+}
+
+section > p {
+  font-size: 20px;
+  color: #508673;
+  white-space: "pre-line";
+  font-family: "inter", sans-serif;
+}

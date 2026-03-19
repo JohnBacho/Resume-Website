@@ -1,0 +1,52 @@
+.TechStack {
+  display: flex;
+  place-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-top: -5%;
+  padding-left: 30px;
+  padding-right: 30px;
+  z-index: 2;
+}
+
+.logo > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.logo:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.logo:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.logo:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}

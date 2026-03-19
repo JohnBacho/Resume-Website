@@ -1,7 +1,7 @@
 import "./HeroVibes.css";
 import Nav from "../Nav.jsx";
 
-export default function HeroVibes() {
+export default function HeroVibes(props) {
   return (
     <>
       <div className="Hero">
@@ -13,17 +13,15 @@ export default function HeroVibes() {
         </div>
         <Nav />
         <div className="Hero--Content">
-          <h1>Vibes Lab</h1>
+          <h1>{props.title}</h1>
           <div className="Column-List">
             <div>
               <h2>Timeline</h2>
-              <p>2025-2026</p>
+              <p>{props.timeline}</p>
             </div>
             <div>
               <h2>Role</h2>
-              <p>
-                Founder<br></br>Lab Director<br></br>Developer
-              </p>
+              <p style={{ whiteSpace: "pre-line" }}>{props.position}</p>
             </div>
           </div>
         </div>
