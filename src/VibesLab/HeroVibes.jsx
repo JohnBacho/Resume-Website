@@ -4,7 +4,7 @@ import Nav from "../Components/Nav.jsx";
 export default function HeroVibes(props) {
   return (
     <>
-      <div className="Hero">
+      <div className="Hero HeroVibes-Section">
         <div className="blob-scene">
           <div className="blob b1"></div>
           <div className="blob b2"></div>

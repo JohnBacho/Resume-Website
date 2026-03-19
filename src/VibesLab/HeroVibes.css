@@ -1,4 +1,4 @@
-.Hero {
+.HeroVibes-Section.Hero {
   height: 75vh;
   background: var(--bg);
   min-height: 670px;
@@ -7,8 +7,9 @@
   flex-direction: column;
 }
 
-.Hero::after {
+.HeroVibes-Section .Hero::after {
   content: "";
+  position: absolute; /* Added position to ensure it renders correctly */
   bottom: 0;
   left: 0;
   right: 0;
@@ -18,18 +19,18 @@
   pointer-events: none;
 }
 
-.Hero--Content {
+.HeroVibes-Section .Hero--Content {
   animation: fadeUp 1s ease forwards;
   z-index: 2;
 }
 
-.Hero--Content > h1 {
+.HeroVibes-Section .Hero--Content > h1 {
   font-size: 120px;
   color: #285545;
   font-family: "Acorn-Bold", sans-serif;
 }
 
-.Column-List {
+.HeroVibes-Section .Column-List {
   display: flex;
   gap: 80px;
   justify-content: center;
@@ -38,11 +39,11 @@
   text-align: left;
 }
 
-.Column-List > div > h2{
+.HeroVibes-Section .Column-List > div > h2 {
   color: #397a63;
 }
 
-.Column-List > div > p{
+.HeroVibes-Section .Column-List > div > p {
   color: #285545;
 }
 

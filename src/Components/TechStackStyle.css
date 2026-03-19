@@ -17,13 +17,14 @@
   width: 150px;
   height: 150px;
   border-radius: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
-.logo > h3{
-    text-align: center;
-      color: #285545;
-    font-family: 'inter', sans-serif;
+.logo > h3 {
+  text-align: center;
+  color: #285545;
+  font-family: "inter", sans-serif;
+  margin-bottom: 50px;
 }
 
 .logo:nth-child(2) {
