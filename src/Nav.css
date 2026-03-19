@@ -41,6 +41,8 @@
   user-select: none;
   outline: none;
   white-space: nowrap;
+  text-decoration: none;
+  font-family: 'inter', 'sans-serif';
 }
 
 .nav-item:hover:not(.active) {

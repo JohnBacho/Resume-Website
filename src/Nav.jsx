@@ -1,7 +1,12 @@
 import { useState } from "react";
 import "./Nav.css";
+import { NavLink } from "react-router-dom";
 
-const navItems = ["Work", "About", "Contact"];
+const navItems = [
+  { name: "Work", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Contact", path: "/contact" },
+];
 
 export default function PillNav() {
   const [active, setActive] = useState("Work");
@@ -15,17 +20,18 @@ export default function PillNav() {
         aria-label="Main navigation"
       >
         {navItems.map((item) => (
-          <button
-            key={item}
-            className={`nav-item${active === item ? " active" : ""}`}
-            onClick={() => setActive(item)}
-            onMouseEnter={() => setHovered(item)}
+          <NavLink
+            key={item.name}
+            to={item.path}
+            className={`nav-item${active === item.name ? " active" : ""}`}
+            onClick={() => setActive(item.name)}
+            onMouseEnter={() => setHovered(item.name)}
             onMouseLeave={() => setHovered(null)}
-            aria-current={active === item ? "page" : undefined}
+            aria-current={active === item.name ? "page" : undefined}
           >
             <span className="dot" aria-hidden="true" />
-            {item}
-          </button>
+            {item.name}
+          </NavLink>
         ))}
       </nav>
     </>

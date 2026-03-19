@@ -1,18 +1,14 @@
 .Hero {
   height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
   background: var(--bg);
   min-height: 670px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .Hero::after {
   content: "";
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -23,15 +19,31 @@
 }
 
 .Hero--Content {
-  height: 35vh;
   animation: fadeUp 1s ease forwards;
-    z-index: 2;
+  z-index: 2;
 }
 
 .Hero--Content > h1 {
   font-size: 120px;
   color: #285545;
   font-family: "Acorn-Bold", sans-serif;
+}
+
+.Column-List {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  font-family: "inter", "sans-serif";
+  padding-top: 30px;
+  text-align: left;
+}
+
+.Column-List > div > h2{
+  color: #397a63;
+}
+
+.Column-List > div > p{
+  color: #285545;
 }
 
 @keyframes fadeUp {
@@ -57,7 +69,10 @@
 }
 
 :root {
---blob1: #5DD4A0; --blob2: #F4D35E; --blob3: #89E2B7; --blob4: #FFF2B2;
+  --blob1: #5dd4a0;
+  --blob2: #f4d35e;
+  --blob3: #89e2b7;
+  --blob4: #fff2b2;
 }
 .blob-scene {
   position: absolute;
