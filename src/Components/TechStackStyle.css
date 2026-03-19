@@ -20,6 +20,12 @@
   margin-bottom: 30px;
 }
 
+.logo > h3{
+    text-align: center;
+      color: #285545;
+    font-family: 'inter', sans-serif;
+}
+
 .logo:nth-child(2) {
   transition-delay: 200ms;
 }

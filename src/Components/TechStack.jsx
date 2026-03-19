@@ -1,7 +1,7 @@
-import "./TechStack.css";
+import "./TechStackStyle.css";
 import { useEffect } from "react";
 
-export default function TechStack(props) {
+export default function TechStack({ items }) {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -15,22 +15,16 @@ export default function TechStack(props) {
     hiddenElements.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
-  }, []);
+  }, [items]); // Re-run if the items list changes
 
   return (
     <div className="TechStack">
-      <div className="logo hidden">
-        <img src={props.img1} />
-      </div>
-      <div className="logo hidden">
-        <img src={props.img2} />
-      </div>
-      <div className="logo hidden">
-        <img src={props.img3} />
-      </div>
-      <div className="logo hidden">
-        <img src={props.img4} />
-      </div>
+      {items.map((item, index) => (
+        <div className="logo hidden" key={index}>
+          <img src={item.img} alt={item.text} />
+          <h3>{item.text}</h3>
+        </div>
+      ))}
     </div>
   );
 }

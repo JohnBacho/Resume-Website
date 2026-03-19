@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Nav from "../Nav.jsx";
+import Nav from "../Components/Nav.jsx";
 
 export default function Hero() {
   return (

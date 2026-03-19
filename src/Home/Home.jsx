@@ -3,7 +3,7 @@ import Box from "./Box.jsx";
 import InProgress from "./Other.jsx";
 import { projectPairs } from "./Information/Projects.js";
 import { InProgressProjectPairs } from "./Information/InProgressProjects.js";
-import Footer from "../Footer.jsx";
+import Footer from "../Components/Footer.jsx";
 import ProjectBoxs from "./ProjectBoxs.jsx";
 
 

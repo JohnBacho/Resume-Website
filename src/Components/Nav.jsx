@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Nav.css";
+import "./NavStyle.css";
 import { NavLink } from "react-router-dom";
 
 const navItems = [

@@ -1,7 +1,7 @@
-import Footer from "../Footer.jsx";
-import TextBlock from "./TextBlock.jsx";
+import Footer from "../Components/Footer.jsx";
+import TextBlock from "../Components/TextBlock.jsx";
 import HeroVibes from "./HeroVibes.jsx";
-import TechStack from "./TechStack.jsx";
+import TechStack from "../Components/TechStack.jsx";
 import { PageInfo } from "./Information/Info.js";
 import { TechStackIcons } from "./Information/Info.js";
 import { TextBlockInfo } from "./Information/Info.js";
@@ -17,21 +17,9 @@ export default function VibesLab() {
           position={item.position}
         />
       ))}
-      {TechStackIcons.map((item, index) => (
-        <TechStack
-          key={index}
-          img1={item.img1}
-          img2={item.img2}
-          img3={item.img3}
-          img4={item.img4}
-        />
-      ))}
-        {TextBlockInfo.map((item, index) => (
-        <TextBlock
-          key={index}
-          title={item.title}
-          body={item.body}
-        />
+      <TechStack items={TechStackIcons} />
+      {TextBlockInfo.map((item, index) => (
+        <TextBlock key={index} title={item.title} body={item.body} />
       ))}
       <Footer />
     </>

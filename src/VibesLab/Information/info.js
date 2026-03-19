@@ -7,12 +7,10 @@ export const PageInfo = [
 ];
 
 export const TechStackIcons = [
-  {
-    img1: "src/assets/Icon/Csharp_Icon.png",
-    img2: "src/assets/Icon/Unity_Icon.png",
-    img3: "src/assets/Icon/Html_Icon.png",
-    img4: "src/assets/Icon/JS_Icon.png",
-  },
+  { img: "src/assets/Icon/Csharp_Icon.png", text: "C#" },
+  { img: "src/assets/Icon/Unity_Icon.png", text: "Unity" },
+  { img: "src/assets/Icon/Html_Icon.png", text: "HTML5" },
+  { img: "src/assets/Icon/JS_Icon.png", text: "JS" },
 ];
 
 export const TextBlockInfo = [

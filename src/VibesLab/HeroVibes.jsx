@@ -1,5 +1,5 @@
 import "./HeroVibes.css";
-import Nav from "../Nav.jsx";
+import Nav from "../Components/Nav.jsx";
 
 export default function HeroVibes(props) {
   return (
