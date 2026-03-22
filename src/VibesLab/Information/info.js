@@ -22,10 +22,10 @@ export const TextBlockInfo = [
 
 export const BentoBox1Img = [
   {
-    img1: "src/assets/VIBES-Lab/Testing.jpeg",
-    img2: "src/assets/VIBES-Lab/VibesLogo.png",
-    img3: "src/assets/VIBES-Lab/EyeTracking.png",
-    img4: "src/assets/VIBES-Lab/Discussion.jpg",
-    img5: "src/assets/VIBES-Lab/Discussion.jpg"
+    img1: "src/assets/VIBES-Lab/Discussion.JPG",
+    img2: "src/assets/VIBES-Lab/Headset.jpeg",
+    img3: "src/assets/VIBES-Lab/Project2Slot.png",
+    img4: "src/assets/VIBES-Lab/Lab.jpg",
+    img5: "src/assets/VIBES-Lab/Code.png"
   }
 ]

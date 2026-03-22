@@ -19,8 +19,7 @@ export default function Hero() {
             Hi. I'm John. <br></br>A Developer.
           </h1>
           <p>
-            I'm passionate about programming experiences that are engaging,
-            accessible, and user-centric.
+            I'm passionate about creating accessible, engaging, and high-impact user interfaces.
           </p>
         </div>
       </div>
