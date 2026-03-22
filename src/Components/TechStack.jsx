@@ -15,7 +15,7 @@ export default function TechStack({ items }) {
     hiddenElements.forEach((el) => observer.observe(el));
 
     return () => observer.disconnect();
-  }, [items]); // Re-run if the items list changes
+  }, [items]);
 
   return (
     <div className="TechStack">

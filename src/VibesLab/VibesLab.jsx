@@ -7,6 +7,7 @@ import Bento from "../Components/Bento.jsx";
 import { PageInfo } from "./Information/Info.js";
 import { TechStackIcons } from "./Information/Info.js";
 import { TextBlockInfo } from "./Information/Info.js";
+import { BentoBox1Img } from "./Information/Info.js";
 
 export default function VibesLab() {
   return (
@@ -23,7 +24,16 @@ export default function VibesLab() {
       {TextBlockInfo.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
-      <Bento />
+      {BentoBox1Img.map((item, index) => (
+        <Bento
+          key={index}
+          img1={item.img1}
+          img2={item.img2}
+          img3={item.img3}
+          img4={item.img4}
+          img5={item.img5}
+        />
+      ))}
       <Footer />
     </>
   );
