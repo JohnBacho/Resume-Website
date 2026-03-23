@@ -21,7 +21,7 @@ export const projectPairs = [
     left: {
       title: "Nordson",
       position: "IT Asset Management",
-      image: "src/assets/ITAsset.jpeg",
+      image: "src/assets/ITAsset.jpg",
       bgColor: "#E59E9E",
       grow: 1,
       link: "https://www.thirdcompany.com/",

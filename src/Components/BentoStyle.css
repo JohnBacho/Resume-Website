@@ -1,7 +1,7 @@
 .bento-wrapper {
-  padding: 2rem;
   background-color: var(--bg-color);
-  min-height: 100vh;
+  padding: 30px;
+  padding-top: 50px;
 }
 
 .bento-grid {

@@ -1,5 +1,4 @@
-section {
-  padding-top: 80px;
+.TextBlock {
   max-width: 600px;
   text-align: left;
   padding-left: 20px;
@@ -7,14 +6,15 @@ section {
   margin: auto;
 }
 
-section > h1 {
+.TextBlock > h1 {
   font-size: 50px;
   color: #285545;
   font-family: "Acorn-Bold", sans-serif;
 }
 
-section > p {
+.TextBlock > p {
   font-size: 20px;
+  line-height: 1.3;
   color: #508673;
   white-space: "pre-line";
   font-family: "inter", sans-serif;
