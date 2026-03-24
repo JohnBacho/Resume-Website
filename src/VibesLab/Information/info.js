@@ -58,3 +58,10 @@ export const Image1 = [
     img: "src/assets/VIBES-Lab/Poster.jpg",
   },
 ];
+
+export const Image2 = [
+  {
+    img: "src/assets/VIBES-Lab/UnityScreenShot.jpg",
+  },
+];
+
