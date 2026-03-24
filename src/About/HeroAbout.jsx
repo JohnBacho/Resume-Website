@@ -28,22 +28,13 @@ export default function HeroVibes(props) {
           <div className={styles["hero-about-text"]}>
             <h1>Hi I'm John</h1>
             <p>
-              I am a computer science student at Baldwin Wallace
-              University, graduating in May 2026 with a 3.94 GPA. My work spans
-              software development, UI/UX design, and VR — grounded by a minor
-              in Graphic Design and a passion for human-computer interaction. I
-              have interned at Nordson as an Enterprise Architect Analysis
-              Intern, developing technical documentation and test cases for 20+
-              system interfaces and leveraging SAP and Power BI for automated
-              data analysis. As founder and student lab director of Baldwin
-              Wallace's Virtual Immersive Behavioral Sciences Lab, I lead a
-              seven-member interdisciplinary team building Unity-based VR
-              applications in C#, integrating eye-tracking and physiological
-              SDKs to capture real-time behavioral data. Beyond development, I
-              am a UX researcher, President of ACM, a Sherwin-Williams Career
-              Accelerator Scholar, and a teaching assistant for undergraduate
-              computer science courses. I thrive on collaborative
-              problem-solving and creating technology that puts users first.
+              I'm a Computer Science student at Baldwin Wallace University (3.94 GPA,
+              May 2026) focused on software development, UI/UX, and VR. I’ve
+              worked as an Enterprise Architect Analysis Intern at Nordson and
+              founded a multidisciplinary VR research lab where I lead a team
+              building data-driven Unity applications. Alongside roles as an ACM
+              President, UX team led, and teaching assistant, I enjoy solving
+              complex problems and designing technology that puts&nbsp;users&nbsp;first.
             </p>
           </div>
         </div>
