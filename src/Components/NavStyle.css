@@ -8,8 +8,8 @@
   margin: auto;
   align-items: center;
   justify-content: center;
-  background: rgba(136, 136, 136, 0.215);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(128, 128, 128, 0.215);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 999px;
   padding: 6px;
   gap: 2px;

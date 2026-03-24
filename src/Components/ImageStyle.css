@@ -11,11 +11,6 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   max-width: 1100px;
   margin-top: 40px;
-  transition: transform 0.3s ease;
   overflow: hidden;
   object-fit: cover;
-}
-
-.ImageBlock > img:hover {
-  transform: translateY(-5px);
 }

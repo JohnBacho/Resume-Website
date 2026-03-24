@@ -30,7 +30,7 @@
 
 .Box--Content:hover {
   transform: translateY(-10px);
-  filter: brightness(1.07);
+  filter: brightness(1.02);
   -webkit-box-shadow: 5px 13px 17px 2px rgba(0, 0, 0, 0.32);
   box-shadow: 5px 13px 17px 2px rgba(0, 0, 0, 0.32);
 }

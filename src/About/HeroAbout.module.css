@@ -60,7 +60,7 @@
   top: 0;
   margin-left: -50%;
   margin-top: -70%;
-  background: linear-gradient(744deg, #90ee90, #4dc491, #e8c84a);
+  background: linear-gradient(744deg, #56931f, #c4e21a, #4dc4b2, #c3fc19);
 }
 
 .wave:nth-child(2),
@@ -107,7 +107,7 @@
 .hero-profile {
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
   flex-direction: row;
   z-index: 2;
   margin-top: 100px;
@@ -158,9 +158,9 @@
   }
 
   .e-card {
-    width: 340px;
-    height: 340px;
-    min-width: 340px;
+    width: 370px;
+    height: 370px;
+    min-width: 370px;
     margin-right: 0;
     margin-bottom: 30px;
   }

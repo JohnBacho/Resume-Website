@@ -26,15 +26,16 @@ export default function HeroVibes(props) {
             </div>
           </div>
           <div className={styles["hero-about-text"]}>
-            <h1>Hi I'm John</h1>
+            <h1>I'm John.</h1>
             <p>
-              I'm a Computer Science student at Baldwin Wallace University (3.94 GPA,
-              May 2026) focused on software development, UI/UX, and VR. I’ve
-              worked as an Enterprise Architect Analysis Intern at Nordson and
-              founded a multidisciplinary VR research lab where I lead a team
-              building data-driven Unity applications. Alongside roles as an ACM
-              President, UX team led, and teaching assistant, I enjoy solving
-              complex problems and designing technology that puts&nbsp;users&nbsp;first.
+              I'm a Computer Science student at Baldwin Wallace University (3.94
+              GPA, May 2026) focused on software development, UI/UX, and VR.
+              I’ve worked as an Enterprise Architect Analysis Intern at Nordson
+              and founded a multidisciplinary VR research lab where I lead a
+              team building data-driven Unity applications. Alongside roles as
+              an ACM President, UX team led, and teaching assistant, I enjoy
+              solving complex problems and designing technology that
+              puts&nbsp;users&nbsp;first.
             </p>
           </div>
         </div>
