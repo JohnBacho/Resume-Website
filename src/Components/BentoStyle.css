@@ -70,6 +70,9 @@
     .bento-item{
     max-height: 400px;
   }
+  .bento-wrapper {
+    padding: 22px;
+  }
 }
 
 @media (max-width: 500px) {

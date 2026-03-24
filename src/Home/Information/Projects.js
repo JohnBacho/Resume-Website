@@ -6,7 +6,7 @@ export const projectPairs = [
       image: "src/assets/VIBESGroup.jpg",
       bgColor: "#A7AFE0",
       grow: 0,
-      link: "/Vibes-lab",
+      link: "/vibes-lab",
     },
     right: {
       title: "Nordson",

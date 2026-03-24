@@ -1,0 +1,128 @@
+.e-card {
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+  position: relative;
+  width: 440px;
+  height: 440px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 440px;
+  margin-right: 30px;
+}
+
+.infotop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.icon {
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+}
+
+.wave {
+  position: absolute;
+  width: 540px;
+  height: 700px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg, #90ee90, #4dc491, #e8c84a);
+}
+
+.wave:nth-child(2),
+.wave:nth-child(3) {
+  top: 210px;
+}
+
+.playing .wave {
+  border-radius: 40%;
+  animation: wave 3000ms infinite linear;
+}
+
+.wave {
+  border-radius: 40%;
+  animation: wave 35s infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+.wave:nth-child(2) {
+  animation-duration: 45s;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
+.wave:nth-child(3) {
+  animation-duration: 40s;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hero-profile {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  z-index: 2;
+  margin-top: 100px;
+  animation: fadeUp 1s ease forwards;
+}
+
+.hero-about-text {
+  max-width: 600px;
+  line-height: 1.4;
+  margin: 10px;
+}
+
+.hero-about-text > p {
+  font-family: "inter", sans-serif;
+  color: #387660;
+  font-size: 1.2rem;
+}
+
+.hero-about-text > h1 {
+  font-family: "Acorn-Bold", sans-serif;
+  font-size: 3rem;
+  color: #285545;
+}
+
+@media screen and (max-width: 950px) {
+  .hero-profile {
+    flex-direction: column;
+    margin-top: 800px;
+    height: 1200px;
+  }
+  .icon {
+    width: 280px;
+    height: 280px;
+  }
+  .e-card {
+    width: 340px;
+    height: 340px;
+    min-width: 340px;
+    margin-right: 0px;
+  }
+}

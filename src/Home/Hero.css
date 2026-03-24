@@ -121,16 +121,19 @@
     max-width: 400px;
   }
 
-    .Hero--Icon--left {
+  .Hero {
+    min-height: 0px;
+  }
+
+  .Hero--Icon--left {
     left: 5%;
-    top: 70%;
+    top: 68%;
   }
 
   .Hero--Icon--right {
     right: 5%;
-    top: 25%;
+    top: 18%;
   }
-
 }
 
 @keyframes fadeUp {
