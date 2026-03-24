@@ -4,7 +4,7 @@ import Nav from "../Components/Nav.jsx";
 export default function HeroVibes(props) {
   return (
     <>
-      <div className="Hero HeroAbout-Section">
+      <div className={styles.About}>
         <div className="blob-scene">
           <div className="blob b1"></div>
           <div className="blob b2"></div>
@@ -26,9 +26,9 @@ export default function HeroVibes(props) {
             </div>
           </div>
           <div className={styles["hero-about-text"]}>
-            <h1>Welcome to My Portfolio</h1>
+            <h1>Hi I'm John</h1>
             <p>
-              I am John A. Bacho, a computer science student at Baldwin Wallace
+              I am a computer science student at Baldwin Wallace
               University, graduating in May 2026 with a 3.94 GPA. My work spans
               software development, UI/UX design, and VR — grounded by a minor
               in Graphic Design and a passion for human-computer interaction. I

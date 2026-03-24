@@ -1,32 +1,22 @@
 .HeroVibes-Section.Hero {
-  height: 75vh;
+  height: 70vh;
   background: var(--bg);
-  min-height: 670px;
-  overflow: hidden;
+  min-height: 562px;
   display: flex;
   flex-direction: column;
   max-height: 800px;
 }
 
-.HeroVibes-Section .Hero::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 45%;
-  background: linear-gradient(to bottom, transparent, #f8f0e3);
-  z-index: 1;
-  pointer-events: none;
-}
-
 .HeroVibes-Section .Hero--Content {
   animation: fadeUp 1s ease forwards;
+    height: auto;
+
   z-index: 2;
 }
 
 .HeroVibes-Section .Hero--Content > h1 {
   font-size: 120px;
+  padding-top: 30px;
   color: #285545;
   font-family: "Acorn-Bold", sans-serif;
 }
@@ -38,6 +28,7 @@
   font-family: "inter", "sans-serif";
   padding-top: 30px;
   text-align: left;
+  height: auto;
 }
 
 .HeroVibes-Section .Column-List > div > h2 {

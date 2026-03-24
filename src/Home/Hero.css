@@ -121,18 +121,23 @@
     max-width: 400px;
   }
 
+  .Hero--Content {
+    margin-top: 120px;
+  }
+
   .Hero {
-    min-height: 0px;
+    height: 25vh;
+    min-height: 500px;
   }
 
   .Hero--Icon--left {
     left: 5%;
-    top: 68%;
+    top: 17%;
   }
 
   .Hero--Icon--right {
     right: 5%;
-    top: 18%;
+    top: 22%;
   }
 }
 
@@ -167,6 +172,7 @@
 }
 .blob-scene {
   position: absolute;
+  overflow: hidden;
   inset: 0;
   filter: blur(1000px) saturate(1.2);
   z-index: 0;

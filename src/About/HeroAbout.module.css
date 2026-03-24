@@ -1,3 +1,26 @@
+.About {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background: var(--bg);
+  min-height: 670px;
+}
+
+.About::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 45%;
+  background: linear-gradient(to bottom, transparent, #f8f0e3);
+  z-index: 1;
+  pointer-events: none;
+}
+
 .e-card {
   background: transparent;
   box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
@@ -110,19 +133,46 @@
 }
 
 @media screen and (max-width: 950px) {
+  .About {
+    height: auto;
+    min-height: 90vh;
+    overflow: visible;
+    padding: 100px 20px 60px;
+    align-items: flex-start;
+  }
+
   .hero-profile {
     flex-direction: column;
-    margin-top: 800px;
-    height: 1200px;
+    margin-top: 0;
+    height: auto;
+    align-items: center;
   }
+
   .icon {
     width: 280px;
     height: 280px;
   }
+
+  .hero-about-text > p {
+    font-size: 1rem;
+  }
+
   .e-card {
     width: 340px;
     height: 340px;
     min-width: 340px;
-    margin-right: 0px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
