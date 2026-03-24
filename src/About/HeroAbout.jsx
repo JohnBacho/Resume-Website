@@ -26,7 +26,9 @@ export default function HeroVibes(props) {
             </div>
           </div>
           <div className={styles["hero-about-text"]}>
-            <h1>I'm John.</h1>
+            <h1>
+              I'm John.&nbsp;&nbsp;<span className="Hero--Icon">✦</span>
+            </h1>
             <p>
               I'm a Computer Science student at Baldwin Wallace University (3.94
               GPA, May 2026) focused on software development, UI/UX, and VR.

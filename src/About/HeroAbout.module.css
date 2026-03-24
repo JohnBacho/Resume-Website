@@ -60,7 +60,7 @@
   top: 0;
   margin-left: -50%;
   margin-top: -70%;
-  background: linear-gradient(744deg, #56931f, #c4e21a, #4dc4b2, #c3fc19);
+  background: linear-gradient(744deg, #285545, #3c8068, #64d4ac, #cfffee);
 }
 
 .wave:nth-child(2),
@@ -149,14 +149,14 @@
   }
 
   .icon {
-    width: 280px;
-    height: 280px;
+    width: 310px;
+    height: 310px;
   }
 
   .hero-about-text > p {
     font-size: 1rem;
   }
-
+  
   .e-card {
     width: 370px;
     height: 370px;
