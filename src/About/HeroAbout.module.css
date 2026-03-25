@@ -23,6 +23,7 @@
 
 .e-card {
   background: transparent;
+  opacity: 0;
   box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
   position: relative;
   width: 440px;
@@ -34,6 +35,8 @@
   align-items: center;
   min-width: 440px;
   margin-right: 30px;
+  animation: slideUp 600ms ease-out forwards;
+  animation-delay: 0ms;
 }
 
 .infotop {
@@ -61,6 +64,8 @@
   margin-left: -50%;
   margin-top: -70%;
   background: linear-gradient(744deg, #285545, #3c8068, #64d4ac, #cfffee);
+  border-radius: 40%;
+  animation: wave 35s infinite linear;
 }
 
 .wave:nth-child(2),
@@ -68,37 +73,30 @@
   top: 210px;
 }
 
-.playing .wave {
-  border-radius: 40%;
-  animation: wave 3000ms infinite linear;
-}
-
-.wave {
-  border-radius: 40%;
-  animation: wave 35s infinite linear;
-}
-
-.playing .wave:nth-child(2) {
-  animation-duration: 4000ms;
-}
-
 .wave:nth-child(2) {
   animation-duration: 45s;
-}
-
-.playing .wave:nth-child(3) {
-  animation-duration: 5000ms;
 }
 
 .wave:nth-child(3) {
   animation-duration: 40s;
 }
 
+.playing .wave {
+  animation: wave 3000ms infinite linear;
+}
+
+.playing .wave:nth-child(2) {
+  animation-duration: 4000ms;
+}
+
+.playing .wave:nth-child(3) {
+  animation-duration: 5000ms;
+}
+
 @keyframes wave {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
@@ -111,7 +109,6 @@
   flex-direction: row;
   z-index: 2;
   margin-top: 100px;
-  animation: fadeUp 1s ease forwards;
 }
 
 .hero-about-text {
@@ -120,16 +117,33 @@
   margin: 10px;
 }
 
+.hero-about-text > h1 {
+  font-family: "Acorn-Bold", sans-serif;
+  opacity: 0;
+  font-size: 5rem;
+  color: #285545;
+  animation: slideUp 700ms ease-out forwards;
+  animation-delay: 200ms; 
+}
+
 .hero-about-text > p {
+  opacity: 0;
   font-family: "inter", sans-serif;
   color: #387660;
   font-size: 1.2rem;
+  animation: slideUp 600ms ease-out forwards;
+  animation-delay: 450ms; 
 }
 
-.hero-about-text > h1 {
-  font-family: "Acorn-Bold", sans-serif;
-  font-size: 5rem;
-  color: #285545;
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -156,23 +170,12 @@
   .hero-about-text > p {
     font-size: 1rem;
   }
-  
+
   .e-card {
     width: 370px;
     height: 370px;
     min-width: 370px;
     margin-right: 0;
     margin-bottom: 30px;
-  }
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
   }
 }

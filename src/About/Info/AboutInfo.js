@@ -15,7 +15,7 @@ export const Design = [
 export const Leadership = [
   {
     title: "Leadership in Innovation",
-    body: "Currently, I serve as the Founder and Student Lab Director of the Virtual Immersive Behavioral Sciences Lab at Baldwin Wallace University. Leading a cross-disciplinary team has taught me that great software isn't built in a vacuum. It requires translating complex research needs into scalable C# systems and ensuring that every interaction; whether in a VR headset or a data dashboard; serves the person on the other side of the screen.",
+    body: "Currently, I serve as the Founder and Student Lab Director of the Virtual Immersive Behavioral Sciences Lab at Baldwin Wallace University. Leading a cross-disciplinary team has taught me that great software isn't built in a vacuum. It requires translating complex research needs into scalable C# systems and ensuring that every interaction; whether in a VR headset or a data dashboard; serves the person on the other side of the\u00A0screen.",
   },
 ];
 
@@ -29,7 +29,7 @@ export const Impact = [
 export const Beyond = [
   {
     title: "Beyond the Keyboard",
-    body: "When I step away from my screen, I’m usually still making something; just in a different way. I like photography because it forces me to slow down and actually pay attention for a second. Otherwise I’m probably messing with my 3D printer, trying to get something to work and fixing it when it doesn’t. At the end of the day, I just like building things and figuring out how tech can be used to benefit people.",
+    body: "When I step away from my screen, I’m usually still making something; just in a different way. I like photography because it forces me to slow down and actually pay attention for a second. Otherwise I’m probably messing with my 3D printer, trying to get something to work and fixing it when it doesn’t. At the end of the day, I just like building things and figuring out how tech can be used to benefit\u00A0people.",
   },
 ];
 
