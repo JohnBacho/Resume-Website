@@ -19,7 +19,7 @@ export default function HeroVibes(props) {
             <div className={styles.wave}></div>
             <div className={styles.infotop}>
               <img
-                src="src/assets/about/Headshot.webp"
+                src={props.HeroImage}
                 alt="John A. Bacho"
                 className={styles.icon}
               />

@@ -2,6 +2,7 @@ export const AboutHero = [
   {
     title: "I'm John.",
     body: " I'm a Computer Science student at Baldwin Wallace University (3.94 GPA, May 2026) focused on software development, UI/UX, and VR. I’ve worked as an Enterprise Architect Analysis Intern at Nordson and founded a multidisciplinary VR research lab where I lead a team building data-driven Unity applications. Alongside roles as an ACM President, UX team led, and teaching assistant, I enjoy solving complex problems and designing technology that puts\u00A0users\u00A0first.",
+    HeroImage: "images/About/Headshot.webp",
   },
 ];
 
@@ -35,28 +36,28 @@ export const Beyond = [
 
 export const Image1 = [
   {
-    img: "src/assets/about/student_and_heatmap.jpg",
+    img: "images/About/student_and_heatmap.jpg",
   },
 ];
 
 export const Image2 = [
   {
-    img: "src/assets/about/WorkingAtComputer.jpg",
+    img: "images/About/WorkingAtComputer.jpg",
   },
 ];
 
 export const Image3 = [
   {
-    img: "src/assets/about/award.jpg",
+    img: "images/About/award.jpg",
   },
 ];
 
 export const BentoBox1Img = [
   {
-    img1: "src/assets/about/Flowers1.jpg",
-    img2: "src/assets/about/Key.jpg",
-    img3: "src/assets/about/Dog.jpg",
-    img4: "src/assets/about/Flowers2.jpg",
-    img5: "src/assets/about/Cleveland.jpg",
+    img1: "images/About/Flowers1.jpg",
+    img2: "images/About/Key.jpg",
+    img3: "images/About/Dog.jpg",
+    img4: "images/About/Flowers2.jpg",
+    img5: "images/About/Cleveland.jpg",
   },
 ];

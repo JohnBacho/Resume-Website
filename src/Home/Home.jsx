@@ -1,10 +1,9 @@
 import Hero from "./Hero.jsx";
 import Box from "./Box.jsx";
 import InProgress from "./Other.jsx";
-import { projectPairs } from "./Information/Projects.js";
-import { InProgressProjectPairs } from "./Information/InProgressProjects.js";
+import { projectPairs, InProgressProjectPairs } from "./Information/HomeInfo.js";
 import Footer from "../Components/Footer.jsx";
-import ProjectBoxs from "./ProjectBoxs.jsx";
+import ProjectBoxes from "./ProjectBoxes.jsx";
 
 
 export default function Home() {
@@ -30,7 +29,7 @@ export default function Home() {
       ))}
       <InProgress />
       {InProgressProjectPairs.map((pair, index) => (
-        <ProjectBoxs
+        <ProjectBoxes
           key={index}
           title={pair.Left.title}
           project={pair.Left.project}

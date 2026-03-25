@@ -14,13 +14,13 @@ import {
   Image2,
   Image3,
   BentoBox1Img,
-} from "./Info/AboutInfo.js";
+} from "./Information/AboutInfo.js";
 
 export default function About() {
   return (
     <>
       {AboutHero.map((item, index) => (
-        <HeroAbout key={index} title={item.title} body={item.body} />
+        <HeroAbout key={index} title={item.title} body={item.body} HeroImage={item.HeroImage} />
       ))}
       {Design.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />

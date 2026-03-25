@@ -7,10 +7,10 @@ export const PageInfo = [
 ];
 
 export const TechStackIcons = [
-  { img: "src/assets/Icon/Csharp_Icon.png", text: "C#" },
-  { img: "src/assets/Icon/Unity_Icon.png", text: "Unity" },
-  { img: "src/assets/Icon/Html_Icon.png", text: "HTML5" },
-  { img: "src/assets/Icon/JS_Icon.png", text: "JS" },
+  { img: "images/TechStackIcons/Csharp_Icon.png", text: "C#" },
+  { img: "images/TechStackIcons/Unity_Icon.png", text: "Unity" },
+  { img: "images/TechStackIcons/Html_Icon.png", text: "HTML5" },
+  { img: "images/TechStackIcons/JS_Icon.png", text: "JS" },
 ];
 
 export const Overview = [
@@ -44,24 +44,24 @@ export const Impact = [
 
 export const BentoBox1Img = [
   {
-    img1: "src/assets/VIBES-Lab/Discussion.jpg",
-    img2: "src/assets/VIBES-Lab/Headset.jpg",
-    img3: "src/assets/VIBES-Lab/Project2Slot.jpg",
-    img4: "src/assets/VIBES-Lab/Lab.jpg",
-    img5: "src/assets/VIBES-Lab/Code.jpg",
+    img1: "images/VIBES-Lab/Discussion.jpg",
+    img2: "images/VIBES-Lab/Headset.jpg",
+    img3: "images/VIBES-Lab/Project2Slot.jpg",
+    img4: "images/VIBES-Lab/Lab.jpg",
+    img5: "images/VIBES-Lab/Code.jpg",
   },
 ];
 
 
 export const Image1 = [
   {
-    img: "src/assets/VIBES-Lab/Poster.jpg",
+    img: "images/VIBES-Lab/Poster.jpg",
   },
 ];
 
 export const Image2 = [
   {
-    img: "src/assets/VIBES-Lab/UnityScreenShot.jpg",
+    img: "images/VIBES-Lab/UnityScreenShot.jpg",
   },
 ];
 

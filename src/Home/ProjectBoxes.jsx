@@ -1,4 +1,4 @@
-import "./ProjectBox.css";
+import "./ProjectBoxes.css";
 
 export default function Box(props) {
   return (

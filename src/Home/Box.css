@@ -17,8 +17,8 @@
   border-radius: 50px;
   display: flex;
   flex-direction: column;
-  -webkit-box-shadow: 5px 13px 17px 2px rgba(0, 0, 0, 0.18);
-  box-shadow: 5px 13px 17px 2px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
+  box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
   transition:
     transform 0.3s ease-out,
     box-shadow 0.3s ease-in-out,
@@ -31,8 +31,8 @@
 .Box--Content:hover {
   transform: translateY(-10px);
   filter: brightness(1.02);
-  -webkit-box-shadow: 5px 13px 17px 2px rgba(0, 0, 0, 0.32);
-  box-shadow: 5px 13px 17px 2px rgba(0, 0, 0, 0.32);
+  -webkit-box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.3);
+  box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.3);
 }
 
 .Box--Content > h3 {
