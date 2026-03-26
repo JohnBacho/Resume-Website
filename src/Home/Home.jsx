@@ -1,7 +1,7 @@
 import Hero from "./Hero.jsx";
 import Box from "./Box.jsx";
 import InProgress from "./Other.jsx";
-import { projectPairs, InProgressProjectPairs } from "./Information/HomeInfo.js";
+import { projectPairs, InProgressProjectPairs } from "./HomeInfo.js";
 import Footer from "../Components/Footer.jsx";
 import ProjectBoxes from "./ProjectBoxes.jsx";
 

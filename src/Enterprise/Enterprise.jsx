@@ -1,23 +1,12 @@
+import JobHero from "../Components/JobHero";
+import TechStack from "../Components/TechStack";
 import Footer from "../Components/Footer.jsx";
-import TextBlock from "../Components/TextBlock.jsx";
-import JobHero from "../Components/JobHero.jsx";
-import TechStack from "../Components/TechStack.jsx";
-import Bento from "../Components/Bento.jsx";
-import Image from "../Components/Image.jsx";
+import TextBlock from "../Components/TextBlock";
+import Image from "../Components/Image";
 
-import {
-  PageInfo,
-  TechStackIcons,
-  Overview,
-  Leadership,
-  TechnicalWork,
-  Impact,
-  Image1,
-  Image2,
-  BentoBox1Img,
-} from "./VibesInfo.js";
+import { PageInfo, TechStackIcons, Overview } from "./EnterpriseInfo";
 
-export default function VibesLab() {
+export default function Enterprise() {
   return (
     <>
       {PageInfo.map((item, index) => (
@@ -32,17 +21,7 @@ export default function VibesLab() {
       {Overview.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
-      {BentoBox1Img.map((item, index) => (
-        <Bento
-          key={index}
-          img1={item.img1}
-          img2={item.img2}
-          img3={item.img3}
-          img4={item.img4}
-          img5={item.img5}
-        />
-      ))}
-      {Leadership.map((item, index) => (
+      {/* {Leadership.map((item, index) => (
         <TextBlock
           key={index}
           title={item.title}
@@ -61,7 +40,7 @@ export default function VibesLab() {
       ))}
       {Impact.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
+      ))} */}
       <Footer />
     </>
   );

@@ -1,7 +1,7 @@
-import "./HeroVibes.css";
-import Nav from "../Components/Nav.jsx";
+import "./JobHero.css";
+import Nav from "./Nav.jsx";
 
-export default function HeroVibes(props) {
+export default function JobHero(props) {
   return (
     <>
       <div className="Hero HeroVibes-Section">

@@ -14,7 +14,7 @@ export const projectPairs = [
       image: "images/Home/Jobs/Nordson.jpg",
       bgColor: "#9ee2a6",
       grow: 1,
-      link: "https://www.anothercompany.com/",
+      link: "/enterprise-architect",
     },
   },
   {
