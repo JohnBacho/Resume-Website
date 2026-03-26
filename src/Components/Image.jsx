@@ -1,9 +1,9 @@
-import "./ImageStyle.css";
+import styles from "./ImageStyle.module.css";
 
 
 export default function image(props){
     return(
-        <div className="ImageBlock">
+        <div className={styles.ImageBlock}>
             <img src={props.img}></img>
         </div>
     )

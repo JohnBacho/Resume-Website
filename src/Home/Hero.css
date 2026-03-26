@@ -17,7 +17,7 @@
   left: 0;
   right: 0;
   height: 45%;
-  background: linear-gradient(to bottom, transparent, #f8f0e3);
+  background: linear-gradient(to bottom, transparent, var(--Background));
   z-index: 1;
   pointer-events: none;
 }
@@ -26,7 +26,7 @@
   position: absolute;
   font-size: 70px;
   opacity: 0;
-  color: #285545;
+  color: var(--Heading);
   pointer-events: none;
   animation-name: ScaleUp;
   animation-duration: 500ms;
@@ -56,16 +56,14 @@
 
 .Hero--Content > h1 {
   font-size: 120px;
-  color: #285545;
-  font-family: "Acorn-Bold", sans-serif;
+  font-family: var(--HeaderFont);
 }
 
 .Hero--Content > p {
   padding-top: 30px;
   font-size: 20px;
   font-weight: 300;
-  color: #285545;
-  font-family: "Inter", sans-serif;
+  font-family: var(--BodyFont);
   max-width: 650px;
 }
 
@@ -107,7 +105,6 @@
   }
   .Hero--Content > h1 {
     font-size: 100px;
-    color: #285545;
     font-family: "Acorn-Bold", sans-serif;
   }
 }
@@ -164,12 +161,6 @@
   }
 }
 
-:root {
-  --blob1: #5dd4a0;
-  --blob2: #f4d35e;
-  --blob3: #89e2b7;
-  --blob4: #fff2b2;
-}
 .blob-scene {
   position: absolute;
   overflow: hidden;

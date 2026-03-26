@@ -26,6 +26,7 @@
   transform: translateY(0);
   filter: brightness(1);
   cursor: pointer;
+  color: var(--BoxTextColor);
 }
 
 .Box--Content:hover {
@@ -36,7 +37,7 @@
 }
 
 .Box--Content > h3 {
-  font-family: "inter", sans-serif;
+  font-family: var(--BodyFont);
   padding-top: 20px;
   padding-right: 20px;
   font-size: 20px;
@@ -44,7 +45,7 @@
 }
 
 .Box--Content > h1 {
-  font-family: "Acorn-Bold", sans-serif;
+  font-family: var(--HeaderFont);
   padding-top: 20px;
   padding-right: 20px;
   text-align: right;
@@ -79,10 +80,10 @@
   .Box--Container {
     padding-bottom: 40px;
   }
-.Box--Content > img{
+  .Box--Content > img {
     width: 100%;
     border-radius: 0px 0px 50px 50px;
-}
+  }
 }
 
 @keyframes fadeUp {

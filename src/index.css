@@ -6,5 +6,17 @@
 
 body{
       background-color: #F8F0E3;
-      color: #FAF9F6;
+      color: #285545;
+}
+
+:root {
+  --blob1: #5dd4a0;
+  --blob2: #f4d35e;
+  --blob3: #89e2b7;
+  --blob4: #fff2b2;
+  --Heading: #285545;
+  --BodyFont: "Inter", sans-serif; 
+  --HeaderFont: "Acorn-Bold", sans-serif;
+  --Background: #f8f0e3;
+  --BoxTextColor: #faf9f6;
 }
