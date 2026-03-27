@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./NavStyle.css";
+import style from "./NavStyle.module.css";
 import { NavLink } from "react-router-dom";
 
 const navItems = [
@@ -12,18 +12,23 @@ export default function PillNav() {
   const [hovered, setHovered] = useState(null);
 
   return (
-    <nav className="nav-wrapper" role="navigation" aria-label="Main navigation">
+    <nav
+      className={style.navWrapper}
+      role="navigation"
+      aria-label="Main navigation"
+    >
       {navItems.map((item) => (
         <NavLink
           key={item.name}
           to={item.path}
           end={item.path === "/"}
-          className={({ isActive }) => `nav-item${isActive ? " active" : ""}`}
+          className={({ isActive }) =>
+            isActive ? `${style.navItem} ${style.active}` : style.navItem
+          }
           onMouseEnter={() => setHovered(item.name)}
           onMouseLeave={() => setHovered(null)}
-          aria-current={hovered === item.name ? "page" : undefined}
         >
-          <span className="dot" aria-hidden="true" />
+          <span className={style.dot} aria-hidden="true" />
           {item.name}
         </NavLink>
       ))}

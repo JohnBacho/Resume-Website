@@ -24,7 +24,7 @@ export const projectPairs = [
       image: "images/Home/Jobs/ITAsset.jpg",
       bgColor: "#c0daaf",
       grow: 1,
-      link: "https://www.thirdcompany.com/",
+      link: "/it-asset-management",
     },
     right: {
       title: "BW UX Lab",
@@ -32,7 +32,7 @@ export const projectPairs = [
       image: "images/Home/Jobs/UXLab.jpg",
       bgColor: "#d2daaf",
       grow: 0,
-      link: "https://www.thirdcompany.com/",
+      link: "/ux-lab",
     },
   },
 ];

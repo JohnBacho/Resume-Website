@@ -4,21 +4,12 @@ import Footer from "../Components/Footer.jsx";
 import TextBlock from "../Components/TextBlock";
 import Image from "../Components/Image";
 
-import {
-  PageInfo,
-  TechStackIcons,
-  Challenge,
-  Foundation,
-  Translating,
-  Automating,
-  Impact,
-  Image1,
-} from "./EnterpriseInfo";
+import {HeroInfo, TechStackIcons} from "./ITAssetInfo.js"
 
-export default function Enterprise() {
+export default function ITAsset() {
   return (
     <>
-      {PageInfo.map((item, index) => (
+      {HeroInfo.map((item, index) => (
         <JobHero
           key={index}
           title={item.title}
@@ -27,7 +18,7 @@ export default function Enterprise() {
         />
       ))}
       <TechStack items={TechStackIcons} />
-      {Challenge.map((item, index) => (
+      {/* {Challenge.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
       {Image1.map((item, index) => (
@@ -44,7 +35,7 @@ export default function Enterprise() {
       ))}
       {Impact.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
+      ))} */}
       <Footer />
     </>
   );

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap");
 
-.nav-wrapper {
+.navWrapper {
   position: fixed;
   z-index: 100;
   width: fit-content;
@@ -24,7 +24,7 @@
   transform: translateX(-50%);
 }
 
-.nav-item {
+.navItem {
   position: relative;
   padding: 10px 22px;
   border-radius: 999px;
@@ -45,12 +45,12 @@
   font-family: 'inter', 'sans-serif';
 }
 
-.nav-item:hover:not(.active) {
+.navItem:hover:not(.active) {
   color: rgba(255, 255, 255, 0.75);
   background: rgba(255, 255, 255, 0.171);
 }
 
-.nav-item.active {
+.navItem.active {
   color: #285545;
   background: #f0ede8;
   box-shadow:
@@ -58,7 +58,7 @@
     0 0 0 1px rgba(255, 255, 255, 0.15) inset;
 }
 
-.nav-item.active:hover {
+.navItem.active:hover {
   background: #fff;
 }
 
@@ -79,7 +79,7 @@
   top: -1px;
 }
 
-.nav-item.active .dot {
+.navItem.active .dot {
   opacity: 0.5;
   transform: scale(1);
 }
