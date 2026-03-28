@@ -1,0 +1,96 @@
+.TextBlock {
+  max-width: 600px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.TextBlock > h1 {
+  font-size: 50px;
+  font-family: "Acorn-Bold", sans-serif;
+}
+
+.BoxContainer {
+  padding-top: 20px;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  flex-wrap: wrap;
+  animation: fadeUp 1s ease forwards;
+}
+
+.BoxContent {
+  width: 40vw;
+  background-color: #303234;
+  height: 400px;
+  max-width: 700px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
+  box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
+  transition:
+    transform 0.3s ease-out,
+    box-shadow 0.3s ease-in-out,
+    filter 0.5s ease-in-out;
+  transform: translateY(0);
+  filter: brightness(1);
+  cursor: pointer;
+  color: var(--BoxTextColor);
+}
+
+.BoxContent:hover {
+  transform: translateY(-10px);
+  filter: brightness(1.02);
+  -webkit-box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.3);
+  box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.3);
+}
+
+.BoxContent > h3 {
+  font-family: var(--BodyFont);
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.BoxContent > h1 {
+  font-family: var(--HeaderFont);
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  font-size: 48px;
+  margin-left: auto;
+}
+
+.BoxContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  margin-left: auto;
+  border-radius: 0 0px 50px 50px;
+}
+
+@media screen and (max-width: 920px) {
+  .BoxContent {
+    width: 90vw;
+    height: 400px;
+  }
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

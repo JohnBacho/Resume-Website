@@ -4,6 +4,7 @@ import JobHero from "../Components/JobHero.jsx";
 import TechStack from "../Components/TechStack.jsx";
 import Bento from "../Components/Bento.jsx";
 import Image from "../Components/Image.jsx";
+import Related from "../Components/Related.jsx";
 
 import {
   PageInfo,
@@ -15,6 +16,7 @@ import {
   Image1,
   Image2,
   BentoBox1Img,
+  RelatedProjects,
 } from "./VibesInfo.js";
 
 export default function VibesLab() {
@@ -67,6 +69,7 @@ export default function VibesLab() {
       {Impact.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
+      <Related projects={RelatedProjects} />
       <Footer />
     </>
   );

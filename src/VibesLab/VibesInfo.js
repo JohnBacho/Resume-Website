@@ -57,7 +57,6 @@ export const BentoBox1Img = [
   },
 ];
 
-
 export const Image1 = [
   {
     img: "images/VIBES-Lab/Poster.jpg",
@@ -72,3 +71,17 @@ export const Image2 = [
   },
 ];
 
+export const RelatedProjects = [
+  {
+    title: "Vibes Lab",
+    project: "Project 2",
+    image: "images/Home/Projects/Project2.jpg",
+    link: "/vibes-lab",
+  },
+  {
+    title: "Vibes Lab",
+    project: "Project 1",
+    image: "images/Home/Projects/Project1.jpg",
+    link: "/vibes-lab",
+  },
+];
