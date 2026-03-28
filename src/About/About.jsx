@@ -14,7 +14,7 @@ import {
   Image2,
   Image3,
   BentoBox1Img,
-} from "./Information/AboutInfo.js";
+} from "./AboutInfo.js";
 
 export default function About() {
   return (

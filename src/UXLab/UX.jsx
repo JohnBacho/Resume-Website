@@ -7,12 +7,16 @@ import Image from "../Components/Image";
 import {
   HeroInfo,
   TechStackIcons,
-  Overview,
-  Analytical,
-  Strategic,
-} from "./ITAssetInfo.js";
+  Leadership,
+  Optimization,
+  Spatial,
+  Partnership,
+  Image1,
+  Image2,
+  Image3,
+} from "./UXInfo.js";
 
-export default function ITAsset() {
+export default function UX() {
   return (
     <>
       {HeroInfo.map((item, index) => (
@@ -24,13 +28,26 @@ export default function ITAsset() {
         />
       ))}
       <TechStack items={TechStackIcons} />
-      {Overview.map((item, index) => (
+      {Leadership.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
-      {Analytical.map((item, index) => (
+      {Image1.map((item, index) => (
+        <Image key={index} img={item.img} />
+      ))}
+      {Optimization.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
-      {Strategic.map((item, index) => (
+      {Image2.map((item, index) => (
+        <Image key={index} img={item.img} />
+      ))}
+      {Spatial.map((item, index) => (
+        <TextBlock key={index} title={item.title} body={item.body} />
+      ))}
+      {Image3.map((item, index) => (
+        <Image key={index} img={item.img} />
+      ))}
+
+      {Partnership.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
       <Footer />

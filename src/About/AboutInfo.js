@@ -36,13 +36,13 @@ export const Beyond = [
 
 export const Image1 = [
   {
-    img: "images/About/student_and_heatmap.jpg",
+    img: "images/About/WorkingAtComputer.jpg",
   },
 ];
 
 export const Image2 = [
   {
-    img: "images/About/WorkingAtComputer.jpg",
+    img: "images/About/student_and_heatmap.jpg",
   },
 ];
 

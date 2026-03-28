@@ -7,6 +7,7 @@ import VibesLab from "./VibesLab/VibesLab.jsx";
 import About from "./About/About.jsx";
 import Enterprise from "./Enterprise/Enterprise.jsx";
 import ITAsset from "./ITAsset/ITAsset.jsx";
+import UX from "./UXLab/UX.jsx"
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/enterprise-architect" element={<Enterprise />} />
           <Route path="/it-asset-management" element={<ITAsset />} />
+          <Route path="/ux-lab" element={<UX />} />
         </Routes>
       </Router>
     </>
