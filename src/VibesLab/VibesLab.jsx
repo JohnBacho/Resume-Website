@@ -40,6 +40,11 @@ export default function VibesLab() {
           img3={item.img3}
           img4={item.img4}
           img5={item.img5}
+          alt1={item.alt1}
+          alt2={item.alt2}
+          alt3={item.alt3}
+          alt4={item.alt4}
+          alt5={item.alt5}
         />
       ))}
       {Leadership.map((item, index) => (
@@ -51,13 +56,13 @@ export default function VibesLab() {
         />
       ))}
       {Image1.map((item, index) => (
-        <Image key={index} img={item.img} />
+        <Image key={index} img={item.img} alt={item.alt} />
       ))}
       {TechnicalWork.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
       {Image2.map((item, index) => (
-        <Image key={index} img={item.img} />
+        <Image key={index} img={item.img} alt={item.alt} />
       ))}
       {Impact.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />

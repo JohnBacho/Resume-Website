@@ -50,6 +50,7 @@ export const Impact = [
 
 export const Image1 = [
   {
-    img: "images/Enterprise/IMG_7177.jpg"
+    img: "images/Enterprise/IMG_7177.jpg",
+    alt: "Charity event with Nordson team",
   }
 ];

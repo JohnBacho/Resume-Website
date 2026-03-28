@@ -32,19 +32,19 @@ export default function UX() {
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
       {Image1.map((item, index) => (
-        <Image key={index} img={item.img} />
+        <Image key={index} img={item.img} alt={item.alt} />
       ))}
       {Optimization.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
       {Image2.map((item, index) => (
-        <Image key={index} img={item.img} />
+        <Image key={index} img={item.img} alt={item.alt} />
       ))}
       {Spatial.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
       {Image3.map((item, index) => (
-        <Image key={index} img={item.img} />
+        <Image key={index} img={item.img} alt={item.alt} />
       ))}
 
       {Partnership.map((item, index) => (

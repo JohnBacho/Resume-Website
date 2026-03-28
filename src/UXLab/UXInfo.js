@@ -42,24 +42,21 @@ export const Partnership = [
 
 export const Image1 = [
   {
-    img: "images/UX/Poster.jpg"
-  }
+    img: "images/UX/Poster.jpg",
+    alt: "UX Team in front of a poster presentation at the CEMS Showcase",
+  },
 ];
 
 export const Image2 = [
   {
-        img: "images/UX/TestingUX.jpg"
-  }
+    img: "images/UX/TestingUX.jpg",
+    alt: "UX Team conducting usability testing in the lab",
+  },
 ];
 
 export const Image3 = [
   {
-    img: "images/UX/PosterUX.webp"
-  }
-];
-
-export const Image4 = [
-  {
-    img: "images/UX/UXTeam.jpg "
-  }
+    img: "images/UX/PosterUX.webp",
+    alt: "UX Team wayfinding poster"
+  },
 ];

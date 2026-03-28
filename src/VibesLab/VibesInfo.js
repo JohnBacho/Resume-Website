@@ -45,10 +45,15 @@ export const Impact = [
 export const BentoBox1Img = [
   {
     img1: "images/VIBES-Lab/Discussion.jpg",
+    alt1: "VIBES Lab team discussing project ideas",
     img2: "images/VIBES-Lab/Headset.jpg",
+    alt2: "VIBES Lab VR headset",
     img3: "images/VIBES-Lab/Project2Slot.jpg",
+    alt3: "VIBES Lab project 2 slot machine experiment",
     img4: "images/VIBES-Lab/Lab.jpg",
+    alt4: "VIBES Lab Team picture",
     img5: "images/VIBES-Lab/Code.jpg",
+    alt5: "VIBES Lab coding environment",
   },
 ];
 
@@ -56,12 +61,14 @@ export const BentoBox1Img = [
 export const Image1 = [
   {
     img: "images/VIBES-Lab/Poster.jpg",
+    alt: "VIBES Lab Team Poster Presentation",
   },
 ];
 
 export const Image2 = [
   {
     img: "images/VIBES-Lab/UnityScreenShot.jpg",
+    alt: "VIBES Lab Unity Project Screenshot",
   },
 ];
 

@@ -37,27 +37,39 @@ export const Beyond = [
 export const Image1 = [
   {
     img: "images/About/WorkingAtComputer.jpg",
+    alt: "John Working at a computer with Dr. Thomas in the background",
   },
 ];
 
 export const Image2 = [
   {
     img: "images/About/student_and_heatmap.jpg",
+    alt: "UX lab heatmap showing where students were looking at when using a website",
   },
 ];
 
 export const Image3 = [
   {
     img: "images/About/award.jpg",
+    alt: "John awarded outstanding computer science student award at BW",
   },
 ];
 
 export const BentoBox1Img = [
   {
     img1: "images/About/Flowers1.jpg",
+    alt1: "Picture of flowers taken by John",
+
     img2: "images/About/Key.jpg",
+    alt2: "Picture of Key tower taken by John",
+
     img3: "images/About/Dog.jpg",
+    alt3: "Picture of a dog taken by John",
+
     img4: "images/About/Flowers2.jpg",
+    alt4: "Picture of flowers taken by John",
+
     img5: "images/About/Cleveland.jpg",
+    alt5: "Picture of downtown cleveland taken by John",
   },
 ];
