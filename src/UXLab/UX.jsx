@@ -50,6 +50,7 @@ export default function UX() {
       {Partnership.map((item, index) => (
         <TextBlock key={index} title={item.title} body={item.body} />
       ))}
+      
       <Footer />
     </>
   );

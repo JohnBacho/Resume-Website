@@ -15,7 +15,7 @@ export const TechStackIcons = [
 export const Leadership = [
   {
     title: "Leadership and Methodology",
-    body: "As the Team Lead within the Baldwin Wallace User Experience Research (UXr) Lab, I directed high-impact usability studies for both campus partners and corporate clients. My role involved overseeing the end-to-end research lifecycle—from experimental design to stakeholder delivery. I specialized in using advanced biometric tools, such as eye-tracking technology and click-stream analysis, to capture objective data on how users interact with digital products. By synthesizing behavioral observations and heat map data, I translated complex human interactions into actionable design improvements.",
+    body: "As the Team Lead within the Baldwin Wallace User Experience Research (UXr) Lab, I directed high-impact usability studies for both campus partners and corporate clients. My role involved overseeing the end-to-end research lifecycle; from experimental design to stakeholder delivery. I specialized in using advanced biometric tools, such as eye-tracking technology and click-stream analysis, to capture objective data on how users interact with digital products. By synthesizing behavioral observations and heat map data, I translated complex human interactions into actionable design improvements.",
   },
 ];
 
@@ -48,12 +48,18 @@ export const Image1 = [
 
 export const Image2 = [
   {
-    img: "images/UX/UXTeam.jpg"
+        img: "images/UX/TestingUX.jpg"
   }
 ];
 
 export const Image3 = [
   {
     img: "images/UX/PosterUX.webp"
+  }
+];
+
+export const Image4 = [
+  {
+    img: "images/UX/UXTeam.jpg "
   }
 ];
