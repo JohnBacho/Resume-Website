@@ -8,10 +8,10 @@ import Related from "../../Components/Related.jsx";
 import {
   HeroInfo,
   TechStackIcons,
-  Leadership,
-  Optimization,
-  Spatial,
-  Partnership,
+  Vision,
+  Challenge,
+  Solution,
+  Impact,
   Image1,
   Image2,
   Image3,
@@ -23,13 +23,13 @@ export default function P2Vibes() {
     <>
       <JobHero HeroInfo={HeroInfo} />
       <TechStack items={TechStackIcons} />
-      <TextBlock Text={Leadership} />
+      <TextBlock Text={Vision} />
       <Image Image={Image1} />
-      <TextBlock Text={Optimization} />
+      <TextBlock Text={Challenge} />
       <Image Image={Image2} />
-      <TextBlock Text={Spatial} />
+      <TextBlock Text={Solution} />
       <Image Image={Image3} />
-      <TextBlock Text={Partnership} />
+      <TextBlock Text={Impact} />
       <Related projects={RelatedProjects} />
       <Footer />
     </>

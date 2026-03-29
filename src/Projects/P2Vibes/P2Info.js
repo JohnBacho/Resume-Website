@@ -13,61 +13,68 @@ export const TechStackIcons = [
   { img: "images/TechStackIcons/JS_Icon.png", text: "JavaScript" },
 ];
 
-export const Leadership = [
+export const Vision = [
   {
-    title: "Leadership and Methodology",
-    body: "As the Team Lead within the Baldwin Wallace User Experience Research (UXr) Lab, I directed high-impact usability studies for both campus partners and corporate clients. My role involved overseeing the end-to-end research lifecycle; from experimental design to stakeholder delivery. I specialized in using advanced biometric tools, such as eye-tracking technology and click-stream analysis, to capture objective data on how users interact with digital products. By synthesizing behavioral observations and heat map data, I translated complex human interactions into actionable design improvements.",
+    title: "The Vision",
+    body: "In the high-stakes world of gambling, a near-win the slot machine stopping one symbol away from a jackpot or a five-leg parlay failing on the final game often triggers a psychological response more powerful than a clean loss. As a Lead Developer for the Virtual Immersive Behavioral Sciences (VIBES) Lab, I was tasked with building the digital infrastructure to capture this phenomenon. We aimed to determine if college athletes, conditioned by high-pressure environments, process these almost moments differently than non-athletes.",
   },
 ];
 
-export const Optimization = [
+export const Challenge = [
   {
-    title: "Optimization for Qwickly",
-    body: "I spearheaded a critical usability study for Qwickly, a Cleveland-based EdTech leader, focusing on their student-facing platform. I led the research team in identifying friction points where students struggled with navigation and cognitive load. After analyzing the data, I designed high-fidelity wireframes and layout adjustments aimed at simplifying the user journey. These evidence-based design iterations were highly successful, ultimately contributing to a 32% decrease in task completion time during follow-up validation testing.",
+    title: "The Engineering Challenge",
+    body: "Traditional lab studies often struggle with ecological validity it is hard to make a participant feel the genuine tension of a bet while staring at a flat 2D screen. My challenge was to create a VR environment that felt indistinguishable from a modern sportsbook or a casino floor, while simultaneously functioning as a high-precision scientific instrument. The system needed to track sub-millimeter changes in pupil diameter as a proxy for physiological arousal, all while maintaining the 90 FPS required to prevent motion sickness and data jitter.",
   },
 ];
 
-export const Spatial = [
+export const Solution = [
   {
-    title: "Spatial UX and Wayfinding",
-    body: "Beyond digital interfaces, I led a team of seven researchers in a large-scale spatial navigation study for the Ritter Library. We utilized mobile eye-tracking and heat map analysis to evaluate how students engaged with environmental signage and physical cues. This research allowed us to identify dead zones in the library’s navigation. Based on our findings, we proposed a strategic redesign of poster placement and environmental graphics, which resulted in a 43% improvement in the time it took for users to reach their destinations. I later presented these results at the CEMS Showcase to highlight the intersection of data and design.",
+    title: "The Solution",
+    body: "I engineered a dual-modality Unity/C# ecosystem that functions as both an immersive gambling simulation and a high-precision data tool. I developed a real-time Sportsbook parlay system and a custom Slot engine with granular control over \"near-win\" psychological triggers. To bridge the gap to clinical research, I integrated the SRanipal SDK for HTC VIVE eye-tracking and built a JavaScript web processor that automates the cleaning and analysis of millions of data points, transforming raw CSVs into actionable behavioral insights.",
   },
 ];
 
-export const Partnership = [
+export const Impact = [
   {
-    title: "Partnership with OEC",
-    body: "I also collaborated with OEC to evaluate the usability of an automotive maintenance certification platform. My work focused on auditing the existing interface to uncover structural issues in the certification workflow. By analyzing the content hierarchy and navigation flow, I proposed a streamlined architecture that reduced user frustration and improved the clarity of the certification process. This project underscored my ability to apply UX principles to niche, professional-grade software used in the automotive industry.",
+    title: "The Impact",
+    body: "By merging immersive game design with rigorous neuroscience protocols, we created a platform that tracks the intersection of identity and impulse. This project provides the VIBES Lab with a robust framework to quantify how competitive backgrounds influence risk evaluation, ultimately contributing to our understanding of gambling behaviors and reward sensitivity in the digital age.",
   },
 ];
 
 export const Image1 = [
   {
-    img: "images/UX/Poster.jpg",
-    alt: "UX Team in front of a poster presentation at the CEMS Showcase",
+    img: "images/P2/Parlay.jpg",
+    alt: "Screenshot of the VR parlay betting environment, showing a virtual sportsbook with a parlay bet on the screen",
   },
 ];
 
 export const Image2 = [
   {
-    img: "images/UX/TestingUX.jpg",
-    alt: "UX Team conducting usability testing in the lab",
+    img: "images/P2/Slot2.png",
+    alt: "Screenshot of the VR slot machine environment, showing a virtual slot machine",
   },
 ];
 
 export const Image3 = [
   {
-    img: "images/UX/PosterUX.webp",
-    alt: "UX Team wayfinding poster",
+    img: "images/P2/ParlayBetSlip.jpg",
+    alt: "Screenshot of the VR parlay bet slip, showing the details of the bet",
   },
 ];
 
 export const RelatedProjects = [
   {
-    title: "UX Lab",
-    project: "Article",
-    image: "images/UX/UXArticle.jpg",
-    link: "https://www.bw.edu/news/2025/01/bw-urx-lab-offers-real-world-research-to-students",
-    Blank: true,
+    title: "Vibes Lab",
+    project: "Founder",
+    image: "images/Home/Jobs/VibesLabGroup.webp",
+    link: "/vibes-lab",
+    Blank: false,
+  },
+  {
+    title: "Vibes Lab",
+    project: "Project 1",
+    image: "images/Home/Projects/Project1.jpg",
+    link: "/vibes-lab-project-1",
+    Blank: false,
   },
 ];
