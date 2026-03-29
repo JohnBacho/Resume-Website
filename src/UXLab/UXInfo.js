@@ -57,6 +57,16 @@ export const Image2 = [
 export const Image3 = [
   {
     img: "images/UX/PosterUX.webp",
-    alt: "UX Team wayfinding poster"
+    alt: "UX Team wayfinding poster",
+  },
+];
+
+export const RelatedProjects = [
+  {
+    title: "UX Lab",
+    project: "Article",
+    image: "images/UX/UXArticle.jpg",
+    link: "https://www.bw.edu/news/2025/01/bw-urx-lab-offers-real-world-research-to-students",
+    Blank: true,
   },
 ];

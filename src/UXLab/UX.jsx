@@ -3,6 +3,7 @@ import TechStack from "../Components/TechStack";
 import Footer from "../Components/Footer.jsx";
 import TextBlock from "../Components/TextBlock";
 import Image from "../Components/Image";
+import Related from "../Components/Related.jsx";
 
 import {
   HeroInfo,
@@ -14,43 +15,22 @@ import {
   Image1,
   Image2,
   Image3,
+  RelatedProjects,
 } from "./UXInfo.js";
 
 export default function UX() {
   return (
     <>
-      {HeroInfo.map((item, index) => (
-        <JobHero
-          key={index}
-          title={item.title}
-          timeline={item.timeline}
-          position={item.position}
-        />
-      ))}
+      <JobHero HeroInfo={HeroInfo} />
       <TechStack items={TechStackIcons} />
-      {Leadership.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Image1.map((item, index) => (
-        <Image key={index} img={item.img} alt={item.alt} />
-      ))}
-      {Optimization.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Image2.map((item, index) => (
-        <Image key={index} img={item.img} alt={item.alt} />
-      ))}
-      {Spatial.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Image3.map((item, index) => (
-        <Image key={index} img={item.img} alt={item.alt} />
-      ))}
-
-      {Partnership.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      
+      <TextBlock Text={Leadership} />
+      <Image Image={Image1} />
+      <TextBlock Text={Optimization} />
+      <Image Image={Image2} />
+      <TextBlock Text={Spatial} />
+      <Image Image={Image3} />
+      <TextBlock Text={Partnership} />
+      <Related projects={RelatedProjects} />
       <Footer />
     </>
   );

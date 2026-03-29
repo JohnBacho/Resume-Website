@@ -5,7 +5,7 @@ import TextBlock from "../Components/TextBlock";
 import Image from "../Components/Image";
 
 import {
-  PageInfo,
+  HeroInfo,
   TechStackIcons,
   Challenge,
   Foundation,
@@ -18,33 +18,14 @@ import {
 export default function Enterprise() {
   return (
     <>
-      {PageInfo.map((item, index) => (
-        <JobHero
-          key={index}
-          title={item.title}
-          timeline={item.timeline}
-          position={item.position}
-        />
-      ))}
+      <JobHero HeroInfo={HeroInfo} />
       <TechStack items={TechStackIcons} />
-      {Challenge.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Image1.map((item, index) => (
-        <Image key={index} img={item.img} alt={item.alt} />
-      ))}
-      {Foundation.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Translating.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Automating.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Impact.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
+      <TextBlock Text={Challenge} />
+      <Image Image={Image1} />
+      <TextBlock Text={Foundation} />
+      <TextBlock Text={Translating} />
+      <TextBlock Text={Automating} />
+      <TextBlock Text={Impact} />
       <Footer />
     </>
   );

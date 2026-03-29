@@ -1,10 +1,12 @@
 import styles from "./ImageStyle.module.css";
 
 
-export default function image(props){
+export default function image({Image}){
     return(
         <div className={styles.ImageBlock}>
-            <img src={props.img} alt={props.alt} />
+        {Image.map((item, index) => (
+            <img key={index} src={item.img} alt={item.alt} />
+        ))}
         </div>
     )
 }

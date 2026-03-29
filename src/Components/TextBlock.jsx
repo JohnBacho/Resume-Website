@@ -1,11 +1,19 @@
 import styled from "./TextBlockStyle.module.css";
 
-export default function TextBlock(props) {
+export default function TextBlock({Text}) {
   return (
-    <section className={styled.TextBlock} style={{ paddingTop: props.PaddingTop || "70px" }}>
-      {" "}
-      <h1>{props.title}</h1>
-      <p>{props.body}</p>
-    </section>
+    <>
+    {Text.map((item, index) => (
+      <section
+        key={index}
+        className={styled.TextBlock}
+        style={{ paddingTop: item.PaddingTop || "70px" }}
+      >
+        {" "}
+        <h1>{item.title}</h1>
+        <p>{item.body}</p>
+      </section>
+    ))}
+    </>
   );
 }

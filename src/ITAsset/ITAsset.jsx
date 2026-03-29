@@ -15,24 +15,11 @@ import {
 export default function ITAsset() {
   return (
     <>
-      {HeroInfo.map((item, index) => (
-        <JobHero
-          key={index}
-          title={item.title}
-          timeline={item.timeline}
-          position={item.position}
-        />
-      ))}
+      <JobHero HeroInfo={HeroInfo} />
       <TechStack items={TechStackIcons} />
-      {Overview.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Analytical.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Strategic.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
+      <TextBlock Text={Overview} />
+      <TextBlock Text={Analytical} />
+      <TextBlock Text={Strategic} />
       <Footer />
     </>
   );

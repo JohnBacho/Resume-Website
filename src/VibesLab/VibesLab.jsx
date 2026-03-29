@@ -7,7 +7,7 @@ import Image from "../Components/Image.jsx";
 import Related from "../Components/Related.jsx";
 
 import {
-  PageInfo,
+  HeroInfo,
   TechStackIcons,
   Overview,
   Leadership,
@@ -22,53 +22,15 @@ import {
 export default function VibesLab() {
   return (
     <>
-      {PageInfo.map((item, index) => (
-        <JobHero
-          key={index}
-          title={item.title}
-          timeline={item.timeline}
-          position={item.position}
-        />
-      ))}
+      <JobHero HeroInfo={HeroInfo} />
       <TechStack items={TechStackIcons} />
-      {Overview.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {BentoBox1Img.map((item, index) => (
-        <Bento
-          key={index}
-          img1={item.img1}
-          img2={item.img2}
-          img3={item.img3}
-          img4={item.img4}
-          img5={item.img5}
-          alt1={item.alt1}
-          alt2={item.alt2}
-          alt3={item.alt3}
-          alt4={item.alt4}
-          alt5={item.alt5}
-        />
-      ))}
-      {Leadership.map((item, index) => (
-        <TextBlock
-          key={index}
-          title={item.title}
-          body={item.body}
-          PaddingTop={item.paddingTop}
-        />
-      ))}
-      {Image1.map((item, index) => (
-        <Image key={index} img={item.img} alt={item.alt} />
-      ))}
-      {TechnicalWork.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
-      {Image2.map((item, index) => (
-        <Image key={index} img={item.img} alt={item.alt} />
-      ))}
-      {Impact.map((item, index) => (
-        <TextBlock key={index} title={item.title} body={item.body} />
-      ))}
+      <TextBlock Text={Overview} />
+      <Bento Images={BentoBox1Img} />
+      <TextBlock Text={Leadership} />
+      <Image Image={Image1} />
+      <TextBlock Text={TechnicalWork} />
+      <Image Image={Image2} />
+      <TextBlock Text={Impact} />
       <Related projects={RelatedProjects} />
       <Footer />
     </>

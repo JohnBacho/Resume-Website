@@ -1,4 +1,4 @@
-export const PageInfo = [
+export const HeroInfo = [
   {
     title: "Nordson",
     timeline: "2024-2024",

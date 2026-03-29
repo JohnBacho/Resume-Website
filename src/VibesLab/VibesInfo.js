@@ -1,4 +1,4 @@
-export const PageInfo = [
+export const HeroInfo = [
   {
     title: "Vibes Lab",
     timeline: "2025-2026",
@@ -43,18 +43,11 @@ export const Impact = [
 ];
 
 export const BentoBox1Img = [
-  {
-    img1: "images/VIBES-Lab/Discussion.jpg",
-    alt1: "VIBES Lab team discussing project ideas",
-    img2: "images/VIBES-Lab/Headset.jpg",
-    alt2: "VIBES Lab VR headset",
-    img3: "images/VIBES-Lab/Project2Slot.jpg",
-    alt3: "VIBES Lab project 2 slot machine experiment",
-    img4: "images/VIBES-Lab/Lab.jpg",
-    alt4: "VIBES Lab Team picture",
-    img5: "images/VIBES-Lab/Code.jpg",
-    alt5: "VIBES Lab coding environment",
-  },
+    {img: "images/VIBES-Lab/Discussion.jpg", alt: "VIBES Lab team discussing project ideas"},
+    {img: "images/VIBES-Lab/Headset.jpg", alt: "VIBES Lab VR headset"},
+    {img: "images/VIBES-Lab/Project2Slot.jpg", alt: "VIBES Lab project 2 slot machine experiment"},
+    {img: "images/VIBES-Lab/Lab.jpg", alt: "VIBES Lab Team picture"},
+    {img: "images/VIBES-Lab/Code.jpg", alt: "VIBES Lab coding environment"},
 ];
 
 export const Image1 = [
@@ -74,14 +67,23 @@ export const Image2 = [
 export const RelatedProjects = [
   {
     title: "Vibes Lab",
+    project: "Article",
+    image: "images/VIBES-Lab/Article.jpg",
+    link: "https://www.bw.edu/news/2025/11/building-vr-lab-from-ground-up-gives-bw-students-good-vibes",
+    Blank: true,
+  },
+  {
+    title: "Vibes Lab",
     project: "Project 2",
     image: "images/Home/Projects/Project2.jpg",
     link: "/vibes-lab",
+    Blank: false,
   },
   {
     title: "Vibes Lab",
     project: "Project 1",
     image: "images/Home/Projects/Project1.jpg",
     link: "/vibes-lab",
+    Blank: false,
   },
 ];

@@ -57,19 +57,21 @@ export const Image3 = [
 
 export const BentoBox1Img = [
   {
-    img1: "images/About/Flowers1.jpg",
-    alt1: "Picture of flowers taken by John",
+    img: "images/About/Flowers1.jpg",
+    alt: "Picture of flowers taken by John",
+  },
 
-    img2: "images/About/Key.jpg",
-    alt2: "Picture of Key tower taken by John",
+  { img: "images/About/Key.jpg", alt: "Picture of Key tower taken by John" },
 
-    img3: "images/About/Dog.jpg",
-    alt3: "Picture of a dog taken by John",
+  { img: "images/About/Dog.jpg", alt: "Picture of a dog taken by John" },
 
-    img4: "images/About/Flowers2.jpg",
-    alt4: "Picture of flowers taken by John",
+  {
+    img: "images/About/Flowers2.jpg",
+    alt: "Picture of flowers taken by John",
+  },
 
-    img5: "images/About/Cleveland.jpg",
-    alt5: "Picture of downtown cleveland taken by John",
+  {
+    img: "images/About/Cleveland.jpg",
+    alt: "Picture of downtown cleveland taken by John",
   },
 ];

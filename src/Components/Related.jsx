@@ -3,11 +3,8 @@ import styled from "./Related.module.css";
 export default function Related({ projects, paddingTop = "70px" }) {
   return (
     <>
-      <section
-        className={styled.TextBlock}
-        style={{ paddingTop: paddingTop }}
-      >
-        <h1>Related Projects:</h1>
+      <section className={styled.TextBlock}>
+        <h1>Related Work:</h1>
       </section>
 
       <div className={styled.BoxContainer}>
@@ -15,7 +12,7 @@ export default function Related({ projects, paddingTop = "70px" }) {
           <div
             key={index}
             className={styled.BoxContent}
-            onClick={() => (window.location.href = item.link)}
+            onClick={() => (item.Blank ? window.open(item.link, "_blank") : (window.location.href = item.link))}
           >
             <h3>{item.title}</h3>
             <h1>{item.project}</h1>
