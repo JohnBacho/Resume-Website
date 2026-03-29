@@ -1,7 +1,7 @@
 import "./JobHero.css";
 import Nav from "./Nav.jsx";
 
-export default function JobHero({HeroInfo}) {
+export default function JobHero({ HeroInfo }) {
   return (
     <>
       <div className="Hero HeroVibes-Section">
@@ -17,13 +17,19 @@ export default function JobHero({HeroInfo}) {
             <h1>{item.title}</h1>
             <div className="Column-List">
               <div>
-                <h2>Timeline</h2>
-                <p>{item.timeline}</p>
+                <h2 style={item.position === "" ? { textAlign: "center" } : {}}>
+                  Timeline
+                </h2>
+                <p style={item.position === "" ? { textAlign: "center" } : {}}>
+                  {item.timeline}
+                </p>
               </div>
-              <div>
-                <h2>Role</h2>
-                <p style={{ whiteSpace: "pre-line" }}>{item.position}</p>
-              </div>
+              {item.position && (
+                <div>
+                  <h2>Role</h2>
+                  <p style={{ whiteSpace: "pre-line" }}>{item.position}</p>
+                </div>
+              )}
             </div>
           </div>
         ))}

@@ -34,12 +34,15 @@ export default function Home() {
           title={pair.Left.title}
           project={pair.Left.project}
           image={pair.Left.image}
+          link={pair.Left.link}
           title2={pair.Middle.title}
           project2={pair.Middle.project}
           image2={pair.Middle.image}
+          link2={pair.Middle.link}
           title3={pair.Right.title}
           project3={pair.Right.project}
           image3={pair.Right.image}
+          link3={pair.Right.link}
         />
       ))}
       <Footer />

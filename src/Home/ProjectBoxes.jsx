@@ -5,7 +5,7 @@ export default function Box(props) {
     <div className="Box--Container ProjectBoxs">
       <div
         className="Box--Content"
-        onClick={() => (window.location.href = "https://www.example.com")}
+        onClick={() => (window.location.href = props.link)}
       >
         <h3>{props.title}</h3>
         <h1>{props.project}</h1>
@@ -13,7 +13,7 @@ export default function Box(props) {
       </div>
       <div
         className="Box--Content"
-        onClick={() => (window.location.href = "https://www.example.com")}
+        onClick={() => (window.location.href = props.link2)}
       >
         <h3>{props.title2}</h3>
         <h1>{props.project2}</h1>
@@ -21,7 +21,7 @@ export default function Box(props) {
       </div>
       <div
         className="Box--Content"
-        onClick={() => (window.location.href = "https://www.example.com")}
+        onClick={() => (window.location.href = props.link3)}
       >
         <h3>{props.title3}</h3>
         <h1>{props.project3}</h1>

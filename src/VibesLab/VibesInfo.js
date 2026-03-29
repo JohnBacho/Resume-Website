@@ -76,7 +76,7 @@ export const RelatedProjects = [
     title: "Vibes Lab",
     project: "Project 2",
     image: "images/Home/Projects/Project2.jpg",
-    link: "/vibes-lab",
+    link: "/vibes-lab-project-2",
     Blank: false,
   },
   {

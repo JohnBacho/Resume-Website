@@ -7,7 +7,8 @@ import VibesLab from "./VibesLab/VibesLab.jsx";
 import About from "./About/About.jsx";
 import Enterprise from "./Enterprise/Enterprise.jsx";
 import ITAsset from "./ITAsset/ITAsset.jsx";
-import UX from "./UXLab/UX.jsx"
+import UX from "./UXLab/UX.jsx";
+import P2Vibes from "./Projects/P2Vibes/P2Vibes.jsx";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/enterprise-architect" element={<Enterprise />} />
           <Route path="/it-asset-management" element={<ITAsset />} />
           <Route path="/ux-lab" element={<UX />} />
+          <Route path="/vibes-lab-project-2" element={<P2Vibes />} />
         </Routes>
       </Router>
     </>
