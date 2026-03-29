@@ -43,22 +43,22 @@ export const Impact = [
 
 export const Image1 = [
   {
-    img: "images/P2/Parlay.jpg",
-    alt: "Screenshot of the VR parlay betting environment, showing a virtual sportsbook with a parlay bet on the screen",
+    img: "images/P1/UnityProject1.png",
+    alt: "Screenshot of the VR environment",
   },
 ];
 
 export const Image2 = [
   {
-    img: "images/P2/Slot2.png",
-    alt: "Screenshot of the VR slot machine environment, showing a virtual slot machine",
+    img: "images/P1/EyeTrackingVR.png",
+    alt: "Screenshot of purple dots representing eye-tracking data in the VR environment",
   },
 ];
 
 export const Image3 = [
   {
-    img: "images/P2/ParlayBetSlip.jpg",
-    alt: "Screenshot of the VR parlay bet slip, showing the details of the bet",
+    img: "images/P1/CEMSPresentation.jpeg",
+    alt: "Photo of the team and I presenting our project at the CEMS showcase",
   },
 ];
 

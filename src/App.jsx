@@ -10,6 +10,7 @@ import ITAsset from "./ITAsset/ITAsset.jsx";
 import UX from "./UXLab/UX.jsx";
 import P2Vibes from "./Projects/P2Vibes/P2Vibes.jsx";
 import P1Vibes from "./Projects/P1Vibes/P1Vibes.jsx";
+import Contact from "./Contact/Contact.jsx";
 
 export default function App() {
   return (
@@ -18,8 +19,9 @@ export default function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/vibes-lab" element={<VibesLab />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/vibes-lab" element={<VibesLab />} />
           <Route path="/enterprise-architect" element={<Enterprise />} />
           <Route path="/it-asset-management" element={<ITAsset />} />
           <Route path="/ux-lab" element={<UX />} />

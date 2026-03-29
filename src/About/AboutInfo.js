@@ -37,7 +37,7 @@ export const Beyond = [
 export const Image1 = [
   {
     img: "images/About/WorkingAtComputer.jpg",
-    alt: "John Working at a computer with Dr. Thomas in the background",
+    alt: "Testing software at a computer with Dr. Thomas in the background",
   },
 ];
 
@@ -51,7 +51,7 @@ export const Image2 = [
 export const Image3 = [
   {
     img: "images/About/award.jpg",
-    alt: "John awarded outstanding computer science student award at BW",
+    alt: "Awarded outstanding computer science student award at BW",
   },
 ];
 

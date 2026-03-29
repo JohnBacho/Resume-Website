@@ -50,7 +50,7 @@ export const Image1 = [
 
 export const Image2 = [
   {
-    img: "images/P2/Slot2.png",
+    img: "images/P2/UnitySlot.png",
     alt: "Screenshot of the VR slot machine environment, showing a virtual slot machine",
   },
 ];

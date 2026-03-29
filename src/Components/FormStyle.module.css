@@ -1,0 +1,58 @@
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--Heading);
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: rgba(128, 128, 128, 0.215);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+input[type="submit"] {
+  background-color: var(--Heading);
+  color: white;
+  font-size: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]:hover {
+  background-color: #519a80;
+}
+
+.container {
+  display: flex;
+  border-radius: 5px;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  font-family: var(--BodyFont);
+  animation: fadeUp 1s ease forwards;
+
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

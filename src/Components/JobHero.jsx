@@ -16,14 +16,20 @@ export default function JobHero({ HeroInfo }) {
           <div key={index} className="Hero--Content">
             <h1>{item.title}</h1>
             <div className="Column-List">
-              <div>
-                <h2 style={item.position === "" ? { textAlign: "center" } : {}}>
-                  Timeline
-                </h2>
-                <p style={item.position === "" ? { textAlign: "center" } : {}}>
-                  {item.timeline}
-                </p>
-              </div>
+              {item.timeline === "" ? null : (
+                <div>
+                  <h2
+                    style={item.position === "" ? { textAlign: "center" } : {}}
+                  >
+                    Timeline
+                  </h2>
+                  <p
+                    style={item.position === "" ? { textAlign: "center" } : {}}
+                  >
+                    {item.timeline}
+                  </p>
+                </div>
+              )}
               {item.position && (
                 <div>
                   <h2>Role</h2>
