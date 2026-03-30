@@ -55,7 +55,7 @@ export const InProgressProjectPairs = [
       title: "Personal",
       project: "NoteTack",
       image: "images/Home/Projects/NoteTack.png",
-      link: "https://www.anothercompany.com/",
+      link: "/note-tack",
     },
   },
   {

@@ -23,14 +23,14 @@ export const Vision = [
 export const Challenge = [
   {
     title: "The Engineering Challenge",
-    body: "Traditional lab studies often struggle with ecological validity it is hard to make a participant feel the genuine tension of a bet while staring at a flat 2D screen. My challenge was to create a VR environment that felt indistinguishable from a modern sportsbook or a casino floor, while simultaneously functioning as a high-precision scientific instrument. The system needed to track sub-millimeter changes in pupil diameter as a proxy for physiological arousal, all while maintaining the 90 FPS required to prevent motion sickness and data jitter.",
+    body: "Traditional lab studies often struggle with ecological validity it is hard to make a participant feel the genuine tension of a bet while staring at a flat 2D screen. My challenge was to create a VR environment that felt immersive, while simultaneously functioning as a high-precision scientific instrument. The system needed to track sub-millimeter changes in pupil diameter as a proxy for physiological arousal, all while maintaining the 90 FPS required to prevent motion sickness and data jitter.",
   },
 ];
 
 export const Solution = [
   {
     title: "The Solution",
-    body: "I engineered a dual-modality Unity/C# ecosystem that functions as both an immersive gambling simulation and a high-precision data tool. I developed a real-time Sportsbook parlay system and a custom Slot engine with granular control over \"near-win\" psychological triggers. To bridge the gap to clinical research, I integrated the SRanipal SDK for HTC VIVE eye-tracking and built a JavaScript web processor that automates the cleaning and analysis of millions of data points, transforming raw CSVs into actionable behavioral insights.",
+    body: "I engineered a dual-modality Unity/C# ecosystem that functions as both an immersive gambling simulation and a high-precision data tool. I developed a real-time sports parlay system and a custom Slot engine with granular control over \"near-win\" psychological triggers. To bridge the gap to clinical research, I integrated the SRanipal SDK for HTC VIVE eye-tracking and built a JavaScript web processor that automates the cleaning and analysis of millions of data points, transforming raw CSVs into actionable behavioral insights.",
   },
 ];
 
@@ -44,7 +44,7 @@ export const Impact = [
 export const Image1 = [
   {
     img: "images/P2/Parlay.jpg",
-    alt: "Screenshot of the VR parlay betting environment, showing a virtual sportsbook with a parlay bet on the screen",
+    alt: "Screenshot of the VR parlay betting environment, showing a virtual parlay bet on the screen",
   },
 ];
 

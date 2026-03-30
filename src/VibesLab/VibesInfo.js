@@ -10,7 +10,7 @@ export const TechStackIcons = [
   { img: "images/TechStackIcons/Csharp_Icon.png", text: "C#" },
   { img: "images/TechStackIcons/Unity_Icon.png", text: "Unity" },
   { img: "images/TechStackIcons/Html_Icon.png", text: "HTML5" },
-  { img: "images/TechStackIcons/JS_Icon.png", text: "JS" },
+  { img: "images/TechStackIcons/JS_Icon.png", text: "JavaScript" },
 ];
 
 export const Overview = [
@@ -83,7 +83,7 @@ export const RelatedProjects = [
     title: "Vibes Lab",
     project: "Project 1",
     image: "images/Home/Projects/Project1.jpg",
-    link: "/vibes-lab",
+    link: "/vibes-lab-project-1",
     Blank: false,
   },
 ];

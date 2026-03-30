@@ -43,11 +43,11 @@
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
+  transition: 200ms ease;
 }
 
 .footerLink:hover {
   color: #56b594;
-  transition: 200ms ease-in-out;
 }
 
 .heading {

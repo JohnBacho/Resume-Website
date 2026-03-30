@@ -11,6 +11,7 @@ import UX from "./UXLab/UX.jsx";
 import P2Vibes from "./Projects/P2Vibes/P2Vibes.jsx";
 import P1Vibes from "./Projects/P1Vibes/P1Vibes.jsx";
 import Contact from "./Contact/Contact.jsx";
+import NoteTack from "./Projects/NoteTack/NoteTack.jsx";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/vibes-lab" element={<VibesLab />} />
           <Route path="/enterprise-architect" element={<Enterprise />} />
           <Route path="/it-asset-management" element={<ITAsset />} />
+          <Route path="/note-tack" element={<NoteTack />} />
           <Route path="/ux-lab" element={<UX />} />
           <Route path="/vibes-lab-project-1" element={<P1Vibes />} />
           <Route path="/vibes-lab-project-2" element={<P2Vibes />} />
