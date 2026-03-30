@@ -165,15 +165,19 @@
   position: absolute;
   overflow: hidden;
   inset: 0;
-  filter: blur(1000px) saturate(1.2);
+  -webkit-filter: blur(80px) saturate(1.2);
+  filter: blur(80px) saturate(1.2);
   z-index: 0;
+  transform: translateZ(0); 
 }
 
 .blob {
   position: absolute;
   border-radius: 50%;
   opacity: 0.5;
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply; 
+  -webkit-backface-visibility: hidden;
+  will-change: transform;
 }
 
 .b1 {

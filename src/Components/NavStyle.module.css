@@ -86,8 +86,6 @@
 
 @media (pointer: none), (pointer: coarse) {
   .navWrapper {
-    top: auto;
-    bottom: 35px;
     width: 90%;
     max-width: 400px;
     justify-content: space-evenly;
