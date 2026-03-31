@@ -52,30 +52,30 @@ export const InProgressProjectPairs = [
       link: "/vibes-lab-project-2",
     },
     Right: {
-      title: "Personal",
-      project: "NoteTack",
-      image: "images/Home/Projects/NoteTack.png",
-      link: "/note-tack",
-    },
-  },
-  {
-    Left: {
       title: "Vibes Lab",
       project: "Project 1",
       image: "images/Home/Projects/Project1.jpg",
       link: "/vibes-lab-project-1",
     },
+  },
+  {
+    Left: {
+      title: "Personal",
+      project: "NoteTack",
+      image: "images/Home/Projects/NoteTack.png",
+      link: "/note-tack",
+    },
     Middle: {
       title: "Personal",
-      project: "Yellow Jacket Arcade",
-      image: "images/Home/Projects/YellowJacketArcade.jpg",
-      link: "https://www.anothercompany.com/",
+      project: "Jacket Arcade",
+      image: "images/Home/Projects/YJA.png",
+      link: "/jacket-arcade",
     },
     Right: {
       title: "Responsive Web Design",
-      project: "Inner-Harmony",
-      image: "images/Home/Projects/Inner-Harmony.jpg",
-      link: "https://www.anothercompany.com/",
+      project: "Knit & Natter",
+      image: "images/Home/Projects/KnitNatter.png",
+      link: "/knit-natter",
     },
   },
 ];

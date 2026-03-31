@@ -18,4 +18,5 @@
   color: #406c5c;
   white-space: "pre-line";
   font-family: "inter", sans-serif;
+  text-wrap: pretty;
 }
