@@ -1,6 +1,6 @@
 import WorkingAtComputer from "../assets/images/About/WorkingAtComputer.jpg";
 import StudentAndHeatmap from "../assets/images/About/student_and_heatmap.jpg";
-import Award from "../assets/images/About/award.jpg";
+import Award from "../assets/images/About/Award.jpg";
 import Headshot from "../assets/images/About/Headshot.webp";
 import Flowers1 from "../assets/images/About/Flowers1.jpg";
 import Key from "../assets/images/About/Key.jpg";
