@@ -2,7 +2,7 @@ export const AboutHero = [
   {
     title: "I'm John.",
     body: " I'm a Computer Science student at Baldwin Wallace University (3.94 GPA, May 2026) focused on software development, UI/UX, and VR. I’ve worked as an Enterprise Architect Analysis Intern at Nordson and founded a multidisciplinary VR research lab where I lead a team building data-driven Unity applications. Alongside roles as an ACM President, UX team led, and teaching assistant, I enjoy solving complex problems and designing technology that puts\u00A0users\u00A0first.",
-    HeroImage: "/images/About/Headshot.webp",
+    HeroImage: "src/assets/images/About/Headshot.webp",
   },
 ];
 
