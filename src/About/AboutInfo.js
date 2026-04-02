@@ -1,3 +1,5 @@
+import WorkingAtComputer from "../assets/images/About/WorkingAtComputer.jpg";
+
 export const AboutHero = [
   {
     title: "I'm John.",
@@ -36,7 +38,7 @@ export const Beyond = [
 
 export const Image1 = [
   {
-    img: "/images/About/WorkingAtComputer.jpg",
+    img: WorkingAtComputer,
     alt: "Testing software at a computer with Dr. Thomas in the background",
   },
 ];
