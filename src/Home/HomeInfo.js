@@ -43,7 +43,7 @@ export const InProgressProjectPairs = [
       title: "Graphic Design",
       project: "Portfolio",
       image: "images/Home/Projects/GraphicDesign.jpg",
-      link: "https://www.anothercompany.com/",
+      link: "/graphic-design",
     },
     Middle: {
       title: "Vibes Lab",

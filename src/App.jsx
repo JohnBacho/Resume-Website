@@ -14,6 +14,7 @@ import Contact from "./Contact/Contact.jsx";
 import NoteTack from "./Projects/NoteTack/NoteTack.jsx";
 import YJA from "./Projects/YJA/YJA.jsx";
 import KnitNatter from "./Projects/knitNatter/knitNatter.jsx";
+import GD from "./Projects/GD/GD.jsx";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/note-tack" element={<NoteTack />} />
           <Route path="/jacket-arcade" element={<YJA />} />
           <Route path="/knit-natter" element={<KnitNatter />} />
+          <Route path="/graphic-design" element={<GD />} />
         </Routes>
       </Router>
     </>
