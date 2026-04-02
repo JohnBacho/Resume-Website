@@ -36,7 +36,7 @@ export const Beyond = [
 
 export const Image1 = [
   {
-    img: "images/About/WorkingAtComputer.jpg",
+    img: "/images/About/WorkingAtComputer.jpg",
     alt: "Testing software at a computer with Dr. Thomas in the background",
   },
 ];
