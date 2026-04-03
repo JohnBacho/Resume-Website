@@ -4,13 +4,10 @@ import HTML from "../../assets/images/TechStackIcons/Html_Icon.png";
 import JS from "../../assets/images/TechStackIcons/JS_Icon.png";
 
 import UnityProject from "../../assets/images/P1/UnityProject1.png";
-import EyeTrackingVR from "../../assets/images/P1/EyeTrackingVR.png";
+import EyeTrackingVR from "../../assets/images/P1/EyetrackingVR.png";
 import CEMSPresentation from "../../assets/images/P1/CEMSPresentation.jpeg";
 import Group from "../../assets/images/Home/Jobs/VibesLabGroup.webp";
 import Project2 from "../../assets/images/Home/Projects/Project2.jpg";
-
-
-
 
 export const HeroInfo = [
   {
