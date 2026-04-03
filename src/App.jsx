@@ -19,9 +19,16 @@ const GD = lazy(() => import("./Projects/GD/GD.jsx"));
 
 function PageLoader() {
   return (
-    <div style={styles.wrapper}>
-      <div style={styles.spinner} />
-    </div>
+    <>
+      <style>{`
+        @keyframes spin {
+          to { transform: rotate(360deg); }
+        }
+      `}</style>
+      <div style={styles.wrapper}>
+        <div style={styles.spinner} />
+      </div>
+    </>
   );
 }
 
