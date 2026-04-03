@@ -22,6 +22,7 @@ export default function HeroVibes(props) {
                 src={props.HeroImage}
                 alt="John A. Bacho"
                 className={styles.icon}
+                loading="eager"
               />
             </div>
           </div>
