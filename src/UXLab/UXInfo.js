@@ -2,7 +2,7 @@ import Figma from "../assets/images/TechStackIcons/Figma.png";
 import Excel from "../assets/images/TechStackIcons/Excel.png";
 import Tobii from "../assets/images/TechStackIcons/Tobii.png";
 import Testing from "../assets/images/UX/TestingUX.jpg";
-import Poster from "../assets/images/UX/Poster.jpg";
+import Poster from "../assets/images/UX/Poster.JPG";
 import PosterUX from "../assets/images/UX/PosterUX.webp";
 import Article from "../assets/images/UX/UXArticle.jpg";
 
