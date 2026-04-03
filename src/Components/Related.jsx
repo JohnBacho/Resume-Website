@@ -16,7 +16,7 @@ export default function Related({ projects, paddingTop = "70px" }) {
           >
             <h3>{item.title}</h3>
             <h1>{item.project}</h1>
-            <img src={item.image} alt={item.title} />
+            <img src={item.image} alt={item.title} loading="lazy" />
           </div>
         ))}
       </div>

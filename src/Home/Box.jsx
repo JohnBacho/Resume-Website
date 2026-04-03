@@ -10,7 +10,7 @@ export default function Box(props) {
       >
         <h3>{props.title}</h3>
         <h1>{props.position}</h1>
-        <img src={props.image} alt={props.title}></img>
+        <img src={props.image} alt={props.title} loading="lazy"></img>
       </div>
       <div
         className="Box--Content"
@@ -19,7 +19,7 @@ export default function Box(props) {
       >
         <h3>{props.title2}</h3>
         <h1>{props.position2}</h1>
-        <img src={props.image2} alt={props.title2}></img>
+        <img src={props.image2} alt={props.title2} loading="lazy"></img>
       </div>
     </div>
   );

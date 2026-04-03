@@ -44,16 +44,6 @@ const styles = {
   },
 };
 
-if (typeof document !== "undefined") {
-  const id = "__page-loader-style__";
-  if (!document.getElementById(id)) {
-    const style = document.createElement("style");
-    style.id = id;
-    style.textContent = `@keyframes spin { to { transform: rotate(360deg); } }`;
-    document.head.appendChild(style);
-  }
-}
-
 export default function App() {
   return (
     <Router>

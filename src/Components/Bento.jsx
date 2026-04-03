@@ -10,7 +10,7 @@ export default function BentoBox({Images}) {
             className={`${styles.bentoItem} ${styles[`item${index + 1}`]}`}
             key={index}
           >
-            <img src={image.img} alt={image.alt} />
+            <img src={image.img} alt={image.alt} loading="lazy" />
           </div>
         ))}
       </div>
