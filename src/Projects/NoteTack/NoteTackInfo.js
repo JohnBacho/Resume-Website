@@ -1,3 +1,8 @@
+import Figma from "../../assets/images/TechStackIcons/Figma.png";
+import CSS from "../../assets/images/TechStackIcons/CSSIcon.png";
+import HTML from "../../assets/images/TechStackIcons/Html_Icon.png";
+import JS from "../../assets/images/TechStackIcons/JS_Icon.png";
+
 export const HeroInfo = [
   {
     title: "NoteTack",
@@ -7,10 +12,10 @@ export const HeroInfo = [
 ];
 
 export const TechStackIcons = [
-  { img: "images/TechStackIcons/Figma.png", text: "Figma" },
-  { img: "images/TechStackIcons/Html_Icon.png", text: "HTML" },
-  { img: "images/TechStackIcons/CSSIcon.png", text: "CSS" },
-  { img: "images/TechStackIcons/JS_Icon.png", text: "JavaScript" },
+  { img: Figma, text: "Figma" },
+  { img: HTML, text: "HTML5" },
+  { img: CSS, text: "CSS" },
+  { img: JS, text: "JavaScript" },
 ];
 
 export const IframeInfo = [

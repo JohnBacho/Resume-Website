@@ -1,3 +1,9 @@
+import SAP from "../assets/images/TechStackIcons/SAP.png";
+import Excel from "../assets/images/TechStackIcons/Excel.png";
+import PowerBi from "../assets/images/TechStackIcons/PowerBi.png";
+import PowerPoint from "../assets/images/TechStackIcons/Powerpoint.png";
+import Charity from "../assets/images/Enterprise/Charity.jpg";
+
 export const HeroInfo = [
   {
     title: "Nordson",
@@ -7,10 +13,10 @@ export const HeroInfo = [
 ];
 
 export const TechStackIcons = [
-  { img: "images/TechStackIcons/SAP.png", text: "SAP" },
-  { img: "images/TechStackIcons/PowerBi.png", text: "Power BI" },
-  { img: "images/TechStackIcons/Excel.png", text: "Excel" },
-  { img: "images/TechStackIcons/Powerpoint.png", text: "PowerPoint" },
+  { img: SAP, text: "SAP" },
+  { img: PowerBi, text: "Power BI" },
+  { img: Excel, text: "Excel" },
+  { img: PowerPoint, text: "PowerPoint" },
 ];
 
 export const Challenge = [
@@ -50,7 +56,7 @@ export const Impact = [
 
 export const Image1 = [
   {
-    img: "images/Enterprise/IMG_7177.jpg",
+    img: Charity,
     alt: "Charity event with Nordson team",
-  }
+  },
 ];

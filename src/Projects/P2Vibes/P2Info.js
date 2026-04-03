@@ -1,3 +1,14 @@
+import CSharp from "../../assets/images/TechStackIcons/Csharp_Icon.png";
+import Unity from "../../assets/images/TechStackIcons/Unity_Icon.png";
+import HTML from "../../assets/images/TechStackIcons/Html_Icon.png";
+import JS from "../../assets/images/TechStackIcons/JS_Icon.png";
+
+import Parlay from "../../assets/images/P2/Parlay.jpg";
+import UnitySlot from "../../assets/images/P2/UnitySlot.png";
+import ParlayBetSlip from "../../assets/images/P2/ParlayBetSlip.jpg";
+import Group from "../../assets/images/Home/Jobs/VibesLabGroup.webp";
+import Project1 from "../../assets/images/Home/Projects/Project1.jpg";
+
 export const HeroInfo = [
   {
     title: "Project 2",
@@ -7,10 +18,10 @@ export const HeroInfo = [
 ];
 
 export const TechStackIcons = [
-  { img: "images/TechStackIcons/Csharp_Icon.png", text: "C#" },
-  { img: "images/TechStackIcons/Unity_Icon.png", text: "Unity" },
-  { img: "images/TechStackIcons/Html_Icon.png", text: "Html" },
-  { img: "images/TechStackIcons/JS_Icon.png", text: "JavaScript" },
+  { img: CSharp, text: "C#" },
+  { img: Unity, text: "Unity" },
+  { img: HTML, text: "HTML5" },
+  { img: JS, text: "JavaScript" },
 ];
 
 export const Vision = [
@@ -43,21 +54,21 @@ export const Impact = [
 
 export const Image1 = [
   {
-    img: "images/P2/Parlay.jpg",
+    img: Parlay,
     alt: "Screenshot of the VR parlay betting environment, showing a virtual parlay bet on the screen",
   },
 ];
 
 export const Image2 = [
   {
-    img: "images/P2/UnitySlot.png",
+    img: UnitySlot,
     alt: "Screenshot of the VR slot machine environment, showing a virtual slot machine",
   },
 ];
 
 export const Image3 = [
   {
-    img: "images/P2/ParlayBetSlip.jpg",
+    img: ParlayBetSlip,
     alt: "Screenshot of the VR parlay bet slip, showing the details of the bet",
   },
 ];
@@ -66,14 +77,14 @@ export const RelatedProjects = [
   {
     title: "Vibes Lab",
     project: "Founder",
-    image: "images/Home/Jobs/VibesLabGroup.webp",
+    image: Group,
     link: "/vibes-lab",
     Blank: false,
   },
   {
     title: "Vibes Lab",
     project: "Project 1",
-    image: "images/Home/Projects/Project1.jpg",
+    image: Project1,
     link: "/vibes-lab-project-1",
     Blank: false,
   },

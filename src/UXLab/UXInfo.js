@@ -1,3 +1,11 @@
+import Figma from "../assets/images/TechStackIcons/Figma.png";
+import Excel from "../assets/images/TechStackIcons/Excel.png";
+import Tobii from "../assets/images/TechStackIcons/Tobii.png";
+import Testing from "../assets/images/UX/TestingUX.jpg";
+import Poster from "../assets/images/UX/Poster.jpg";
+import PosterUX from "../assets/images/UX/PosterUX.webp";
+import Article from "../assets/images/UX/UXArticle.jpg";
+
 export const HeroInfo = [
   {
     title: "UX Lab",
@@ -7,9 +15,9 @@ export const HeroInfo = [
 ];
 
 export const TechStackIcons = [
-  { img: "images/TechStackIcons/Figma.png", text: "Figma" },
-  { img: "images/TechStackIcons/Excel.png", text: "Excel" },
-  { img: "images/TechStackIcons/Tobii.png", text: "Tobii" },
+  { img: Figma, text: "Figma" },
+  { img: Excel, text: "Excel" },
+  { img: Tobii, text: "Tobii" },
 ];
 
 export const Leadership = [
@@ -42,21 +50,21 @@ export const Partnership = [
 
 export const Image1 = [
   {
-    img: "images/UX/Poster.jpg",
+    img: Poster,
     alt: "UX Team in front of a poster presentation at the CEMS Showcase",
   },
 ];
 
 export const Image2 = [
   {
-    img: "images/UX/TestingUX.jpg",
+    img: Testing,
     alt: "UX Team conducting usability testing in the lab",
   },
 ];
 
 export const Image3 = [
   {
-    img: "images/UX/PosterUX.webp",
+    img: PosterUX,
     alt: "UX Team wayfinding poster",
   },
 ];
@@ -65,7 +73,7 @@ export const RelatedProjects = [
   {
     title: "UX Lab",
     project: "Article",
-    image: "images/UX/UXArticle.jpg",
+    image: Article,
     link: "https://www.bw.edu/news/2025/01/bw-urx-lab-offers-real-world-research-to-students",
     Blank: true,
   },

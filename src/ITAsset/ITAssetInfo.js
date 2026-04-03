@@ -1,3 +1,7 @@
+import ServiceNow from "../assets/images/TechStackIcons/ServiceNow.png";
+import Excel from "../assets/images/TechStackIcons/Excel.png";
+import Python from "../assets/images/TechStackIcons/Python.png";
+
 export const HeroInfo = [
   {
     title: "Nordson",
@@ -7,9 +11,9 @@ export const HeroInfo = [
 ];
 
 export const TechStackIcons = [
-  { img: "images/TechStackIcons/ServiceNow.png", text: "ServiceNow" },
-  { img: "images/TechStackIcons/Excel.png", text: "Excel" },
-  { img: "images/TechStackIcons/Python.png", text: "Python" },
+  { img: ServiceNow, text: "ServiceNow" },
+  { img: Excel, text: "Excel" },
+  { img: Python, text: "Python" },
 ];
 
 export const Overview = [
