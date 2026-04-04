@@ -6,7 +6,7 @@ import JS from "../../assets/images/TechStackIcons/JS_Icon.png";
 import Parlay from "../../assets/images/P2/Parlay.jpg";
 import UnitySlot from "../../assets/images/P2/UnitySlot.png";
 import ParlayBetSlip from "../../assets/images/P2/ParlayBetSlip.jpg";
-import Group from "../../assets/images/Home/Jobs/VibesLabGroup.webp";
+import Group from "../../assets/images/Home/Jobs/VibesLabGroup.jpg";
 import Project1 from "../../assets/images/Home/Projects/Project1.jpg";
 
 export const HeroInfo = [
