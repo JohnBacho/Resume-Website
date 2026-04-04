@@ -1,4 +1,4 @@
-import VibesLabGroup from "../assets/images/Home/Jobs/VibesLabGroup.webp";
+import VibesLabGroup from "../assets/images/Home/Jobs/VibesLabGroup.jpg";
 import Nordson from "../assets/images/Home/Jobs/Nordson.jpg";
 import ITAsset from "../assets/images/Home/Jobs/ITAsset.jpg";
 import UXLab from "../assets/images/Home/Jobs/UXLab.jpg";
