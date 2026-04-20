@@ -1,5 +1,5 @@
 import "./App.css";
-import { Suspense, lazy } from "react";
+import { Suspense, lazy, useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./Components/ScrollToTop.js";
 
@@ -17,7 +17,14 @@ const YJA = lazy(() => import("./Projects/YJA/YJA.jsx"));
 const KnitNatter = lazy(() => import("./Projects/knitNatter/knitNatter.jsx"));
 const GD = lazy(() => import("./Projects/GD/GD.jsx"));
 
-function PageLoader() {
+function PageLoader({ onTimeout }) {
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      onTimeout();
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [onTimeout]);
+
   return (
     <>
       <style>{`
@@ -29,6 +36,20 @@ function PageLoader() {
         <div style={styles.spinner} />
       </div>
     </>
+  );
+}
+
+function SuspenseWithTimeout({ children }) {
+  const [timedOut, setTimedOut] = useState(false);
+
+  if (timedOut) {
+    return children;
+  }
+
+  return (
+    <Suspense fallback={<PageLoader onTimeout={() => setTimedOut(true)} />}>
+      {children}
+    </Suspense>
   );
 }
 
@@ -55,7 +76,7 @@ export default function App() {
   return (
     <Router>
       <ScrollToTop />
-      <Suspense fallback={<PageLoader />}>
+      <SuspenseWithTimeout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -71,7 +92,7 @@ export default function App() {
           <Route path="/knit-natter" element={<KnitNatter />} />
           <Route path="/graphic-design" element={<GD />} />
         </Routes>
-      </Suspense>
+      </SuspenseWithTimeout>
     </Router>
   );
 }
