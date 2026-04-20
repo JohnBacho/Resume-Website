@@ -27,28 +27,28 @@ export const TechStackIcons = [
 export const Vision = [
   {
     title: "The Vision",
-    body: "In the high-stakes world of gambling, a near-win the slot machine stopping one symbol away from a jackpot or a five-leg parlay failing on the final game often triggers a psychological response more powerful than a clean loss. As a Lead Developer for the Virtual Immersive Behavioral Sciences (VIBES) Lab, I was tasked with building the digital infrastructure to capture this phenomenon. We aimed to determine if college athletes, conditioned by high-pressure environments, process these almost moments differently than non-athletes.",
+    body: "In the high-stakes world of gambling, near-wins; such as a slot machine stopping one symbol short or a parlay missing on the final leg; can trigger psychological responses more powerful than clear losses. As a Lead Developer for the Virtual Immersive Behavioral Sciences (VIBES) Lab, I helped build the digital infrastructure to study this effect. Our goal was to test the hypothesis that individuals, particularly college athletes conditioned by high-pressure environments, process near-wins differently; insight that could contribute to preventing gambling addiction.",
   },
 ];
 
 export const Challenge = [
   {
     title: "The Engineering Challenge",
-    body: "Traditional lab studies often struggle with ecological validity it is hard to make a participant feel the genuine tension of a bet while staring at a flat 2D screen. My challenge was to create a VR environment that felt immersive, while simultaneously functioning as a high-precision scientific instrument. The system needed to track sub-millimeter changes in pupil diameter as a proxy for physiological arousal, all while maintaining the 90 FPS required to prevent motion sickness and data jitter.",
+    body: "Traditional lab studies often lack ecological validity; it is difficult to recreate the emotional intensity of real gambling scenarios on a flat 2D screen. My challenge was to design a VR environment that felt realistic and immersive while also functioning as a precise scientific instrument. The system needed to capture subtle physiological responses, such as pupil dilation, with high accuracy, all while maintaining the performance standards required for a smooth and reliable VR experience.",
   },
 ];
 
 export const Solution = [
   {
     title: "The Solution",
-    body: "I engineered a dual-modality Unity/C# ecosystem that functions as both an immersive gambling simulation and a high-precision data tool. I developed a real-time sports parlay system and a custom Slot engine with granular control over \"near-win\" psychological triggers. To bridge the gap to clinical research, I integrated the SRanipal SDK for HTC VIVE eye-tracking and built a JavaScript web processor that automates the cleaning and analysis of millions of data points, transforming raw CSVs into actionable behavioral insights.",
+    body: "I engineered a dual-modality Unity/C# system that operates as both an immersive gambling simulation and a data collection platform. I developed a real-time sports parlay system and a custom slot engine with controlled \"near-win\" conditions to support hypothesis testing. I also integrated eye-tracking through the SRanipal SDK and built a JavaScript-based processing pipeline to clean and analyze large-scale datasets, turning raw behavioral and physiological data into meaningful insights.",
   },
 ];
 
 export const Impact = [
   {
     title: "The Impact",
-    body: "By merging immersive game design with rigorous neuroscience protocols, we created a platform that tracks the intersection of identity and impulse. This project provides the VIBES Lab with a robust framework to quantify how competitive backgrounds influence risk evaluation, ultimately contributing to our understanding of gambling behaviors and reward sensitivity in the digital age.",
+    body: "This project created a foundation for rigorously testing how individuals respond to near-wins in gambling environments. By linking behavioral patterns with physiological responses, the platform enables researchers to better understand risk perception and reward sensitivity. These insights are intended to inform strategies for identifying at-risk individuals and ultimately contribute to the prevention of gambling addiction.",
   },
 ];
 
