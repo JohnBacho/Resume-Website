@@ -5,7 +5,7 @@ import JSIcon from "../assets/images/TechStackIcons/JS_Icon.png";
 import Discussion from "../assets/images/VIBES-Lab/Discussion.jpg";
 import Headset from "../assets/images/VIBES-Lab/Headset.jpg";
 import Project2Slot from "../assets/images/VIBES-Lab/Project2Slot.jpg";
-import Lab from "../assets/images/VIBES-Lab/Lab.jpg";
+import OUPRC from "../assets/images/VIBES-Lab/OUPRCPresenting.jpg";
 import Code from "../assets/images/VIBES-Lab/Code.jpg";
 import Poster from "../assets/images/VIBES-Lab/Poster.jpg";
 import UnityScreenShot from "../assets/images/VIBES-Lab/UnityScreenShot.jpg";
@@ -52,16 +52,16 @@ export const Impact = [
   },
 ];
 export const BentoBox1Img = [
-  { img: Discussion, alt: "VIBES Lab team discussing project ideas" },
+    { img: Poster, alt: "VIBES Lab Team Poster Presentation" },
   { img: Headset, alt: "VIBES Lab VR headset" },
   { img: Project2Slot, alt: "VIBES Lab project 2 slot machine experiment" },
-  { img: Lab, alt: "VIBES Lab Team picture" },
+  { img: Discussion, alt: "VIBES Lab team discussing project ideas" },
   { img: Code, alt: "VIBES Lab coding environment" },
 ];
 export const Image1 = [
   {
-    img: Poster,
-    alt: "VIBES Lab Team Poster Presentation",
+    img: OUPRC,
+    alt: "Presenting the lab’s research at the 2026 OUPRC Conference",
   },
 ];
 export const Image2 = [

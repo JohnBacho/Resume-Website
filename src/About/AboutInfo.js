@@ -7,6 +7,10 @@ import Key from "../assets/images/About/Key.jpg";
 import Dog from "../assets/images/About/Dog.jpg";
 import Flowers2 from "../assets/images/About/Flowers2.jpg";
 import Cleveland from "../assets/images/About/Cleveland.jpg";
+import DaytonCMiller from "../assets/images/About/DaytonCMiller.jpg";
+import CSDepartment from "../assets/images/About/CSDepartment.jpg";
+import OUPRC2026 from "../assets/images/About/OUPRC2026.jpg";
+import OutstandingSenior from "../assets/images/About/OutstandingSenior.jpg";
 
 export const AboutHero = [
   {
@@ -51,13 +55,16 @@ export const Image2 = [
     alt: "UX lab heatmap showing where students were looking at when using a website",
   },
 ];
-export const Image3 = [
-  {
-    img: Award,
-    alt: "Awarded outstanding computer science student award at BW",
-  },
-];
+
 export const BentoBox1Img = [
+  { img: Award, alt: "Awarded outstanding computer science student award at BW" },
+  { img: DaytonCMiller, alt: "Inducted into the Dayton C. Miller Honor Society" },
+  { img: OUPRC2026, alt: "Group photo from OUPRC 2026" },
+  { img: CSDepartment, alt: "Awarded outstanding senior computer science student award at BW" },
+  { img: OutstandingSenior, alt: "Awarded outstanding senior at BW" },
+];
+
+export const BentoBox2Img = [
   { img: Flowers1, alt: "Picture of flowers taken by John" },
   { img: Key, alt: "Picture of Key tower taken by John" },
   { img: Dog, alt: "Picture of a dog taken by John" },
