@@ -1,6 +1,5 @@
 import WorkingAtComputer from "../assets/images/About/WorkingAtComputer.jpg";
 import StudentAndHeatmap from "../assets/images/About/student_and_heatmap.jpg";
-import Award from "../assets/images/About/Award.jpg";
 import Headshot from "../assets/images/About/Headshot.webp";
 import Flowers1 from "../assets/images/About/Flowers1.jpg";
 import Key from "../assets/images/About/Key.jpg";
@@ -10,6 +9,7 @@ import Cleveland from "../assets/images/About/Cleveland.jpg";
 import DaytonCMiller from "../assets/images/About/DaytonCMiller.jpg";
 import CSDepartment from "../assets/images/About/CSDepartment.jpg";
 import OUPRC2026 from "../assets/images/About/OUPRC2026.jpg";
+import Award from "../assets/images/About/award.jpg";
 import OutstandingSenior from "../assets/images/About/OutstandingSenior.jpg";
 
 export const AboutHero = [
@@ -57,11 +57,20 @@ export const Image2 = [
 ];
 
 export const BentoBox1Img = [
-  { img: Award, alt: "Awarded outstanding computer science student award at BW" },
-  { img: DaytonCMiller, alt: "Inducted into the Dayton C. Miller Honor Society" },
-  { img: OUPRC2026, alt: "Group photo from OUPRC 2026" },
-  { img: CSDepartment, alt: "Awarded outstanding senior computer science student award at BW" },
   { img: OutstandingSenior, alt: "Awarded outstanding senior at BW" },
+  {
+    img: DaytonCMiller,
+    alt: "Inducted into the Dayton C. Miller Honor Society",
+  },
+  { img: OUPRC2026, alt: "Group photo from OUPRC 2026" },
+  {
+    img: CSDepartment,
+    alt: "Awarded outstanding senior computer science student award at BW",
+  },
+  {
+    img: Award,
+    alt: "Awarded outstanding computer science student award at BW",
+  },
 ];
 
 export const BentoBox2Img = [
