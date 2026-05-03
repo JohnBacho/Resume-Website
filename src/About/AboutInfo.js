@@ -9,7 +9,7 @@ import Cleveland from "../assets/images/About/Cleveland.jpg";
 import DaytonCMiller from "../assets/images/About/DaytonCMiller.jpg";
 import CSDepartment from "../assets/images/About/CSDepartment.jpg";
 import OUPRC2026 from "../assets/images/About/OUPRC2026.jpg";
-import Award from "../assets/images/About/award.jpg";
+import Award from "../assets/images/About/Award.jpg";
 import OutstandingSenior from "../assets/images/About/OutstandingSenior.jpg";
 
 export const AboutHero = [
