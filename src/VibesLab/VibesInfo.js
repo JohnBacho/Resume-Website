@@ -17,7 +17,7 @@ export const HeroInfo = [
   {
     title: "Vibes Lab",
     timeline: "2025-2026",
-    position: "Founder\nLab Director\nDeveloper",
+    position: "Developer\nFounder\nLab Director",
   },
 ];
 export const TechStackIcons = [
