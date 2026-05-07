@@ -16,6 +16,7 @@ const NoteTack = lazy(() => import("./Projects/NoteTack/NoteTack.jsx"));
 const YJA = lazy(() => import("./Projects/YJA/YJA.jsx"));
 const KnitNatter = lazy(() => import("./Projects/knitNatter/knitNatter.jsx"));
 const GD = lazy(() => import("./Projects/GD/GD.jsx"));
+const GV = lazy(() => import("./Projects/GrooveVault/GV.jsx"));
 
 function PageLoader({ onTimeout }) {
   useEffect(() => {
@@ -91,6 +92,7 @@ export default function App() {
           <Route path="/jacket-arcade" element={<YJA />} />
           <Route path="/knit-natter" element={<KnitNatter />} />
           <Route path="/graphic-design" element={<GD />} />
+          <Route path="/groove-vault" element={<GV />} />
         </Routes>
       </SuspenseWithTimeout>
     </Router>

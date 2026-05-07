@@ -12,6 +12,10 @@ export default function GDBox({ Images }) {
             >
               <img src={image.img} alt={image.alt} />
             </div>
+            <div className={styles.DescriptionWrapper}>
+              <h3>{image.description}</h3>
+              <p>{image.designClass}</p>
+            </div>
           </a>
         ))}
       </div>

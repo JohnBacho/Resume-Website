@@ -40,7 +40,7 @@ export const Impact = [
 export const Beyond = [
   {
     title: "Beyond the Keyboard",
-    body: "When I step away from my screen, I'm usually still making something; just in a different way. I like photography because it forces me to slow down and actually pay attention for a second. Otherwise I'm probably messing with my 3D printer, trying to get something to work and fixing it when it doesn't. At the end of the day, I just like building things and figuring out how tech can be used to benefit\u00A0people.",
+    body: "Outside of code, I’m usually still building something; just with different tools. Photography is my way of slowing down and actually looking at the world, while 3D printing satisfies that itch to tinker, break things, and fix them again. At the end of the day, I’m just driven by the process of making things and finding ways to use technology to solve real-world problems.",
   },
 ];
 export const Image1 = [

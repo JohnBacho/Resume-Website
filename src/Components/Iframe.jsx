@@ -8,6 +8,12 @@ export default function Iframe({ IframeInfo }) {
           key={index}
           src={item.src}
           title={item.title}
+          width={item.width ? "auto" : "100%"}
+          height={item.height || "700px"}
+          style={{
+            borderRadius: item.borderRadius || "24px",
+            maxHeight: item.maxHeight || "100%",
+          }}
         ></iframe>
       ))}
     </div>
