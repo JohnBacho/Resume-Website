@@ -23,12 +23,7 @@ export const TechStackIcons = [
   { img: XD, text: "XD" },
 ];
 
-export const TextProjectStatement = [
-  {
-    title: "GrooveVault",
-    body: "GrooveVault is a comprehensive smartphone application that seamlessly unifies music cataloging, marketplace transactions, and social interaction within a single interface dedicated to physical media. The platform utilizes a structured navigation system validated through user testing that features a custom logotype and ten distinct icons designed to reduce cognitive load and ensure intuitive movement between features. By prioritizing usability and immediate interaction, the application allows users to effortlessly log collections, discover new records, and engage with the community. \n\nThe visual identity of GrooveVault establishes a warm, nostalgic atmosphere through a curated palette of Off-White Acrylic, Turntable Teak, and Groove Amber, capturing the tactile essence of music culture. This aesthetic is bolstered by the geometric authority of Gotham headers and the functional clarity of Inter body text, ensuring readability across all screen sizes. Informed by detailed user personas and authentic album artwork, the final system delivers a refined digital experience that honors the ritualistic nature of collecting while providing a modern, efficient tool for enthusiasts.",
-  },
-];
+
 
 export const TextDevelopement = [
   {

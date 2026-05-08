@@ -2,36 +2,31 @@ import Footer from "../../Components/Footer.jsx";
 import HeroImage from "../../Components/HeroImage.jsx";
 import TextBlock from "../../Components/TextBlock.jsx";
 import Other from "../../Home/Other.jsx";
-import TechStack from "../../Components/TechStack";
+import TechStack from "../../Components/TechStack.jsx";
 import Image from "../../Components/Image.jsx";
-import Iframe from "../../Components/Iframe.jsx";
 
 import {
   HeroInfo,
   TechStackIcons,
-  ImageFinalScreens,
-  ImageGVIcons,
+  ImageFinalInfographic,
+  ImageIllustrations,
   ImageColorType,
-  Iframe1,
-  TextFinalInterface,
-  TextFinalScreens,
+  TextFinalInfographic,
   TextDevelopement,
-  TextFinalIcons,
+  TextFinalIllustrations,
   TextColorType,
   TextFinal,
-  TextWireframe,
   TextMockup,
   TextSketches,
   ImageMockups,
   ImageSketches,
-  ImageWireframe,
   TextOverview,
   TextProblemStatement,
   TextGoalsConstraints,
   TextReflection,
-} from "./GV.js";
+} from "./Analog.js";
 
-export default function GrooveVault() {
+export default function Analog() {
   return (
     <div>
       <HeroImage HeroInfo={HeroInfo} />
@@ -40,11 +35,8 @@ export default function GrooveVault() {
 
       <TextBlock Text={TextOverview} />
 
-      <TextBlock Text={TextFinalInterface} />
-      <Iframe IframeInfo={Iframe1} />
-
-      <TextBlock Text={TextFinalScreens} />
-      <Image Image={ImageFinalScreens} marginBottom={"0px"} />
+      <TextBlock Text={TextFinalInfographic} />
+      <Image Image={ImageFinalInfographic} marginBottom={"0px"} />
 
       <TextBlock Text={TextProblemStatement} />
 
@@ -53,14 +45,11 @@ export default function GrooveVault() {
       <TextBlock Text={TextColorType} />
       <Image Image={ImageColorType} marginBottom={"0px"} />
 
-      <TextBlock Text={TextFinalIcons} />
-      <Image Image={ImageGVIcons} marginBottom={"0px"} />
+      <TextBlock Text={TextFinalIllustrations} />
+      <Image Image={ImageIllustrations} marginBottom={"0px"} />
 
       <TextBlock Text={TextSketches} />
       <Image Image={ImageSketches} marginBottom={"0px"} />
-
-      <TextBlock Text={TextWireframe} />
-      <Image Image={ImageWireframe} marginBottom={"0px"} />
 
       <TextBlock Text={TextMockup} />
       <Image Image={ImageMockups} marginBottom={"0px"} />

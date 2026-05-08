@@ -1,0 +1,135 @@
+import Illustrator from "../../assets/images/TechStackIcons/Illustrator.png";
+import Indesign from "../../assets/images/TechStackIcons/Indesign.png";
+
+import HeroImage from "../../assets/images/Analog/AnalogHero.png";
+import Illustrations from "../../assets/images/Analog/AnalogIllustrations.png";
+import ColorType from "../../assets/images/Analog/AnalogColorType.png";
+import Infographic from "../../assets/images/Analog/InfographicProjectFinal.jpg";
+
+import Mockups from "../../assets/images/Analog/AnalogMockups.png";
+import Sketches from "../../assets/images/Analog/AnalogSketches.jpg";
+
+export const HeroInfo = [
+  {
+    img: HeroImage,
+  },
+];
+
+export const TechStackIcons = [
+  { img: Illustrator, text: "Illustrator" },
+  { img: Indesign, text: "InDesign" },
+];
+
+export const TextDevelopement = [
+  {
+    title: "Developement",
+    textAlign: "center",
+  },
+];
+
+export const TextFinalIllustrations = [
+  {
+    title: "Final Illustrations",
+    textAlign: "center",
+  },
+];
+
+export const TextColorType = [
+  {
+    title: "Color & Type Study",
+    textAlign: "center",
+  },
+];
+
+export const TextFinal = [
+  {
+    title: "Final",
+    textAlign: "Center",
+  },
+];
+
+export const TextMockup = [
+  {
+    title: "Mockup",
+    textAlign: "Center",
+  },
+];
+
+export const TextSketches = [
+  {
+    title: "Sketches",
+    textAlign: "Center",
+  },
+];
+
+export const TextFinalInfographic = [
+  {
+    title: "Final Infographic",
+    textAlign: "Center",
+  },
+];
+
+export const ImageIllustrations = [
+  {
+    img: Illustrations,
+    alt: "Analog 101 infographic illustrations",
+  },
+];
+
+export const ImageColorType = [
+  {
+    img: ColorType,
+    alt: "Color and Typography for Analog 101 infographic",
+  },
+];
+
+export const ImageMockups = [
+  {
+    img: Mockups,
+    alt: "Mockup of Analog 101 infographic",
+  },
+];
+
+export const ImageFinalInfographic = [
+  {
+    img: Infographic,
+    alt: "Final Infographic for Analog 101 project",
+    width: "55%",
+  },
+];
+
+export const ImageSketches = [
+  {
+    img: Sketches,
+    alt: "Early Sketches for Analog 101 infographic",
+    width: "60%",
+  },
+];
+
+export const TextOverview = [
+  {
+    title: "Overview",
+    body: "Analog 101 is a vertically formatted infographic designed for Pinterest that introduces viewers to the fundamentals of film photography through a clear, mobile-centered layout.",
+  },
+];
+
+export const TextProblemStatement = [
+  {
+    title: "Problem Statement",
+    body: "Film photography can feel intimidating to beginners due to technical terminology, fragmented learning resources, and overly complex explanations. Analog 101 was designed to simplify foundational concepts through a visually engaging and easy-to-follow infographic format.",
+  },
+];
+
+export const TextGoalsConstraints = [
+  {
+    title: "Goals & Constraints",
+    body: "The goal of Analog 101 was to create an informative infographic that introduced core film photography concepts through an approachable and visually cohesive layout.\n\nGoals\n• Simplify technical photography concepts\n• Create a nostalgic visual identity inspired by analog media\n• Maintain readability within a vertical mobile format\n\nConstraints\n• Limited space within a scrolling infographic\n• Balancing information density with clarity\n• Organizing technical content into digestible sections",
+  },
+];
+
+export const TextReflection = [
+  {
+    title: "Reflection & Outcome",
+    body: "Analog 101 strengthened my understanding of editorial layout design, visual hierarchy, and information organization within long-form digital compositions. The project reinforced the importance of balancing educational clarity with visual storytelling while designing for mobile-first viewing experiences.\n\nThe final outcome successfully transformed technical photography concepts into an engaging and accessible infographic rooted in the warmth and nostalgia of analog media culture.",
+  },
+];

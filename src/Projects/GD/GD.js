@@ -38,7 +38,7 @@ export const GDBoxImages = [
   {
     img: Infographic,
     alt: "Film Infographic",
-    link: "https://www.behance.net/gallery/244196627/Analog-101-Infographic",
+    link: "/analog-101",
     description: "Analog 101",
     designClass: "Logo and symbols",
   },
