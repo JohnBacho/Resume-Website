@@ -5,7 +5,7 @@ export default function GDBox({ Images }) {
     <div className={styles.gdWrapper}>
       <div className={styles.gdGrid}>
         {Images.map((image, index) => (
-          <a key={index} href={image.link} target="_blank">
+          <a key={index} href={image.link}>
             <div
               className={`${styles.gdItem} ${styles[`item${index + 1}`]}`}
               key={index}

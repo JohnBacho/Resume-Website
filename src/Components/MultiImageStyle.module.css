@@ -1,29 +1,32 @@
-.ImageBlock {
+.ImageContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 22px;
   padding-right: 22px;
   margin-top: 45px;
+  gap: 1em;
 }
 
-.ImageBlock > figure > img {
+.ImageContainer > figure > img {
+  flex: 1;
+  aspect-ratio: 12 / 16;
   border-radius: 24px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   object-fit: cover;
   width: 100%;
   display: block;
-  overflow: hidden;
 }
 
-.ImageBlock > figure {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
+.ImageContainer > figure {
+  max-width: 550px;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
 }
 
-.ImageBlock > figure > figcaption {
+.ImageContainer > figure > figcaption {
   opacity: 0;
   margin-top: 8px;
   font-size: 14px;
@@ -35,25 +38,25 @@
     transform 0.3s ease;
 }
 
-.ImageBlock > figure > img:hover + figcaption {
+.ImageContainer > figure > img:hover + figcaption {
   opacity: 1;
   transform: translateY(5px);
 }
 
 @media (pointer: none), (pointer: coarse) {
-  .ImageBlock > figure > img + figcaption {
+  .ImageContainer > figure > img + figcaption {
     opacity: 1;
   }
 }
 
 @media (max-width: 768px) {
-  .ImageBlock {
+  .ImageContainer {
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  .ImageBlock > figure {
-    width: 100% !important;
+  .ImageContainer > figure {
+    width: 80%;
   }
 }

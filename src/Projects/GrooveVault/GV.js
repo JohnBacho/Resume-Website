@@ -8,8 +8,10 @@ import GVIcons from "../../assets/images/GV/GVIcons.png";
 import ColorType from "../../assets/images/GV/ColorType.png";
 
 import Mockups from "../../assets/images/GV/Mockups.png";
-import Sketches from "../../assets/images/GV/Sketches.png";
 import Wireframe from "../../assets/images/GV/Wireframe.png";
+
+import Sketch1 from "../../assets/images/GV/Sketch1.jpg";
+import Sketch2 from "../../assets/images/GV/Sketch2.jpg";
 
 export const HeroInfo = [
   {
@@ -22,8 +24,6 @@ export const TechStackIcons = [
   { img: Indesign, text: "InDesign" },
   { img: XD, text: "XD" },
 ];
-
-
 
 export const TextDevelopement = [
   {
@@ -118,8 +118,10 @@ export const ImageMockups = [
 
 export const ImageSketches = [
   {
-    img: Sketches,
+    img: Sketch1,
     alt: "Early Sketches for GrooveVault",
+    img2: Sketch2,
+    alt2: "Detailed Concept Drawings for GrooveVault",
   },
 ];
 

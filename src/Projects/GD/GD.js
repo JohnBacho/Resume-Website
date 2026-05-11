@@ -14,7 +14,7 @@ import PersonalLogo from "../../assets/images/GD/PersonalLogo.jpg";
 export const HeroInfo = [
   {
     title: "Portfolio",
-    timeline: "2022-2026",
+    timeline: "2022-Present",
     position: "",
   },
 ];
@@ -46,7 +46,7 @@ export const GDBoxImages = [
     img: Brochure,
     alt: "Mockup of Brochure",
     caption: "Galilean moons brochure",
-    link: "https://www.behance.net/gallery/202606155/Brochure-Project",
+    link: "/jupiters-hidden-worlds-the-galilean-moons",
     description: "Jupiter's Galilean Moons",
     designClass: "Typography",
   },

@@ -76,7 +76,7 @@ export const Image3 = [
 export const RelatedProjects = [
   {
     title: "Vibes Lab",
-    project: "Founder",
+    project: "Lead Developer",
     image: Group,
     link: "/vibes-lab",
     Blank: false,

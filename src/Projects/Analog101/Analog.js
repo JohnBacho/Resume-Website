@@ -7,7 +7,9 @@ import ColorType from "../../assets/images/Analog/AnalogColorType.png";
 import Infographic from "../../assets/images/Analog/InfographicProjectFinal.jpg";
 
 import Mockups from "../../assets/images/Analog/AnalogMockups.png";
-import Sketches from "../../assets/images/Analog/AnalogSketches.jpg";
+import Sketch1 from "../../assets/images/Analog/AnalogSketch1.jpg";
+import Sketch2 from "../../assets/images/Analog/AnalogSketch2.jpg";
+
 
 export const HeroInfo = [
   {
@@ -100,9 +102,10 @@ export const ImageFinalInfographic = [
 
 export const ImageSketches = [
   {
-    img: Sketches,
+    img: Sketch1,
     alt: "Early Sketches for Analog 101 infographic",
-    width: "60%",
+    img2: Sketch2,
+    alt2: "Detailed concept drawings for Analog 101 infographic",
   },
 ];
 

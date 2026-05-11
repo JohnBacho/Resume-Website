@@ -4,6 +4,7 @@ import TextBlock from "../../Components/TextBlock.jsx";
 import Other from "../../Home/Other.jsx";
 import TechStack from "../../Components/TechStack.jsx";
 import Image from "../../Components/Image.jsx";
+import MultiImage from "../../Components/MultiImage.jsx";
 
 import {
   HeroInfo,
@@ -49,7 +50,7 @@ export default function Analog() {
       <Image Image={ImageIllustrations} marginBottom={"0px"} />
 
       <TextBlock Text={TextSketches} />
-      <Image Image={ImageSketches} marginBottom={"0px"} />
+      <MultiImage Image={ImageSketches} marginBottom={"0px"} />
 
       <TextBlock Text={TextMockup} />
       <Image Image={ImageMockups} marginBottom={"0px"} />

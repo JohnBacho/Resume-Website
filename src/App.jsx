@@ -17,7 +17,8 @@ const YJA = lazy(() => import("./Projects/YJA/YJA.jsx"));
 const KnitNatter = lazy(() => import("./Projects/knitNatter/knitNatter.jsx"));
 const GD = lazy(() => import("./Projects/GD/GD.jsx"));
 const GV = lazy(() => import("./Projects/GrooveVault/GV.jsx"));
-const Analog = lazy(() => import("./Projects/Anolog101/Analog.jsx"));
+const Analog = lazy(() => import("./Projects/Analog101/Analog.jsx"));
+const Jupiter = lazy(() => import("./Projects/Jupiter/Jupiter.jsx"));
 
 function PageLoader({ onTimeout }) {
   useEffect(() => {
@@ -95,6 +96,7 @@ export default function App() {
           <Route path="/graphic-design" element={<GD />} />
           <Route path="/groove-vault" element={<GV />} />
           <Route path="/analog-101" element={<Analog />} />
+          <Route path="/jupiters-hidden-worlds-the-galilean-moons" element={<Jupiter />} />
         </Routes>
       </SuspenseWithTimeout>
     </Router>

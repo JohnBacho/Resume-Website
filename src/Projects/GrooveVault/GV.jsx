@@ -5,6 +5,7 @@ import Other from "../../Home/Other.jsx";
 import TechStack from "../../Components/TechStack";
 import Image from "../../Components/Image.jsx";
 import Iframe from "../../Components/Iframe.jsx";
+import MultiImage from "../../Components/MultiImage.jsx";
 
 import {
   HeroInfo,
@@ -57,7 +58,7 @@ export default function GrooveVault() {
       <Image Image={ImageGVIcons} marginBottom={"0px"} />
 
       <TextBlock Text={TextSketches} />
-      <Image Image={ImageSketches} marginBottom={"0px"} />
+      <MultiImage Image={ImageSketches} marginBottom={"0px"} />
 
       <TextBlock Text={TextWireframe} />
       <Image Image={ImageWireframe} marginBottom={"0px"} />
