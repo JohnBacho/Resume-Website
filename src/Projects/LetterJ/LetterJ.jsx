@@ -25,7 +25,7 @@ import {
   ImageFinal3,
 } from "./LetterJ.js";
 
-export default function Analog() {
+export default function LetterJ() {
   return (
     <div>
       <HeroImage HeroInfo={HeroInfo} />

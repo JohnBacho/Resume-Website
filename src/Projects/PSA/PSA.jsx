@@ -10,8 +10,6 @@ import ULBlock from "../../Components/ULBlock.jsx";
 import {
   HeroInfo,
   TechStackIcons,
-  ImageFinalFrontCover,
-  TextFinalBrochure,
   TextDevelopement,
   TextFinal,
   TextMockup,
@@ -22,17 +20,10 @@ import {
   TextProblemStatement,
   TextGoalsConstraints,
   TextReflection,
-  ImagePage2,
-  ImagePage3,
-  ImagePage4,
-  ImagePage5,
-  ImagePage6,
-  ImagePage7,
-  ImagePage8,
-  ImagePage9,
-} from "./Jupiter.js";
+  ImageFinalPosters,
+} from "./PSA.js";
 
-export default function Jupiter() {
+export default function PSA() {
   return (
     <div>
       <HeroImage HeroInfo={HeroInfo} />
@@ -41,18 +32,8 @@ export default function Jupiter() {
 
       <TextBlock Text={TextOverview} />
 
-      <TextBlock Text={TextFinalBrochure} />
-      <Image Image={ImageFinalFrontCover} marginBottom={"0px"} />
-
-      <Image Image={ImagePage2} marginBottom={"0px"} />
-      <Image Image={ImagePage3} marginBottom={"0px"} />
-      <Image Image={ImagePage4} marginBottom={"0px"} />
-      <Image Image={ImagePage5} marginBottom={"0px"} />
-      <Image Image={ImagePage6} marginBottom={"0px"} />
-      <Image Image={ImagePage7} marginBottom={"0px"} />
-      <Image Image={ImagePage8} marginBottom={"0px"} />
-      <Image Image={ImagePage9} marginBottom={"0px"} />
-
+      <TextBlock Text={TextFinal} />
+      <MultiImage Image={ImageFinalPosters} />
 
 
       <TextBlock Text={TextProblemStatement} />
@@ -60,7 +41,7 @@ export default function Jupiter() {
       <ULBlock Text={TextGoalsConstraints} />
 
       <TextBlock Text={TextSketches} />
-      <MultiImage Image={ImageSketches} />
+      <Image Image={ImageSketches} />
 
       <TextBlock Text={TextMockup} />
       <Image Image={ImageMockups} marginBottom={"0px"} />

@@ -20,6 +20,8 @@ const GV = lazy(() => import("./Projects/GrooveVault/GV.jsx"));
 const Analog = lazy(() => import("./Projects/Analog101/Analog.jsx"));
 const Jupiter = lazy(() => import("./Projects/Jupiter/Jupiter.jsx"));
 const LetterJ = lazy(() => import("./Projects/LetterJ/LetterJ.jsx"));
+const PSA = lazy(() => import("./Projects/PSA/PSA.jsx"));
+
 
 function PageLoader({ onTimeout }) {
   useEffect(() => {
@@ -102,6 +104,7 @@ export default function App() {
             element={<Jupiter />}
           />
           <Route path="/just-say-j" element={<LetterJ />} />
+          <Route path="/psa-poster-series" element={<PSA />} />
         </Routes>
       </SuspenseWithTimeout>
     </Router>

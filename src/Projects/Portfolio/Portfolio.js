@@ -60,7 +60,7 @@ export const GDBoxImages = [
   {
     img: PSA,
     alt: "Mockup of PSA",
-    link: "https://www.behance.net/gallery/184826153/PSA-Posters",
+    link: "/psa-poster-series",
     description: "Cyberscecurity PSA",
     designClass: "Graphic design 1",
   },
