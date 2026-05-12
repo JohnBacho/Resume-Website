@@ -15,10 +15,11 @@ const P2Vibes = lazy(() => import("./Projects/P2Vibes/P2Vibes.jsx"));
 const NoteTack = lazy(() => import("./Projects/NoteTack/NoteTack.jsx"));
 const YJA = lazy(() => import("./Projects/YJA/YJA.jsx"));
 const KnitNatter = lazy(() => import("./Projects/knitNatter/knitNatter.jsx"));
-const GD = lazy(() => import("./Projects/GD/GD.jsx"));
+const Portfolio = lazy(() => import("./Projects/Portfolio/Portfolio.jsx"));
 const GV = lazy(() => import("./Projects/GrooveVault/GV.jsx"));
 const Analog = lazy(() => import("./Projects/Analog101/Analog.jsx"));
 const Jupiter = lazy(() => import("./Projects/Jupiter/Jupiter.jsx"));
+const LetterJ = lazy(() => import("./Projects/LetterJ/LetterJ.jsx"));
 
 function PageLoader({ onTimeout }) {
   useEffect(() => {
@@ -93,13 +94,14 @@ export default function App() {
           <Route path="/note-tack" element={<NoteTack />} />
           <Route path="/jacket-arcade" element={<YJA />} />
           <Route path="/knit-natter" element={<KnitNatter />} />
-          <Route path="/portfolio" element={<GD />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/groove-vault" element={<GV />} />
           <Route path="/analog-101" element={<Analog />} />
           <Route
             path="/jupiters-hidden-worlds-the-galilean-moons"
             element={<Jupiter />}
           />
+          <Route path="/just-say-j" element={<LetterJ />} />
         </Routes>
       </SuspenseWithTimeout>
     </Router>

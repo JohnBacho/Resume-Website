@@ -4,12 +4,12 @@ import Indesign from "../../assets/images/TechStackIcons/Indesign.png";
 import XD from "../../assets/images/TechStackIcons/XD.png";
 import Figma from "../../assets/images/TechStackIcons/Figma.png";
 
-import GrooveVault from "../../assets/images/GD/GrooveApp.png";
-import Infographic from "../../assets/images/GD/Infographic.png";
-import Brochure from "../../assets/images/GD/Brochure.jpg";
-import LetterJ from "../../assets/images/GD/LetterJ.jpg";
-import PSA from "../../assets/images/GD/PSA.jpg";
-import PersonalLogo from "../../assets/images/GD/PersonalLogo.jpg";
+import GrooveVault from "../../assets/images/Portfolio/GrooveApp.png";
+import Infographic from "../../assets/images/Portfolio/Infographic.png";
+import Brochure from "../../assets/images/Portfolio/Brochure.jpg";
+import LetterJ from "../../assets/images/Portfolio/LetterJ.jpg";
+import PSA from "../../assets/images/Portfolio/PSA.jpg";
+import PersonalLogo from "../../assets/images/Portfolio/PersonalLogo.jpg";
 
 export const HeroInfo = [
   {
@@ -53,7 +53,7 @@ export const GDBoxImages = [
   {
     img: LetterJ,
     alt: "Mockup of Just say J",
-    link: "https://www.behance.net/gallery/194215241/Letter-History-Poster",
+    link: "/just-say-j",
     description: "Just say J",
     designClass: "Typography",
   },

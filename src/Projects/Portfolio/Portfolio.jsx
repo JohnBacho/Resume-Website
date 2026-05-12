@@ -5,9 +5,9 @@ import TechStack from "../../Components/TechStack.jsx";
 import TextBlock from "../../Components/TextBlock.jsx";
 import Other from "../../Home/Other.jsx";
 
-import { HeroInfo, TechStackIcons, GDBoxImages } from "./GD.js";
+import { HeroInfo, TechStackIcons, GDBoxImages } from "./Portfolio.js";
 
-export default function InnerHarmony() {
+export default function Portfolios() {
   return (
     <div>
       <Header HeroInfo={HeroInfo} />

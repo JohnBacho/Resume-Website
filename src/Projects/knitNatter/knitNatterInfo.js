@@ -1,4 +1,4 @@
-import Figma from "../../assets/images/TechStackIcons/Figma.png";
+import BootStrap from "../../assets/images/TechStackIcons/BootStrap.png";
 import CSS from "../../assets/images/TechStackIcons/CSSIcon.png";
 import HTML from "../../assets/images/TechStackIcons/Html_Icon.png";
 import JS from "../../assets/images/TechStackIcons/JS_Icon.png";
@@ -12,10 +12,11 @@ export const HeroInfo = [
 ];
 
 export const TechStackIcons = [
-  { img: Figma, text: "Figma" },
   { img: HTML, text: "HTML5" },
   { img: CSS, text: "CSS" },
   { img: JS, text: "JavaScript" },
+    { img: BootStrap, text: "Bootstrap" },
+
 ];
 
 export const IframeInfo = [
