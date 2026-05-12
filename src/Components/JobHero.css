@@ -43,3 +43,9 @@
     font-size: 100px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .HeroVibes-Section .Hero--Content > h1 {
+    font-size: 80px;
+  }
+}

@@ -1,0 +1,30 @@
+.TextBlock {
+  max-width: 600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+}
+
+.TextBlock > h1 {
+  font-size: 50px;
+  color: #285545;
+  font-family: "Acorn-Bold", sans-serif;
+}
+
+.TextBlock > p, .TextBlock > ul {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  color: #406c5c;
+  white-space: "pre-line";
+  font-family: "inter", sans-serif;
+  text-wrap: pretty;
+}
+
+.TextBlock > ul {
+  list-style-position: outside;
+  padding-left: 40px;
+}
+
+.TextBlock > ul > li {
+  margin-bottom: 10px;
+}

@@ -15,49 +15,55 @@ import OutstandingSenior from "../assets/images/About/OutstandingSenior.jpg";
 export const AboutHero = [
   {
     title: "I'm John.",
-    body: " I'm a Computer Science student at Baldwin Wallace University (3.94 GPA, May 2026) focused on software development, UI/UX, and VR. I've worked as an Enterprise Architect Analysis Intern at Nordson and founded a multidisciplinary VR research lab where I lead a team building data-driven Unity applications. Alongside roles as an ACM President, UX team led, and teaching assistant, I enjoy solving complex problems and designing technology that puts\u00A0users\u00A0first.",
+    body: "I recently graduated from Baldwin Wallace University with a B.S. in Computer Science and a minor in Graphic Design (3.94 GPA, May 2026). My work focuses on software development, UI/UX, and emerging technologies, with experience ranging from enterprise systems at Nordson to multidisciplinary research and interactive application development. As the founder and director of a student-led research lab, former ACM President, UX team lead, and teaching assistant, I’ve spent the last several years building technology that balances technical depth with thoughtful, human-centered design.",
     HeroImage: Headshot,
   },
 ];
+
 export const Design = [
   {
     title: "Bridging Logic and Design",
-    body: "I've always believed that the most powerful technology is the kind that feels invisible to the user. As a Computer Science student with a minor in Graphic Design, my work lives at the crossroads of rigorous logic and human-centered empathy. Whether I am building immersive VR environments or streamlining enterprise data, my goal is to create tools that are as intuitive as they are powerful.",
+    body: "I've always believed that the most powerful technology is the kind that feels invisible to the user. With a background in both Computer Science and Graphic Design, my work lives at the crossroads of rigorous logic and human-centered empathy. Whether I’m designing interfaces, developing software systems, or building interactive experiences, my goal is to create tools that are as intuitive as they are effective.",
   },
 ];
+
 export const Leadership = [
   {
     title: "Leadership in Innovation",
-    body: "Currently, I serve as the Founder and Student Lab Director of the Virtual Immersive Behavioral Sciences Lab at Baldwin Wallace University. Leading a cross-disciplinary team has taught me that great software isn't built in a vacuum. It requires translating complex research needs into scalable C# systems and ensuring that every interaction; whether in a VR headset or a data dashboard; serves the person on the other side of the\u00A0screen.",
+    body: "During my time at Baldwin Wallace University, I founded and directed the Virtual Immersive Behavioral Sciences Lab, leading a team of 13 students across software development, UX research, and interactive technologies. Through managing collaborative projects and building scalable applications, I learned that great technology is defined not only by performance, but by how effectively it serves the people using it.",
   },
 ];
+
 export const Impact = [
   {
     title: "Real-World Impact",
-    body: "My experience spans from the granular technicalities of SAP system migrations at Nordson to the creative challenges of UI/UX design and Unity development. I'm a firm believer in technical documentation that actually makes sense and codebases that are built to last. I don't just want to solve a problem; I want to understand the human behavior behind it so I can build a better solution.",
+    body: "My experience spans from the technical challenges of SAP system migrations at Nordson to the creative problem-solving involved in UI/UX design, software engineering, and interactive development. I care deeply about building maintainable systems, writing documentation that people can actually use, and designing experiences that feel intentional. I don’t just want to solve problems. I want to understand the people behind them so I can create better, longer-lasting solutions.",
   },
 ];
+
 export const Beyond = [
   {
     title: "Beyond the Keyboard",
     body: "Outside of code, I’m usually still building something; just with different tools. Photography is my way of slowing down and actually looking at the world, while 3D printing satisfies that itch to tinker, break things, and fix them again. At the end of the day, I’m just driven by the process of making things and finding ways to use technology to solve real-world problems.",
   },
 ];
+
 export const Image1 = [
   {
     img: WorkingAtComputer,
     alt: "Testing software at a computer with Dr. Thomas in the background",
   },
 ];
+
 export const Image2 = [
   {
     img: StudentAndHeatmap,
-    alt: "UX lab heatmap showing where students were looking at when using a website",
+    alt: "UX lab heatmap showing where students were looking when using a website",
   },
 ];
 
 export const BentoBox1Img = [
-  { img: OutstandingSenior, alt: "Awarded outstanding senior at BW" },
+  { img: OutstandingSenior, alt: "Awarded Outstanding Senior at BW" },
   {
     img: DaytonCMiller,
     alt: "Inducted into the Dayton C. Miller Honor Society",
@@ -65,18 +71,18 @@ export const BentoBox1Img = [
   { img: OUPRC2026, alt: "Group photo from OUPRC 2026" },
   {
     img: CSDepartment,
-    alt: "Awarded outstanding senior computer science student award at BW",
+    alt: "Awarded Outstanding Senior Computer Science Student at BW",
   },
   {
     img: Award,
-    alt: "Awarded outstanding computer science student award at BW",
+    alt: "Awarded Outstanding Computer Science Student at BW",
   },
 ];
 
 export const BentoBox2Img = [
-  { img: Flowers1, alt: "Picture of flowers taken by John" },
-  { img: Key, alt: "Picture of Key tower taken by John" },
-  { img: Dog, alt: "Picture of a dog taken by John" },
-  { img: Flowers2, alt: "Picture of flowers taken by John" },
-  { img: Cleveland, alt: "Picture of downtown cleveland taken by John" },
+  { img: Flowers1, alt: "Photograph of flowers taken by John" },
+  { img: Key, alt: "Photograph of Key Tower taken by John" },
+  { img: Dog, alt: "Photograph of a dog taken by John" },
+  { img: Flowers2, alt: "Photograph of flowers taken by John" },
+  { img: Cleveland, alt: "Photograph of downtown Cleveland taken by John" },
 ];

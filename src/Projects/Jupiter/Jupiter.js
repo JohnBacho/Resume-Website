@@ -169,8 +169,17 @@ export const TextProblemStatement = [
 
 export const TextGoalsConstraints = [
   {
-    title: "Goals & Constraints",
-    body: "The primary objective was to design a multi-page layout that balances high-density information with a clean, minimalist aesthetic.\n\nGoals\n• Translate complex lunar data into an engaging narrative\n• Utilize a high-contrast palette (Paper White, Rich Black, International Orange) for maximum clarity\n• Ensure seamless navigation through a structured, 'orbital' layout\n\nConstraints\n• Adhering to a specific minimalist design philosophy\n• Curating imagery that maintains a consistent tone across diverse celestial bodies\n• Balancing technical typography (Aileron & Halyard Display) for both readability and style",
+    body: "The primary objective was to design a multi-page layout that balances high-density information with a clean, minimalist aesthetic.",
+    goal: [
+      "Translate complex lunar data into an engaging narrative",
+      "Utilize a high-contrast palette (Paper White, Rich Black, International Orange) for maximum clarity",
+      "Ensure seamless navigation through a structured, 'orbital' layout",
+    ],
+    constraints: [
+      "Establishing a Visual Anchor on every panel that prevents the technical typography from becoming overwhelming.",
+      "Curating imagery that maintains a consistent tone across diverse celestial bodies",
+      "Balancing technical typography (Aileron & Halyard Display) for both readability and style",
+    ],
   },
 ];
 

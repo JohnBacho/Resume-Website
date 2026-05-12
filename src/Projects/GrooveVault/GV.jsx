@@ -6,6 +6,8 @@ import TechStack from "../../Components/TechStack";
 import Image from "../../Components/Image.jsx";
 import Iframe from "../../Components/Iframe.jsx";
 import MultiImage from "../../Components/MultiImage.jsx";
+import ULBlock from "../../Components/ULBlock.jsx";
+
 
 import {
   HeroInfo,
@@ -49,7 +51,7 @@ export default function GrooveVault() {
 
       <TextBlock Text={TextProblemStatement} />
 
-      <TextBlock Text={TextGoalsConstraints} />
+      <ULBlock Text={TextGoalsConstraints} />
 
       <TextBlock Text={TextColorType} />
       <Image Image={ImageColorType} marginBottom={"0px"} />

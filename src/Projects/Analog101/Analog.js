@@ -10,7 +10,6 @@ import Mockups from "../../assets/images/Analog/AnalogMockups.png";
 import Sketch1 from "../../assets/images/Analog/AnalogSketch1.jpg";
 import Sketch2 from "../../assets/images/Analog/AnalogSketch2.jpg";
 
-
 export const HeroInfo = [
   {
     img: HeroImage,
@@ -125,8 +124,17 @@ export const TextProblemStatement = [
 
 export const TextGoalsConstraints = [
   {
-    title: "Goals & Constraints",
-    body: "The goal of Analog 101 was to create an informative infographic that introduced core film photography concepts through an approachable and visually cohesive layout.\n\nGoals\n• Simplify technical photography concepts\n• Create a nostalgic visual identity inspired by analog media\n• Maintain readability within a vertical mobile format\n\nConstraints\n• Limited space within a scrolling infographic\n• Balancing information density with clarity\n• Organizing technical content into digestible sections",
+    body: "The goal of Analog 101 was to create an informative infographic that introduced core film photography concepts through an approachable and visually cohesive layout.",
+    goal: [
+      "Simplify technical photography concepts",
+      "Create a nostalgic visual identity inspired by analog media",
+      "Maintain readability within a vertical mobile format",
+    ],
+    constraints: [
+      "Limited space within a scrolling infographic",
+      "Balancing information density with clarity",
+      "Organizing technical content into digestible sections",
+    ],
   },
 ];
 

@@ -93,10 +93,13 @@ export default function App() {
           <Route path="/note-tack" element={<NoteTack />} />
           <Route path="/jacket-arcade" element={<YJA />} />
           <Route path="/knit-natter" element={<KnitNatter />} />
-          <Route path="/graphic-design" element={<GD />} />
+          <Route path="/portfolio" element={<GD />} />
           <Route path="/groove-vault" element={<GV />} />
           <Route path="/analog-101" element={<Analog />} />
-          <Route path="/jupiters-hidden-worlds-the-galilean-moons" element={<Jupiter />} />
+          <Route
+            path="/jupiters-hidden-worlds-the-galilean-moons"
+            element={<Jupiter />}
+          />
         </Routes>
       </SuspenseWithTimeout>
     </Router>

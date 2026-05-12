@@ -86,19 +86,31 @@
 
 @media (pointer: none), (pointer: coarse) {
   .navWrapper {
-    width: 90%;
-    max-width: 400px;
+    width: 95%;
+    max-width: 500px;
     justify-content: space-evenly;
-    gap: 8px;
   }
 
   .navItem {
-    padding: 12px 16px;
+    padding: 12px 11px;
     flex: 1;
     text-align: center;
   }
   .navItem:hover:not(.active) {
     background: transparent;
     color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .navItem {
+    padding: 10px 7px;
+    font-size: 14px;
+  }
+
+    .navWrapper {
+    width: 97%;
+    max-width: 500px;
+    justify-content: space-evenly;
   }
 }

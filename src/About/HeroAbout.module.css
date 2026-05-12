@@ -168,7 +168,7 @@
   }
 
   .hero-about-text > p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .e-card {
@@ -177,5 +177,21 @@
     min-width: 370px;
     margin-right: 0;
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero-about-text > h1 {
+    font-size: 3.5rem;
+  }
+    .icon {
+    width: 280px;
+    height: 280px;
+  }
+
+  .e-card {
+    width: 320px;
+    height: 320px;
+    min-width: 320px;
   }
 }

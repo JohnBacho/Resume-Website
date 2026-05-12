@@ -51,10 +51,10 @@ export const projectPairs = [
 export const InProgressProjectPairs = [
   {
     Left: {
-      title: "Graphic Design",
-      project: "Portfolio",
-      image: GraphicDesign,
-      link: "/graphic-design",
+      title: "Vibes Lab",
+      project: "Project 1",
+      image: Project1,
+      link: "/vibes-lab-project-1",
     },
     Middle: {
       title: "Vibes Lab",
@@ -63,10 +63,10 @@ export const InProgressProjectPairs = [
       link: "/vibes-lab-project-2",
     },
     Right: {
-      title: "Vibes Lab",
-      project: "Project 1",
-      image: Project1,
-      link: "/vibes-lab-project-1",
+      title: "Responsive Web Design",
+      project: "Knit & Natter",
+      image: KnitNatter,
+      link: "/knit-natter",
     },
   },
   {
@@ -83,10 +83,10 @@ export const InProgressProjectPairs = [
       link: "/jacket-arcade",
     },
     Right: {
-      title: "Responsive Web Design",
-      project: "Knit & Natter",
+      title: "",
+      project: "",
       image: KnitNatter,
-      link: "/knit-natter",
+      link: "",
     },
   },
 ];

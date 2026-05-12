@@ -158,8 +158,17 @@ export const TextProblemStatement = [
 
 export const TextGoalsConstraints = [
   {
-    title: "Goals & Constraints",
-    body: "The goal of GrooveVault was to create an intuitive mobile experience that unified cataloging, browsing, and community interaction for physical media collectors.\n\nGoals\n• Simplify navigation across core features\n• Create a nostalgic yet modern visual identity\n• Maintain readability across devices\n\nConstraints\n• Limited mobile screen space\n• Balancing aesthetics with usability\n• Supporting multiple navigation paths",
+    body: "The goal of GrooveVault was to create an intuitive mobile experience that unified cataloging, browsing, and community interaction for physical media collectors.",
+    goal: [
+      "Simplify navigation across core features",
+      "Create a nostalgic yet modern visual identity",
+      "Maintain readability across devices"
+    ],
+    constraints: [
+      "Limited mobile screen space",
+      "Balancing aesthetics with usability",
+      "Supporting multiple navigation paths"
+    ]
   },
 ];
 

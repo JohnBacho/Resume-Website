@@ -138,6 +138,16 @@
   }
 }
 
+@media screen and (max-width: 375px) {
+  .Hero--Content > h1 {
+    font-size: 55px;
+  }
+    .Hero--Content > p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;

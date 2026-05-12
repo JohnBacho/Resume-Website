@@ -23,3 +23,13 @@
   color: #285545;
   font-family: "Inter", sans-serif;
 }
+
+@media screen and (max-width: 375px) {
+  .InProgress h1 {
+    font-size: 80px;
+  }
+  .InProgress p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

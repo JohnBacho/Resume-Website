@@ -5,6 +5,7 @@ import Other from "../../Home/Other.jsx";
 import TechStack from "../../Components/TechStack.jsx";
 import Image from "../../Components/Image.jsx";
 import MultiImage from "../../Components/MultiImage.jsx";
+import ULBlock from "../../Components/ULBlock.jsx";
 
 import {
   HeroInfo,
@@ -56,7 +57,7 @@ export default function Analog() {
 
       <TextBlock Text={TextProblemStatement} />
 
-      <TextBlock Text={TextGoalsConstraints} />
+      <ULBlock Text={TextGoalsConstraints} />
 
       <TextBlock Text={TextSketches} />
       <MultiImage Image={ImageSketches} />

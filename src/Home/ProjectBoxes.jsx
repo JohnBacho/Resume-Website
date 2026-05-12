@@ -21,6 +21,7 @@ export default function Box(props) {
       </div>
       <div
         className="Box--Content"
+        style={props.link3 ? null : { display: "none" }}
         onClick={() => (window.location.href = props.link3)}
       >
         <h3>{props.title3}</h3>
