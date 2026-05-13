@@ -67,7 +67,7 @@ export const GDBoxImages = [
   {
     img: PersonalLogo,
     alt: "Mockup of Personal Logo",
-    link: "https://www.behance.net/gallery/184821625/Personal-Logo",
+    link: "/personal-logo",
     description: "Personal Logo",
     designClass: "Graphic design 1",
   },
