@@ -35,9 +35,9 @@ export default function PersonalLogo() {
       <TextBlock Text={TextOverview} />
 
       <TextBlock Text={TextFinal} />
-      <Image Image={ImageReversed} />
-      <Image Image={ImageBlackWhite} />
-      <Image Image={ImageColored} />
+      <Image Image={ImageReversed} marginBottom={"0px"}/>
+      <Image Image={ImageBlackWhite} marginBottom={"0px"}/>
+      <Image Image={ImageColored} marginBottom={"0px"}/>
 
       <TextBlock Text={TextProblemStatement} />
 
