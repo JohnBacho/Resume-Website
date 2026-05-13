@@ -2,7 +2,6 @@ import VibesLabGroup from "../assets/images/Home/Jobs/VibesLabGroup.jpg";
 import Nordson from "../assets/images/Home/Jobs/Nordson.jpg";
 import ITAsset from "../assets/images/Home/Jobs/ITAsset.jpg";
 import UXLab from "../assets/images/Home/Jobs/UXLab.jpg";
-import GraphicDesign from "../assets/images/Home/Projects/GraphicDesign.jpg";
 import Project2 from "../assets/images/Home/Projects/Project2.jpg";
 import Project1 from "../assets/images/Home/Projects/Project1.jpg";
 import NoteTack from "../assets/images/Home/Projects/NoteTack.png";

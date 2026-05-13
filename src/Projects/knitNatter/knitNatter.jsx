@@ -3,21 +3,33 @@ import Header from "../../Components/JobHero.jsx";
 import Iframe from "../../Components/Iframe.jsx";
 import TechStack from "../../Components/TechStack.jsx";
 import TextBlock from "../../Components/TextBlock.jsx";
+import HeroImage from "../../Components/HeroImage.jsx";
+import ULBlock from "../../Components/ULBlock.jsx";
 
 import {
   HeroInfo,
   TechStackIcons,
   IframeInfo,
-  Overview,
+  ImageHero,
+  TextOverview,
+  TextProblemStatement,
+  TextGoalsConstraints,
+  TextReflection,
+  TextFinalWebsite,
 } from "./knitNatterInfo.js";
 
-export default function InnerHarmony() {
+export default function KnitNatter() {
   return (
     <div>
-      <Header HeroInfo={HeroInfo} />
+      <HeroImage HeroInfo={ImageHero} />
       <TechStack items={TechStackIcons} />
-      <TextBlock Text={Overview} />
+      <TextBlock Text={TextOverview} />
+
+      <TextBlock Text={TextFinalWebsite} />
       <Iframe IframeInfo={IframeInfo} />
+      <TextBlock Text={TextProblemStatement} />
+      <ULBlock Text={TextGoalsConstraints} />
+      <TextBlock Text={TextReflection} />
       <Footer />
     </div>
   );
