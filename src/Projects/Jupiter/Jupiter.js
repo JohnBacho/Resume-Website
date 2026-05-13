@@ -140,7 +140,6 @@ export const ImageMockups = [
   {
     img: Mockups,
     alt: "Mockup of Jupiter’s Hidden Worlds The Galilean Moons brochure",
-    width: "65%",
   },
 ];
 

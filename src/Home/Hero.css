@@ -28,11 +28,8 @@
   opacity: 0;
   color: var(--Heading);
   pointer-events: none;
-  animation-name: ScaleUp;
-  animation-duration: 500ms;
-  animation-fill-mode: forwards;
-
-  animation-delay: 800ms;
+  animation: ScaleUp 500ms forwards 800ms;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 2;
 }
 
@@ -142,7 +139,7 @@
   .Hero--Content > h1 {
     font-size: 55px;
   }
-    .Hero--Content > p {
+  .Hero--Content > p {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -178,14 +175,14 @@
   -webkit-filter: blur(80px) saturate(1.2);
   filter: blur(80px) saturate(1.2);
   z-index: 0;
-  transform: translateZ(0); 
+  transform: translateZ(0);
 }
 
 .blob {
   position: absolute;
   border-radius: 50%;
   opacity: 0.5;
-  mix-blend-mode: multiply; 
+  mix-blend-mode: multiply;
   -webkit-backface-visibility: hidden;
   will-change: transform;
 }

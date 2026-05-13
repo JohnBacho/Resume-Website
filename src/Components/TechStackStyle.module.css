@@ -23,7 +23,7 @@
   text-align: center;
   color: #285545;
   font-family: "inter", sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .logo:nth-child(2) {
@@ -62,14 +62,18 @@
 }
 
 @media screen and (max-width: 950px) {
-  .logo{
-      margin-top: 0%;
+  .logo {
+    margin-top: 0%;
   }
 }
 
 @media screen and (max-width: 500px) {
   .logo > img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0px;
+  }
+  .logo > h3 {
+    font-size: 14px;
   }
 }

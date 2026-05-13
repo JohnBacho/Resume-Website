@@ -78,7 +78,6 @@ export const ImageMockups = [
   {
     img: Mockups,
     alt: "Mockup presentation of the Letter J poster series",
-    width: "65%",
   },
 ];
 

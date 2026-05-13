@@ -1,0 +1,15 @@
+.Work {
+  opacity: 0;
+  animation: fadeUp 0.65s ease 400ms forwards; 
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
