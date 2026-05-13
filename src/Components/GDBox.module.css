@@ -116,3 +116,12 @@
       "box6";
   }
 }
+
+@media (pointer: none), (pointer: coarse) {
+  .gdItem:hover {
+    transform: translateY(0);
+    filter: brightness(1);
+    -webkit-box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
+    box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
+  }
+}

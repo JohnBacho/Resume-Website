@@ -44,6 +44,9 @@
   .ImageBlock > figure > img + figcaption {
     opacity: 1;
   }
+  .ImageBlock > figure > img:hover + figcaption {
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {

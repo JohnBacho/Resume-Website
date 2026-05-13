@@ -15,7 +15,7 @@ export const projectPairs = [
       title: "VIBES Lab",
       position: "Lead Developer",
       image: VibesLabGroup,
-      bgColor: "#afceda",
+      bgColor: "#5F8FA3",
       grow: 0,
       link: "/vibes-lab",
     },
@@ -23,7 +23,7 @@ export const projectPairs = [
       title: "Nordson",
       position: "Enterprise Architect",
       image: Nordson,
-      bgColor: "#afdab0",
+      bgColor: "#6B9271",
       grow: 1,
       link: "/enterprise-architect",
     },
@@ -33,7 +33,7 @@ export const projectPairs = [
       title: "Nordson",
       position: "IT Asset Management",
       image: ITAsset,
-      bgColor: "#c0daaf",
+      bgColor: "#8B9A63",
       grow: 1,
       link: "/it-asset-management",
     },
@@ -41,7 +41,7 @@ export const projectPairs = [
       title: "BW UX Lab",
       position: "Team Lead",
       image: UXLab,
-      bgColor: "#d2daaf",
+      bgColor: "#A08F5A",
       grow: 0,
       link: "/ux-lab",
     },
@@ -90,3 +90,8 @@ export const InProgressProjectPairs = [
     },
   },
 ];
+
+export const inProgressInfo = {
+  title: "Projects",
+  body: "A comprehensive collection of work spanning the design and development spectrum, encompassing personal experiments and actively implemented, high-impact programs.",
+};

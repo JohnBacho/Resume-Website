@@ -47,6 +47,9 @@
   .ImageContainer > figure > img + figcaption {
     opacity: 1;
   }
+  .ImageContainer > figure > img:hover + figcaption {
+    transform: translateY(0);
+  }
 }
 
 @media (max-width: 768px) {

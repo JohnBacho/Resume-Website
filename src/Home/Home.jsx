@@ -1,7 +1,7 @@
 import Hero from "./Hero.jsx";
 import Box from "./Box.jsx";
 import InProgress from "./Other.jsx";
-import { projectPairs, InProgressProjectPairs } from "./HomeInfo.js";
+import { projectPairs, InProgressProjectPairs, inProgressInfo} from "./HomeInfo.js";
 import Footer from "../Components/Footer.jsx";
 import ProjectBoxes from "./ProjectBoxes.jsx";
 
@@ -27,7 +27,7 @@ export default function Home() {
           link2={pair.right.link}
         />
       ))}
-      <InProgress />
+      <InProgress props={inProgressInfo} />
       {InProgressProjectPairs.map((pair, index) => (
         <ProjectBoxes
           key={index}

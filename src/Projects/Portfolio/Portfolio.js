@@ -2,7 +2,7 @@ import Illustrator from "../../assets/images/TechStackIcons/Illustrator.png";
 import Photoshop from "../../assets/images/TechStackIcons/PS.png";
 import Indesign from "../../assets/images/TechStackIcons/Indesign.png";
 import XD from "../../assets/images/TechStackIcons/XD.png";
-import Figma from "../../assets/images/TechStackIcons/Figma.png";
+import BootStrap from "../../assets/images/TechStackIcons/BootStrap.png";
 
 import GrooveVault from "../../assets/images/Portfolio/GrooveApp.png";
 import Infographic from "../../assets/images/Portfolio/Infographic.png";
@@ -24,7 +24,7 @@ export const TechStackIcons = [
   { img: Photoshop, text: "Photoshop" },
   { img: Indesign, text: "InDesign" },
   { img: XD, text: "XD" },
-  { img: Figma, text: "Figma" },
+  { img: BootStrap, text: "Bootstrap" },
 ];
 
 export const GDBoxImages = [

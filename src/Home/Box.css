@@ -27,6 +27,9 @@
   filter: brightness(1);
   cursor: pointer;
   color: var(--BoxTextColor);
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.22)),
+    var(--bgColor);
 }
 
 .Box--Content:hover {
@@ -78,7 +81,7 @@
     height: 400px;
   }
   .Box--Container {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   .Box--Content > img {
     width: 100%;
@@ -87,8 +90,17 @@
 }
 
 @media screen and (max-width: 450px) {
-  .Box--Content > h1{
+  .Box--Content > h1 {
     padding-left: 5px;
+  }
+}
+
+@media (pointer: none), (pointer: coarse) {
+  .Box--Content:hover {
+    transform: translateY(0);
+    filter: brightness(1);
+    -webkit-box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
+    box-shadow: 5px 13px 17px 2px rgba(43, 43, 43, 0.15);
   }
 }
 

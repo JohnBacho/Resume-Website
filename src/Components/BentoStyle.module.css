@@ -84,3 +84,9 @@
     max-height: 400px;
   }
 }
+
+@media (pointer: none), (pointer: coarse) {
+  .bentoItem:hover {
+    transform: translateY(0);
+  }
+}
