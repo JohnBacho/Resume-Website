@@ -1,0 +1,55 @@
+.ColorStudy {
+  display: flex;
+  place-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ColorBlock {
+  height: 100px;
+  background-color: #285545;
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  max-width: 100px;
+  border: #000000 solid 5px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.Color {
+  padding-left: 30px;
+  padding-right: 30px;
+  z-index: 2;
+}
+
+.Color > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.Color > p, .Color > h2 {
+  text-align: center;
+  color: #285545;
+  font-family: "inter", sans-serif;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 950px) {
+  .Color {
+    margin-top: 0%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Color > img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0px;
+  }
+  .Color > h3 {
+    font-size: 14px;
+  }
+}

@@ -11,6 +11,7 @@ import LetterJ from "../../assets/images/Portfolio/LetterJ.jpg";
 import PSA from "../../assets/images/Portfolio/PSA.jpg";
 import PersonalLogo from "../../assets/images/Portfolio/PersonalLogo.jpg";
 import KnitNatter from "../../assets/images/Portfolio/KnitNatter.jpg";
+import InnerHarmony from "../../assets/images/Portfolio/InnerHarmony.jpg";
 
 export const HeroInfo = [
   {
@@ -63,6 +64,13 @@ export const GDBoxImages = [
     alt: "Mockup of Knit & Natter",
     link: "/knit-natter",
     description: "Knit & Natter",
+    designClass: "Responsive web design",
+  },
+    {
+    img: InnerHarmony,
+    alt: "Mockup of Inner Harmony",
+    link: "/inner-harmony",
+    description: "Inner Harmony",
     designClass: "Responsive web design",
   },
   {

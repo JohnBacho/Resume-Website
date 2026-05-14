@@ -6,6 +6,7 @@ import TechStack from "../../Components/TechStack.jsx";
 import Image from "../../Components/Image.jsx";
 import MultiImage from "../../Components/MultiImage.jsx";
 import ULBlock from "../../Components/ULBlock.jsx";
+import ColorStudyBlock from "../../Components/ColorStudy.jsx";
 
 import {
   HeroInfo,
@@ -26,6 +27,7 @@ import {
   TextProblemStatement,
   TextGoalsConstraints,
   TextReflection,
+  ColorStudy,
 } from "./Analog.js";
 
 export default function Analog() {
@@ -45,6 +47,7 @@ export default function Analog() {
       <ULBlock Text={TextGoalsConstraints} />
 
       <TextBlock Text={TextColorType} />
+      {/* <ColorStudyBlock Colors={ColorStudy} /> */}
       <Image Image={ImageColorType} marginBottom={"0px"} />
 
       <TextBlock Text={TextFinalIllustrations} />

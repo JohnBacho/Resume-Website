@@ -21,6 +21,12 @@ export const TechStackIcons = [
   { img: Indesign, text: "InDesign" },
 ];
 
+// export const ColorStudy = [
+//   { name:"Soft Bone", r: 237, g: 230, b: 216, hex: "#EDE6D8" },
+//   { name:"Red", r: 255, g: 0, b: 0, hex: "#FF0000" },
+//   { name:"Blue", r: 0, g: 0, b: 255, hex: "#0000FF" },
+// ];
+
 export const TextDevelopement = [
   {
     title: "Developement",

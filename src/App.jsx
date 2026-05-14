@@ -24,6 +24,7 @@ const PSA = lazy(() => import("./Projects/PSA/PSA.jsx"));
 const PersonalLogo = lazy(
   () => import("./Projects/PersonalLogo/PersonalLogo.jsx"),
 );
+const InnerHarmony = lazy(() => import("./Projects/InnerHarmony/InnerHarmony.jsx"));
 
 function PageLoader({ onTimeout }) {
   useEffect(() => {
@@ -108,6 +109,7 @@ export default function App() {
           <Route path="/just-say-j" element={<LetterJ />} />
           <Route path="/psa-poster-series" element={<PSA />} />
           <Route path="/personal-logo" element={<PersonalLogo />} />
+          <Route path="/inner-harmony" element={<InnerHarmony />} />
         </Routes>
       </SuspenseWithTimeout>
     </Router>
