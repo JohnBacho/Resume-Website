@@ -27,7 +27,7 @@ import {
   TextProblemStatement,
   TextGoalsConstraints,
   TextReflection,
-  ColorStudy,
+  // ColorStudy,
 } from "./Analog.js";
 
 export default function Analog() {
