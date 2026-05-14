@@ -29,7 +29,6 @@
   color: var(--Heading);
   pointer-events: none;
   animation: ScaleUp 500ms forwards 800ms;
-  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
   z-index: 2;
 }
 

@@ -5,11 +5,12 @@ import XD from "../../assets/images/TechStackIcons/XD.png";
 import BootStrap from "../../assets/images/TechStackIcons/BootStrap.png";
 
 import GrooveVault from "../../assets/images/Portfolio/GrooveApp.png";
-import Infographic from "../../assets/images/Portfolio/Infographic.png";
+import Infographic from "../../assets/images/Portfolio/Infographic.jpg";
 import Brochure from "../../assets/images/Portfolio/Brochure.jpg";
 import LetterJ from "../../assets/images/Portfolio/LetterJ.jpg";
 import PSA from "../../assets/images/Portfolio/PSA.jpg";
 import PersonalLogo from "../../assets/images/Portfolio/PersonalLogo.jpg";
+import KnitNatter from "../../assets/images/Portfolio/KnitNatter.jpg";
 
 export const HeroInfo = [
   {
@@ -56,6 +57,13 @@ export const GDBoxImages = [
     link: "/just-say-j",
     description: "Just say J",
     designClass: "Typography",
+  },
+    {
+    img: KnitNatter,
+    alt: "Mockup of Knit & Natter",
+    link: "/knit-natter",
+    description: "Knit & Natter",
+    designClass: "Responsive web design",
   },
   {
     img: PSA,
