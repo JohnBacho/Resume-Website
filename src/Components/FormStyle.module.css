@@ -11,6 +11,8 @@ textarea {
   resize: vertical;
   background: rgba(128, 128, 128, 0.215);
   backdrop-filter: blur(16px);
+    font-family: var(--BodyFont);
+
   -webkit-backdrop-filter: blur(16px);
 }
 

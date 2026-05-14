@@ -10,7 +10,7 @@ export default function Form() {
           required={true}
           id="fname"
           name="firstname"
-          placeholder="Your name.."
+          placeholder="Your first name.."
         />
 
         <label htmlFor="lname">Last Name</label>
