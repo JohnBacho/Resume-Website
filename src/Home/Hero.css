@@ -46,6 +46,7 @@
 }
 
 .Hero--Content {
+  margin-top: 100px;
   animation: fadeUp 1s ease forwards;
   z-index: 2;
 }
@@ -85,15 +86,17 @@
     height: 65vh;
   }
 
+  .Hero--Content > p {
+    max-width: 600px;
+  }
+
   .Hero--Icon--left {
     left: calc(57% - 420px);
-    top: 70%;
     transform: translateY(-50%);
   }
 
   .Hero--Icon--right {
     left: calc(49% + 320px);
-    top: 30%;
     transform: translateY(-50%);
   }
   .Hero--Content > h1 {
