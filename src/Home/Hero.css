@@ -62,6 +62,7 @@
   font-weight: 300;
   font-family: var(--BodyFont);
   max-width: 650px;
+  text-wrap: pretty;
 }
 
 @media screen and (max-width: 1000px) {
@@ -107,11 +108,11 @@
 
 @media screen and (max-width: 710px) {
   .Hero--Content > h1 {
-    font-size: 65px;
+    font-size: 70px;
   }
 
   .Hero--Content > p {
-    max-width: 400px;
+    max-width: 430px;
   }
 
   .Hero--Content {
@@ -125,7 +126,7 @@
 
   .Hero--Icon--left {
     left: 5%;
-    top: 17%;
+    top: 18%;
   }
 
   .Hero--Icon--right {
@@ -136,11 +137,20 @@
 
 @media screen and (max-width: 455px) {
   .Hero--Content > h1 {
-    font-size: 55px;
+    font-size: 65px;
   }
   .Hero--Content > p {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .Hero--Content > h1 {
+    font-size: 59px;
+  }
+  .Hero--Content > p {
+  font-size: 17px;
   }
 }
 
