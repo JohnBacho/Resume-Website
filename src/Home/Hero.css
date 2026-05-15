@@ -35,7 +35,7 @@
 
 .Hero--Icon--left {
   left: calc(45% - 420px);
-  top: 75%;
+  top: 65%;
   transform: translateY(-50%);
 }
 
@@ -66,13 +66,11 @@
 @media screen and (max-width: 1000px) {
   .Hero--Icon--left {
     left: calc(48.5% - 420px);
-    top: 75%;
     transform: translateY(-50%);
   }
 
   .Hero--Icon--right {
     left: calc(53% + 320px);
-    top: 30%;
     transform: translateY(-50%);
   }
 }
