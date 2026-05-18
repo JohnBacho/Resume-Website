@@ -9,9 +9,6 @@ import {
   TechStackIcons,
   Challenge,
   Foundation,
-  Translating,
-  Automating,
-  Impact,
   Image1,
 } from "./EnterpriseInfo";
 
@@ -23,9 +20,6 @@ export default function Enterprise() {
       <TextBlock Text={Challenge} />
       <Image Image={Image1} />
       <TextBlock Text={Foundation} />
-      <TextBlock Text={Translating} />
-      <TextBlock Text={Automating} />
-      <TextBlock Text={Impact} />
       <Footer />
     </>
   );
