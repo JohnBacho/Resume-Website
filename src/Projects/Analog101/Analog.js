@@ -21,63 +21,9 @@ export const TechStackIcons = [
   { img: Indesign, text: "InDesign" },
 ];
 
-// export const ColorStudy = [
-//   { name:"Soft Bone", r: 237, g: 230, b: 216, hex: "#EDE6D8" },
-//   { name:"Red", r: 255, g: 0, b: 0, hex: "#FF0000" },
-//   { name:"Blue", r: 0, g: 0, b: 255, hex: "#0000FF" },
-// ];
-
-export const TextDevelopement = [
-  {
-    title: "Developement",
-    textAlign: "center",
-  },
-];
-
-export const TextFinalIllustrations = [
-  {
-    title: "Final Illustrations",
-    textAlign: "center",
-  },
-];
-
-export const TextColorType = [
-  {
-    title: "Color & Type Study",
-    textAlign: "center",
-  },
-];
-
-export const TextFinal = [
-  {
-    title: "Final",
-    textAlign: "Center",
-  },
-];
-
-export const TextMockup = [
-  {
-    title: "Mockup",
-    textAlign: "Center",
-  },
-];
-
-export const TextSketches = [
-  {
-    title: "Sketches",
-    textAlign: "Center",
-  },
-];
-
-export const TextFinalInfographic = [
-  {
-    title: "Final Infographic",
-    textAlign: "Center",
-  },
-];
-
 export const ImageIllustrations = [
   {
+    title: "Final Illustrations",
     img: Illustrations,
     alt: "Analog 101 infographic illustrations",
   },
@@ -85,6 +31,7 @@ export const ImageIllustrations = [
 
 export const ImageColorType = [
   {
+    title: "Color & Type Study",
     img: ColorType,
     alt: "Color and Typography for Analog 101 infographic",
   },
@@ -92,6 +39,7 @@ export const ImageColorType = [
 
 export const ImageMockups = [
   {
+    title: "Mockup",
     img: Mockups,
     alt: "Mockup of Analog 101 infographic",
   },
@@ -99,6 +47,7 @@ export const ImageMockups = [
 
 export const ImageFinalInfographic = [
   {
+    title: "Final Infographic",
     img: Infographic,
     alt: "Final Infographic for Analog 101 project",
     width: "55%",

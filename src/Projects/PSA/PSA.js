@@ -22,36 +22,9 @@ export const TechStackIcons = [
   { img: Photoshop, text: "Photoshop" },
 ];
 
-export const TextDevelopement = [
-  {
-    title: "Development",
-    textAlign: "center",
-  },
-];
-
-export const TextFinal = [
-  {
-    title: "Final Posters",
-    textAlign: "center",
-  },
-];
-
-export const TextMockup = [
-  {
-    title: "Mockups",
-    textAlign: "center",
-  },
-];
-
-export const TextSketches = [
-  {
-    title: "Sketches",
-    textAlign: "center",
-  },
-];
-
 export const ImageFinalPosters = [
   {
+    title: "Final Posters",
     img: Final1,
     alt: "Cybersecurity awareness poster focused on Trojan horse threats",
     img2: Final2,
@@ -61,6 +34,7 @@ export const ImageFinalPosters = [
 
 export const ImageMockups = [
   {
+    title: "Mockups",
     img: Mockups,
     alt: "Mockup presentation of poster warning against phishing attacks displayed in a subway station",
   },
@@ -68,6 +42,7 @@ export const ImageMockups = [
 
 export const ImageSketches = [
   {
+    title: "Sketches",
     img: Sketch1,
     alt: "Initial concept sketches for the cybersecurity PSA campaign",
   },

@@ -10,19 +10,13 @@ import ULBlock from "../../Components/ULBlock.jsx";
 import {
   HeroInfo,
   TechStackIcons,
-  TextDevelopement,
-  TextFinal,
-  TextMockup,
-  TextSketches,
   ImageMockups,
   ImageSketches,
   TextOverview,
   TextProblemStatement,
   TextGoalsConstraints,
   TextReflection,
-  ImageFinal1,
-  ImageFinal2,
-  ImageFinal3,
+  FinalLetterHistory,
 } from "./LetterJ.js";
 
 export default function LetterJ() {
@@ -34,20 +28,14 @@ export default function LetterJ() {
 
       <TextBlock Text={TextOverview} />
 
-      <TextBlock Text={TextFinal} />
-      <Image Image={ImageFinal1} marginBottom={"0px"} />
-
-      <Image Image={ImageFinal2} marginBottom={"0px"} />
-      <Image Image={ImageFinal3} marginBottom={"0px"} />
+      <Image Image={FinalLetterHistory} marginBottom={"0px"} />
 
       <TextBlock Text={TextProblemStatement} />
 
       <ULBlock Text={TextGoalsConstraints} />
 
-      <TextBlock Text={TextSketches} />
-      <MultiImage Image={ImageSketches} />
+      <MultiImage Image={ImageSketches} title={"Sketches"} />
 
-      <TextBlock Text={TextMockup} />
       <Image Image={ImageMockups} marginBottom={"0px"} />
 
       <TextBlock Text={TextReflection} />

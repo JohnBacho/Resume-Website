@@ -8,7 +8,6 @@ import Iframe from "../../Components/Iframe.jsx";
 import MultiImage from "../../Components/MultiImage.jsx";
 import ULBlock from "../../Components/ULBlock.jsx";
 
-
 import {
   HeroInfo,
   TechStackIcons,
@@ -17,14 +16,6 @@ import {
   ImageColorType,
   Iframe1,
   TextFinalInterface,
-  TextFinalScreens,
-  TextDevelopement,
-  TextFinalIcons,
-  TextColorType,
-  TextFinal,
-  TextWireframe,
-  TextMockup,
-  TextSketches,
   ImageMockups,
   ImageSketches,
   ImageWireframe,
@@ -38,38 +29,19 @@ export default function GrooveVault() {
   return (
     <div>
       <HeroImage HeroInfo={HeroInfo} />
-
       <TechStack items={TechStackIcons} />
-
       <TextBlock Text={TextOverview} />
-
       <TextBlock Text={TextFinalInterface} />
       <Iframe IframeInfo={Iframe1} />
-
-      <TextBlock Text={TextFinalScreens} />
       <Image Image={ImageFinalScreens} marginBottom={"0px"} />
-
       <TextBlock Text={TextProblemStatement} />
-
       <ULBlock Text={TextGoalsConstraints} />
-
-      <TextBlock Text={TextColorType} />
       <Image Image={ImageColorType} marginBottom={"0px"} />
-
-      <TextBlock Text={TextFinalIcons} />
       <Image Image={ImageGVIcons} marginBottom={"0px"} />
-
-      <TextBlock Text={TextSketches} />
-      <MultiImage Image={ImageSketches} marginBottom={"0px"} />
-
-      <TextBlock Text={TextWireframe} />
+      <MultiImage Image={ImageSketches} title={"Sketches"} />
       <Image Image={ImageWireframe} marginBottom={"0px"} />
-
-      <TextBlock Text={TextMockup} />
       <Image Image={ImageMockups} marginBottom={"0px"} />
-
       <TextBlock Text={TextReflection} />
-
       <Footer />
     </div>
   );

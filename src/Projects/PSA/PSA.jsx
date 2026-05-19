@@ -10,10 +10,6 @@ import ULBlock from "../../Components/ULBlock.jsx";
 import {
   HeroInfo,
   TechStackIcons,
-  TextDevelopement,
-  TextFinal,
-  TextMockup,
-  TextSketches,
   ImageMockups,
   ImageSketches,
   TextOverview,
@@ -27,25 +23,13 @@ export default function PSA() {
   return (
     <div>
       <HeroImage HeroInfo={HeroInfo} />
-
       <TechStack items={TechStackIcons} />
-
       <TextBlock Text={TextOverview} />
-
-      <TextBlock Text={TextFinal} />
       <MultiImage Image={ImageFinalPosters} />
-
-
       <TextBlock Text={TextProblemStatement} />
-
       <ULBlock Text={TextGoalsConstraints} />
-
-      <TextBlock Text={TextSketches} />
       <Image Image={ImageSketches} />
-
-      <TextBlock Text={TextMockup} />
       <Image Image={ImageMockups} marginBottom={"0px"} />
-
       <TextBlock Text={TextReflection} />
 
       <Footer />

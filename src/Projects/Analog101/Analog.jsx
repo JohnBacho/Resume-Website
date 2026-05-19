@@ -14,53 +14,28 @@ import {
   ImageFinalInfographic,
   ImageIllustrations,
   ImageColorType,
-  TextFinalInfographic,
-  TextDevelopement,
-  TextFinalIllustrations,
-  TextColorType,
-  TextFinal,
-  TextMockup,
-  TextSketches,
   ImageMockups,
   ImageSketches,
   TextOverview,
   TextProblemStatement,
   TextGoalsConstraints,
   TextReflection,
-  // ColorStudy,
 } from "./Analog.js";
 
 export default function Analog() {
   return (
     <div>
       <HeroImage HeroInfo={HeroInfo} />
-
       <TechStack items={TechStackIcons} />
-
       <TextBlock Text={TextOverview} />
-
-      <TextBlock Text={TextFinalInfographic} />
       <Image Image={ImageFinalInfographic} marginBottom={"0px"} />
-
       <TextBlock Text={TextProblemStatement} />
-
       <ULBlock Text={TextGoalsConstraints} />
-
-      <TextBlock Text={TextColorType} />
-      {/* <ColorStudyBlock Colors={ColorStudy} /> */}
       <Image Image={ImageColorType} marginBottom={"0px"} />
-
-      <TextBlock Text={TextFinalIllustrations} />
       <Image Image={ImageIllustrations} marginBottom={"0px"} />
-
-      <TextBlock Text={TextSketches} />
-      <MultiImage Image={ImageSketches} marginBottom={"0px"} />
-
-      <TextBlock Text={TextMockup} />
+      <MultiImage Image={ImageSketches} title={"Sketches"} />
       <Image Image={ImageMockups} marginBottom={"0px"} />
-
       <TextBlock Text={TextReflection} />
-
       <Footer />
     </div>
   );

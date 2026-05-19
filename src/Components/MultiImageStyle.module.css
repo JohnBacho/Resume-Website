@@ -4,8 +4,17 @@
   justify-content: center;
   padding-left: 26px;
   padding-right: 26px;
-  margin-top: 45px;
   gap: 1em;
+}
+
+.MultiTitle {
+  font-size: 50px;
+  color: #285545;
+  font-family: var(--HeaderFont);
+  text-align: center;
+  padding-bottom: 45px;
+  padding-top: 20px;
+  margin-top: 45px;
 }
 
 .ImageContainer > figure > img {

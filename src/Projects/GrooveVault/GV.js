@@ -25,13 +25,6 @@ export const TechStackIcons = [
   { img: XD, text: "XD" },
 ];
 
-export const TextDevelopement = [
-  {
-    title: "Developement",
-    textAlign: "center",
-  },
-];
-
 export const TextFinalInterface = [
   {
     title: "Final Interactive Interface",
@@ -39,57 +32,9 @@ export const TextFinalInterface = [
   },
 ];
 
-export const TextFinalIcons = [
-  {
-    title: "Final Icons",
-    textAlign: "center",
-  },
-];
-
-export const TextColorType = [
-  {
-    title: "Color & Type Study",
-    textAlign: "center",
-  },
-];
-
-export const TextFinal = [
-  {
-    title: "Final",
-    textAlign: "Center",
-  },
-];
-
-export const TextWireframe = [
-  {
-    title: "Wireframe",
-    textAlign: "Center",
-  },
-];
-
-export const TextMockup = [
-  {
-    title: "Mockup",
-    textAlign: "Center",
-  },
-];
-
-export const TextSketches = [
-  {
-    title: "Sketches",
-    textAlign: "Center",
-  },
-];
-
-export const TextFinalScreens = [
-  {
-    title: "Final Interface Screens",
-    textAlign: "Center",
-  },
-];
-
 export const ImageFinalScreens = [
   {
+    title: "Final Interface Screens",
     img: FinalWireframes,
     alt: "Mockup of Groove App",
   },
@@ -97,6 +42,7 @@ export const ImageFinalScreens = [
 
 export const ImageGVIcons = [
   {
+    title: "Final Icons",
     img: GVIcons,
     alt: "GrooveVault Icons",
   },
@@ -104,6 +50,7 @@ export const ImageGVIcons = [
 
 export const ImageColorType = [
   {
+    title: "Color & Type Study",
     img: ColorType,
     alt: "Color and Typography for GrooveVault",
   },
@@ -111,6 +58,7 @@ export const ImageColorType = [
 
 export const ImageMockups = [
   {
+    title: "Mockup",
     img: Mockups,
     alt: "Mockup of GrooveVault",
   },
@@ -127,6 +75,7 @@ export const ImageSketches = [
 
 export const ImageWireframe = [
   {
+    title: "Wireframe",
     img: Wireframe,
     alt: "Wireframe for GrooveVault",
   },
@@ -162,13 +111,13 @@ export const TextGoalsConstraints = [
     goal: [
       "Simplify navigation across core features",
       "Create a nostalgic yet modern visual identity",
-      "Maintain readability across devices"
+      "Maintain readability across devices",
     ],
     constraints: [
       "Limited mobile screen space",
       "Balancing aesthetics with usability",
-      "Supporting multiple navigation paths"
-    ]
+      "Supporting multiple navigation paths",
+    ],
   },
 ];
 

@@ -29,106 +29,48 @@ export const TechStackIcons = [
   { img: Photoshop, text: "Photoshop" },
 ];
 
-export const TextDevelopement = [
-  {
-    title: "Developement",
-    textAlign: "center",
-  },
-];
-
-export const TextFinal = [
-  {
-    title: "Final",
-    textAlign: "Center",
-  },
-];
-
-export const TextMockup = [
-  {
-    title: "Mockup",
-    textAlign: "Center",
-  },
-];
-
-export const TextSketches = [
-  {
-    title: "Sketches",
-    textAlign: "Center",
-  },
-];
-
-export const TextFinalBrochure = [
+export const ImageBrochure = [
   {
     title: "Final Brochure",
-    textAlign: "Center",
-  },
-];
-
-export const ImageFinalFrontCover = [
-  {
     img: FrontCover,
     alt: "Brochure Front cover",
     width: "65%",
   },
-];
-
-export const ImagePage2 = [
   {
     img: Page2,
     alt: "Table of contents listing Jovian system topics",
     width: "65%",
   },
-];
-
-export const ImagePage3 = [
   {
     img: Page3,
     alt: "Detailed view of the gas giant Jupiter and its Great Red Spot",
     width: "65%",
   },
-];
-
-export const ImagePage4 = [
   {
     img: Page4,
     alt: "The volcanic surface and sulfurous plumes of Io",
     width: "65%",
   },
-];
-
-export const ImagePage5 = [
   {
     img: Page5,
     alt: "Ganymede, the largest moon in the solar system, showing its icy terrain",
     width: "65%",
   },
-];
-
-export const ImagePage6 = [
   {
     img: Page6,
     alt: "The heavily cratered ancient surface of Callisto",
     width: "65%",
   },
-];
-
-export const ImagePage7 = [
   {
     img: Page7,
     alt: "The cracked icy shell and subsurface ocean potential of Europa",
     width: "65%",
   },
-];
-
-export const ImagePage8 = [
   {
     img: Page8,
     alt: "Illustration of the Europa Clipper spacecraft and details about its mission to explore Europa's habitability",
     width: "65%",
   },
-];
-
-export const ImagePage9 = [
   {
     img: Page9,
     alt: "Back cover featuring credits and synopsis",
@@ -138,6 +80,7 @@ export const ImagePage9 = [
 
 export const ImageMockups = [
   {
+    title: "Mockup",
     img: Mockups,
     alt: "Mockup of Jupiter’s Hidden Worlds The Galilean Moons brochure",
   },

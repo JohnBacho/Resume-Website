@@ -8,7 +8,7 @@
 .TextBlock > h1 {
   font-size: 50px;
   color: #285545;
-  font-family: "Acorn-Bold", sans-serif;
+  font-family: var(--HeaderFont);
 }
 
 .TextBlock > p {
@@ -16,6 +16,6 @@
   line-height: 1.35;
   color: #406c5c;
   white-space: "pre-line";
-  font-family: "inter", sans-serif;
+  font-family: var(--BodyFont);
   text-wrap: pretty;
 }

@@ -23,51 +23,18 @@ export const TechStackIcons = [
   { img: Photoshop, text: "Photoshop" },
 ];
 
-export const TextDevelopement = [
-  {
-    title: "Development",
-    textAlign: "center",
-  },
-];
-
-export const TextFinal = [
+export const FinalLogos = [
   {
     title: "Final Logo Variations",
-    textAlign: "center",
-  },
-];
-
-export const TextMockup = [
-  {
-    title: "Mockups",
-    textAlign: "center",
-  },
-];
-
-export const TextSketches = [
-  {
-    title: "Sketches",
-    textAlign: "center",
-  },
-];
-
-export const ImageReversed = [
-  {
     img: Reversed,
     alt: "Reversed color presentation of the BACHO Aerospace logo",
     width: "60%",
   },
-];
-
-export const ImageBlackWhite = [
   {
     img: BlackWhite,
     alt: "Black and white variation of the BACHO Aerospace logo",
     width: "60%",
   },
-];
-
-export const ImageColored = [
   {
     img: Colored,
     alt: "Full color presentation of the BACHO Aerospace logo",
@@ -77,6 +44,7 @@ export const ImageColored = [
 
 export const ImageMockups = [
   {
+    title: "Mockups",
     img: Mockups,
     alt: "Mockup presentation of the BACHO Aerospace logo applied to branded materials",
   },
@@ -84,6 +52,7 @@ export const ImageMockups = [
 
 export const ImageSketches = [
   {
+    title: "Sketches",
     img: Sketch1,
     alt: "Initial concept sketches and explorations for the BACHO Aerospace logo",
   },

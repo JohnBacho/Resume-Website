@@ -23,6 +23,15 @@
   margin: 0 auto;
 }
 
+.ImageBlock > figure > h1 {
+  font-size: 50px;
+  color: #285545;
+  font-family: var(--HeaderFont);
+  text-align: center;
+  padding-bottom: 45px;
+  padding-top: 20px;
+}
+
 .ImageBlock > figure > figcaption {
   opacity: 0;
   margin-top: 8px;

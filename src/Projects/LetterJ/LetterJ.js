@@ -22,51 +22,18 @@ export const TechStackIcons = [
   { img: Indesign, text: "InDesign" },
 ];
 
-export const TextDevelopement = [
-  {
-    title: "Development",
-    textAlign: "center",
-  },
-];
-
-export const TextFinal = [
+export const FinalLetterHistory = [
   {
     title: "Final Posters",
-    textAlign: "center",
-  },
-];
-
-export const TextMockup = [
-  {
-    title: "Mockups",
-    textAlign: "center",
-  },
-];
-
-export const TextSketches = [
-  {
-    title: "Sketches",
-    textAlign: "center",
-  },
-];
-
-export const ImageFinal1 = [
-  {
     img: Final1,
     alt: "Symbol-focused poster exploring the history of the letter J",
     width: "60%",
   },
-];
-
-export const ImageFinal2 = [
   {
     img: Final2,
     alt: "Display typography poster centered around the letter J",
     width: "60%",
   },
-];
-
-export const ImageFinal3 = [
   {
     img: Final3,
     alt: "Text hierarchy poster showcasing the evolution of the letter J",
@@ -76,6 +43,7 @@ export const ImageFinal3 = [
 
 export const ImageMockups = [
   {
+    title: "Mockups",
     img: Mockups,
     alt: "Mockup presentation of the Letter J poster series",
   },
