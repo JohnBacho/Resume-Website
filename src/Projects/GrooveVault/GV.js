@@ -25,12 +25,7 @@ export const TechStackIcons = [
   { img: XD, text: "XD" },
 ];
 
-export const TextFinalInterface = [
-  {
-    title: "Final Interactive Interface",
-    textAlign: "center",
-  },
-];
+
 
 export const ImageFinalScreens = [
   {
@@ -81,15 +76,13 @@ export const ImageWireframe = [
   },
 ];
 
-export const Iframe1 = [
-  {
-    src: "https://xd.adobe.com/embed/6574ad80-3aca-48cf-8444-c642d61786bd-3027/",
-    title: "NoteTack",
-    borderRadius: "55px",
-    maxHeight: "650px",
-    width: true,
-  },
-];
+export const Iframe1 = {
+  src: "https://xd.adobe.com/embed/6574ad80-3aca-48cf-8444-c642d61786bd-3027/",
+  title: "Final Interactive Interface",
+  borderRadius: "55px",
+  maxHeight: "650px",
+  width: true,
+};
 
 export const TextOverview = [
   {

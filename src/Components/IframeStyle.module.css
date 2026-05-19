@@ -4,8 +4,19 @@
   justify-content: center;
   padding-left: 22px;
   padding-right: 22px;
-  margin: 45px auto 0 auto;
   max-width: 1100px;
+  margin: 0px auto 0 auto;
+}
+
+.IframeTitle {
+  margin: 45px auto 0 auto;
+
+  font-size: 50px;
+  color: #285545;
+  font-family: var(--HeaderFont);
+  text-align: center;
+  padding-bottom: 45px;
+  padding-top: 20px;
 }
 
 .IframeContainer > iframe {

@@ -20,23 +20,14 @@ export const TechStackIcons = [
   { img: BootStrap, text: "Bootstrap" },
 ];
 
-export const IframeInfo = [
-  {
-    src: "https://johnbacho.github.io/Inner-Harmony/",
-    title: "Inner Harmony Website",
-  },
-];
+export const IframeInfo = {
+  title: "Final Website",
+  src: "https://johnbacho.github.io/Inner-Harmony/",
+};
 
 export const ImageHero = [
   {
     img: HeroImage,
-  },
-];
-
-export const TextFinalWebsite = [
-  {
-    title: "Final Website",
-    textAlign: "center",
   },
 ];
 

@@ -15,7 +15,6 @@ import {
   ImageGVIcons,
   ImageColorType,
   Iframe1,
-  TextFinalInterface,
   ImageMockups,
   ImageSketches,
   ImageWireframe,
@@ -31,7 +30,6 @@ export default function GrooveVault() {
       <HeroImage HeroInfo={HeroInfo} />
       <TechStack items={TechStackIcons} />
       <TextBlock Text={TextOverview} />
-      <TextBlock Text={TextFinalInterface} />
       <Iframe IframeInfo={Iframe1} />
       <Image Image={ImageFinalScreens} marginBottom={"0px"} />
       <TextBlock Text={TextProblemStatement} />

@@ -18,9 +18,10 @@ export const TechStackIcons = [
   { img: JS, text: "JavaScript" },
 ];
 
-export const IframeInfo = [
-  { src: "https://johnbacho.github.io/NoteTack/", title: "NoteTack" },
-];
+export const IframeInfo = {
+  src: "https://johnbacho.github.io/NoteTack/",
+  title: "Final Website",
+};
 
 export const Overview = [
   {

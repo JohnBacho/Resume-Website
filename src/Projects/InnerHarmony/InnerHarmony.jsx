@@ -15,7 +15,6 @@ import {
   TextProblemStatement,
   TextGoalsConstraints,
   TextReflection,
-  TextFinalWebsite,
 } from "./InnerHarmony.js";
 
 export default function InnerHarmony() {
@@ -24,8 +23,6 @@ export default function InnerHarmony() {
       <HeroImage HeroInfo={ImageHero} />
       <TechStack items={TechStackIcons} />
       <TextBlock Text={TextOverview} />
-
-      <TextBlock Text={TextFinalWebsite} />
       <Iframe IframeInfo={IframeInfo} />
       <TextBlock Text={TextProblemStatement} />
       <ULBlock Text={TextGoalsConstraints} />

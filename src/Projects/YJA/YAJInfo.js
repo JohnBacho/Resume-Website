@@ -18,10 +18,10 @@ export const TechStackIcons = [
   { img: JS, text: "JavaScript" },
 ];
 
-
-export const IframeInfo = [
-  { src: "https://johnbacho.github.io/Yellow-Jacket-Arcade/", title: "Jacket Arcade" },
-];
+export const IframeInfo = {
+  src: "https://johnbacho.github.io/Yellow-Jacket-Arcade/",
+  title: "Final Website",
+};
 
 export const Overview = [
   {

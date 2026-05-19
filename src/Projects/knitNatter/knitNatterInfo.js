@@ -2,7 +2,6 @@ import BootStrap from "../../assets/images/TechStackIcons/BootStrap.png";
 import CSS from "../../assets/images/TechStackIcons/CSSIcon.png";
 import HTML from "../../assets/images/TechStackIcons/Html_Icon.png";
 import JS from "../../assets/images/TechStackIcons/JS_Icon.png";
-
 import HeroImage from "../../assets/images/KnitNatter/KnitNatterHero.jpg";
 
 export const HeroInfo = [
@@ -22,8 +21,8 @@ export const TechStackIcons = [
 
 export const IframeInfo = [
   {
+    title: "Final Website",
     src: "https://johnbacho.github.io/Knit-Natter/",
-    title: "Knit & Natter Website",
   },
 ];
 
@@ -32,13 +31,6 @@ export const ImageHero = [
     img: HeroImage,
   },
 ];
-
-export const TextFinalWebsite = [
-  {
-    title: "Final Website",
-    textAlign: "center",
-  }
-]
 
 export const TextOverview = [
   {
