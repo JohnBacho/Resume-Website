@@ -36,7 +36,7 @@ export const Optimization = [
 
 export const Spatial = [
   {
-    title: "Spatial UX and Wayfinding",
+    title: "Spatial UX",
     body: "Beyond digital interfaces, I led a team of seven researchers in a large-scale spatial navigation study for the Ritter Library. We utilized mobile eye-tracking and heat map analysis to evaluate how students engaged with environmental signage and physical cues. This research allowed us to identify dead zones in the library’s navigation. Based on our findings, we proposed a strategic redesign of poster placement and environmental graphics, which resulted in a 43% improvement in the time it took for users to reach their destinations. I later presented these results at the CEMS Showcase to highlight the intersection of data and design.",
   },
 ];
