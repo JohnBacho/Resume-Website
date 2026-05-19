@@ -6,7 +6,7 @@ export default function Footer() {
       <div className={style.footerContainer}>
         <div className={style.row}>
           <div className={`${style.column} ${style.left}`}>
-            <p className={style.heading}>© 2026 John Bacho</p>
+            <p className={style.heading}>© <span>{new Date().getFullYear()}</span> John Bacho</p>
           </div>
 
           <div className={style.column}>
