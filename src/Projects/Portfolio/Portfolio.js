@@ -16,7 +16,7 @@ import InnerHarmony from "../../assets/images/Portfolio/InnerHarmony.jpg";
 export const HeroInfo = [
   {
     title: "Portfolio",
-    timeline: "2022-Present",
+    timeline: "",
     position: "",
   },
 ];
