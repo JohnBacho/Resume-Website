@@ -16,8 +16,6 @@ import InnerHarmony from "../../assets/images/Portfolio/InnerHarmony.jpg";
 export const HeroInfo = [
   {
     title: "Portfolio",
-    timeline: "",
-    position: "",
   },
 ];
 
@@ -59,14 +57,14 @@ export const GDBoxImages = [
     description: "Just say J",
     designClass: "Typography",
   },
-    {
+  {
     img: KnitNatter,
     alt: "Mockup of Knit & Natter",
     link: "/knit-natter",
     description: "Knit & Natter",
     designClass: "Responsive web design",
   },
-    {
+  {
     img: InnerHarmony,
     alt: "Mockup of Inner Harmony",
     link: "/inner-harmony",

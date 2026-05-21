@@ -19,12 +19,10 @@ export const TechStackIcons = [
   { img: BootStrap, text: "Bootstrap" },
 ];
 
-export const IframeInfo = [
-  {
-    title: "Final Website",
-    src: "https://johnbacho.github.io/Knit-Natter/",
-  },
-];
+export const IframeInfo = {
+  title: "Final Website",
+  src: "https://johnbacho.github.io/Knit-Natter/",
+};
 
 export const ImageHero = [
   {

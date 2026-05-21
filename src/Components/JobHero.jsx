@@ -26,17 +26,14 @@ export default function JobHero({ HeroInfo }) {
             onLoad={() => setReady(true)}
           >
             <h1 ref={() => setReady(true)}>{item.title}</h1>
+            {item.description && <p>{item.description}</p>}
             <div className="Column-List">
-              {item.timeline === "" ? null : (
+              {item.timeline && (
                 <div>
-                  <h2
-                    style={item.position === "" ? { textAlign: "center" } : {}}
-                  >
+                  <h2 style={item.position && { textAlign: "center" }}>
                     Timeline
                   </h2>
-                  <p
-                    style={item.position === "" ? { textAlign: "center" } : {}}
-                  >
+                  <p style={item.position && { textAlign: "center" }}>
                     {item.timeline}
                   </p>
                 </div>
