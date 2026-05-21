@@ -7,7 +7,6 @@ export const HeroInfo = [
   {
     title: "NoteTack",
     timeline: "2024-2025",
-    position: "",
   },
 ];
 

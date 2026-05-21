@@ -13,7 +13,6 @@ export const HeroInfo = [
   {
     title: "Project 2",
     timeline: "2025-2026",
-    position: "",
   },
 ];
 
@@ -41,7 +40,7 @@ export const Challenge = [
 export const Solution = [
   {
     title: "The Solution",
-    body: "I engineered a dual-modality Unity/C# system that operates as both an immersive gambling simulation and a data collection platform. I developed a real-time sports parlay system and a custom slot engine with controlled \"near-win\" conditions to support hypothesis testing. I also integrated eye-tracking through the SRanipal SDK and built a JavaScript-based processing pipeline to clean and analyze large-scale datasets, turning raw behavioral and physiological data into meaningful insights.",
+    body: 'I engineered a dual-modality Unity/C# system that operates as both an immersive gambling simulation and a data collection platform. I developed a real-time sports parlay system and a custom slot engine with controlled "near-win" conditions to support hypothesis testing. I also integrated eye-tracking through the SRanipal SDK and built a JavaScript-based processing pipeline to clean and analyze large-scale datasets, turning raw behavioral and physiological data into meaningful insights.',
   },
 ];
 

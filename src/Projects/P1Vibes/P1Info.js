@@ -13,7 +13,6 @@ export const HeroInfo = [
   {
     title: "Project 1",
     timeline: "2025-2025",
-    position: "",
   },
 ];
 

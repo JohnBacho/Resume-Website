@@ -7,7 +7,6 @@ export const HeroInfo = [
   {
     title: "Jacket Arcade",
     timeline: "2024-2024",
-    position: "",
   },
 ];
 
