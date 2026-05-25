@@ -29,30 +29,32 @@ export const TechStackIcons = [
 export const Overview = [
   {
     title: "Overview",
-    body: "As Founder and Student Lab Director of the VIBES Lab at Baldwin Wallace University, I established and led a multidisciplinary research team focused on designing and developing original virtual reality experiments to test psychological and neurological hypotheses. Recruited by the Psychology Department to build the lab from the ground up, I shaped both its technical foundation and collaborative research direction, bringing together students across computer science, neuroscience, and psychology.",
+    body: "Founded and directed the VIBES Lab at Baldwin Wallace University, leading the development of immersive VR research systems for psychology and neuroscience applications. Built the lab’s technical infrastructure from the ground up, overseeing software architecture, VR application development, hardware integration, and cross-functional collaboration across research and engineering teams. Research initiatives focused on improving exposure therapy methodologies to reduce relapse rates, as well as studying the psychological and behavioral impacts of gambling particularly sports gambling among college students.",
   },
 ];
+
 export const Leadership = [
   {
     title: "Leadership & Collaboration",
-    body: "I worked closely with psychology and neuroscience team members to co-design experiments, translating their research frameworks and hypotheses into fully realized VR systems. Rather than operating sequentially, our process was deeply collaborative, with experimental design and technical development evolving together. I led coordination across disciplines to ensure ideas were accurately implemented while also contributing technical insight back into the design process, creating a feedback loop between research and development.",
-    paddingTop: 30,
+    body: "Managed a multidisciplinary development and research team composed of computer science, psychology, and neuroscience contributors. Collaborated closely with researchers to translate experimental concepts and hypotheses into scalable technical systems while coordinating development timelines, implementation, and iterative testing workflows across multiple projects.",
   },
 ];
+
 export const TechnicalWork = [
   {
     title: "Technical Work",
-    body: "I built the lab's core infrastructure by developing two Unity-based VR applications in C#, implementing experimental logic, interaction systems, and real-time behavioral data capture. These systems were designed to support rigorous research while remaining flexible for evolving study needs. I also engineered modular architectures that integrated with multiple SDKs and hardware platforms, including VR headsets, eye-tracking systems, and physiological sensors. To support analysis, I created web-based CSV processing tools that streamlined post-experiment data workflows.",
+    body: "Designed and developed Unity-based VR applications in C#, implementing interaction systems, experimental workflows, and real-time behavioral data collection pipelines. Engineered modular software architectures integrating VR hardware, eye-tracking technology, and physiological sensor systems through multiple SDKs and APIs. Developed internal web-based tooling to automate CSV processing and streamline post-experiment data analysis workflows.",
   },
 ];
+
 export const Impact = [
   {
     title: "Impact & Growth",
-    body: "The lab has secured $4,500 in grant funding and established a dedicated research space on campus. What began as an initial concept evolved into a fully operational lab producing original research and technical systems, with recognition extending beyond the university through published work highlighting the lab's impact.",
+    body: "Established and scaled a fully operational VR research and development lab, securing $4,500 in grant funding and deploying production-ready systems supporting active research initiatives. Contributed to ongoing research currently being prepared for publication while creating a sustainable technical foundation for future development and experimentation within the lab.",
   },
 ];
 export const BentoBox1Img = [
-    { img: Poster, alt: "VIBES Lab Team Poster Presentation" },
+  { img: Poster, alt: "VIBES Lab Team Poster Presentation" },
   { img: Headset, alt: "VIBES Lab VR headset" },
   { img: Project2Slot, alt: "VIBES Lab project 2 slot machine experiment" },
   { img: Discussion, alt: "VIBES Lab team discussing project ideas" },

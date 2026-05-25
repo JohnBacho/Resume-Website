@@ -1,5 +1,5 @@
 import WorkingAtComputer from "../assets/images/About/WorkingAtComputer.jpg";
-import StudentAndHeatmap from "../assets/images/About/student_and_heatmap.jpg";
+import GradAward from "../assets/images/About/GraduationAward.jpg";
 import Headshot from "../assets/images/About/Headshot.webp";
 import Flowers1 from "../assets/images/About/Flowers1.jpg";
 import Key from "../assets/images/About/Key.jpg";
@@ -50,15 +50,15 @@ export const Beyond = [
 
 export const Image1 = [
   {
-    img: WorkingAtComputer,
-    alt: "Testing software at a computer with Dr. Thomas in the background",
+    img: GradAward,
+    alt: "Recognition at graduation for receiving the Outstanding Senior Award",
   },
 ];
 
 export const Image2 = [
   {
-    img: StudentAndHeatmap,
-    alt: "UX lab heatmap showing where students were looking when using a website",
+    img: WorkingAtComputer,
+    alt: "Testing software at a computer with Dr. Thomas in the background",
   },
 ];
 
