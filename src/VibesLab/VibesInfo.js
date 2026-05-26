@@ -15,7 +15,7 @@ import Project1 from "../assets/images/Home/Projects/Project1.jpg";
 
 export const HeroInfo = [
   {
-    title: "Vibes Lab",
+    title: "VIBES Lab",
     timeline: "2025-2026",
     position: "Developer\nFounder\nLab Director",
   },
@@ -29,7 +29,7 @@ export const TechStackIcons = [
 export const Overview = [
   {
     title: "Overview",
-    body: "Founded and directed the VIBES Lab at Baldwin Wallace University, leading the development of immersive VR research systems for psychology and neuroscience applications. Built the lab’s technical infrastructure from the ground up, overseeing software architecture, VR application development, hardware integration, and cross-functional collaboration across research and engineering teams. Research initiatives focused on improving exposure therapy methodologies to reduce relapse rates, as well as studying the psychological and behavioral impacts of gambling particularly sports gambling among college students.",
+    body: "Founded and directed the Virtual Immersive Behavioral Sciences Lab at Baldwin Wallace University, leading the development of immersive VR research systems for psychology and neuroscience applications. Built the lab’s technical infrastructure from the ground up, overseeing software architecture, VR application development, hardware integration, and cross-functional collaboration across research and engineering teams. Research initiatives focused on improving exposure therapy methodologies to reduce relapse rates, as well as studying the psychological and behavioral impacts of gambling particularly sports gambling among college students.",
   },
 ];
 
@@ -74,21 +74,21 @@ export const Image2 = [
 ];
 export const RelatedProjects = [
   {
-    title: "Vibes Lab",
+    title: "VIBES Lab",
     project: "Article",
     image: Article,
     link: "https://www.bw.edu/news/2025/11/building-vr-lab-from-ground-up-gives-bw-students-good-vibes",
     Blank: true,
   },
   {
-    title: "Vibes Lab",
+    title: "VIBES Lab",
     project: "Project 2",
     image: Project2,
     link: "/vibes-lab-project-2",
     Blank: false,
   },
   {
-    title: "Vibes Lab",
+    title: "VIBES Lab",
     project: "Project 1",
     image: Project1,
     link: "/vibes-lab-project-1",

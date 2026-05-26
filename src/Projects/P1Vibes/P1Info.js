@@ -74,14 +74,14 @@ export const Image3 = [
 
 export const RelatedProjects = [
   {
-    title: "Vibes Lab",
+    title: "VIBES Lab",
     project: "Lead Developer",
     image: Group,
     link: "/vibes-lab",
     Blank: false,
   },
   {
-    title: "Vibes Lab",
+    title: "VIBES Lab",
     project: "Project 2",
     image: Project2,
     link: "/vibes-lab-project-2",
