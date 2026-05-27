@@ -7,6 +7,8 @@ import Project1 from "../assets/images/Home/Projects/Project1.jpg";
 import NoteTack from "../assets/images/Home/Projects/NoteTack.png";
 import YJA from "../assets/images/Home/Projects/YJA.png";
 import KnitNatter from "../assets/images/Home/Projects/KnitNatter.png";
+import EditDistance from "../assets/images/Home/Projects/EditDistance.jpg";
+
 
 export const projectPairs = [
   {
@@ -62,10 +64,10 @@ export const InProgressProjectPairs = [
       link: "/vibes-lab-project-2",
     },
     Right: {
-      title: "Responsive Web Design",
-      project: "Knit & Natter",
-      image: KnitNatter,
-      link: "/knit-natter",
+      title: "Data Structures",
+      project: "Edit Distance",
+      image: EditDistance,
+      link: "/edit-distance",
     },
   },
   {

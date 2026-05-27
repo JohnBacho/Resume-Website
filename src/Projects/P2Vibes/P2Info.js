@@ -8,6 +8,7 @@ import UnitySlot from "../../assets/images/P2/UnitySlot.png";
 import ParlayBetSlip from "../../assets/images/P2/ParlayBetSlip.jpg";
 import Group from "../../assets/images/Home/Jobs/VibesLabGroup.jpg";
 import Project1 from "../../assets/images/Home/Projects/Project1.jpg";
+import Repo from "../../assets/images/EditDistance/github.jpg";
 
 export const HeroInfo = [
   {
@@ -74,17 +75,24 @@ export const Image3 = [
 
 export const RelatedProjects = [
   {
-    title: "VIBES Lab",
-    project: "Lead Developer",
-    image: Group,
-    link: "/vibes-lab",
-    Blank: false,
+    title: "Project 2",
+    project: "GitHub Repository",
+    image: Repo,
+    link: "https://github.com/JohnBacho/VIBES-Lab-Project2",
+    Blank: true,
   },
   {
     title: "VIBES Lab",
     project: "Project 1",
     image: Project1,
     link: "/vibes-lab-project-1",
+    Blank: false,
+  },
+  {
+    title: "VIBES Lab",
+    project: "Lead Developer",
+    image: Group,
+    link: "/vibes-lab",
     Blank: false,
   },
 ];

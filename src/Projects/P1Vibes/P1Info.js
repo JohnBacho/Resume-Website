@@ -8,6 +8,7 @@ import EyeTrackingVR from "../../assets/images/P1/EyetrackingVR.png";
 import CEMSPresentation from "../../assets/images/P1/CEMSPresentation.jpeg";
 import Group from "../../assets/images/Home/Jobs/VibesLabGroup.jpg";
 import Project2 from "../../assets/images/Home/Projects/Project2.jpg";
+import Repo from "../../assets/images/EditDistance/github.jpg";
 
 export const HeroInfo = [
   {
@@ -74,17 +75,24 @@ export const Image3 = [
 
 export const RelatedProjects = [
   {
-    title: "VIBES Lab",
-    project: "Lead Developer",
-    image: Group,
-    link: "/vibes-lab",
-    Blank: false,
+    title: "Project 1",
+    project: "GitHub Repository",
+    image: Repo,
+    link: "https://github.com/JohnBacho/VIBES-Lab-Project1",
+    Blank: true,
   },
   {
     title: "VIBES Lab",
     project: "Project 2",
     image: Project2,
     link: "/vibes-lab-project-2",
+    Blank: false,
+  },
+  {
+    title: "VIBES Lab",
+    project: "Lead Developer",
+    image: Group,
+    link: "/vibes-lab",
     Blank: false,
   },
 ];

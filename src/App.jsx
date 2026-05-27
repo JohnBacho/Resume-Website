@@ -25,6 +25,8 @@ const PersonalLogo = lazy(
   () => import("./Projects/PersonalLogo/PersonalLogo.jsx"),
 );
 const InnerHarmony = lazy(() => import("./Projects/InnerHarmony/InnerHarmony.jsx"));
+const EditDistance = lazy(() => import("./Projects/EditDistance/EditDistance.jsx"));
+
 
 function PageLoader({ onTimeout }) {
   useEffect(() => {
@@ -110,6 +112,7 @@ export default function App() {
           <Route path="/psa-poster-series" element={<PSA />} />
           <Route path="/personal-logo" element={<PersonalLogo />} />
           <Route path="/inner-harmony" element={<InnerHarmony />} />
+          <Route path="/edit-distance" element={<EditDistance />} />
         </Routes>
       </SuspenseWithTimeout>
     </Router>
