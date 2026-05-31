@@ -6,7 +6,7 @@ import Project2 from "../../assets/images/Home/Projects/Project2.jpg";
 
 export const HeroInfo = [
   {
-    title: "Edit Distance Analysis",
+    title: "Edit Distance",
     timeline: "2023-2023",
   },
 ];
