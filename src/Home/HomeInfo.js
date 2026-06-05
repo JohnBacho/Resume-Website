@@ -8,7 +8,7 @@ import NoteTack from "../assets/images/Home/Projects/NoteTack.png";
 import YJA from "../assets/images/Home/Projects/YJA.png";
 import KnitNatter from "../assets/images/Home/Projects/KnitNatter.png";
 import EditDistance from "../assets/images/Home/Projects/EditDistance.jpg";
-
+import TimeTune from "../assets/images/Home/Projects/TimeTune.png";
 
 export const projectPairs = [
   {
@@ -64,30 +64,30 @@ export const InProgressProjectPairs = [
       link: "/vibes-lab-project-2",
     },
     Right: {
+      title: "Personal",
+      project: "Time Tune",
+      image: TimeTune,
+      link: "/timetune",
+    },
+  },
+  {
+    Left: {
       title: "Data Structures",
       project: "Edit Distance",
       image: EditDistance,
       link: "/edit-distance",
     },
-  },
-  {
-    Left: {
+    Middle: {
       title: "Personal",
       project: "NoteTack",
       image: NoteTack,
       link: "/note-tack",
     },
-    Middle: {
+    Right: {
       title: "Personal",
       project: "Jacket Arcade",
       image: YJA,
       link: "/jacket-arcade",
-    },
-    Right: {
-      title: "",
-      project: "",
-      image: KnitNatter,
-      link: "",
     },
   },
 ];

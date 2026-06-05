@@ -24,9 +24,13 @@ const PSA = lazy(() => import("./Projects/PSA/PSA.jsx"));
 const PersonalLogo = lazy(
   () => import("./Projects/PersonalLogo/PersonalLogo.jsx"),
 );
-const InnerHarmony = lazy(() => import("./Projects/InnerHarmony/InnerHarmony.jsx"));
-const EditDistance = lazy(() => import("./Projects/EditDistance/EditDistance.jsx"));
-
+const InnerHarmony = lazy(
+  () => import("./Projects/InnerHarmony/InnerHarmony.jsx"),
+);
+const EditDistance = lazy(
+  () => import("./Projects/EditDistance/EditDistance.jsx"),
+);
+const TimeTune = lazy(() => import("./Projects/TimeTune/TimeTune.jsx"));
 
 function PageLoader({ onTimeout }) {
   useEffect(() => {
@@ -113,6 +117,7 @@ export default function App() {
           <Route path="/personal-logo" element={<PersonalLogo />} />
           <Route path="/inner-harmony" element={<InnerHarmony />} />
           <Route path="/edit-distance" element={<EditDistance />} />
+          <Route path="/timetune" element={<TimeTune />} />
         </Routes>
       </SuspenseWithTimeout>
     </Router>
