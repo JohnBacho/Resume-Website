@@ -27,6 +27,9 @@
   .row {
     flex-direction: column;
   }
+  .left{
+    margin: auto;
+  }
 }
 
 .column {

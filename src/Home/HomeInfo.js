@@ -49,50 +49,46 @@ export const projectPairs = [
   },
 ];
 
-export const InProgressProjectPairs = [
-  {
-    Left: {
-      title: "Vibes Lab",
-      project: "Project 1",
-      image: Project1,
-      link: "/vibes-lab-project-1",
-    },
-    Middle: {
-      title: "Vibes Lab",
-      project: "Project 2",
-      image: Project2,
-      link: "/vibes-lab-project-2",
-    },
-    Right: {
-      title: "Personal",
-      project: "Time Tune",
-      image: TimeTune,
-      link: "/timetune",
-    },
-  },
-  {
-    Left: {
-      title: "Data Structures",
-      project: "Edit Distance",
-      image: EditDistance,
-      link: "/edit-distance",
-    },
-    Middle: {
-      title: "Personal",
-      project: "NoteTack",
-      image: NoteTack,
-      link: "/note-tack",
-    },
-    Right: {
-      title: "Personal",
-      project: "Jacket Arcade",
-      image: YJA,
-      link: "/jacket-arcade",
-    },
-  },
-];
-
 export const inProgressInfo = {
   title: "Projects",
   body: "A comprehensive collection of work spanning the design and development spectrum, encompassing personal experiments and actively implemented, high-impact programs.",
 };
+
+export const InProgressProjectPairs = [
+  {
+    title: "VIBES Lab",
+    project: "Project 1",
+    image: Project1,
+    link: "/vibes-lab-project-1",
+  },
+  {
+    title: "VIBES Lab",
+    project: "Project 2",
+    image: Project2,
+    link: "/vibes-lab-project-2",
+  },
+  {
+    title: "Personal",
+    project: "Time Tune",
+    image: TimeTune,
+    link: "/timetune",
+  },
+  {
+    title: "Data Structures",
+    project: "Edit Distance",
+    image: EditDistance,
+    link: "/edit-distance",
+  },
+  {
+    title: "Personal",
+    project: "NoteTack",
+    image: NoteTack,
+    link: "/note-tack",
+  },
+  {
+    title: "Personal",
+    project: "Jacket Arcade",
+    image: YJA,
+    link: "/jacket-arcade",
+  },
+];
