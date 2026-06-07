@@ -109,12 +109,14 @@
   flex-direction: row;
   z-index: 2;
   margin-top: 100px;
+  padding: 50px;
 }
 
 .hero-about-text {
   max-width: 600px;
   line-height: 1.4;
   margin: 10px;
+  text-wrap: pretty;
 }
 
 .hero-about-text > h1 {
@@ -123,7 +125,7 @@
   font-size: 5rem;
   color: #285545;
   animation: slideUp 700ms ease-out forwards;
-  animation-delay: 200ms; 
+  animation-delay: 200ms;
 }
 
 .hero-about-text > p {
@@ -132,7 +134,7 @@
   color: #387660;
   font-size: 1.2rem;
   animation: slideUp 600ms ease-out forwards;
-  animation-delay: 450ms; 
+  animation-delay: 450ms;
 }
 
 @keyframes slideUp {
@@ -146,13 +148,13 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .About {
     height: auto;
     min-height: 90vh;
     overflow: visible;
     padding: 100px 20px 60px;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .hero-profile {
@@ -178,13 +180,16 @@
     margin-right: 0;
     margin-bottom: 30px;
   }
+  .hero-profile{
+    padding: 0px;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .hero-about-text > h1 {
     font-size: 3.5rem;
   }
-    .icon {
+  .icon {
     width: 280px;
     height: 280px;
   }
