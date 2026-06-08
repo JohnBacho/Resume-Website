@@ -3,7 +3,11 @@ import styles from "./IframeStyle.module.css";
 export default function Iframe({ IframeInfo }) {
   return (
     <>
-      {IframeInfo.title ? <h1 className={styles.IframeTitle}>{IframeInfo.title}</h1> : null}
+      {IframeInfo.title ? (
+        <h1 className={styles.IframeTitle}>
+          <a href={IframeInfo.src} target="_blank">{IframeInfo.title}</a>
+        </h1>
+      ) : null}
       <div className={styles.IframeContainer}>
         <iframe
           src={IframeInfo.src}

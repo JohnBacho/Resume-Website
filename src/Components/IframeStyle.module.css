@@ -23,3 +23,14 @@
   border: none;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
+
+.IframeTitle a {
+  color: inherit;
+  text-decoration: underline;
+  transition: 0.3s ease-in;
+}
+
+.IframeTitle a:hover {
+  color: #397a63;
+  transition: 0.3s ease-in;
+}
