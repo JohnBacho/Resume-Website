@@ -14,7 +14,7 @@ export const projectPairs = [
   {
     left: {
       title: "VIBES Lab",
-      position: "Lead Developer",
+      position: "Software Engineer",
       image: VibesLabGroup,
       bgColor: "#5F8FA3",
       grow: 0,

@@ -17,7 +17,7 @@ export const HeroInfo = [
   {
     title: "VIBES Lab",
     timeline: "2025-2026",
-    position: "Developer\nFounder\nLab Director",
+    position: "Developer\nLab Director",
   },
 ];
 export const TechStackIcons = [
@@ -26,33 +26,35 @@ export const TechStackIcons = [
   { img: HtmlIcon, text: "HTML5" },
   { img: JSIcon, text: "JavaScript" },
 ];
+
 export const Overview = [
   {
     title: "Overview",
-    body: "Founded and directed the Virtual Immersive Behavioral Sciences Lab at Baldwin Wallace University, leading the development of immersive VR research systems for psychology and neuroscience applications. Built the lab’s technical infrastructure from the ground up, overseeing software architecture, VR application development, hardware integration, and cross-functional collaboration across research and engineering teams. Research initiatives focused on improving exposure therapy methodologies to reduce relapse rates, as well as studying the psychological and behavioral impacts of gambling particularly sports gambling among college students.",
+    body: "Led the design and development of immersive virtual reality applications for psychology and neuroscience research using Unity and C#. Developed software systems supporting behavioral experiments, real-time data collection, eye-tracking integration, and VR hardware interaction. Worked closely with researchers to translate experimental requirements into scalable technical solutions while establishing development workflows and software infrastructure for multiple research projects.",
   },
 ];
 
 export const Leadership = [
   {
     title: "Leadership & Collaboration",
-    body: "Managed a multidisciplinary development and research team composed of computer science, psychology, and neuroscience contributors. Collaborated closely with researchers to translate experimental concepts and hypotheses into scalable technical systems while coordinating development timelines, implementation, and iterative testing workflows across multiple projects.",
+    body: "Served as technical lead for a multidisciplinary team of computer science, psychology, and neuroscience students. Coordinated software development efforts, code reviews, feature planning, testing, and deployment while collaborating with researchers to refine requirements and iterate on experimental software systems.",
   },
 ];
 
 export const TechnicalWork = [
   {
     title: "Technical Work",
-    body: "Designed and developed Unity-based VR applications in C#, implementing interaction systems, experimental workflows, and real-time behavioral data collection pipelines. Engineered modular software architectures integrating VR hardware, eye-tracking technology, and physiological sensor systems through multiple SDKs and APIs. Developed internal web-based tooling to automate CSV processing and streamline post-experiment data analysis workflows.",
+    body: "Architected and developed multiple Unity-based VR applications in C#, implementing interaction systems, experimental logic, state management, and behavioral data collection pipelines. Integrated eye-tracking hardware, VR headsets, and external SDKs to support real-time data acquisition and analysis. Designed modular and reusable software components to improve maintainability and accelerate development across projects. Developed web-based tools for automating CSV processing, data validation, and research workflow management.",
   },
 ];
 
 export const Impact = [
   {
     title: "Impact & Growth",
-    body: "Established and scaled a fully operational VR research and development lab, securing $4,500 in grant funding and deploying production-ready systems supporting active research initiatives. Contributed to ongoing research currently being prepared for publication while creating a sustainable technical foundation for future development and experimentation within the lab.",
+    body: "Delivered production-ready software systems supporting active psychology and neuroscience research studies. Secured $4,500 in grant funding to expand development capabilities and deploy additional VR hardware. The applications and data collection systems developed through the lab continue to support ongoing research efforts and publication-ready studies.",
   },
 ];
+
 export const BentoBox1Img = [
   { img: Poster, alt: "VIBES Lab Team Poster Presentation" },
   { img: Headset, alt: "VIBES Lab VR headset" },
