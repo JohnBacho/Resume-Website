@@ -15,7 +15,7 @@ import OutstandingSenior from "../assets/images/About/OutstandingSenior.jpg";
 export const AboutHero = [
   {
     title: "I'm John.",
-    body: "I recently graduated from Baldwin Wallace University with a B.S. in Computer Science and a minor in Graphic Design (3.94 GPA, May 2026). My work focuses on software development, UI/UX, and emerging technologies, with experience ranging from enterprise systems at Nordson to multidisciplinary research and interactive application development. As the founder and director of a student-led research lab, former ACM President, UX team lead, and teaching assistant, I’ve spent the last several years building technology that balances technical depth with thoughtful, human-centered design.",
+    body: "I recently graduated from Baldwin Wallace University with a B.S. in Computer Science and a minor in Graphic Design (3.94 GPA, May 2026). I enjoy building software that combines strong engineering with thoughtful design, whether that's enterprise applications, IT systems, immersive technologies, or intuitive user experiences. Through leading a student research lab, serving as ACM President, conducting UX research, working as a teaching assistant, and gaining hands-on IT experience in enterprise environments, I've learned that the best technology isn't just well built. It's built with the people using it in mind.",
     HeroImage: Headshot,
   },
 ];
@@ -30,14 +30,14 @@ export const Design = [
 export const Leadership = [
   {
     title: "Leadership in Innovation",
-    body: "During my time at Baldwin Wallace University, I founded and directed the Virtual Immersive Behavioral Sciences Lab, leading a team of 13 students across software development, UX research, and interactive technologies. Through managing collaborative projects and building scalable applications, I learned that great technology is defined not only by performance, but by how effectively it serves the people using it.",
+    body: "Leadership has been a constant throughout my academic career. Whether managing multidisciplinary software projects, organizing events as ACM President, leading UX research studies, or mentoring students in the classroom, I've learned that successful teams are built on collaboration, communication, and a shared commitment to solving problems. The best results come from creating an environment where people feel supported and empowered to contribute.",
   },
 ];
 
 export const Impact = [
   {
     title: "Real-World Impact",
-    body: "My experience spans from the technical challenges of SAP system migrations at Nordson to the creative problem-solving involved in UI/UX design, software engineering, and interactive development. I care deeply about building maintainable systems, writing documentation that people can actually use, and designing experiences that feel intentional. I don’t just want to solve problems. I want to understand the people behind them so I can create better, longer-lasting solutions.",
+    body: "My experience spans from the technical challenges of SAP system migrations at Nordson to the creative problem-solving involved in UI/UX design, software engineering, and interactive development. I care deeply about building maintainable systems, writing documentation, and designing experiences that feel intentional. I don’t just want to solve problems. I want to understand the people behind them so I can create better, longer-lasting solutions.",
   },
 ];
 
