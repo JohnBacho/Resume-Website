@@ -10,7 +10,7 @@
 
 .HeroContainer {
   width: 100%;
-  height: 650px;
+  aspect-ratio: 7/3;
   overflow: hidden;
 }
 
@@ -18,6 +18,9 @@
   .HeroImage {
     margin-top: 25%;
     background-color: aqua;
+  }
+  .HeroContainer {
+    aspect-ratio: 7/5;
   }
 }
 
