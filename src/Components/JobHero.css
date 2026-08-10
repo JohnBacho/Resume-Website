@@ -38,14 +38,14 @@
   color: #285545;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 630px) {
   .HeroVibes-Section .Hero--Content > h1 {
-    font-size: 100px;
+    font-size: 18vw;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 460px) {
   .HeroVibes-Section .Hero--Content > h1 {
-    font-size: 80px;
+    font-size: 18vw;
   }
 }

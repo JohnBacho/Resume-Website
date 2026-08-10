@@ -7,7 +7,7 @@ export default function HeroImage({ HeroInfo }) {
     <>
       <Nav />
       {HeroInfo.map((item, index) => (
-        <div key={index}>
+        <div key={index} className={styles.HeroContainer}>
           <img src={item.img} alt={item.alt} className={styles.HeroImage} />
         </div>
       ))}

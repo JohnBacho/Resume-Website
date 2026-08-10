@@ -15,9 +15,9 @@ import Project1 from "../assets/images/Home/Projects/Project1.jpg";
 
 export const HeroInfo = [
   {
-    title: "Marsh\nBerry",
+    title: "MarshBerry",
     timeline: "2026-Present",
-    position: "Application Developer 1",
+    position: "Application Developer",
   },
 ];
 export const TechStackIcons = [
