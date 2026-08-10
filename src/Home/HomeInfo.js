@@ -1,7 +1,8 @@
+import MarshBerryLogo from "../assets/images/Home/Jobs/MarshBerryLogo.png";
 import VibesLabGroup from "../assets/images/Home/Jobs/VibesLabGroup.jpg";
 import Nordson from "../assets/images/Home/Jobs/Nordson.jpg";
 import ITAsset from "../assets/images/Home/Jobs/ITAsset.jpg";
-import UXLab from "../assets/images/Home/Jobs/UXLab.jpg";
+import UXLab from "../assets/images/Home/Projects/UXLab.jpg";
 import Project2 from "../assets/images/Home/Projects/Project2.jpg";
 import Project1 from "../assets/images/Home/Projects/Project1.jpg";
 import NoteTack from "../assets/images/Home/Projects/NoteTack.png";
@@ -13,38 +14,38 @@ import TimeTune from "../assets/images/Home/Projects/TimeTune.png";
 export const projectPairs = [
   {
     left: {
+      title: "MarshBerry",
+      position: "Application Developer",
+      image: MarshBerryLogo,
+      bgColor: "#5F8FA3",
+      grow: 0,
+      link: "/marshberry",
+    },
+    right: {
       title: "VIBES Lab",
       position: "Software Engineer",
       image: VibesLabGroup,
-      bgColor: "#5F8FA3",
-      grow: 0,
-      link: "/vibes-lab",
-    },
-    right: {
-      title: "Nordson",
-      position: "Enterprise Architect",
-      image: Nordson,
       bgColor: "#6B9271",
       grow: 1,
-      link: "/enterprise-architect",
+      link: "/vibes-lab",
     },
   },
   {
     left: {
       title: "Nordson",
-      position: "IT Asset Management",
-      image: ITAsset,
+      position: "Enterprise Architect",
+      image: Nordson,
       bgColor: "#8B9A63",
       grow: 1,
-      link: "/it-asset-management",
+      link: "/enterprise-architect",
     },
     right: {
-      title: "BW UX Lab",
-      position: "Team Lead",
-      image: UXLab,
+      title: "Nordson",
+      position: "IT Asset Management",
+      image: ITAsset,
       bgColor: "#A08F5A",
       grow: 0,
-      link: "/ux-lab",
+      link: "/it-asset-management",
     },
   },
 ];
@@ -55,6 +56,12 @@ export const inProgressInfo = {
 };
 
 export const InProgressProjectPairs = [
+      {
+      title: "BW UX Lab",
+      project: "Team Lead",
+      image: UXLab,
+      link: "/ux-lab",
+    },
   {
     title: "VIBES Lab",
     project: "Project 1",

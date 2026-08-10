@@ -10,6 +10,7 @@ const VibesLab = lazy(() => import("./VibesLab/VibesLab.jsx"));
 const Enterprise = lazy(() => import("./Enterprise/Enterprise.jsx"));
 const ITAsset = lazy(() => import("./ITAsset/ITAsset.jsx"));
 const UX = lazy(() => import("./UXLab/UX.jsx"));
+const MarshBerry = lazy(() => import("./MarshBerry/MarshBerry.jsx"));
 const P1Vibes = lazy(() => import("./Projects/P1Vibes/P1Vibes.jsx"));
 const P2Vibes = lazy(() => import("./Projects/P2Vibes/P2Vibes.jsx"));
 const NoteTack = lazy(() => import("./Projects/NoteTack/NoteTack.jsx"));
@@ -103,6 +104,7 @@ export default function App() {
           <Route path="/vibes-lab-project-1" element={<P1Vibes />} />
           <Route path="/vibes-lab-project-2" element={<P2Vibes />} />
           <Route path="/note-tack" element={<NoteTack />} />
+          <Route path="/marshberry" element={<MarshBerry />} />
           <Route path="/jacket-arcade" element={<YJA />} />
           <Route path="/knit-natter" element={<KnitNatter />} />
           <Route path="/portfolio" element={<Portfolio />} />
