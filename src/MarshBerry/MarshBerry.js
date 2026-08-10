@@ -15,7 +15,7 @@ import Project1 from "../assets/images/Home/Projects/Project1.jpg";
 
 export const HeroInfo = [
   {
-    title: "MarshBerry",
+    title: "Marsh\nBerry",
     timeline: "2026-Present",
     position: "Application Developer 1",
   },
