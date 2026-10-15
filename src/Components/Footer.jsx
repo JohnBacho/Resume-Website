@@ -1,4 +1,5 @@
 import style from "./FooterStyle.module.css";
+import Resume from "../assets/images/JohnBacho_Resume.pdf";
 
 export default function Footer() {
   return (
@@ -6,7 +7,9 @@ export default function Footer() {
       <div className={style.footerContainer}>
         <div className={style.row}>
           <div className={`${style.column} ${style.left}`}>
-            <p className={style.heading}>© <span>{new Date().getFullYear()}</span> John Bacho</p>
+            <p className={style.heading}>
+              © <span>{new Date().getFullYear()}</span> John Bacho
+            </p>
           </div>
 
           <div className={style.column}>
@@ -35,11 +38,7 @@ export default function Footer() {
             >
               Bēhance
             </a>
-            <a
-              className={style.footerLink}
-              href="src/assets/JohnBacho_Resume.pdf"
-              download
-            >
+            <a className={style.footerLink} href={Resume} download>
               CV
             </a>
           </div>

@@ -1,5 +1,5 @@
 import CsharpIcon from "../assets/images/TechStackIcons/Csharp_Icon.png";
-import CSS from "../assets/images/TechStackIcons/CSSIcon.png";
+import Vue from "../assets/images/TechStackIcons/Vue.png";
 import HtmlIcon from "../assets/images/TechStackIcons/Html_Icon.png";
 import JSIcon from "../assets/images/TechStackIcons/JS_Icon.png";
 import Discussion from "../assets/images/VIBES-Lab/Discussion.jpg";
@@ -22,14 +22,14 @@ export const HeroInfo = [
 ];
 export const TechStackIcons = [
   { img: CsharpIcon, text: "C#" },
+  { img: Vue, text: "Vue.js" },
   { img: HtmlIcon, text: "HTML5" },
-  { img: CSS, text: "CSS" },
   { img: JSIcon, text: "JavaScript" },
 ];
 
 export const Overview = [
   {
-    title: "Comming Soon!",
+    title: "Coming Soon!",
     postion: "Center",
     body: "",
   },
@@ -37,9 +37,9 @@ export const Overview = [
 
 export const TempPlaceHolder = [
   {
-    title: "Comming Soon!",
-  }
-]
+    title: "Coming Soon!",
+  },
+];
 
 export const Leadership = [
   {
